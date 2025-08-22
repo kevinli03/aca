@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Kevin's Accounting Notes"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: accounting/accounting.qmd
+        text: Accounting
+      - href: assurance/assurance.qmd
+        text: Assurance
+      - href: business/business.qmd
+        text: Business
+      - href: tax/tax.qmd
+        text: Tax
+  
+  sidebar:
+    - title: "Accounting"
+      style: "docked"
+      contents:
+        - href: accounting/accounting.qmd
+          text: Overview
+        
+
+format:
+  html:
+    theme: cosmo
+    fontsize: 11.5pt
+    css: styles.css
+    highlight-style: arrow
+    toc: true
+    grid:
+      sidebar-width: 230px
+      body-width: 850px
+      margin-width: 270px
+    number-depth: 1
+    html-math-method: mathjax
+
+editor: visual
+

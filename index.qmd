@@ -1,0 +1,7 @@
+---
+title: "Welcome!"
+---
+
+This is a collection of notes on accounting, business, and finance that I have collected and learned throughout my professional career.
+
+Use the top navigation bar to navigate between sections. Within each section, there are a series of pages on concepts related to that section, that can be accessed with the left sidebar.
