@@ -1,0 +1,39 @@
+---
+title: "Income Statement"
+---
+
+The income statement (statement of profit or loss) is one of the main statements business include in their analysis.
+
+<br />
+
+### Basic Format
+
+The income statement starts with total revenue, then subtracts costs until we get net profit.
+
+-   Revenue is the total amount of money the business made from sales, including cash sales and credit sales (even if the customer has yet to pay).
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Example Diagram
+
+![](images/paste-1.png){width="60%"}
+:::
+
+First, the **cost of goods sold** is subtracted from revenue to obtain the **gross profit**.
+
+-   Cost of goods sold (COGS) is the cost of purchasing/creating all of the goods sold that generated the revenue. For example, if you sold 5 shoes to generate the revenue reported above, the COGS should be the cost of purchasing those 5 shoes.
+-   To calculate COGS for a specific period (like a year), we take the *opening inventory + purchases in period - closing inventory*. This accounts for the goods that were not sold by the end of the period and remain in our inventory.
+-   Gross profit is *revenue - COGS*. It essentially shows how successful the main selling part of the business has been.
+
+Then, we subtract other expenditures and income that are *incidental* to the main business of the company (so not the main reason for the company, but still expenses/income used while running the company).
+
+-   Expenditures include things such as salaries, lighting, heating, bank interest, delivery costs, advertising, research and development.
+-   Expenditures can also include taxes.
+-   Income can come from charging interest on a loan for example.
+
+When we subtract all other expenditures for the period from gross profit, we get **net profit**. We can also subtract subsets of these expenditures.
+
+-   Subtracting only operating expenses (things needed to run the business operations) from gross profit gets us **operating profit**.
+-   Subtracting operating expenses and financing expenses (loan interest) gets us **profit before tax**.
+-   Subtracting all expenses gets us **net profit**.
+
+Net profit is included in the balance sheet as equity/capital.

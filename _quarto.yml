@@ -23,6 +23,8 @@ website:
       contents:
         - href: accounting/accounting.qmd
           text: Overview
+        - href: accounting/income.qmd
+          text: Income Statement
         
 
 format:

@@ -23,6 +23,7 @@ There are three types of businesses in accounting.
 There are three main statements used in accounting:
 
 1.  The **statement of financial position**, also called the **balance sheet**, states the assets, liabilities, and equity of the business at a given date.
+    -   Contains assets, liabilities, and equities.
 2.  The **statement of profit or loss**, also called the **income statement**, summarises the results of business transactions during a period.
 3.  The **cash flow statement** shows the flows of cash in and out of the business to indicate how much cash the business has on hand to pay off obligations.
 
@@ -59,3 +60,24 @@ Below are more examples of assets, liabilities, and equity.
 <br />
 
 ### Double Entry Accounting
+
+The accounting equation is **assets = liabilities + capital**.
+
+-   Or alternatively, **assets - liabilities = capital**. We often call assets - liabilities **net assets**.
+
+This equation will always hold true for the business. Why? If the business owns something (asset), it must have gotten the money for it somewhere (liabilities or equity).
+
+This means for **every transaction** a business makes, there must be an equal change on both sides of this equation.
+
+Alternatively, we use **debits** and **credits** to express this equation. Debits and credits represent changes in accounts (such as inventory, cash, etc.).
+
+|                 | Debit    | Credit   |
+|-----------------|----------|----------|
+| **Assets**      | Increase | Decrease |
+| **Liabilities** | Decrease | Increase |
+| **Equity**      | Decrease | Increase |
+
+Debits and credits should be equal to each other for each transaction a firm makes.
+
+-   Ex. If the firm buys £10 of inventory (an asset) with cash (an asset), that means debit (increase) inventory by £10 and credit (decrease) cash by £10. Thus, debits and credits are equal.
+-   Ex. If Kevin starts his firm by injecting £1,000 into his firm, he credits (increases) equity by £1,000 and debits (increases) cash assets by £1,000. Once again, debits and credits are balanced.
