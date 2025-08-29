@@ -93,11 +93,7 @@ This means for **every transaction** a business makes, there must be an equal ch
 
 Alternatively, we use **debits** and **credits** to express this equation. Debits and credits represent changes in accounts (such as inventory, cash, etc.).
 
-|                 | Debit    | Credit   |
-|-----------------|----------|----------|
-| **Assets**      | Increase | Decrease |
-| **Liabilities** | Decrease | Increase |
-| **Equity**      | Decrease | Increase |
+![](images/paste-2.png){fig-align="center" width="80%"}
 
 Debits and credits should be equal to each other for each transaction a firm makes.
 
