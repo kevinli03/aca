@@ -23,6 +23,8 @@ website:
       contents:
         - href: accounting/accounting.qmd
           text: Overview
+        - href: accounting/balance.qmd
+          text: Balance Sheet
         - href: accounting/income.qmd
           text: Income Statement
         
@@ -30,7 +32,7 @@ website:
 format:
   html:
     theme: cosmo
-    fontsize: 11.5pt
+    fontsize: 12.5pt
     css: styles.css
     highlight-style: arrow
     toc: true
