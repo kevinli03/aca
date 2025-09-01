@@ -1,9 +1,70 @@
 ---
-title: "About"
+title: "Assurance and Risk"
 ---
 
-About this site
+This section contains many pages on assurance and risk. Use the left-side navigation bar to navigate to different pages with more information. Below, a brief introduction to assurance is provided.
 
-```{r}
-1 + 1
-```
+<br />
+
+### Purpose of Assurance
+
+In business, assurance is when an independent professional (accountant) examines financial statements or sustainability reports, to assure investors and stakeholders of the "quality"/state of the firm.
+
+Assurance provides an independent professional opinion, increases confidence of users of information, can deter fraud, and highlight any problems or weaknesses in the information. Any assurance engagement consists of 3 parties:
+
+1.  The **responsible party**: the management that prepares the original information
+2.  The **practitioner**: usually an auditor/accountant who checks the information
+3.  The **users**: people who rely on the information to make decisions/choices.
+
+At the end of a assurance engagement, a final written report is produced. The report is addressed to the responsible party, and contains the the scope of work performed, the criteria used (such as accounting standards), and the assurance provider's opinion and conclusion, such as reasonable assurance or limited assurance.
+
+1.  **Reasonable Assurance**: the practitioner gathers enough opinion to give a positive opinion supporting the information the responsible party has compiled. "In our opinion, the financial statements give a true and fair view".
+2.  **Limited Assurance**: the practitioner gathers less evidence. "Nothing has come to our attention that causes us to believe the information is materially misstated". Better than no assurance, but not at the level of reasonable assurance.
+
+Assurance cannot be absolute: the practitioner cannot test every element/transaction, there may be judgment involved, and there may be limitations in the information available. There is always a small chance that fraud or errors remain undiscovered.
+
+**Professional skepticism** is key in assurance. Question information, do not accept it at face value. Investigate further before reaching a conclusion. Practisioners must apply **professional judgment** to decide what level of evidence is sufficient to support the level of assurance.
+
+There is also a distinction between **Error** and **Fraud**. Error is considered a genuine mistake of the responsible party. Fraud is [intentional]{.underline}: someone deliberately provides false information to mislead users.
+
+<br />
+
+### Starting an Engagement
+
+Before an assurance engagement starts, a few things need to be done:
+
+1.  Obtaining the engagement: practitioners can advertise their services. The responsible party can tender: invite multiple practitioners to "apply" to be their practitioner for the engagement, and choosing based on price/approach/etc.
+    -   Practitioners can obtain engagements through advertising/tendering. However, they must ensure these do not compromise their independence or integrity as required by ethical standards.
+2.  Accepting the engagement. A few things can influence this choice of acceptance:
+    -   If there is a previous auditor, the current practitioner must communicate with them, and determine if there are any reasons not to accept (like ethical concerns). Permission must be granted by the responsible party for this communication, but if this permission is denied, the audit is almost always refused by the practitioner.
+    -   The practitioner needs to assess resources.
+    -   Client due diligence: verifying the identity of the business the practitioner is accepting as a client, and ensure the business is legit and not money laundering.
+3.  Agreeing to terms: this is done with an engagement letter, which is a contract between the practitioner and responsible party.
+    -   The engagement letter is required and regulated by standards such as ISA 210 for audits, or ISAE 3000 for other assurance engagements.
+    -   The letter covers the objective and scope of the engagement, the responsibilities of the practitioner and responsible party, the reporting framework (what accounting standards), and the form and final contact of the final report.
+    -   This will prevent miscommunication and disagreements later.
+
+Once these terms are agreed, the practitioner needs to plan for the audit. This includes several steps:
+
+1.  Understand the responsible party's business and environment. Learn about the industry, operations, and regulatory landscape.
+2.  Identify risks. Identify areas that may require extra attention, such as complex transactions or regulations.
+3.  Resource planning: deciding the team memebrs and budget for the engagement.
+4.  Setting timelines for fieldwork and reporting.
+
+<br />
+
+### Materiality
+
+Materiality is the fundamental concept in assurance. It is the threshold of inaccuracy which surpassed, could influence users decisions.
+
+> An item is material if its omission or misstatement could influence the economic decisions of users of the report.
+
+For example, for a \$10 billion net profit business, a \$1 mistatement is not substantial enough to influence the economic decisions of users of the report, so it is not material. However, a \$1 billion mistatement could quite substantially change how users use the report.
+
+Setting materiality thresholds ensures the assurance provide focuses on what matters most, making the engagement efficient and effective.
+
+Materiality is usually set as the percentage of a key figure, such as profit or revnue.
+
+-   Ex. 5% of profit before tax, or 1-2% of total revenue.
+
+<br />

@@ -27,6 +27,8 @@ website:
           text: Balance Sheet
         - href: accounting/income.qmd
           text: Income Statement
+        - href: accounting/cash.qmd
+          text: Cash Flow Statement
         
 
 format:

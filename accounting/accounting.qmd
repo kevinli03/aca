@@ -119,3 +119,51 @@ The actual financial statements may differ as well between sole traders and comp
 -   In the income statement expenses, limited companies must more clearly report expenses grouped by headings, such as "distribution costs", "advertising costs", or "administrative expenses" for example. Sole traders do not need to go into this detail.
 
 <br />
+
+### Accrual Accounting
+
+In accounting, cash flow is not equal to profit/sales/expenses. For example, if a customer buys a product on credit (so without paying immediately), this sale is already counted in sales/expenses/COGS for the profit statement, even **before the cash has arrived**.
+
+This type of accounting applies to many different scenarios:
+
+-   For purchases on credit, the sale/COGS is recognised immediately, even when the cash has yet to leave.
+-   For pre-payments of expenses (like paying rent ahead of time), the expense is for a later period, but the cash has already left.
+
+When we record transactions in the income statement is called the **accrual basis of accounting**.
+
+-   We record profit/expenses for the specific time period in which the transaction occurred, not when the cash transfer occurred.
+-   Sales are recorded when they are earned, not when the money is actually received. For example, if the sale occurred in March but the cash was received in April, the sale (and COGS of the sale) go into the March accounts.
+-   Expenses are recorded when they are incurred, rather than when they are paid. For example, if rent for March is paid in April, the rent is considered a March expense.
+
+The income statement always uses the accrual basis of accounting.[^1] Thus, another statement, the cash flow statement, represents the cash flows in and out of a business, and connects the opening and closing cash balances from the balance sheet.
+
+[^1]: In the UK, only small self-employed businesses or partnerships with revenue less than £150,000 can use cash-flow accounting.
+
+This accrual form of accounting requires two expense accounts.
+
+1.  **Accruals**: accruals are a current period expense, that will not be paid until the next period.
+    -   To complete the double entry in the current period, we would DR (increase) the electricity expense, and CR (increase) the electricity accrual (liability).
+    -   To complete the double entry once paid later, we would DR (decrease) the electricity accrual (liability), and CR (decrease) the cash (asset).
+2.  **Prepayments**: prepayments are a future period expense, that have been paid during this period.
+    -   To complete the double entry in the payment period, we would DR (increase) the electricity prepayment (asset), and CR (decrease) cash (asset).
+    -   To complete the double entry once the service has been delivered, we would CR (decrease) the electricity prepayment (asset), and DR (increase) the electricity expense.
+
+<br />
+
+## Errors and Controls
+
+There are 5 main types of errors:
+
+1.  **Errors of omission**: forgetting to include a transaction in the accounts.
+2.  **Transposition errors**: when an accountant accidentally swaps the positions of digits in an entry. For example, instead of £3,850, they record it as £3,580.
+3.  **Errors of principle**: when an accountant records a transaction that breaks the rules/standards of accounting.
+4.  **Errors of commission**: when an accountant records a transaction in the correct large account but wrong sub-account. For example, they correctly choose asset/liability/equity, but put it in the wrong account. The most common is recording one expense as another.
+5.  **Compensating errors**: when two are more errors offset each other, resulting in a correct balance for all accounts, but the individual errors are still there.
+
+To correct errors, we should take a few steps.
+
+1.  Identify the incorrect entry. Note the values included in this incorrect entry.
+2.  Decide what the correct entry should be. Note the values included in this correct entry.
+3.  Compare the result of the first two steps, and create a journal entry to fix the error. This journal entry should correct the account balances from the incorrect entry to the correct entry. We do not withdraw the old entry, just a new entry to correct the difference.
+
+**Suspense accounts** are a way to avoid errors in the first place. Sometimes, you know one account for the entry debits/credits, but you are not sure about another. Thus, instead of putting the unknown side of the transaction into a wrong account, you can put it into a temporary account called a suspense account. Later, you can correctly record the transaction.

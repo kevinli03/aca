@@ -14,7 +14,7 @@ For companies, the balance sheet has assets, liabilities, and equity. Equity has
 2.  **Share Capital**: When a company is established, the initial money invested by the founder is known as the share capital.
     -   For example, if you invest £100,000 into starting the business, your share capital is £100,000.
     -   This capital can be divided into units of equal size, known as **shares**. For example, if £100,000 share capital is divided into 100,000 shares, then each share is £1.
-    -   This initial share price (ex. £1) is called the **Par Value** or **Nominal Value**, and will [never change]{.underline}, no matter the market value of the share.
+    -   This initial share price (ex. £1) is called the **Par Value** or **Nominal Value**, and will [never change]{.underline}, no matter the market value of the share. This value is also noted by the value of an **ordinary** share.
 3.  **Share Premium**: When the market price of shares changes, the share premium reflects this change from the initial share capital.
     -   Lets say the company needs £150,000, and found investors. They need to decide how many shares to issue, and at what price.
     -   Shares cannot be issued below the par value.
@@ -37,3 +37,5 @@ The statement of changes in equity explains how the value of equity has changed 
 ![](images/paste-4.png)
 
 Thus, the statement of changes in Equity basically gives readers more information about how equity went from the starting balance to the ending balance.
+
+<br />
