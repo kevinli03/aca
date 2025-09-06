@@ -29,6 +29,14 @@ website:
           text: Income Statement
         - href: accounting/cash.qmd
           text: Cash Flow Statement
+
+    - title: "Assurance"
+      style: "docked"
+      contents:
+        - href: assurance/assurance.qmd
+          text: Overview
+        - href: assurance/controls.qmd
+          text: Internal Controls
         
 
 format:

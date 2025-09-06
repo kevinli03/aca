@@ -6,7 +6,7 @@ This section contains many pages on assurance and risk. Use the left-side naviga
 
 <br />
 
-### Purpose of Assurance
+### Assurance and Materiality
 
 In business, assurance is when an independent professional (accountant) examines financial statements or sustainability reports, to assure investors and stakeholders of the "quality"/state of the firm.
 
@@ -21,15 +21,25 @@ At the end of a assurance engagement, a final written report is produced. The re
 1.  **Reasonable Assurance**: the practitioner gathers enough opinion to give a positive opinion supporting the information the responsible party has compiled. "In our opinion, the financial statements give a true and fair view".
 2.  **Limited Assurance**: the practitioner gathers less evidence. "Nothing has come to our attention that causes us to believe the information is materially misstated". Better than no assurance, but not at the level of reasonable assurance.
 
-Assurance cannot be absolute: the practitioner cannot test every element/transaction, there may be judgment involved, and there may be limitations in the information available. There is always a small chance that fraud or errors remain undiscovered.
+<br />
 
-**Professional skepticism** is key in assurance. Question information, do not accept it at face value. Investigate further before reaching a conclusion. Practisioners must apply **professional judgment** to decide what level of evidence is sufficient to support the level of assurance.
+### Materiality
 
-There is also a distinction between **Error** and **Fraud**. Error is considered a genuine mistake of the responsible party. Fraud is [intentional]{.underline}: someone deliberately provides false information to mislead users.
+**Materiality** is the fundamental concept in assurance. It is the threshold of inaccuracy which surpassed, could influence users decisions.
+
+> An item is material if its omission or misstatement could influence the economic decisions of users of the report.
+
+For example, for a \$10 billion net profit business, a \$1 mistatement is not substantial enough to influence the economic decisions of users of the report, so it is not material. However, a \$1 billion mistatement could quite substantially change how users use the report.
+
+Setting materiality thresholds ensures the assurance provide focuses on what matters most, making the engagement efficient and effective. Materiality is usually set as the percentage of a key figure, such as profit or revnue. Ex. 5% of profit before tax, or 1-2% of total revenue.
+
+Assurance cannot be absolute: the practitioner cannot test every element/transaction, there may be judgment involved, and there may be limitations in the information available. There is always a small chance that material fraud or errors remain undiscovered.
+
+-   There is also a distinction between **Error** and **Fraud**. Error is considered a genuine mistake of the responsible party. Fraud is [intentional]{.underline}: someone deliberately provides false information to mislead users.
 
 <br />
 
-### Starting an Engagement
+### Agreeing an Engagement
 
 Before an assurance engagement starts, a few things need to be done:
 
@@ -44,27 +54,19 @@ Before an assurance engagement starts, a few things need to be done:
     -   The letter covers the objective and scope of the engagement, the responsibilities of the practitioner and responsible party, the reporting framework (what accounting standards), and the form and final contact of the final report.
     -   This will prevent miscommunication and disagreements later.
 
-Once these terms are agreed, the practitioner needs to plan for the audit. This includes several steps:
-
-1.  Understand the responsible party's business and environment. Learn about the industry, operations, and regulatory landscape.
-2.  Identify risks. Identify areas that may require extra attention, such as complex transactions or regulations.
-3.  Resource planning: deciding the team memebrs and budget for the engagement.
-4.  Setting timelines for fieldwork and reporting.
-
 <br />
 
-### Materiality
+### Audit Risk and Planning
 
-Materiality is the fundamental concept in assurance. It is the threshold of inaccuracy which surpassed, could influence users decisions.
+Assurance engagements, like audits, give confidence that information is accurate and free from material statement. However, no system is perfect, and errors/fraud can still be present even if undetected. Audit is thus about managing these risks of potential errors and fraud. There are 2 types of risks:
 
-> An item is material if its omission or misstatement could influence the economic decisions of users of the report.
+1.  **Business risk**: risk that events or conditions will prevent a firm from achieving its objectives. These can include economics, competitors, or new regulations. Business risks can affect the financial statements. For example, it may incentives management to lie about something (like profit, expenses) if there is financial or operational risk. Fast growing companies can also risk not having well developed controls to prevent errors and fraud.
+    -   Financial risk: cash flow problems or difficulties rasing finance.
+    -   Operational risk: losing a key supplier or production failures.
+    -   Compliance risk: failing to follow laws or regulations which leads to fines or reputations damages.
+2.  **Audit Risks**: business risks that impact the financial statements/audit process are audit risks. Audit risk is the risk that the audit conclusion is incorrect (in other words, the auditor fails to detect material mistatements). Audit risk is from the auditor's perspective. Generally, an auditor wants this risk to be minimal when issuing a reasonable assurance conclusion. Audit risk (AR) has parts: $AR=IR\times CR \times DR$:
+    -   IR (Inherent Risk): the risk of a material misstatement occurring in the financial statements, due to business risks (nature of business), before considering any controls/processes to prevent these risks. Basically, the risk of an erroneous or fraudulent financial statement entries without considering controls.
+    -   CR (Control Risk): the risk that a material misstatement is not prevented or detected by the firm's internal controls.
+    -   DR (Detection Risk): the risk the auditor's procedures will fail to detect any material misstatements. This is managed by the auditor, and is dependent on the nature of the audit plan, the timing of the audit and procedures, and extent of audit procedures. This cannot be reduced to 0, since the auditor cannot check every single transaction of the firm.
 
-For example, for a \$10 billion net profit business, a \$1 mistatement is not substantial enough to influence the economic decisions of users of the report, so it is not material. However, a \$1 billion mistatement could quite substantially change how users use the report.
-
-Setting materiality thresholds ensures the assurance provide focuses on what matters most, making the engagement efficient and effective.
-
-Materiality is usually set as the percentage of a key figure, such as profit or revnue.
-
--   Ex. 5% of profit before tax, or 1-2% of total revenue.
-
-<br />
+If the inherent and control risk is high, the number of transactions and extent of audit procedures can be increased to reduce the chance of detection risk (and chance of audit risk). This is usually determined in the planning stage of an audit.

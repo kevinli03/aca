@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Assurance and Risk – Kevin’s Accounting Notes</title>
+<title>Internal Controls – Kevin’s Accounting Notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,35 +67,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -148,7 +119,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../assurance/assurance.html">Overview</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../assurance/controls.html">Internal Controls</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -162,13 +133,13 @@ window.Quarto = {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assurance/assurance.html" class="sidebar-item-text sidebar-link active">
+  <a href="../assurance/assurance.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assurance/controls.html" class="sidebar-item-text sidebar-link">
+  <a href="../assurance/controls.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Internal Controls</span></a>
   </div>
 </li>
@@ -182,10 +153,11 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#assurance-and-materiality" id="toc-assurance-and-materiality" class="nav-link active" data-scroll-target="#assurance-and-materiality">Assurance and Materiality</a></li>
-  <li><a href="#materiality" id="toc-materiality" class="nav-link" data-scroll-target="#materiality">Materiality</a></li>
-  <li><a href="#agreeing-an-engagement" id="toc-agreeing-an-engagement" class="nav-link" data-scroll-target="#agreeing-an-engagement">Agreeing an Engagement</a></li>
-  <li><a href="#audit-risk-and-planning" id="toc-audit-risk-and-planning" class="nav-link" data-scroll-target="#audit-risk-and-planning">Audit Risk and Planning</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#principles-of-controls" id="toc-principles-of-controls" class="nav-link" data-scroll-target="#principles-of-controls">Principles of Controls</a></li>
+  <li><a href="#types-of-controls" id="toc-types-of-controls" class="nav-link" data-scroll-target="#types-of-controls">Types of Controls</a></li>
+  <li><a href="#internal-audit" id="toc-internal-audit" class="nav-link" data-scroll-target="#internal-audit">Internal Audit</a></li>
+  <li><a href="#modern-controls" id="toc-modern-controls" class="nav-link" data-scroll-target="#modern-controls">Modern Controls</a></li>
   </ul>
 </nav>
     </div>
@@ -194,7 +166,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Assurance and Risk</h1>
+<h1 class="title">Internal Controls</h1>
 </div>
 
 
@@ -211,79 +183,79 @@ window.Quarto = {
 </header>
 
 
-<p>This section contains many pages on assurance and risk. Use the left-side navigation bar to navigate to different pages with more information. Below, a brief introduction to assurance is provided.</p>
-<p><br></p>
-<section id="assurance-and-materiality" class="level3">
-<h3 class="anchored" data-anchor-id="assurance-and-materiality">Assurance and Materiality</h3>
-<p>In business, assurance is when an independent professional (accountant) examines financial statements or sustainability reports, to assure investors and stakeholders of the “quality”/state of the firm.</p>
-<p>Assurance provides an independent professional opinion, increases confidence of users of information, can deter fraud, and highlight any problems or weaknesses in the information. Any assurance engagement consists of 3 parties:</p>
+<section id="overview" class="level3">
+<h3 class="anchored" data-anchor-id="overview">Overview</h3>
+<p><strong>Internal controls</strong> are the policies and procedures put in place by management of a firm to comply with regulations and produce reliable financial statements. Organisations use internal controls to detect and prevent errors, safeguard assets, and ensure accurate and complete financial reporting, promote operational efficiency, and ensure compliance with regulations.</p>
+<p>Strong controls lower the risk of material mistatements. Weak controls increase this risk, requiring auditors to do more testing. There are a few key aspects of internal controls.</p>
 <ol type="1">
-<li>The <strong>responsible party</strong>: the management that prepares the original information</li>
-<li>The <strong>practitioner</strong>: usually an auditor/accountant who checks the information</li>
-<li>The <strong>users</strong>: people who rely on the information to make decisions/choices.</li>
-</ol>
-<p>At the end of a assurance engagement, a final written report is produced. The report is addressed to the responsible party, and contains the the scope of work performed, the criteria used (such as accounting standards), and the assurance provider’s opinion and conclusion, such as reasonable assurance or limited assurance.</p>
-<ol type="1">
-<li><strong>Reasonable Assurance</strong>: the practitioner gathers enough opinion to give a positive opinion supporting the information the responsible party has compiled. “In our opinion, the financial statements give a true and fair view”.</li>
-<li><strong>Limited Assurance</strong>: the practitioner gathers less evidence. “Nothing has come to our attention that causes us to believe the information is materially misstated”. Better than no assurance, but not at the level of reasonable assurance.</li>
+<li>Control environment: the overall attitude, awareness, and actions of management regarding internal controls. This includes governance structures like the board and audit committee. These governance structures “set the tone” for internal controls. Good environments can include frequent meetings of the audit committee to discuss the control process.</li>
+<li>Risk assessment process: how the firm identifies and manages business risk.</li>
+<li>Monitoring of controls: ongoing or separate evaluations to ensure controls are working as intended. For example, audit comittee holding monthly examinations of the firm’s approach to risk management.</li>
+<li>Information systems and communication: how information is correctly recorded, stored, and processed to ensure accurate record keeping and reporting.</li>
+<li>Control activities: policies that ensure management directives are carried out, such as authorisations and segregation of duties. For example, requiring multiple people to approve large payments.</li>
 </ol>
 <p><br></p>
 </section>
-<section id="materiality" class="level3">
-<h3 class="anchored" data-anchor-id="materiality">Materiality</h3>
-<p><strong>Materiality</strong> is the fundamental concept in assurance. It is the threshold of inaccuracy which surpassed, could influence users decisions.</p>
-<blockquote class="blockquote">
-<p>An item is material if its omission or misstatement could influence the economic decisions of users of the report.</p>
-</blockquote>
-<p>For example, for a $10 billion net profit business, a $1 mistatement is not substantial enough to influence the economic decisions of users of the report, so it is not material. However, a $1 billion mistatement could quite substantially change how users use the report.</p>
-<p>Setting materiality thresholds ensures the assurance provide focuses on what matters most, making the engagement efficient and effective. Materiality is usually set as the percentage of a key figure, such as profit or revnue. Ex. 5% of profit before tax, or 1-2% of total revenue.</p>
-<p>Assurance cannot be absolute: the practitioner cannot test every element/transaction, there may be judgment involved, and there may be limitations in the information available. There is always a small chance that material fraud or errors remain undiscovered.</p>
+<section id="principles-of-controls" class="level3">
+<h3 class="anchored" data-anchor-id="principles-of-controls">Principles of Controls</h3>
+<p>The management designs, implements, and monitors the system of internal controls. A good control system has a few principles:</p>
+<ol type="1">
+<li>Controls must be designed to address specific risks. For example, unauthorised payments or errors in financial reporting.</li>
+<li>Controls should be implemented and operated consistently, not just on paper.</li>
+<li>Controls need to be monitored and updated as risks and business processes change.</li>
+</ol>
+<p>No control system is foolproof: they are often designed for routine transactions and processes, so can fail when there is abnormal activity. Limitations to control systems can include:</p>
 <ul>
-<li>There is also a distinction between <strong>Error</strong> and <strong>Fraud</strong>. Error is considered a genuine mistake of the responsible party. Fraud is <u>intentional</u>: someone deliberately provides false information to mislead users.</li>
+<li>Cost: many modern control systems can be costly for small firms.</li>
+<li>Human error or deliberate override.</li>
+<li>Collusion between staff.</li>
+<li>Controls only applying to frequent events, not one-off events.</li>
+</ul>
+<p>To document and understand internal control processes, including modern controls, auditors and staff consult internal control manuals, policy documents, minutes from audit comittee meetings, interviews with staff in controls, and observation of controls in action. This information can be recorded in many ways, including checklists to ensure all controls are working, and diagrams and flowcharts to visualise how controls work.</p>
+<p><br></p>
+</section>
+<section id="types-of-controls" class="level3">
+<h3 class="anchored" data-anchor-id="types-of-controls">Types of Controls</h3>
+<p>Controls can be divided into two main categories:</p>
+<ol type="1">
+<li><strong>Preventative controls</strong>: designed to stop errors or fraud, before they happen. Prevent problems from occurring. This can include requiring manager’s approval before making a payment, thus preventing erroneous payments from being made in the first place.</li>
+<li><strong>Detective controls</strong>: designed to detect errors or fraud, after they have already occurred, so corrective actions can be taken. For example, reconciling the bank statement with the cash book can detect any errors or fraud in cash payments.</li>
+</ol>
+<p>There are many types of controls that are often seen in firms:</p>
+<ul>
+<li><strong>Authorisation and Approvals</strong>: these include things such as requiring authorisation/approval of payments/other decisions. This ensures only valid and necessary transactions are processed.</li>
+<li><strong>Reconciliations</strong>: comparing two different records of the same transactions, such as bank statements and cash book. This can detect discrepancies, allowing for the identification of errors or omissions, thus allowing these errors to be fixed.</li>
+<li><strong>Verifications</strong>: Similar to reconciliations. For example, checking that sales invoices match the goods dispatched. This ensures transactions are accurate and complete.</li>
+<li><strong>Physical and Logical Controls</strong>: Physical restrictions to limit the risk of errors/fraud. For example, only allowing authorised staff to access certain things, such as an inventory storage. Or restricting the hours. This safeguards assets from theft/misuse.</li>
+<li><strong>Segregation of Duties</strong>: Dividing different parts of the same activity between different actors. For example, for a sale, one staff member records it in the sales record, while the other inputs it into the accounting software. By segregating these duties, this reduces the ability for one person controls all aspects of a transaction, reducing the chance of human error as well as fraud. The biggest threat to this control is a lack of staff.</li>
+<li><strong>IT Controls</strong>: These are policies and procedures that support the proper operation of IT systems. Ensures that the IT system is reliable and secure. Types can include standards for design and programming, testing IT systems before releasing them, access controls requiring passwords and accounts, and procedures for installing software and training staff. While IT systems can improve efficiency and consistency, they also have risks. If an IT system is set up incorrectly, mistakes can affect a large amount of transactions. Cyber security threats also exist. Over-reliance on automated outputs results in staff unable to exercise professional scepticism.</li>
+<li><strong>Informational processing controls</strong>: controls over how data is processed, whether manually or by IT system. Examples include document counts ensuring all documents are processed, digit verification checking numbers are entered correctly, and automated checks in software such as for duplicate transactions or unbalanced account.</li>
 </ul>
 <p><br></p>
 </section>
-<section id="agreeing-an-engagement" class="level3">
-<h3 class="anchored" data-anchor-id="agreeing-an-engagement">Agreeing an Engagement</h3>
-<p>Before an assurance engagement starts, a few things need to be done:</p>
+<section id="internal-audit" class="level3">
+<h3 class="anchored" data-anchor-id="internal-audit">Internal Audit</h3>
+<p>Internal audit is an independent function in a firm, responsible for monitoring and reviewing the effectiveness of internal controls.</p>
+<p>Internal auditers do not implement or design controls, as that is the job of management. Instead, they provide assurance to management and the board that controls are working correctly and as intended. The responsibilities of internal audit are:</p>
 <ol type="1">
-<li>Obtaining the engagement: practitioners can advertise their services. The responsible party can tender: invite multiple practitioners to “apply” to be their practitioner for the engagement, and choosing based on price/approach/etc.
-<ul>
-<li>Practitioners can obtain engagements through advertising/tendering. However, they must ensure these do not compromise their independence or integrity as required by ethical standards.</li>
-</ul></li>
-<li>Accepting the engagement. A few things can influence this choice of acceptance:
-<ul>
-<li>If there is a previous auditor, the current practitioner must communicate with them, and determine if there are any reasons not to accept (like ethical concerns). Permission must be granted by the responsible party for this communication, but if this permission is denied, the audit is almost always refused by the practitioner.</li>
-<li>The practitioner needs to assess resources.</li>
-<li>Client due diligence: verifying the identity of the business the practitioner is accepting as a client, and ensure the business is legit and not money laundering.</li>
-</ul></li>
-<li>Agreeing to terms: this is done with an engagement letter, which is a contract between the practitioner and responsible party.
-<ul>
-<li>The engagement letter is required and regulated by standards such as ISA 210 for audits, or ISAE 3000 for other assurance engagements.</li>
-<li>The letter covers the objective and scope of the engagement, the responsibilities of the practitioner and responsible party, the reporting framework (what accounting standards), and the form and final contact of the final report.</li>
-<li>This will prevent miscommunication and disagreements later.</li>
-</ul></li>
+<li>Testing whether controls are operating effectively.</li>
+<li>Reviewing the efficiency and effectiveness of operations.</li>
+<li>Checking compliance with laws, regulations, and company policies.</li>
+<li>Recommending improvements to controls and processes for management to action on.</li>
+<li>Assisting in fraud detection and risk management.</li>
 </ol>
+<p>In smaller firms without an internal audit function, external auditors may perform the role of providing feedback on control weaknesses. However, the responsibility of monitoring (the other functions of internal audit) will be with the firm’s management.</p>
 <p><br></p>
 </section>
-<section id="audit-risk-and-planning" class="level3">
-<h3 class="anchored" data-anchor-id="audit-risk-and-planning">Audit Risk and Planning</h3>
-<p>Assurance engagements, like audits, give confidence that information is accurate and free from material statement. However, no system is perfect, and errors/fraud can still be present even if undetected. Audit is thus about managing these risks of potential errors and fraud. There are 2 types of risks:</p>
-<ol type="1">
-<li><strong>Business risk</strong>: risk that events or conditions will prevent a firm from achieving its objectives. These can include economics, competitors, or new regulations. Business risks can affect the financial statements. For example, it may incentives management to lie about something (like profit, expenses) if there is financial or operational risk. Fast growing companies can also risk not having well developed controls to prevent errors and fraud.
+<section id="modern-controls" class="level3">
+<h3 class="anchored" data-anchor-id="modern-controls">Modern Controls</h3>
+<p>As organisations adopt new technologies, new risks emerge. Modern internal controls address these risks, including cyber security, supply chain management, and digital transformation.</p>
 <ul>
-<li>Financial risk: cash flow problems or difficulties rasing finance.</li>
-<li>Operational risk: losing a key supplier or production failures.</li>
-<li>Compliance risk: failing to follow laws or regulations which leads to fines or reputations damages.</li>
-</ul></li>
-<li><strong>Audit Risks</strong>: business risks that impact the financial statements/audit process are audit risks. Audit risk is the risk that the audit conclusion is incorrect (in other words, the auditor fails to detect material mistatements). Audit risk is from the auditor’s perspective. Generally, an auditor wants this risk to be minimal when issuing a reasonable assurance conclusion. Audit risk (AR) has parts: <span class="math inline">\(AR=IR\times CR \times DR\)</span>:
-<ul>
-<li>IR (Inherent Risk): the risk of a material misstatement occurring in the financial statements, due to business risks (nature of business), before considering any controls/processes to prevent these risks. Basically, the risk of an erroneous or fraudulent financial statement entries without considering controls.</li>
-<li>CR (Control Risk): the risk that a material misstatement is not prevented or detected by the firm’s internal controls.</li>
-<li>DR (Detection Risk): the risk the auditor’s procedures will fail to detect any material misstatements. This is managed by the auditor, and is dependent on the nature of the audit plan, the timing of the audit and procedures, and extent of audit procedures. This cannot be reduced to 0, since the auditor cannot check every single transaction of the firm.</li>
-</ul></li>
-</ol>
-<p>If the inherent and control risk is high, the number of transactions and extent of audit procedures can be increased to reduce the chance of detection risk (and chance of audit risk). This is usually determined in the planning stage of an audit.</p>
+<li><strong>Cybersecurity</strong>: these risks include human error (ex. weak passwords), fraud and deliberate sabotage, computer malware, DDos attacks. To mitigate these risks, firms often require strong password policies and frequent password changes, firewalls and anti-virus software, and access controls for authorised users only.</li>
+<li><strong>Supply Chain Risks</strong>: these risks include disruptions from supplier failure, nature disasters, and geopolitical events. To mitigate these risks, firms can vet and monitor suppliers, maintain alternative suppliers, reviewing supplier contracts regularly, and using tech to track supplies and shipments.</li>
+<li><strong>Digital Transformation</strong>: these risks from new tech include overreliance on tech, automation bias, and trusting systems without sufficient review. Controls include regular reviewing and testing of automated processes, maintaining manual checks for critical transactions, and training staff to interpret and question system outputs.</li>
+</ul>
+<p><br></p>
 
 
 </section>

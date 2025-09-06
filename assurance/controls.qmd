@@ -1,0 +1,81 @@
+---
+title: "Internal Controls"
+---
+
+### Overview
+
+**Internal controls** are the policies and procedures put in place by management of a firm to comply with regulations and produce reliable financial statements. Organisations use internal controls to detect and prevent errors, safeguard assets, and ensure accurate and complete financial reporting, promote operational efficiency, and ensure compliance with regulations.
+
+Strong controls lower the risk of material mistatements. Weak controls increase this risk, requiring auditors to do more testing. There are a few key aspects of internal controls.
+
+1.  Control environment: the overall attitude, awareness, and actions of management regarding internal controls. This includes governance structures like the board and audit committee. These governance structures "set the tone" for internal controls. Good environments can include frequent meetings of the audit committee to discuss the control process.
+2.  Risk assessment process: how the firm identifies and manages business risk.
+3.  Monitoring of controls: ongoing or separate evaluations to ensure controls are working as intended. For example, audit comittee holding monthly examinations of the firm's approach to risk management.
+4.  Information systems and communication: how information is correctly recorded, stored, and processed to ensure accurate record keeping and reporting.
+5.  Control activities: policies that ensure management directives are carried out, such as authorisations and segregation of duties. For example, requiring multiple people to approve large payments.
+
+<br />
+
+### Principles of Controls
+
+The management designs, implements, and monitors the system of internal controls. A good control system has a few principles:
+
+1.  Controls must be designed to address specific risks. For example, unauthorised payments or errors in financial reporting.
+2.  Controls should be implemented and operated consistently, not just on paper.
+3.  Controls need to be monitored and updated as risks and business processes change.
+
+No control system is foolproof: they are often designed for routine transactions and processes, so can fail when there is abnormal activity. Limitations to control systems can include:
+
+-   Cost: many modern control systems can be costly for small firms.
+-   Human error or deliberate override.
+-   Collusion between staff.
+-   Controls only applying to frequent events, not one-off events.
+
+To document and understand internal control processes, including modern controls, auditors and staff consult internal control manuals, policy documents, minutes from audit comittee meetings, interviews with staff in controls, and observation of controls in action. This information can be recorded in many ways, including checklists to ensure all controls are working, and diagrams and flowcharts to visualise how controls work.
+
+<br />
+
+### Types of Controls
+
+Controls can be divided into two main categories:
+
+1.  **Preventative controls**: designed to stop errors or fraud, before they happen. Prevent problems from occurring. This can include requiring manager's approval before making a payment, thus preventing erroneous payments from being made in the first place.
+2.  **Detective controls**: designed to detect errors or fraud, after they have already occurred, so corrective actions can be taken. For example, reconciling the bank statement with the cash book can detect any errors or fraud in cash payments.
+
+There are many types of controls that are often seen in firms:
+
+-   **Authorisation and Approvals**: these include things such as requiring authorisation/approval of payments/other decisions. This ensures only valid and necessary transactions are processed.
+-   **Reconciliations**: comparing two different records of the same transactions, such as bank statements and cash book. This can detect discrepancies, allowing for the identification of errors or omissions, thus allowing these errors to be fixed.
+-   **Verifications**: Similar to reconciliations. For example, checking that sales invoices match the goods dispatched. This ensures transactions are accurate and complete.
+-   **Physical and Logical Controls**: Physical restrictions to limit the risk of errors/fraud. For example, only allowing authorised staff to access certain things, such as an inventory storage. Or restricting the hours. This safeguards assets from theft/misuse.
+-   **Segregation of Duties**: Dividing different parts of the same activity between different actors. For example, for a sale, one staff member records it in the sales record, while the other inputs it into the accounting software. By segregating these duties, this reduces the ability for one person controls all aspects of a transaction, reducing the chance of human error as well as fraud. The biggest threat to this control is a lack of staff.
+-   **IT Controls**: These are policies and procedures that support the proper operation of IT systems. Ensures that the IT system is reliable and secure. Types can include standards for design and programming, testing IT systems before releasing them, access controls requiring passwords and accounts, and procedures for installing software and training staff. While IT systems can improve efficiency and consistency, they also have risks. If an IT system is set up incorrectly, mistakes can affect a large amount of transactions. Cyber security threats also exist. Over-reliance on automated outputs results in staff unable to exercise professional scepticism.
+-   **Informational processing controls**: controls over how data is processed, whether manually or by IT system. Examples include document counts ensuring all documents are processed, digit verification checking numbers are entered correctly, and automated checks in software such as for duplicate transactions or unbalanced account.
+
+<br />
+
+### Internal Audit
+
+Internal audit is an independent function in a firm, responsible for monitoring and reviewing the effectiveness of internal controls.
+
+Internal auditers do not implement or design controls, as that is the job of management. Instead, they provide assurance to management and the board that controls are working correctly and as intended. The responsibilities of internal audit are:
+
+1.  Testing whether controls are operating effectively.
+2.  Reviewing the efficiency and effectiveness of operations.
+3.  Checking compliance with laws, regulations, and company policies.
+4.  Recommending improvements to controls and processes for management to action on.
+5.  Assisting in fraud detection and risk management.
+
+In smaller firms without an internal audit function, external auditors may perform the role of providing feedback on control weaknesses. However, the responsibility of monitoring (the other functions of internal audit) will be with the firm's management.
+
+<br />
+
+### Modern Controls
+
+As organisations adopt new technologies, new risks emerge. Modern internal controls address these risks, including cyber security, supply chain management, and digital transformation.
+
+-   **Cybersecurity**: these risks include human error (ex. weak passwords), fraud and deliberate sabotage, computer malware, DDos attacks. To mitigate these risks, firms often require strong password policies and frequent password changes, firewalls and anti-virus software, and access controls for authorised users only.
+-   **Supply Chain Risks**: these risks include disruptions from supplier failure, nature disasters, and geopolitical events. To mitigate these risks, firms can vet and monitor suppliers, maintain alternative suppliers, reviewing supplier contracts regularly, and using tech to track supplies and shipments.
+-   **Digital Transformation**: these risks from new tech include overreliance on tech, automation bias, and trusting systems without sufficient review. Controls include regular reviewing and testing of automated processes, maintaining manual checks for critical transactions, and training staff to interpret and question system outputs.
+
+<br />
