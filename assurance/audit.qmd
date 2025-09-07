@@ -1,0 +1,74 @@
+---
+title: "Audit Evidence"
+---
+
+Audit evidence is the evidence that justifies the auditor's findings and their final audit opinion (ex. reasonable assurance).
+
+<br />
+
+### Overview
+
+Audit documentation is the written record of what the auditor has done. This includes all the actions undertaken, what evidence has been obtained, and the conclusions reached. This is often called the **audit file**.
+
+Audit documentation is important for a few reasons:
+
+1.  Proves the audit was performed according to professional standards, such as ISA (UK) 230.
+2.  Allows other auditors to understand your work and conclusions, even if they were not involved in the audit.
+3.  It provides support if your work is ever challenged by regulators, clients, or in court.
+
+Good documentation is essential for quality control, learning, and legal protection.
+
+There are two main types of audit procedures:
+
+1.  **Tests of Control**: these are designed to evaluate whether a company's internal controls are operating effectively.
+2.  **Substantive Procedures**: these are designed to find material misstatements, such as errors in account balances, transactions, or disclosures.
+
+<br />
+
+### Gathering Evidence
+
+Auditors use a range of methods to gather evidence to support their audit conclusion, each method having its benefits and drawbacks. They should be selected specifically for the audit item in question. These include:
+
+-   **Inspection**: examining records, documents, or physcial assets. For example, an auditor could look at an invoice to confirm the cost of inventory. Third party documentation (like invoices, certificates) are more reliable than internally created documents. Inspection can provide evidence regarding the existence of things, the value of things, the rights and obligations (like in a contract), and the completeness of things. Inspection may not work well for intangible items like goodwill, or evaluating a process rather than outcomes.
+-   **Observation**: watching a process or procedure being performed. For example, observe a firm's staff counting inventory. Observation is useful for confirming a process is performed as described. However, be aware that processes may not be the same when observed vs. unobserved. Observations are only "snapshots" of a specific moment, they do not provide evidence for long-term ongoing processes.
+-   **Inquiry and Confirmation**: regards asking staff (inquiry) or third-parties (confirmation). This is useful for understanding processes or obtaining explanations. Confrimation from third parties (banks, customers) is a strong form of evidence. For example, confirming with the bank the cash balance of a firm. Be aware that oral responses are less reliable than written confirmation.
+-   **Recalculation**: checking the mathematical accuracy of documents and records. This is strong evidence as the auditor does it directly. For example, the auditor recalculates the depreciation to confirm they match the accounts. Recalculation is only useful for procedures involving mathematics, and cannot confirm the existence of assets.
+-   **Reperformance**: similar to recalculation, but not with math. Basically, do the same thing that the firm did previously. However, be aware that some procedures cannot be replicated (like one-off judgment).
+-   **Analytical Procedures**: analysing data (financial and non-financial) for trends, ratios, or unexpected fluctuations. This can be done during planning, providing evidence, and as a final review. One way is to compare current metrics to previous year metrics to see major discrepancies. The reliability of analytical procedures depends on the quality and source of the data. If the underlying data is not good, then analytical procedures are not useful.
+-   **Automated Tools and Techniques**: these include running dummy transactions through the clients system to test controls, extracting data and analysing directly from accounting systems, and using software to identify patterns and anomolies.
+-   **Remote Auditing Techniques**: this is inspection, but remote. For example, observing inventory counts through a live video, sharing documents electronically, and interviews via video call. This is useful when physical access is limited.
+
+<br />
+
+### Evaluating Evidence
+
+Not all audit evidence is equally reliable. The reliability of evidence depends on the source, nature, and how it is obtained. There are a few general principles in assessing the reliability of evidence.
+
+-   Evidence from **independent external sources** is more reliable than from the firm/client.
+-   Evidence directly obtained by the auditor is more reliable than that obtained indirectly (such as through a third-party). For example, a bank confirmation of balance received by the auditor directly from the bank, is better than a bank confirmation received through the client, who got it from the bank.
+-   Written evidence is more reliable than oral evidence.
+-   Original documents are more reliable than copies.
+-   Consistent evidence from many different sources is more persuasive.
+
+If he risk of material misstatement is high, you may seek stronger and more reliable evidence. For example, for high risk balances, auditors will seek strong, independent evidence, such as external confirmations and reperformance.
+
+The international standards of auditing state that evidence must be both **sufficient** and **appropriate**. Sufficient evidence means there is enough quantity of evidence to support the conclusion. Appropriateness is about quality, and if the evidence is relevant and reliable.
+
+-   Factors effect sufficiency include: the level of risk, materiality, the nature and size of the account, expected error rate, and effectiveness of controls. Basically, if there is a higher risk of material mistatements, you need more evidence quantity to meet sufficiency.
+-   Factors that effect appropriateness include: the reliability of evidence (independent sources, written, original documents, etc.). Quality matters as much as quantity.
+
+If you find sufficient and appropriate evidence for the balance of an account, you can confirm it as reasonable assurance that it is correct. If you do not, you may need to look for more evidence or increase the sample size (see below). If you find contradictory evidence or fraud, you should refer to a manager or higher up.
+
+<br />
+
+### Sampling
+
+In most audits, you cannot test every transaction, as there are too many transactions. Instead, auditors sample to select a subset of transactions to test. When selecting a sample, auditors must consider:
+
+-   The population size: some accounts have larger populations of transactions. larger populations may require larger samples (but not always proportional).
+-   Assessed risk and expected mistatement: more risk, you need higher samples.
+-   Level of materiality: the lower the materiality threshold (the lower the "tolerable error threshold" is), the larger sample you need.
+-   Other evidence: if there is other strong evidence, a smaller sample may suffice.
+-   Stratification: grouping similar items can make sampling more efficient.
+
+We want samples to reflect the population. **Sampling risk** is the risk that your sample might not reflect the entire population, leading to incorrect conclusions. For example, if you under-sample transactions that are likely to be fraudulent, you are likely to miss errors/fraud.

@@ -70,3 +70,57 @@ Assurance engagements, like audits, give confidence that information is accurate
     -   DR (Detection Risk): the risk the auditor's procedures will fail to detect any material misstatements. This is managed by the auditor, and is dependent on the nature of the audit plan, the timing of the audit and procedures, and extent of audit procedures. This cannot be reduced to 0, since the auditor cannot check every single transaction of the firm.
 
 If the inherent and control risk is high, the number of transactions and extent of audit procedures can be increased to reduce the chance of detection risk (and chance of audit risk). This is usually determined in the planning stage of an audit.
+
+<br />
+
+### Regulation
+
+Regulatory bodies set the rules for auditors and the auditing process. There are a few main regulatory bodies in the UK:
+
+-   **ICAEW** (Institute of Chartered Accountants in England and Wales): sets the code of ethics for member auditors/accountants. The ICAEW code is based on the internal code of ethics established by the IESBA.
+-   **FRC** (Financial Reporting Council): oversees auditors, sets the ethical standards for audit work, and supervises corporate governance and financial reporting bodies. The FRC also has a professional oversight function.
+-   **IESBA** (International Ethics Standards Board for Accountants): develops the international code of ethics for auditors/accountants, which serves as the foundation for the ICAEW ethics code.
+-   **RSBs** (Recognised Supervisory Bodies): organisations like ICAEW that supervise auditors, and ensure compliance with ethical and professional standards. These bodies work together to set, monitor, and enforce ethical standards, ensuring public trust in audits/auditors.
+
+The ethical codes that these bodies set can be divided into two types:
+
+-   Rule-based codes: set out specific, detailed requirements, like a checklist of what is and isn't allowed. Ex. no gifts over £30.
+-   Principle-based codes: focus on broad principles that guide behaviour for a wide range of professional situations. They focus more on professional judgment rather than spelling out rules for every possible scenario. Ex. no gifts that could impair your objectivity (no specific max value). This is used by the ICAEW and IESBA, since they are more flexible and adaptable to new situations.
+
+<br />
+
+### Ethical Standards
+
+ICAEW's ethics code is mostly principle-based, but also has some specific rule-based codes for specific things. There are 5 fundamental ethical principles for ICAEW:
+
+1.  **Integrity**: honest, straight forward.
+2.  **Objectivity**: not allow bias, conflict of interest, or undue influence to affect your business judgment.
+3.  **Professional Competence and Due Care**: maintain your skills and knowledge to provide a competent service, and act in accordance with professional standards.
+4.  **Confidentiality**: respect confidentiality of information, do not disclose without proper authority.
+5.  **Professional Behaviour**: comply with rules and regulations, avoid conduct that would discredit the occupation.
+
+**Independence** is key to objectivity. [Independence of mind]{.underline} is the ability to make decisions free from bias or influence. [Independence in appearance]{.underline} is avoiding situations that may make a third party doubt your impartiality, even if you are already not biased. There are several common threats to ethical behaviour:
+
+-   **Self-Interest Threat**: When you have a financial or personal interest that may affect your judgment/bias. Ex. owning shares in a company you are auditing.
+-   **Self-Review Threat**: When you are in the position of reviewing your own work, or work by your team, previously did. Ex. auditing financial statements that you yourself produced.
+-   **Advocacy Threat**: When you promote a clients position to a point where your objectivity is compromised. Ex. representing a firm in a legal dispute, yet also auditing them.
+-   **Familiarity Threat**: Having a long standing or close relationship with the client, making you more sympathetic to them. Ex. you are auditing a company which has your best friend as financial director.
+-   **Intimidation Threat**: When you are deterred from acting objectively by external pressures. Ex. the client threatens to replace you as auditor if you do not provide favourable audit conclusion.
+-   **Management Threat**: When you or your firm that influences client management decisions, and your interests become aligned with the client management. Ex. you do consulting services for a client that influences their management decisions, then you audit them.
+
+These threats can be alleviated by profession-wide safeguards, such as training standards, quality control standards, and external reviews. They can also be done by work/company safeguards, like rotation of senior staff and policies on independence. If no safeguards are sufficient to address these threats, you should withdraw from/decline the engagement.
+
+<br />
+
+### Sustainability Assurance
+
+Increasingly, stakeholders want to know how firms are managing their impact on the environment and society. Sustainability reporting discloses an organisation's environmental activities, social activities, and governance activities. This can include carbon emissions, treatment of employees, and business ethics.
+
+The ISSB (international sustainability standards board) regulates sustainability reporting to make sure it is comparable, consistent, and useful for stakeholders. These standards include:
+
+-   IFRS S1: General requirements for disclosure of sustainability-related financial information. It requires companies to disclose information about sustainability risks and opportunities that may affect the companies prospects. This includes governance, strategy, risk management, metrics, and targets.
+-   IFRS S2: climate related disclosures. It requires firms to report on risks about greenhouse gas emissions and financial impacts of climate change.
+
+Sustainability reporting has become important because stakeholders (users, investors) are interested in how companies are affected by and affecting sustainability issues, such as social responsibility, climate change, or resource limitations. These can reveal potential issues, such as supply chain vulnerabilities due to climate change.
+
+Sustainability Assurance involves an auditor reviewing the information reported in sustainability assurance. This increases the user's confidence that the reporting by the firm is accurate, and can help manage risk. In some places, like the EU, this is a legal requirement. ISSA 5000 is a regulatory code for audit assurance regarding sustainability.

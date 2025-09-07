@@ -2,9 +2,13 @@
 title: "Internal Controls"
 ---
 
+Internal controls are the policies and procedures put in place by management of a firm to comply with regulations and produce reliable financial statements.
+
+<br />
+
 ### Overview
 
-**Internal controls** are the policies and procedures put in place by management of a firm to comply with regulations and produce reliable financial statements. Organisations use internal controls to detect and prevent errors, safeguard assets, and ensure accurate and complete financial reporting, promote operational efficiency, and ensure compliance with regulations.
+Organisations use internal controls to detect and prevent errors, safeguard assets, and ensure accurate and complete financial reporting, promote operational efficiency, and ensure compliance with regulations.
 
 Strong controls lower the risk of material mistatements. Weak controls increase this risk, requiring auditors to do more testing. There are a few key aspects of internal controls.
 

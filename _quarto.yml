@@ -37,6 +37,8 @@ website:
           text: Overview
         - href: assurance/controls.qmd
           text: Internal Controls
+        - href: assurance/audit.qmd
+          text: Audit Evidence
         
 
 format:
