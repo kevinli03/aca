@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Assurance and Risk – Kevin’s Accounting Notes</title>
+<title>Assurance Basics – Kevin’s Accounting Notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,35 +67,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -148,7 +119,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../assurance/assurance.html">Overview</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../assurance/assurance.html">Assurance Basics</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -163,7 +134,13 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../assurance/assurance.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Overview</span></a>
+ <span class="menu-text">Assurance Basics</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../assurance/process.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Assurance Process</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -184,17 +161,25 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#assurance-and-materiality" id="toc-assurance-and-materiality" class="nav-link active" data-scroll-target="#assurance-and-materiality">Assurance and Materiality</a></li>
-  <li><a href="#materiality" id="toc-materiality" class="nav-link" data-scroll-target="#materiality">Materiality</a></li>
-  <li><a href="#agreeing-an-engagement" id="toc-agreeing-an-engagement" class="nav-link" data-scroll-target="#agreeing-an-engagement">Agreeing an Engagement</a></li>
-  <li><a href="#audit-risk-and-planning" id="toc-audit-risk-and-planning" class="nav-link" data-scroll-target="#audit-risk-and-planning">Audit Risk and Planning</a></li>
-  <li><a href="#regulation" id="toc-regulation" class="nav-link" data-scroll-target="#regulation">Regulation</a></li>
-  <li><a href="#ethical-standards" id="toc-ethical-standards" class="nav-link" data-scroll-target="#ethical-standards">Ethical Standards</a></li>
+  <li><a href="#introduction-to-assurance" id="toc-introduction-to-assurance" class="nav-link active" data-scroll-target="#introduction-to-assurance"><strong>Introduction to Assurance</strong></a>
+  <ul class="collapse">
+  <li><a href="#elements-of-assurance" id="toc-elements-of-assurance" class="nav-link" data-scroll-target="#elements-of-assurance">Elements of Assurance</a></li>
+  <li><a href="#levels-of-assurance" id="toc-levels-of-assurance" class="nav-link" data-scroll-target="#levels-of-assurance">Levels of Assurance</a></li>
+  <li><a href="#legal-requirements" id="toc-legal-requirements" class="nav-link" data-scroll-target="#legal-requirements">Legal Requirements</a></li>
   <li><a href="#sustainability-assurance" id="toc-sustainability-assurance" class="nav-link" data-scroll-target="#sustainability-assurance">Sustainability Assurance</a></li>
+  </ul></li>
+  <li><a href="#professional-ethics" id="toc-professional-ethics" class="nav-link" data-scroll-target="#professional-ethics"><strong>Professional Ethics</strong></a>
+  <ul class="collapse">
+  <li><a href="#ethical-codes" id="toc-ethical-codes" class="nav-link" data-scroll-target="#ethical-codes">Ethical Codes</a></li>
+  <li><a href="#ethical-principles" id="toc-ethical-principles" class="nav-link" data-scroll-target="#ethical-principles">Ethical Principles</a></li>
+  <li><a href="#threats-to-ethics" id="toc-threats-to-ethics" class="nav-link" data-scroll-target="#threats-to-ethics">Threats to Ethics</a></li>
+  <li><a href="#safeguards-to-ethics" id="toc-safeguards-to-ethics" class="nav-link" data-scroll-target="#safeguards-to-ethics">Safeguards to Ethics</a></li>
+  <li><a href="#data-protection-regulations" id="toc-data-protection-regulations" class="nav-link" data-scroll-target="#data-protection-regulations">Data Protection Regulations</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -203,7 +188,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Assurance and Risk</h1>
+<h1 class="title">Assurance Basics</h1>
 </div>
 
 
@@ -222,81 +207,315 @@ window.Quarto = {
 
 <p>This section contains many pages on assurance and risk. Use the left-side navigation bar to navigate to different pages with more information. Below, a brief introduction to assurance is provided.</p>
 <p><br></p>
-<section id="assurance-and-materiality" class="level3">
-<h3 class="anchored" data-anchor-id="assurance-and-materiality">Assurance and Materiality</h3>
-<p>In business, assurance is when an independent professional (accountant) examines financial statements or sustainability reports, to assure investors and stakeholders of the “quality”/state of the firm.</p>
-<p>Assurance provides an independent professional opinion, increases confidence of users of information, can deter fraud, and highlight any problems or weaknesses in the information. Any assurance engagement consists of 3 parties:</p>
+<hr>
+<section id="introduction-to-assurance" class="level1">
+<h1><strong>Introduction to Assurance</strong></h1>
+<section id="elements-of-assurance" class="level3">
+<h3 class="anchored" data-anchor-id="elements-of-assurance">Elements of Assurance</h3>
+<p>Assurance is when an independent professional (auditor) examines financial statements or sustainability reports, to assure investors and stakeholders of the “quality”/state of the firm. This assurance given by the independent professional assures investors and stakeholders of the accuracy of the information, allowing them to make choices.</p>
+<p>There are three parties in any assurance engagement:</p>
 <ol type="1">
-<li>The <strong>responsible party</strong>: the management that prepares the original information</li>
-<li>The <strong>practitioner</strong>: usually an auditor/accountant who checks the information</li>
-<li>The <strong>users</strong>: people who rely on the information to make decisions/choices.</li>
+<li><strong>Practitioner</strong>: the auditor or independent professional.</li>
+<li><strong>Responsible Party</strong>: the firm/company that is being audited. Typically, we focus on the directors of this firm/company.</li>
+<li><strong>Intended User</strong>: typically stakeholders such as shareholders, investors, banks, or anyone needing to know details about a firm’s financial performance.</li>
 </ol>
-<p>At the end of a assurance engagement, a final written report is produced. The report is addressed to the responsible party, and contains the the scope of work performed, the criteria used (such as accounting standards), and the assurance provider’s opinion and conclusion, such as reasonable assurance or limited assurance.</p>
-<ol type="1">
-<li><strong>Reasonable Assurance</strong>: the practitioner gathers enough opinion to give a positive opinion supporting the information the responsible party has compiled. “In our opinion, the financial statements give a true and fair view”.</li>
-<li><strong>Limited Assurance</strong>: the practitioner gathers less evidence. “Nothing has come to our attention that causes us to believe the information is materially misstated”. Better than no assurance, but not at the level of reasonable assurance.</li>
-</ol>
+<p>Assurance can take many different forms:</p>
+<ul>
+<li><strong>Statutory Audit</strong>: the auditing of financial statements, governed by accounting standards and reporting regulations.</li>
+<li><strong>Sustainability Assurance</strong>: the auditing of a firm’s sustainability figures and reports.</li>
+<li>Other assurance engagements, such as due diligence before performing transactions, internal controls assessment, fraud investigations.</li>
+</ul>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Benefits and Limitations of Assurance
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Benefits:</p>
+<ul>
+<li>Independent scrutiny of the business by experts, which adds credibility to the firm’s financial statements.</li>
+<li>Can help deter the appeal of fraud for those in the firm.</li>
+<li>Draws attention to issues, such as ethical issues or weaknesses of internal controls.</li>
+<li>Reduces risk of management bias.</li>
+</ul>
+<p>Limitations:</p>
+<ul>
+<li>Assurance does not provide 100% assurance for accuracy, since you cannot possibly test and check every transaction made by a firm (especially large firms).</li>
+<li>Cannot solve potential issues of collusion fraud between auditors and companies.</li>
+<li>Financial information often includes subjective matters, such as depreciation and provision for doubtful debts.</li>
+<li>May rely on some sub-optimal evidence, such as management representations.</li>
+</ul>
+</div>
+</div>
+</div>
 <p><br></p>
 </section>
-<section id="materiality" class="level3">
-<h3 class="anchored" data-anchor-id="materiality">Materiality</h3>
-<p><strong>Materiality</strong> is the fundamental concept in assurance. It is the threshold of inaccuracy which surpassed, could influence users decisions.</p>
+<section id="levels-of-assurance" class="level3">
+<h3 class="anchored" data-anchor-id="levels-of-assurance">Levels of Assurance</h3>
+<p>Usually, when considering the accuracy of financial statements, auditors are concerned with <strong>materiality</strong>.</p>
 <blockquote class="blockquote">
-<p>An item is material if its omission or misstatement could influence the economic decisions of users of the report.</p>
+<p>An mistake is material if its omission or misstatement could influence the economic decisions of users of the report.</p>
 </blockquote>
-<p>For example, for a $10 billion net profit business, a $1 mistatement is not substantial enough to influence the economic decisions of users of the report, so it is not material. However, a $1 billion mistatement could quite substantially change how users use the report.</p>
-<p>Setting materiality thresholds ensures the assurance provide focuses on what matters most, making the engagement efficient and effective. Materiality is usually set as the percentage of a key figure, such as profit or revnue. Ex. 5% of profit before tax, or 1-2% of total revenue.</p>
-<p>Assurance cannot be absolute: the practitioner cannot test every element/transaction, there may be judgment involved, and there may be limitations in the information available. There is always a small chance that material fraud or errors remain undiscovered.</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Materiality, Error, and Fraud
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <ul>
+<li>For example, for a $10 billion net profit business, a $1 mistatement is not substantial enough to influence the economic decisions of users of the report, so it is not material. However, a $1 billion mistatement could quite substantially change how users use the report.</li>
+<li>The threshold of materiality is often set at some percentage of net income before tax (ex. 5%) or revenue (1-2%).</li>
 <li>There is also a distinction between <strong>Error</strong> and <strong>Fraud</strong>. Error is considered a genuine mistake of the responsible party. Fraud is <u>intentional</u>: someone deliberately provides false information to mislead users.</li>
 </ul>
+</div>
+</div>
+</div>
+<p>At the end of an engagement, the auditor needs to write an <strong>opinion</strong> on the level of assurance they can assure regarding the accuracy of the financial statements. There are two <strong>levels of assurance</strong>.</p>
+<table class="table-bordered caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Reasonable Assurance</th>
+<th>Limited Assurance</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>High level of assurance of accuracy, but not absolute.</td>
+<td>Moderate/low level of assurance of accuracy.</td>
+</tr>
+<tr class="even">
+<td>Conclusion expressed positively.</td>
+<td>Conclusion expressed negatively.</td>
+</tr>
+<tr class="odd">
+<td><blockquote class="blockquote">
+<p>In our opinion, the financial statements show a true and fair view.</p>
+</blockquote></td>
+<td><blockquote class="blockquote">
+<p>Nothing has come to our attention that causes us to believe that the financial information is not true and fair.</p>
+</blockquote></td>
+</tr>
+<tr class="even">
+<td>Used in statutory audits.</td>
+<td>Used in all other engagements.</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+The Expectations Gap
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Users and the public often misinterpret audit opinions to mean other things. This “expectation” of the public contrasting with what audit opinions actually claim is called the expectations gap.</p>
+<table class="table-bordered caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Public</th>
+<th>Reality</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>The public often thinks the auditor detects all fraud and error.</td>
+<td>This is not true, the auditor only provides reasonable assurance, not absolute assurance.</td>
+</tr>
+<tr class="even">
+<td>The public often thinks auditors test 100% of transactions.</td>
+<td>This is not true, most audits sample transactions to test.</td>
+</tr>
+<tr class="odd">
+<td>The public often thinks auditors guarantee the accuracy of financial statements.</td>
+<td>This is not true, the auditor only provides reasonable assurance, not absolute assurance.</td>
+</tr>
+<tr class="even">
+<td>The public often thinks auditors guarantee the company will continue to survive for the forseeable future.</td>
+<td>This is not true, the auditor only provides an opinion of the accuracy of financial statements. The financial statements themselves can paint a good or bad picture, the auditor only cares if it is accurate.</td>
+</tr>
+<tr class="odd">
+<td>The public often thinks the balance sheet shows the true value of the company.</td>
+<td>This is not true, valuation is done by separate teams.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
 <p><br></p>
 </section>
-<section id="agreeing-an-engagement" class="level3">
-<h3 class="anchored" data-anchor-id="agreeing-an-engagement">Agreeing an Engagement</h3>
-<p>Before an assurance engagement starts, a few things need to be done:</p>
+<section id="legal-requirements" class="level3">
+<h3 class="anchored" data-anchor-id="legal-requirements">Legal Requirements</h3>
+<p>In the UK, all companies are required to legally undergo a statutory audit of their financial statements every year, <em>unless</em> they meet a set of exemption criteria. This requirement and the exemptions are set by the <strong>Companies Act 2006</strong>.</p>
+<p>To qualify for an exemption, a firm must <strong>not</strong> be an insurance, banking, or listed company. In addition, they must also meet two of the following exemption critera below:</p>
+<ul>
+<li>Firms that are in banking, insurance, or listed on a stock market <strong>must</strong> always undergo a statutory audit, even if they meet the criteria above.</li>
+</ul>
+<table class="table-bordered caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Exemption After 6 April 2025 (2/3)</th>
+<th>Exemption After 1 January 2016 (2/3)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Less</strong> than 50 employees on average.</td>
+<td><strong>Less</strong> than 50 employees on average.</td>
+</tr>
+<tr class="even">
+<td><strong>Less</strong> than £7.5m in total assets.</td>
+<td><strong>Less</strong> than £5.1m in total assets.</td>
+</tr>
+<tr class="odd">
+<td><strong>Less</strong> than £15m in turnover.</td>
+<td><strong>Less</strong> than £10.2m in turnover.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</section>
+<section id="sustainability-assurance" class="level3">
+<h3 class="anchored" data-anchor-id="sustainability-assurance">Sustainability Assurance</h3>
+<p>Sustainability is about meeting he needs of the present, without compromising the future from meeting their own needs. Sustainability consists of environmental, social, and governance (ESG) considerations.</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Environmental, Social, and Governance (ESG)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<table class="table-bordered caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 34%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Environmental</th>
+<th>Social</th>
+<th>Governance</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>About the planet. For example, emissions and pollution.</td>
+<td>About the people. Diversity, inclusion, worker health, mental health, etc.</td>
+<td>About company practices and ethics.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p>Because of growing demand from users for information regarding sustainability, assurance is needed to ensure that the reported sustainability metrics of a firm are accurate.</p>
+<p>Currently, sustainability assurance and reporting is still a developing field, but several regulations already exist.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">IFRS ISSB</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Companies Act 2006 (UK)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">TCFD (UK)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">CSRD (EU)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false">Assurance</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>IFRS sustainability and disclosure standards are issued by the International Susstainability and Standards Board (ISSB). Their 4 key objectives are:</p>
 <ol type="1">
-<li>Obtaining the engagement: practitioners can advertise their services. The responsible party can tender: invite multiple practitioners to “apply” to be their practitioner for the engagement, and choosing based on price/approach/etc.
-<ul>
-<li>Practitioners can obtain engagements through advertising/tendering. However, they must ensure these do not compromise their independence or integrity as required by ethical standards.</li>
-</ul></li>
-<li>Accepting the engagement. A few things can influence this choice of acceptance:
-<ul>
-<li>If there is a previous auditor, the current practitioner must communicate with them, and determine if there are any reasons not to accept (like ethical concerns). Permission must be granted by the responsible party for this communication, but if this permission is denied, the audit is almost always refused by the practitioner.</li>
-<li>The practitioner needs to assess resources.</li>
-<li>Client due diligence: verifying the identity of the business the practitioner is accepting as a client, and ensure the business is legit and not money laundering.</li>
-</ul></li>
-<li>Agreeing to terms: this is done with an engagement letter, which is a contract between the practitioner and responsible party.
-<ul>
-<li>The engagement letter is required and regulated by standards such as ISA 210 for audits, or ISAE 3000 for other assurance engagements.</li>
-<li>The letter covers the objective and scope of the engagement, the responsibilities of the practitioner and responsible party, the reporting framework (what accounting standards), and the form and final contact of the final report.</li>
-<li>This will prevent miscommunication and disagreements later.</li>
-</ul></li>
+<li>Develop standards for a global baseline of sustainability disclosures.</li>
+<li>Meet the information needs of investors.</li>
+<li>Enable companies to provide sustainability information to global capital markets.</li>
+<li>To facilitate interoperability with disclosures that are jurisdiction-specific, as well as aimed at broader stakeholder groups.</li>
 </ol>
-<p><br></p>
-</section>
-<section id="audit-risk-and-planning" class="level3">
-<h3 class="anchored" data-anchor-id="audit-risk-and-planning">Audit Risk and Planning</h3>
-<p>Assurance engagements, like audits, give confidence that information is accurate and free from material statement. However, no system is perfect, and errors/fraud can still be present even if undetected. Audit is thus about managing these risks of potential errors and fraud. There are 2 types of risks:</p>
+<p>They consist of two standards:</p>
 <ol type="1">
-<li><strong>Business risk</strong>: risk that events or conditions will prevent a firm from achieving its objectives. These can include economics, competitors, or new regulations. Business risks can affect the financial statements. For example, it may incentives management to lie about something (like profit, expenses) if there is financial or operational risk. Fast growing companies can also risk not having well developed controls to prevent errors and fraud.
-<ul>
-<li>Financial risk: cash flow problems or difficulties rasing finance.</li>
-<li>Operational risk: losing a key supplier or production failures.</li>
-<li>Compliance risk: failing to follow laws or regulations which leads to fines or reputations damages.</li>
-</ul></li>
-<li><strong>Audit Risks</strong>: business risks that impact the financial statements/audit process are audit risks. Audit risk is the risk that the audit conclusion is incorrect (in other words, the auditor fails to detect material mistatements). Audit risk is from the auditor’s perspective. Generally, an auditor wants this risk to be minimal when issuing a reasonable assurance conclusion. Audit risk (AR) has parts: <span class="math inline">\(AR=IR\times CR \times DR\)</span>:
-<ul>
-<li>IR (Inherent Risk): the risk of a material misstatement occurring in the financial statements, due to business risks (nature of business), before considering any controls/processes to prevent these risks. Basically, the risk of an erroneous or fraudulent financial statement entries without considering controls.</li>
-<li>CR (Control Risk): the risk that a material misstatement is not prevented or detected by the firm’s internal controls.</li>
-<li>DR (Detection Risk): the risk the auditor’s procedures will fail to detect any material misstatements. This is managed by the auditor, and is dependent on the nature of the audit plan, the timing of the audit and procedures, and extent of audit procedures. This cannot be reduced to 0, since the auditor cannot check every single transaction of the firm.</li>
-</ul></li>
+<li><strong>IFRS S1</strong>: General requirements for disclosure of sustainability-related financial information.</li>
+<li><strong>IFRS S2</strong>: Climate-related disclosures.</li>
 </ol>
-<p>If the inherent and control risk is high, the number of transactions and extent of audit procedures can be increased to reduce the chance of detection risk (and chance of audit risk). This is usually determined in the planning stage of an audit.</p>
+<p>Note: ISSB do not have power to enforce these standards, and they are not legally required for companies (except in Brazil).</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>The strategic report within the Capanies Act includes some mandatory sustainability reporting requirements.</p>
+<ul>
+<li>Reporting of the principal risks and uncertainties facing the company, including sustainability risks.</li>
+<li>Information about environmental, social, and community matters, employees, respect for human rights, anti-corruption, and anti-bribery matters.</li>
+<li>Information about gender diversity within the company.</li>
+<li>Climate related financial disclosures, such as management of climate-adjacent risks and opportunities.</li>
+</ul>
+<p>These are required reporting for firms in the UK.</p>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p>The TCFD (Task force on climate-related financial disclosures) is a set of recommendations issued in 2017, recommending the reporting of:</p>
+<ol type="1">
+<li>Governance</li>
+<li>Risk Management</li>
+<li>Strategy</li>
+<li>Metrics and Targets.</li>
+</ol>
+<p>In the UK, the TCFD recommendations are mandatory for listed companies. This is not the case in all countries.</p>
+<p>IFRS S2 reporting standards are based on these TCFD recommendations.</p>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<p>The European Union’s Corporate Sustainability Reporting Directive (CSRD) came into effect in 2023. It requires the following:</p>
+<ul>
+<li>Disclosure about a company’s sustainibility related impacts, risks, and opportunities.</li>
+<li>Disclosures to be reported in the annual report of a company.</li>
+<li>Requires companies to seek assurance over their sustainability disclosures.</li>
+</ul>
+<p>All companies that have securities listed on an EU stock market <strong>must</strong> follow these directives. Any EU companies that are large (more than 250 employees, 50 million euro revenue) that are not listed must also follow the directives.</p>
+<ul>
+<li>Non-EU companies which generate more than 150 million in the EU that also have a EU listed subsidiary must also follow the directives. But this only comes into affect in 2028.</li>
+</ul>
+</div>
+<div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
+<p>The <em>international standard on sustainability assurance <strong>(ISSA) 5000</strong> general requirements for sustainability assurance engagements</em> was released in 2024. It provides a framework for how sustainability assurance is to take place.</p>
+<p>The objectives of the ISSA 5000:</p>
+<ul>
+<li>The obtain reasonable assurance or limited assurance about whether the sustainability is free from material mistatement.</li>
+<li>To express a conclusion on the sustainability information through a written report that conveys a audit conclusion, and describes the basis for the conclusion.</li>
+</ul>
+<p>The EU CSRD also has guidelines on how to obtain limited assurance for sustainability based on the <strong>European Sustainability Reporting Standards (ESRS)</strong>, and also provides a provision to move towards reasonable assurance.</p>
+</div>
+</div>
+</div>
 <p><br></p>
+<p><br></p>
+<hr>
 </section>
-<section id="regulation" class="level3">
-<h3 class="anchored" data-anchor-id="regulation">Regulation</h3>
+</section>
+<section id="professional-ethics" class="level1">
+<h1><strong>Professional Ethics</strong></h1>
+<section id="ethical-codes" class="level3">
+<h3 class="anchored" data-anchor-id="ethical-codes">Ethical Codes</h3>
 <p>Regulatory bodies set the rules for auditors and the auditing process. There are a few main regulatory bodies in the UK:</p>
 <ul>
 <li><strong>ICAEW</strong> (Institute of Chartered Accountants in England and Wales): sets the code of ethics for member auditors/accountants. The ICAEW code is based on the internal code of ethics established by the IESBA.</li>
@@ -306,13 +525,13 @@ window.Quarto = {
 </ul>
 <p>The ethical codes that these bodies set can be divided into two types:</p>
 <ul>
-<li>Rule-based codes: set out specific, detailed requirements, like a checklist of what is and isn’t allowed. Ex. no gifts over £30.</li>
-<li>Principle-based codes: focus on broad principles that guide behaviour for a wide range of professional situations. They focus more on professional judgment rather than spelling out rules for every possible scenario. Ex. no gifts that could impair your objectivity (no specific max value). This is used by the ICAEW and IESBA, since they are more flexible and adaptable to new situations.</li>
+<li><strong>Rule-based codes</strong>: set out specific, detailed requirements, like a checklist of what is and isn’t allowed. Ex. no gifts over £30.</li>
+<li><strong>Principle-based codes</strong>: focus on broad principles that guide behaviour for a wide range of professional situations. They focus more on professional judgment rather than spelling out rules for every possible scenario. Ex. no gifts that could impair your objectivity (no specific max value). This is used by the ICAEW and IESBA, since they are more flexible and adaptable to new situations.</li>
 </ul>
 <p><br></p>
 </section>
-<section id="ethical-standards" class="level3">
-<h3 class="anchored" data-anchor-id="ethical-standards">Ethical Standards</h3>
+<section id="ethical-principles" class="level3">
+<h3 class="anchored" data-anchor-id="ethical-principles">Ethical Principles</h3>
 <p>ICAEW’s ethics code is mostly principle-based, but also has some specific rule-based codes for specific things. There are 5 fundamental ethical principles for ICAEW:</p>
 <ol type="1">
 <li><strong>Integrity</strong>: honest, straight forward.</li>
@@ -321,7 +540,103 @@ window.Quarto = {
 <li><strong>Confidentiality</strong>: respect confidentiality of information, do not disclose without proper authority.</li>
 <li><strong>Professional Behaviour</strong>: comply with rules and regulations, avoid conduct that would discredit the occupation.</li>
 </ol>
-<p><strong>Independence</strong> is key to objectivity. <u>Independence of mind</u> is the ability to make decisions free from bias or influence. <u>Independence in appearance</u> is avoiding situations that may make a third party doubt your impartiality, even if you are already not biased. There are several common threats to ethical behaviour:</p>
+<p><strong>Independence</strong> is key to objectivity. <u>Independence of mind</u> is the ability to make decisions free from bias or influence. <u>Independence in appearance</u> is avoiding situations that may make a third party doubt your impartiality, even if you are already not biased.</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+More on Independence
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Independence is not necessarily threatened if auditors use the client’s services, <strong>given</strong> the prices/services the auditors are using are also available to the public.</p>
+<ul>
+<li>Ex. Auditors can have mortgages with a bank they are auditing, as long as those mortgages and rates are publicly available, and the mortgage was obtained prior to the engagement.</li>
+<li>However, if the bank, after learning of the auditor’s appointment, provides favourable mortgages to the auditors and only the auditors, then it is a conflict of interest.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Types of Biases
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<table class="table-bordered caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 35%">
+<col style="width: 45%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Bias</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Anchoring Bias</td>
+<td>Tendency to use an initial piece of information, which subsequent information is assessed.</td>
+<td>Say an item was $50, but now is on sale for $30. $30 might still be an overpay, but in the context of the original price, it seems cheap.</td>
+</tr>
+<tr class="even">
+<td>Automation Bias</td>
+<td>Tendency to blindly trust output generated from automated systems.</td>
+<td>Blindly trusting the output from accounting software.</td>
+</tr>
+<tr class="odd">
+<td>Availability Bias</td>
+<td>Putting more weight on experiences that easily come to mind.</td>
+<td>We tend to think of plane crash news stories far more than the millions who have safe plane journeys.</td>
+</tr>
+<tr class="even">
+<td>Confirmation Bias</td>
+<td>Disregarding information that does not fit our existing beliefs.</td>
+<td>Common in politics.</td>
+</tr>
+<tr class="odd">
+<td>Groupthink</td>
+<td>Tendency for groups to reach a conclusion without critical reasoning.</td>
+<td>Social media like Reddit.</td>
+</tr>
+<tr class="even">
+<td>Overconfidence Bias</td>
+<td>Overestimating one’s own abilities.</td>
+<td>If you are experienced, you might not check your work as carefully and assume it is correct.</td>
+</tr>
+<tr class="odd">
+<td>Representation Bias</td>
+<td>Assuming the interactions/experiences you have are representative of all people.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Selective Perception</td>
+<td>Expectations influencing personal views.</td>
+<td>If you expect something to be bad, you are more likely to look for the bad parts.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p><br></p>
+</section>
+<section id="threats-to-ethics" class="level3">
+<h3 class="anchored" data-anchor-id="threats-to-ethics">Threats to Ethics</h3>
+<p>There are several common threats to ethical behaviour:</p>
 <ul>
 <li><strong>Self-Interest Threat</strong>: When you have a financial or personal interest that may affect your judgment/bias. Ex. owning shares in a company you are auditing.</li>
 <li><strong>Self-Review Threat</strong>: When you are in the position of reviewing your own work, or work by your team, previously did. Ex. auditing financial statements that you yourself produced.</li>
@@ -333,18 +648,15 @@ window.Quarto = {
 <p>These threats can be alleviated by profession-wide safeguards, such as training standards, quality control standards, and external reviews. They can also be done by work/company safeguards, like rotation of senior staff and policies on independence. If no safeguards are sufficient to address these threats, you should withdraw from/decline the engagement.</p>
 <p><br></p>
 </section>
-<section id="sustainability-assurance" class="level3">
-<h3 class="anchored" data-anchor-id="sustainability-assurance">Sustainability Assurance</h3>
-<p>Increasingly, stakeholders want to know how firms are managing their impact on the environment and society. Sustainability reporting discloses an organisation’s environmental activities, social activities, and governance activities. This can include carbon emissions, treatment of employees, and business ethics.</p>
-<p>The ISSB (international sustainability standards board) regulates sustainability reporting to make sure it is comparable, consistent, and useful for stakeholders. These standards include:</p>
-<ul>
-<li>IFRS S1: General requirements for disclosure of sustainability-related financial information. It requires companies to disclose information about sustainability risks and opportunities that may affect the companies prospects. This includes governance, strategy, risk management, metrics, and targets.</li>
-<li>IFRS S2: climate related disclosures. It requires firms to report on risks about greenhouse gas emissions and financial impacts of climate change.</li>
-</ul>
-<p>Sustainability reporting has become important because stakeholders (users, investors) are interested in how companies are affected by and affecting sustainability issues, such as social responsibility, climate change, or resource limitations. These can reveal potential issues, such as supply chain vulnerabilities due to climate change.</p>
-<p>Sustainability Assurance involves an auditor reviewing the information reported in sustainability assurance. This increases the user’s confidence that the reporting by the firm is accurate, and can help manage risk. In some places, like the EU, this is a legal requirement. ISSA 5000 is a regulatory code for audit assurance regarding sustainability.</p>
+<section id="safeguards-to-ethics" class="level3">
+<h3 class="anchored" data-anchor-id="safeguards-to-ethics">Safeguards to Ethics</h3>
+<p><br></p>
+</section>
+<section id="data-protection-regulations" class="level3">
+<h3 class="anchored" data-anchor-id="data-protection-regulations">Data Protection Regulations</h3>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

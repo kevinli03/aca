@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Accounting – Kevin’s Accounting Notes</title>
+<title>Process of Assurance Engagements – Kevin’s Accounting Notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -93,11 +122,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../accounting/accounting.html" aria-current="page"> 
+    <a class="nav-link" href="../accounting/accounting.html"> 
 <span class="menu-text">Accounting</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../assurance/assurance.html"> 
+    <a class="nav-link active" href="../assurance/assurance.html" aria-current="page"> 
 <span class="menu-text">Assurance</span></a>
   </li>  
   <li class="nav-item">
@@ -119,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../accounting/accounting.html">Overview</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../assurance/process.html">Assurance Process</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -133,26 +162,26 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../accounting/accounting.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Overview</span></a>
+  <a href="../assurance/assurance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Assurance Basics</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../accounting/balance.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Balance Sheet</span></a>
+  <a href="../assurance/process.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Assurance Process</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../accounting/income.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Income Statement</span></a>
+  <a href="../assurance/controls.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Internal Controls</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../accounting/cash.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cash Flow Statement</span></a>
+  <a href="../assurance/audit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Audit Evidence</span></a>
   </div>
 </li>
     </ul>
@@ -165,13 +194,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview-of-accounting" id="toc-overview-of-accounting" class="nav-link active" data-scroll-target="#overview-of-accounting">Overview of Accounting</a></li>
-  <li><a href="#financial-statments" id="toc-financial-statments" class="nav-link" data-scroll-target="#financial-statments">Financial Statments</a></li>
-  <li><a href="#assets-liabilities-equity" id="toc-assets-liabilities-equity" class="nav-link" data-scroll-target="#assets-liabilities-equity">Assets, Liabilities, Equity</a></li>
-  <li><a href="#double-entry-accounting" id="toc-double-entry-accounting" class="nav-link" data-scroll-target="#double-entry-accounting">Double Entry Accounting</a></li>
-  <li><a href="#limited-companies" id="toc-limited-companies" class="nav-link" data-scroll-target="#limited-companies">Limited Companies</a></li>
-  <li><a href="#accrual-accounting" id="toc-accrual-accounting" class="nav-link" data-scroll-target="#accrual-accounting">Accrual Accounting</a></li>
-  <li><a href="#errors-and-controls" id="toc-errors-and-controls" class="nav-link" data-scroll-target="#errors-and-controls">Errors and Controls</a></li>
+  <li><a href="#agreeing-an-engagement" id="toc-agreeing-an-engagement" class="nav-link active" data-scroll-target="#agreeing-an-engagement">Agreeing an Engagement</a></li>
+  <li><a href="#audit-risk-and-planning" id="toc-audit-risk-and-planning" class="nav-link" data-scroll-target="#audit-risk-and-planning">Audit Risk and Planning</a></li>
   </ul>
 </nav>
     </div>
@@ -180,7 +204,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Accounting</h1>
+<h1 class="title">Process of Assurance Engagements</h1>
 </div>
 
 
@@ -197,219 +221,52 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This section contains many pages on accounting. Use the left-side navigation bar to navigate to different pages with more information. Below, a brief introduction to accounting is provided.</p>
-<p><br></p>
-<section id="overview-of-accounting" class="level3">
-<h3 class="anchored" data-anchor-id="overview-of-accounting">Overview of Accounting</h3>
-<p>Businesses need to interact with other stakeholders.</p>
-<ul>
-<li>A business might need a loan from the bank. How does the bank know you will pay back the loan?</li>
-<li>A business might need to purchase supplies from a supplier. How does the supplier know they will get paid?</li>
-<li>An investor might want to invest in your company? How does the investor know how well your company is doing, and how it is compared to the competitors?</li>
-</ul>
-<div class="callout callout-style-simple callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Types of Businesses
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>There are three types of businesses in accounting.</p>
+<section id="agreeing-an-engagement" class="level3">
+<h3 class="anchored" data-anchor-id="agreeing-an-engagement">Agreeing an Engagement</h3>
+<p>Before an assurance engagement starts, a few things need to be done:</p>
 <ol type="1">
-<li><strong>Sole trader</strong>: a small business owned and managed by the same person. This person is legally responsible for all of the losses of the business. Sole trader firms are not as heavily regulated in terms of accounting.</li>
-<li><strong>Partnership</strong>: a business owned and managed by two or more people. For example, accountancy and law firms. Each partner is a sole trader for accounting purposes, and a partnership is a collection of sole traders acting together in a business. Thus, they are jointly liable for any losses the business makes.</li>
-<li><strong>Company</strong>: a company is not always owned by the managers of the business (directors), but instead, by shareholders who buy shared in the company and elect the directors to run the company. Companies have <em>limited liability</em>: the shareholders are not responsible for the losses of the company, and the company is a separate legal entity. Companies are more heavily regulated in terms of accounting standards.</li>
-</ol>
-</div>
-</div>
-</div>
-<p>Accounting is a set of standards to record business transactions, allowing comparisons between companies, and for stakeholders to make decisions. It is important the financial information has certain qualities:</p>
+<li>Obtaining the engagement: practitioners can advertise their services. The responsible party can tender: invite multiple practitioners to “apply” to be their practitioner for the engagement, and choosing based on price/approach/etc.
 <ul>
-<li><strong>Relevance</strong>: the financial information is relevant to the decisions that need to be made.</li>
-<li><strong>Faithful Representation</strong>: show what really happened with business transactions (accurate/truthful).</li>
-<li><strong>Comparable</strong>: financial information needs to be comparable to other businesses, or previous/future years.</li>
-<li><strong>Understandable</strong>: clear and easy to read.</li>
-<li><strong>Timely</strong>: up to date</li>
-<li><strong>Verifiable</strong>: checked by someone else, like an auditor.</li>
-</ul>
-<p><br></p>
-</section>
-<section id="financial-statments" class="level3">
-<h3 class="anchored" data-anchor-id="financial-statments">Financial Statments</h3>
-<p>The accounting process takes all of these different business transactions and tries to make them comparable/understandable/relevant by summarising information in 3 statements:</p>
-<ol type="1">
-<li>The <strong>statement of financial position</strong>, also called the <strong>balance sheet</strong>, states the assets, liabilities, and equity of the business at a given date (a snapshot in time).
-<ul>
-<li>Contains assets (what the firm owns), liabilities (what the firm owes to external sources), and equities (what the firm owes to owners/shareholders).</li>
+<li>Practitioners can obtain engagements through advertising/tendering. However, they must ensure these do not compromise their independence or integrity as required by ethical standards.</li>
 </ul></li>
-<li>The <strong>statement of profit or loss</strong>, also called the <strong>income statement</strong>, summarises the revenues and expenses during a period.
+<li>Accepting the engagement. A few things can influence this choice of acceptance:
 <ul>
-<li>Helps calculate the profitability of the company.</li>
+<li>If there is a previous auditor, the current practitioner must communicate with them, and determine if there are any reasons not to accept (like ethical concerns). Permission must be granted by the responsible party for this communication, but if this permission is denied, the audit is almost always refused by the practitioner.</li>
+<li>The practitioner needs to assess resources.</li>
+<li>Client due diligence: verifying the identity of the business the practitioner is accepting as a client, and ensure the business is legit and not money laundering.</li>
 </ul></li>
-<li>The <strong>cash flow statement</strong> shows the flows of cash in and out of the business to indicate how much cash the business has on hand to pay off obligations.</li>
-</ol>
-<p>The profit/loss from the statement of profit or loss makes its way into the statement of financial position through retained earnings. This makes these two statements connected.</p>
-<p><br></p>
-</section>
-<section id="assets-liabilities-equity" class="level3">
-<h3 class="anchored" data-anchor-id="assets-liabilities-equity">Assets, Liabilities, Equity</h3>
-<p>There are three types of accounts in the statement of financial position:</p>
-<ol type="1">
-<li><strong>Assets</strong>: these are things that the business <em>owns</em> or <em>controls</em>. These are split into non-current and current assets.
+<li>Agreeing to terms: this is done with an engagement letter, which is a contract between the practitioner and responsible party.
 <ul>
-<li>Non-current assets are assets a business has that it intends to use for more than one year (often several years) to help them earn profits without selling these assets. For example, land, buildings, machines, patents, vehicles, tools, equipment, and other assets are used by the company long-term to produce profit.</li>
-<li>Current assets are ones that are expected to be converted into cash within 12 months. These are usually things the business aims to sell in order to generate profits. The most notable assets are inventories, cash, and receivables.</li>
-</ul></li>
-<li><strong>Liabilities</strong>: liability is an amount owed by the business. These include loans, delayed payments, and bank overdrafts. Non-current liabilities are payments the firm needs to make in more than 1 year into the future, while current liabilities are liabilities that need to be paid soon.</li>
-<li><strong>Equity</strong> (capital): recall that the company and owner are separate legal entities. Thus, if the business puts money into a business, the business owes this money to the owner. Equity is what the firm owes to its owners/shareholders.
-<ul>
-<li><em>Opening capital</em> is the amount which the owners have invested in the business at the start of the year/start of the business.</li>
-<li><em>Capital injections</em> is the amount the owners have invested in the business during the year.</li>
-<li><em>Profits</em> are funds generated by the business. Profits are equity (well the part that is not put back/reinvested into the business).</li>
-<li><em>Drawings</em> are the amounts of funds taken out of the business by an owner.</li>
-</ul></li>
-</ol>
-<p>Equity can also be defined as how much the owners/shareholders would get if the company sold all its assets, and settled all its liabilities.</p>
-<div class="callout callout-style-simple callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Examples
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Below are more examples of assets, liabilities, and equity.</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td></td>
-<td><strong>Current</strong></td>
-<td><strong>Non-current</strong></td>
-</tr>
-<tr class="even">
-<td><strong>Assets</strong></td>
-<td>Inventory, cash, receivables.</td>
-<td>Land, buildings, plant and machinery, patents, motor vehicles, tools, fixtures and fittings, office equipment, computers, long-term investments, ships, works of art.</td>
-</tr>
-<tr class="odd">
-<td><strong>Liabilities</strong></td>
-<td>Trade payables, bank overdrafts.</td>
-<td>Long-term loans.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<p><br></p>
-</section>
-<section id="double-entry-accounting" class="level3">
-<h3 class="anchored" data-anchor-id="double-entry-accounting">Double Entry Accounting</h3>
-<p>The accounting equation is <strong>assets = liabilities + capital</strong>.</p>
-<ul>
-<li>Or alternatively, <strong>assets - liabilities = capital</strong>. We often call assets - liabilities <strong>net assets</strong>.</li>
-</ul>
-<p>This equation will always hold true for the business. Why? If the business owns something (asset), it must have gotten the money for it somewhere (liabilities or equity).</p>
-<p>This means for <strong>every transaction</strong> a business makes, there must be an equal change on both sides of this equation. If there is an inequality, this usually indicates some mistake in recording transactions.</p>
-<p>Alternatively, we use <strong>debits</strong> and <strong>credits</strong> to express this equation. Debits and credits represent changes in accounts (such as inventory, cash, etc.).</p>
-<p><img src="images/paste-2.png" class="img-fluid" style="width:60.0%"></p>
-<p>Debits and credits should be equal to each other for each transaction a firm makes.</p>
-<ul>
-<li>Ex. If the firm buys £10 of inventory (an asset) with cash (an asset), that means debit (increase) inventory by £10 and credit (decrease) cash by £10. Thus, debits and credits are equal.</li>
-<li>Ex. If Kevin starts his firm by injecting £1,000 into his firm, he credits (increases) equity by £1,000 and debits (increases) cash assets by £1,000. Once again, debits and credits are balanced.</li>
-</ul>
-<p><br></p>
-</section>
-<section id="limited-companies" class="level3">
-<h3 class="anchored" data-anchor-id="limited-companies">Limited Companies</h3>
-<p>A Limited Company is created when an individual or group incorporates a company as a separate legal identity to themselves. This means owners become shareholders in the company, and the company is a separate company. This is different than a sole trader who is responsible for the company.</p>
-<p>Incorporation changes a few things compared to sole traders in terms of legal requirements regarding accounting and financial statements.</p>
-<ul>
-<li>Companies are required to provide more details in their financial statements. This is because companies tend to have more shareholders, who have a financial interest in the company. This does not apply to sole traders, who themselves own the business.</li>
-<li>Sole traders legally only need to file accounts for tax purposes. Limited companies must maintain financial records and file them with authorities. In the UK, they must be filed annually with companies house.</li>
-<li>Public companies (who are traded on the stock market) must make financial statements publicly available for anyone to read.</li>
-<li>Companies need to prepare statements regarding changes in equity.</li>
-</ul>
-<p>Another terminology difference is capital/equity. Sole traders hold capital in their companies, while shareholders in a limited company hold equity.</p>
-<p>The actual financial statements may differ as well between sole traders and companies:</p>
-<ul>
-<li>In the income statement, companies report tax expenses, but sole traders do not report tax expenses. This is because for a sole trader, the company is not a separate legal entity, so the sole trader files their own tax return. As a result, limited companies will have a <u>profit before tax</u> and <u>net profit</u> on their statement.</li>
-<li>In the income statement expenses, limited companies must more clearly report expenses grouped by headings, such as “distribution costs”, “advertising costs”, or “administrative expenses” for example. Sole traders do not need to go into this detail.</li>
-</ul>
-<p><br></p>
-</section>
-<section id="accrual-accounting" class="level3">
-<h3 class="anchored" data-anchor-id="accrual-accounting">Accrual Accounting</h3>
-<p>In accounting, cash flow is not equal to profit/sales/expenses. For example, if a customer buys a product on credit (so without paying immediately), this sale is already counted in sales/expenses/COGS for the profit statement, even <strong>before the cash has arrived</strong>.</p>
-<p>This type of accounting applies to many different scenarios:</p>
-<ul>
-<li>For purchases on credit, the sale/COGS is recognised immediately, even when the cash has yet to leave.</li>
-<li>For pre-payments of expenses (like paying rent ahead of time), the expense is for a later period, but the cash has already left.</li>
-</ul>
-<p>When we record transactions in the income statement is called the <strong>accrual basis of accounting</strong>.</p>
-<ul>
-<li>We record profit/expenses for the specific time period in which the transaction occurred, not when the cash transfer occurred.</li>
-<li>Sales are recorded when they are earned, not when the money is actually received. For example, if the sale occurred in March but the cash was received in April, the sale (and COGS of the sale) go into the March accounts.</li>
-<li>Expenses are recorded when they are incurred, rather than when they are paid. For example, if rent for March is paid in April, the rent is considered a March expense.</li>
-</ul>
-<p>The income statement always uses the accrual basis of accounting.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> Thus, another statement, the cash flow statement, represents the cash flows in and out of a business, and connects the opening and closing cash balances from the balance sheet.</p>
-<p>This accrual form of accounting requires two expense accounts.</p>
-<ol type="1">
-<li><strong>Accruals</strong>: accruals are a current period expense, that will not be paid until the next period.
-<ul>
-<li>To complete the double entry in the current period, we would DR (increase) the electricity expense, and CR (increase) the electricity accrual (liability).</li>
-<li>To complete the double entry once paid later, we would DR (decrease) the electricity accrual (liability), and CR (decrease) the cash (asset).</li>
-</ul></li>
-<li><strong>Prepayments</strong>: prepayments are a future period expense, that have been paid during this period.
-<ul>
-<li>To complete the double entry in the payment period, we would DR (increase) the electricity prepayment (asset), and CR (decrease) cash (asset).</li>
-<li>To complete the double entry once the service has been delivered, we would CR (decrease) the electricity prepayment (asset), and DR (increase) the electricity expense.</li>
+<li>The engagement letter is required and regulated by standards such as ISA 210 for audits, or ISAE 3000 for other assurance engagements.</li>
+<li>The letter covers the objective and scope of the engagement, the responsibilities of the practitioner and responsible party, the reporting framework (what accounting standards), and the form and final contact of the final report.</li>
+<li>This will prevent miscommunication and disagreements later.</li>
 </ul></li>
 </ol>
 <p><br></p>
 </section>
-<section id="errors-and-controls" class="level2">
-<h2 class="anchored" data-anchor-id="errors-and-controls">Errors and Controls</h2>
-<p>There are 5 main types of errors:</p>
+<section id="audit-risk-and-planning" class="level3">
+<h3 class="anchored" data-anchor-id="audit-risk-and-planning">Audit Risk and Planning</h3>
+<p>Assurance engagements, like audits, give confidence that information is accurate and free from material statement. However, no system is perfect, and errors/fraud can still be present even if undetected. Audit is thus about managing these risks of potential errors and fraud. There are 2 types of risks:</p>
 <ol type="1">
-<li><strong>Errors of omission</strong>: forgetting to include a transaction in the accounts.</li>
-<li><strong>Transposition errors</strong>: when an accountant accidentally swaps the positions of digits in an entry. For example, instead of £3,850, they record it as £3,580.</li>
-<li><strong>Errors of principle</strong>: when an accountant records a transaction that breaks the rules/standards of accounting.</li>
-<li><strong>Errors of commission</strong>: when an accountant records a transaction in the correct large account but wrong sub-account. For example, they correctly choose asset/liability/equity, but put it in the wrong account. The most common is recording one expense as another.</li>
-<li><strong>Compensating errors</strong>: when two are more errors offset each other, resulting in a correct balance for all accounts, but the individual errors are still there.</li>
+<li><strong>Business risk</strong>: risk that events or conditions will prevent a firm from achieving its objectives. These can include economics, competitors, or new regulations. Business risks can affect the financial statements. For example, it may incentives management to lie about something (like profit, expenses) if there is financial or operational risk. Fast growing companies can also risk not having well developed controls to prevent errors and fraud.
+<ul>
+<li>Financial risk: cash flow problems or difficulties rasing finance.</li>
+<li>Operational risk: losing a key supplier or production failures.</li>
+<li>Compliance risk: failing to follow laws or regulations which leads to fines or reputations damages.</li>
+</ul></li>
+<li><strong>Audit Risks</strong>: business risks that impact the financial statements/audit process are audit risks. Audit risk is the risk that the audit conclusion is incorrect (in other words, the auditor fails to detect material mistatements). Audit risk is from the auditor’s perspective. Generally, an auditor wants this risk to be minimal when issuing a reasonable assurance conclusion. Audit risk (AR) has parts: <span class="math inline">\(AR=IR\times CR \times DR\)</span>:
+<ul>
+<li>IR (Inherent Risk): the risk of a material misstatement occurring in the financial statements, due to business risks (nature of business), before considering any controls/processes to prevent these risks. Basically, the risk of an erroneous or fraudulent financial statement entries without considering controls.</li>
+<li>CR (Control Risk): the risk that a material misstatement is not prevented or detected by the firm’s internal controls.</li>
+<li>DR (Detection Risk): the risk the auditor’s procedures will fail to detect any material misstatements. This is managed by the auditor, and is dependent on the nature of the audit plan, the timing of the audit and procedures, and extent of audit procedures. This cannot be reduced to 0, since the auditor cannot check every single transaction of the firm.</li>
+</ul></li>
 </ol>
-<p>To correct errors, we should take a few steps.</p>
-<ol type="1">
-<li>Identify the incorrect entry. Note the values included in this incorrect entry.</li>
-<li>Decide what the correct entry should be. Note the values included in this correct entry.</li>
-<li>Compare the result of the first two steps, and create a journal entry to fix the error. This journal entry should correct the account balances from the incorrect entry to the correct entry. We do not withdraw the old entry, just a new entry to correct the difference.</li>
-</ol>
-<p><strong>Suspense accounts</strong> are a way to avoid errors in the first place. Sometimes, you know one account for the entry debits/credits, but you are not sure about another. Thus, instead of putting the unknown side of the transaction into a wrong account, you can put it into a temporary account called a suspense account. Later, you can correctly record the transaction.</p>
+<p>If the inherent and control risk is high, the number of transactions and extent of audit procedures can be increased to reduce the chance of detection risk (and chance of audit risk). This is usually determined in the planning stage of an audit.</p>
 
 
 </section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>In the UK, only small self-employed businesses or partnerships with revenue less than £150,000 can use cash-flow accounting.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

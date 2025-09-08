@@ -1,79 +1,221 @@
 ---
-title: "Assurance and Risk"
+title: "Assurance Basics"
 ---
 
 This section contains many pages on assurance and risk. Use the left-side navigation bar to navigate to different pages with more information. Below, a brief introduction to assurance is provided.
 
 <br />
 
-### Assurance and Materiality
+------------------------------------------------------------------------
 
-In business, assurance is when an independent professional (accountant) examines financial statements or sustainability reports, to assure investors and stakeholders of the "quality"/state of the firm.
+# **Introduction to Assurance**
 
-Assurance provides an independent professional opinion, increases confidence of users of information, can deter fraud, and highlight any problems or weaknesses in the information. Any assurance engagement consists of 3 parties:
+### Elements of Assurance
 
-1.  The **responsible party**: the management that prepares the original information
-2.  The **practitioner**: usually an auditor/accountant who checks the information
-3.  The **users**: people who rely on the information to make decisions/choices.
+Assurance is when an independent professional (auditor) examines financial statements or sustainability reports, to assure investors and stakeholders of the "quality"/state of the firm. This assurance given by the independent professional assures investors and stakeholders of the accuracy of the information, allowing them to make choices.
 
-At the end of a assurance engagement, a final written report is produced. The report is addressed to the responsible party, and contains the the scope of work performed, the criteria used (such as accounting standards), and the assurance provider's opinion and conclusion, such as reasonable assurance or limited assurance.
+There are three parties in any assurance engagement:
 
-1.  **Reasonable Assurance**: the practitioner gathers enough opinion to give a positive opinion supporting the information the responsible party has compiled. "In our opinion, the financial statements give a true and fair view".
-2.  **Limited Assurance**: the practitioner gathers less evidence. "Nothing has come to our attention that causes us to believe the information is materially misstated". Better than no assurance, but not at the level of reasonable assurance.
+1.  **Practitioner**: the auditor or independent professional.
+2.  **Responsible Party**: the firm/company that is being audited. Typically, we focus on the directors of this firm/company.
+3.  **Intended User**: typically stakeholders such as shareholders, investors, banks, or anyone needing to know details about a firm's financial performance.
+
+Assurance can take many different forms:
+
+-   **Statutory Audit**: the auditing of financial statements, governed by accounting standards and reporting regulations.
+-   **Sustainability Assurance**: the auditing of a firm's sustainability figures and reports.
+-   Other assurance engagements, such as due diligence before performing transactions, internal controls assessment, fraud investigations.
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Benefits and Limitations of Assurance
+
+Benefits:
+
+-   Independent scrutiny of the business by experts, which adds credibility to the firm's financial statements.
+-   Can help deter the appeal of fraud for those in the firm.
+-   Draws attention to issues, such as ethical issues or weaknesses of internal controls.
+-   Reduces risk of management bias.
+
+Limitations:
+
+-   Assurance does not provide 100% assurance for accuracy, since you cannot possibly test and check every transaction made by a firm (especially large firms).
+-   Cannot solve potential issues of collusion fraud between auditors and companies.
+-   Financial information often includes subjective matters, such as depreciation and provision for doubtful debts.
+-   May rely on some sub-optimal evidence, such as management representations.
+:::
 
 <br />
 
-### Materiality
+### Levels of Assurance
 
-**Materiality** is the fundamental concept in assurance. It is the threshold of inaccuracy which surpassed, could influence users decisions.
+Usually, when considering the accuracy of financial statements, auditors are concerned with **materiality**.
 
-> An item is material if its omission or misstatement could influence the economic decisions of users of the report.
+> An mistake is material if its omission or misstatement could influence the economic decisions of users of the report.
 
-For example, for a \$10 billion net profit business, a \$1 mistatement is not substantial enough to influence the economic decisions of users of the report, so it is not material. However, a \$1 billion mistatement could quite substantially change how users use the report.
+::: {.callout-note collapse="true" appearance="simple"}
+## Materiality, Error, and Fraud
 
-Setting materiality thresholds ensures the assurance provide focuses on what matters most, making the engagement efficient and effective. Materiality is usually set as the percentage of a key figure, such as profit or revnue. Ex. 5% of profit before tax, or 1-2% of total revenue.
-
-Assurance cannot be absolute: the practitioner cannot test every element/transaction, there may be judgment involved, and there may be limitations in the information available. There is always a small chance that material fraud or errors remain undiscovered.
-
+-   For example, for a \$10 billion net profit business, a \$1 mistatement is not substantial enough to influence the economic decisions of users of the report, so it is not material. However, a \$1 billion mistatement could quite substantially change how users use the report.
+-   The threshold of materiality is often set at some percentage of net income before tax (ex. 5%) or revenue (1-2%).
 -   There is also a distinction between **Error** and **Fraud**. Error is considered a genuine mistake of the responsible party. Fraud is [intentional]{.underline}: someone deliberately provides false information to mislead users.
+:::
+
+At the end of an engagement, the auditor needs to write an **opinion** on the level of assurance they can assure regarding the accuracy of the financial statements. There are two **levels of assurance**.
+
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| Reasonable Assurance                                                  | Limited Assurance                                                                                                  |
++=======================================================================+====================================================================================================================+
+| High level of assurance of accuracy, but not absolute.                | Moderate/low level of assurance of accuracy.                                                                       |
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| Conclusion expressed positively.                                      | Conclusion expressed negatively.                                                                                   |
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| > In our opinion, the financial statements show a true and fair view. | > Nothing has come to our attention that causes us to believe that the financial information is not true and fair. |
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| Used in statutory audits.                                             | Used in all other engagements.                                                                                     |
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered tbl-colwidths="\[50,50\]"}
+
+::: {.callout-note collapse="true" appearance="simple"}
+## The Expectations Gap
+
+Users and the public often misinterpret audit opinions to mean other things. This "expectation" of the public contrasting with what audit opinions actually claim is called the expectations gap.
+
++------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Public                                                                                                     | Reality                                                                                                                                                                                                        |
++============================================================================================================+================================================================================================================================================================================================================+
+| The public often thinks the auditor detects all fraud and error.                                           | This is not true, the auditor only provides reasonable assurance, not absolute assurance.                                                                                                                      |
++------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| The public often thinks auditors test 100% of transactions.                                                | This is not true, most audits sample transactions to test.                                                                                                                                                     |
++------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| The public often thinks auditors guarantee the accuracy of financial statements.                           | This is not true, the auditor only provides reasonable assurance, not absolute assurance.                                                                                                                      |
++------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| The public often thinks auditors guarantee the company will continue to survive for the forseeable future. | This is not true, the auditor only provides an opinion of the accuracy of financial statements. The financial statements themselves can paint a good or bad picture, the auditor only cares if it is accurate. |
++------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| The public often thinks the balance sheet shows the true value of the company.                             | This is not true, valuation is done by separate teams.                                                                                                                                                         |
++------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered tbl-colwidths="\[50,50\]"}
+:::
 
 <br />
 
-### Agreeing an Engagement
+### Legal Requirements
 
-Before an assurance engagement starts, a few things need to be done:
+In the UK, all companies are required to legally undergo a statutory audit of their financial statements every year, *unless* they meet a set of exemption criteria. This requirement and the exemptions are set by the **Companies Act 2006**.
 
-1.  Obtaining the engagement: practitioners can advertise their services. The responsible party can tender: invite multiple practitioners to "apply" to be their practitioner for the engagement, and choosing based on price/approach/etc.
-    -   Practitioners can obtain engagements through advertising/tendering. However, they must ensure these do not compromise their independence or integrity as required by ethical standards.
-2.  Accepting the engagement. A few things can influence this choice of acceptance:
-    -   If there is a previous auditor, the current practitioner must communicate with them, and determine if there are any reasons not to accept (like ethical concerns). Permission must be granted by the responsible party for this communication, but if this permission is denied, the audit is almost always refused by the practitioner.
-    -   The practitioner needs to assess resources.
-    -   Client due diligence: verifying the identity of the business the practitioner is accepting as a client, and ensure the business is legit and not money laundering.
-3.  Agreeing to terms: this is done with an engagement letter, which is a contract between the practitioner and responsible party.
-    -   The engagement letter is required and regulated by standards such as ISA 210 for audits, or ISAE 3000 for other assurance engagements.
-    -   The letter covers the objective and scope of the engagement, the responsibilities of the practitioner and responsible party, the reporting framework (what accounting standards), and the form and final contact of the final report.
-    -   This will prevent miscommunication and disagreements later.
+To qualify for an exemption, a firm must **not** be an insurance, banking, or listed company. In addition, they must also meet two of the following exemption critera below:
 
-<br />
+-   Firms that are in banking, insurance, or listed on a stock market **must** always undergo a statutory audit, even if they meet the criteria above.
 
-### Audit Risk and Planning
++----------------------------------------+----------------------------------------+
+| Exemption After 6 April 2025 (2/3)     | Exemption After 1 January 2016 (2/3)   |
++========================================+========================================+
+| **Less** than 50 employees on average. | **Less** than 50 employees on average. |
++----------------------------------------+----------------------------------------+
+| **Less** than £7.5m in total assets.   | **Less** than £5.1m in total assets.   |
++----------------------------------------+----------------------------------------+
+| **Less** than £15m in turnover.        | **Less** than £10.2m in turnover.      |
++----------------------------------------+----------------------------------------+
 
-Assurance engagements, like audits, give confidence that information is accurate and free from material statement. However, no system is perfect, and errors/fraud can still be present even if undetected. Audit is thus about managing these risks of potential errors and fraud. There are 2 types of risks:
-
-1.  **Business risk**: risk that events or conditions will prevent a firm from achieving its objectives. These can include economics, competitors, or new regulations. Business risks can affect the financial statements. For example, it may incentives management to lie about something (like profit, expenses) if there is financial or operational risk. Fast growing companies can also risk not having well developed controls to prevent errors and fraud.
-    -   Financial risk: cash flow problems or difficulties rasing finance.
-    -   Operational risk: losing a key supplier or production failures.
-    -   Compliance risk: failing to follow laws or regulations which leads to fines or reputations damages.
-2.  **Audit Risks**: business risks that impact the financial statements/audit process are audit risks. Audit risk is the risk that the audit conclusion is incorrect (in other words, the auditor fails to detect material mistatements). Audit risk is from the auditor's perspective. Generally, an auditor wants this risk to be minimal when issuing a reasonable assurance conclusion. Audit risk (AR) has parts: $AR=IR\times CR \times DR$:
-    -   IR (Inherent Risk): the risk of a material misstatement occurring in the financial statements, due to business risks (nature of business), before considering any controls/processes to prevent these risks. Basically, the risk of an erroneous or fraudulent financial statement entries without considering controls.
-    -   CR (Control Risk): the risk that a material misstatement is not prevented or detected by the firm's internal controls.
-    -   DR (Detection Risk): the risk the auditor's procedures will fail to detect any material misstatements. This is managed by the auditor, and is dependent on the nature of the audit plan, the timing of the audit and procedures, and extent of audit procedures. This cannot be reduced to 0, since the auditor cannot check every single transaction of the firm.
-
-If the inherent and control risk is high, the number of transactions and extent of audit procedures can be increased to reduce the chance of detection risk (and chance of audit risk). This is usually determined in the planning stage of an audit.
+: {.bordered tbl-colwidths="\[50,50\]"}
 
 <br />
 
-### Regulation
+### Sustainability Assurance
+
+Sustainability is about meeting he needs of the present, without compromising the future from meeting their own needs. Sustainability consists of environmental, social, and governance (ESG) considerations.
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Environmental, Social, and Governance (ESG)
+
++---------------------------------------------------------+----------------------------------------------------------------------------+-------------------------------------+
+| Environmental                                           | Social                                                                     | Governance                          |
++=========================================================+============================================================================+=====================================+
+| About the planet. For example, emissions and pollution. | About the people. Diversity, inclusion, worker health, mental health, etc. | About company practices and ethics. |
++---------------------------------------------------------+----------------------------------------------------------------------------+-------------------------------------+
+
+: {.bordered tbl-colwidths="\[33,34,33\]"}
+:::
+
+Because of growing demand from users for information regarding sustainability, assurance is needed to ensure that the reported sustainability metrics of a firm are accurate.
+
+Currently, sustainability assurance and reporting is still a developing field, but several regulations already exist.
+
+::: panel-tabset
+## IFRS ISSB
+
+IFRS sustainability and disclosure standards are issued by the International Susstainability and Standards Board (ISSB). Their 4 key objectives are:
+
+1.  Develop standards for a global baseline of sustainability disclosures.
+2.  Meet the information needs of investors.
+3.  Enable companies to provide sustainability information to global capital markets.
+4.  To facilitate interoperability with disclosures that are jurisdiction-specific, as well as aimed at broader stakeholder groups.
+
+They consist of two standards:
+
+1.  **IFRS S1**: General requirements for disclosure of sustainability-related financial information.
+2.  **IFRS S2**: Climate-related disclosures.
+
+Note: ISSB do not have power to enforce these standards, and they are not legally required for companies (except in Brazil).
+
+## Companies Act 2006 (UK)
+
+The strategic report within the Capanies Act includes some mandatory sustainability reporting requirements.
+
+-   Reporting of the principal risks and uncertainties facing the company, including sustainability risks.
+-   Information about environmental, social, and community matters, employees, respect for human rights, anti-corruption, and anti-bribery matters.
+-   Information about gender diversity within the company.
+-   Climate related financial disclosures, such as management of climate-adjacent risks and opportunities.
+
+These are required reporting for firms in the UK.
+
+## TCFD (UK)
+
+The TCFD (Task force on climate-related financial disclosures) is a set of recommendations issued in 2017, recommending the reporting of:
+
+1.  Governance
+2.  Risk Management
+3.  Strategy
+4.  Metrics and Targets.
+
+In the UK, the TCFD recommendations are mandatory for listed companies. This is not the case in all countries.
+
+IFRS S2 reporting standards are based on these TCFD recommendations.
+
+## CSRD (EU)
+
+The European Union's Corporate Sustainability Reporting Directive (CSRD) came into effect in 2023. It requires the following:
+
+-   Disclosure about a company's sustainibility related impacts, risks, and opportunities.
+-   Disclosures to be reported in the annual report of a company.
+-   Requires companies to seek assurance over their sustainability disclosures.
+
+All companies that have securities listed on an EU stock market **must** follow these directives. Any EU companies that are large (more than 250 employees, 50 million euro revenue) that are not listed must also follow the directives.
+
+-   Non-EU companies which generate more than 150 million in the EU that also have a EU listed subsidiary must also follow the directives. But this only comes into affect in 2028.
+
+## Assurance
+
+The *international standard on sustainability assurance **(ISSA) 5000** general requirements for sustainability assurance engagements* was released in 2024. It provides a framework for how sustainability assurance is to take place.
+
+The objectives of the ISSA 5000:
+
+-   The obtain reasonable assurance or limited assurance about whether the sustainability is free from material mistatement.
+-   To express a conclusion on the sustainability information through a written report that conveys a audit conclusion, and describes the basis for the conclusion.
+
+The EU CSRD also has guidelines on how to obtain limited assurance for sustainability based on the **European Sustainability Reporting Standards (ESRS)**, and also provides a provision to move towards reasonable assurance.
+:::
+
+<br />
+
+<br />
+
+------------------------------------------------------------------------
+
+# **Professional Ethics**
+
+### Ethical Codes
 
 Regulatory bodies set the rules for auditors and the auditing process. There are a few main regulatory bodies in the UK:
 
@@ -84,12 +226,12 @@ Regulatory bodies set the rules for auditors and the auditing process. There are
 
 The ethical codes that these bodies set can be divided into two types:
 
--   Rule-based codes: set out specific, detailed requirements, like a checklist of what is and isn't allowed. Ex. no gifts over £30.
--   Principle-based codes: focus on broad principles that guide behaviour for a wide range of professional situations. They focus more on professional judgment rather than spelling out rules for every possible scenario. Ex. no gifts that could impair your objectivity (no specific max value). This is used by the ICAEW and IESBA, since they are more flexible and adaptable to new situations.
+-   **Rule-based codes**: set out specific, detailed requirements, like a checklist of what is and isn't allowed. Ex. no gifts over £30.
+-   **Principle-based codes**: focus on broad principles that guide behaviour for a wide range of professional situations. They focus more on professional judgment rather than spelling out rules for every possible scenario. Ex. no gifts that could impair your objectivity (no specific max value). This is used by the ICAEW and IESBA, since they are more flexible and adaptable to new situations.
 
 <br />
 
-### Ethical Standards
+### Ethical Principles
 
 ICAEW's ethics code is mostly principle-based, but also has some specific rule-based codes for specific things. There are 5 fundamental ethical principles for ICAEW:
 
@@ -99,7 +241,48 @@ ICAEW's ethics code is mostly principle-based, but also has some specific rule-b
 4.  **Confidentiality**: respect confidentiality of information, do not disclose without proper authority.
 5.  **Professional Behaviour**: comply with rules and regulations, avoid conduct that would discredit the occupation.
 
-**Independence** is key to objectivity. [Independence of mind]{.underline} is the ability to make decisions free from bias or influence. [Independence in appearance]{.underline} is avoiding situations that may make a third party doubt your impartiality, even if you are already not biased. There are several common threats to ethical behaviour:
+**Independence** is key to objectivity. [Independence of mind]{.underline} is the ability to make decisions free from bias or influence. [Independence in appearance]{.underline} is avoiding situations that may make a third party doubt your impartiality, even if you are already not biased.
+
+::: {.callout-note collapse="true" appearance="simple"}
+## More on Independence
+
+Independence is not necessarily threatened if auditors use the client's services, **given** the prices/services the auditors are using are also available to the public.
+
+-   Ex. Auditors can have mortgages with a bank they are auditing, as long as those mortgages and rates are publicly available, and the mortgage was obtained prior to the engagement.
+-   However, if the bank, after learning of the auditor's appointment, provides favourable mortgages to the auditors and only the auditors, then it is a conflict of interest.
+:::
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Types of Biases
+
++----------------------+--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| Bias                 | Description                                                                                | Example                                                                                                                                      |
++======================+============================================================================================+==============================================================================================================================================+
+| Anchoring Bias       | Tendency to use an initial piece of information, which subsequent information is assessed. | Say an item was \$50, but now is on sale for \$30. \$30 might still be an overpay, but in the context of the original price, it seems cheap. |
++----------------------+--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| Automation Bias      | Tendency to blindly trust output generated from automated systems.                         | Blindly trusting the output from accounting software.                                                                                        |
++----------------------+--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| Availability Bias    | Putting more weight on experiences that easily come to mind.                               | We tend to think of plane crash news stories far more than the millions who have safe plane journeys.                                        |
++----------------------+--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| Confirmation Bias    | Disregarding information that does not fit our existing beliefs.                           | Common in politics.                                                                                                                          |
++----------------------+--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| Groupthink           | Tendency for groups to reach a conclusion without critical reasoning.                      | Social media like Reddit.                                                                                                                    |
++----------------------+--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| Overconfidence Bias  | Overestimating one's own abilities.                                                        | If you are experienced, you might not check your work as carefully and assume it is correct.                                                 |
++----------------------+--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| Representation Bias  | Assuming the interactions/experiences you have are representative of all people.           |                                                                                                                                              |
++----------------------+--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| Selective Perception | Expectations influencing personal views.                                                   | If you expect something to be bad, you are more likely to look for the bad parts.                                                            |
++----------------------+--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered tbl-colwidths="\[20,35,45\]"}
+:::
+
+<br />
+
+### Threats to Ethics
+
+There are several common threats to ethical behaviour:
 
 -   **Self-Interest Threat**: When you have a financial or personal interest that may affect your judgment/bias. Ex. owning shares in a company you are auditing.
 -   **Self-Review Threat**: When you are in the position of reviewing your own work, or work by your team, previously did. Ex. auditing financial statements that you yourself produced.
@@ -112,15 +295,8 @@ These threats can be alleviated by profession-wide safeguards, such as training 
 
 <br />
 
-### Sustainability Assurance
+### Safeguards to Ethics
 
-Increasingly, stakeholders want to know how firms are managing their impact on the environment and society. Sustainability reporting discloses an organisation's environmental activities, social activities, and governance activities. This can include carbon emissions, treatment of employees, and business ethics.
+<br />
 
-The ISSB (international sustainability standards board) regulates sustainability reporting to make sure it is comparable, consistent, and useful for stakeholders. These standards include:
-
--   IFRS S1: General requirements for disclosure of sustainability-related financial information. It requires companies to disclose information about sustainability risks and opportunities that may affect the companies prospects. This includes governance, strategy, risk management, metrics, and targets.
--   IFRS S2: climate related disclosures. It requires firms to report on risks about greenhouse gas emissions and financial impacts of climate change.
-
-Sustainability reporting has become important because stakeholders (users, investors) are interested in how companies are affected by and affecting sustainability issues, such as social responsibility, climate change, or resource limitations. These can reveal potential issues, such as supply chain vulnerabilities due to climate change.
-
-Sustainability Assurance involves an auditor reviewing the information reported in sustainability assurance. This increases the user's confidence that the reporting by the firm is accurate, and can help manage risk. In some places, like the EU, this is a legal requirement. ISSA 5000 is a regulatory code for audit assurance regarding sustainability.
+### Data Protection Regulations

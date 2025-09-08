@@ -34,7 +34,9 @@ website:
       style: "docked"
       contents:
         - href: assurance/assurance.qmd
-          text: Overview
+          text: Assurance Basics
+        - href: assurance/process.qmd
+          text: Assurance Process
         - href: assurance/controls.qmd
           text: Internal Controls
         - href: assurance/audit.qmd
@@ -44,10 +46,11 @@ website:
 format:
   html:
     theme: cosmo
-    fontsize: 12.5pt
+    fontsize: 12pt
     css: styles.css
     highlight-style: arrow
     toc: true
+    toc-expand: true
     grid:
       sidebar-width: 230px
       body-width: 850px

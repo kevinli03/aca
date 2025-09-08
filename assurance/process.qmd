@@ -1,0 +1,35 @@
+---
+title: "Process of Assurance Engagements"
+---
+
+### Agreeing an Engagement
+
+Before an assurance engagement starts, a few things need to be done:
+
+1.  Obtaining the engagement: practitioners can advertise their services. The responsible party can tender: invite multiple practitioners to "apply" to be their practitioner for the engagement, and choosing based on price/approach/etc.
+    -   Practitioners can obtain engagements through advertising/tendering. However, they must ensure these do not compromise their independence or integrity as required by ethical standards.
+2.  Accepting the engagement. A few things can influence this choice of acceptance:
+    -   If there is a previous auditor, the current practitioner must communicate with them, and determine if there are any reasons not to accept (like ethical concerns). Permission must be granted by the responsible party for this communication, but if this permission is denied, the audit is almost always refused by the practitioner.
+    -   The practitioner needs to assess resources.
+    -   Client due diligence: verifying the identity of the business the practitioner is accepting as a client, and ensure the business is legit and not money laundering.
+3.  Agreeing to terms: this is done with an engagement letter, which is a contract between the practitioner and responsible party.
+    -   The engagement letter is required and regulated by standards such as ISA 210 for audits, or ISAE 3000 for other assurance engagements.
+    -   The letter covers the objective and scope of the engagement, the responsibilities of the practitioner and responsible party, the reporting framework (what accounting standards), and the form and final contact of the final report.
+    -   This will prevent miscommunication and disagreements later.
+
+<br />
+
+### Audit Risk and Planning
+
+Assurance engagements, like audits, give confidence that information is accurate and free from material statement. However, no system is perfect, and errors/fraud can still be present even if undetected. Audit is thus about managing these risks of potential errors and fraud. There are 2 types of risks:
+
+1.  **Business risk**: risk that events or conditions will prevent a firm from achieving its objectives. These can include economics, competitors, or new regulations. Business risks can affect the financial statements. For example, it may incentives management to lie about something (like profit, expenses) if there is financial or operational risk. Fast growing companies can also risk not having well developed controls to prevent errors and fraud.
+    -   Financial risk: cash flow problems or difficulties rasing finance.
+    -   Operational risk: losing a key supplier or production failures.
+    -   Compliance risk: failing to follow laws or regulations which leads to fines or reputations damages.
+2.  **Audit Risks**: business risks that impact the financial statements/audit process are audit risks. Audit risk is the risk that the audit conclusion is incorrect (in other words, the auditor fails to detect material mistatements). Audit risk is from the auditor's perspective. Generally, an auditor wants this risk to be minimal when issuing a reasonable assurance conclusion. Audit risk (AR) has parts: $AR=IR\times CR \times DR$:
+    -   IR (Inherent Risk): the risk of a material misstatement occurring in the financial statements, due to business risks (nature of business), before considering any controls/processes to prevent these risks. Basically, the risk of an erroneous or fraudulent financial statement entries without considering controls.
+    -   CR (Control Risk): the risk that a material misstatement is not prevented or detected by the firm's internal controls.
+    -   DR (Detection Risk): the risk the auditor's procedures will fail to detect any material misstatements. This is managed by the auditor, and is dependent on the nature of the audit plan, the timing of the audit and procedures, and extent of audit procedures. This cannot be reduced to 0, since the auditor cannot check every single transaction of the firm.
+
+If the inherent and control risk is high, the number of transactions and extent of audit procedures can be increased to reduce the chance of detection risk (and chance of audit risk). This is usually determined in the planning stage of an audit.
