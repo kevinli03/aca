@@ -2,34 +2,246 @@
 title: "Process of Assurance Engagements"
 ---
 
-### Agreeing an Engagement
-
-Before an assurance engagement starts, a few things need to be done:
-
-1.  Obtaining the engagement: practitioners can advertise their services. The responsible party can tender: invite multiple practitioners to "apply" to be their practitioner for the engagement, and choosing based on price/approach/etc.
-    -   Practitioners can obtain engagements through advertising/tendering. However, they must ensure these do not compromise their independence or integrity as required by ethical standards.
-2.  Accepting the engagement. A few things can influence this choice of acceptance:
-    -   If there is a previous auditor, the current practitioner must communicate with them, and determine if there are any reasons not to accept (like ethical concerns). Permission must be granted by the responsible party for this communication, but if this permission is denied, the audit is almost always refused by the practitioner.
-    -   The practitioner needs to assess resources.
-    -   Client due diligence: verifying the identity of the business the practitioner is accepting as a client, and ensure the business is legit and not money laundering.
-3.  Agreeing to terms: this is done with an engagement letter, which is a contract between the practitioner and responsible party.
-    -   The engagement letter is required and regulated by standards such as ISA 210 for audits, or ISAE 3000 for other assurance engagements.
-    -   The letter covers the objective and scope of the engagement, the responsibilities of the practitioner and responsible party, the reporting framework (what accounting standards), and the form and final contact of the final report.
-    -   This will prevent miscommunication and disagreements later.
+This page covers the general process of assurance and audit engagements, starting from planning, to concluding. The content in this section is a part of the **Accounting and Risk Fundamentals** (certificate level) for the ACA qualification.
 
 <br />
 
-### Audit Risk and Planning
+------------------------------------------------------------------------
 
-Assurance engagements, like audits, give confidence that information is accurate and free from material statement. However, no system is perfect, and errors/fraud can still be present even if undetected. Audit is thus about managing these risks of potential errors and fraud. There are 2 types of risks:
+# **Audit Planning**
 
-1.  **Business risk**: risk that events or conditions will prevent a firm from achieving its objectives. These can include economics, competitors, or new regulations. Business risks can affect the financial statements. For example, it may incentives management to lie about something (like profit, expenses) if there is financial or operational risk. Fast growing companies can also risk not having well developed controls to prevent errors and fraud.
-    -   Financial risk: cash flow problems or difficulties rasing finance.
-    -   Operational risk: losing a key supplier or production failures.
-    -   Compliance risk: failing to follow laws or regulations which leads to fines or reputations damages.
-2.  **Audit Risks**: business risks that impact the financial statements/audit process are audit risks. Audit risk is the risk that the audit conclusion is incorrect (in other words, the auditor fails to detect material mistatements). Audit risk is from the auditor's perspective. Generally, an auditor wants this risk to be minimal when issuing a reasonable assurance conclusion. Audit risk (AR) has parts: $AR=IR\times CR \times DR$:
-    -   IR (Inherent Risk): the risk of a material misstatement occurring in the financial statements, due to business risks (nature of business), before considering any controls/processes to prevent these risks. Basically, the risk of an erroneous or fraudulent financial statement entries without considering controls.
-    -   CR (Control Risk): the risk that a material misstatement is not prevented or detected by the firm's internal controls.
-    -   DR (Detection Risk): the risk the auditor's procedures will fail to detect any material misstatements. This is managed by the auditor, and is dependent on the nature of the audit plan, the timing of the audit and procedures, and extent of audit procedures. This cannot be reduced to 0, since the auditor cannot check every single transaction of the firm.
+### Planning Process
 
-If the inherent and control risk is high, the number of transactions and extent of audit procedures can be increased to reduce the chance of detection risk (and chance of audit risk). This is usually determined in the planning stage of an audit.
+Before starting an accepted engagement, there needs to be a plan. This helps preparing the neccesary resources (funding, team size, timeline) of the audit, as well as what areas are potentially higher risk for fraud/error.
+
+There are two documents that are needed to plan an audit engagement.
+
+1.  **Audit strategy**: Determines the scope, timing, and direction of the audit, and shapes the audit plan.
+2.  **Audit plan**: More detailed, shows how the overall strategy will be implemented.
+
+::: panel-tabset
+## Audit Strategy
+
+The key components of the audit strategy are:
+
+1.  Understanding the client, and its environment.
+2.  Materality threshold. What is considered material?
+3.  Risk assessment. What are the risky areas for potential material misstatement?
+4.  Nature, extent, and timing of audit procedures.
+5.  Direction of the audit, who is supervising, and generally how review of the audit work will be undertaken.
+
+## Audit Plan
+
+The audit plan ensures the following:
+
+1.  Attention (in-depth planning) is paid to the most important areas (high risk areas).
+2.  Potential problems/risks are identified early.
+3.  The audit is properly organised and managed.
+4.  Work is assigned to the appropriate member of the audit team, and team members receive direction and supervision of team members.
+5.  Reviews by more senior auditors are planned and facilitated.
+:::
+
+<br />
+
+### Understanding the Client
+
+ISA (UK) 315 requires auditors to gain an understanding of the client. This is because [it is necessary to understand what areas have higher risk of fraud/error, in order to design an effective audit strategy and plan.]{.mark}
+
+Specifically, auditors should understand:
+
+-   The industry and regulatory environment of the client, which can help identify risks.
+-   Nature of the client, including the client's selection and application of accounting policies.
+-   Objectives and strategy of the client, and related business risks, which may affect the risk of material misstatement.
+-   Measurement and review of the client's financial performance. This could indicate pressure on directors to commit fraud.
+-   The strength and effectiveness of internal controls at preventing errors/fraud. If these are weak, the risk of material misstatement is higher.
+
+Auditors also need to understand the client's financial reporting framework, and its accounting policies.
+
+::: panel-tabset
+## Financial Reporting Framework
+
+-   What are the accounting principles and industry-specific accounting principles.
+-   Reporting of revenue recognition.
+-   Accounting for financial instruments.
+-   Reporting of foreign currency assets, liabilities, and transactions.
+-   Accounting principles for unusual or complex transactions.
+
+## Accounting Policies
+
+-   What are the methods used to recognise, measure, and disclose significant and unusual transactions? For example, foreign transactions.
+-   How do they use accounting policies in controversial or emerging areas, where there is a lack of regulation, guidance, or consensus?
+-   How do they deal with changes in the environment that may require a change in accounting policies.
+-   What financial reporting standards, laws, and regulations that are new to the client.
+:::
+
+To get this information, auditors can ask the client's management, conduct analytical procedures, observe processes, and inspect documents and assets.
+
+<br />
+
+### Audit Risk
+
+Auditors do not want to give a wrong opinion, since shareholders/users depend on the auditor's opinion. Thus, auditors want to lower the audit risk of an incorrect opinion, such as failing to detect fraud/errors.
+
+The risk of an audit (audit risk) is calculated as follows:
+
+> **Audit Risk** $=$ **Inherent Risk** $\times$ **Control Risk** $\times$ **Detection Risk**
+
+::: panel-tabset
+## Inherent Risk
+
+-   The client's risk of error/fraud, which cannot be controlled by auditors. This is usually related to the business/industry/regulatory environment.
+-   For example, if the management is under pressure, there is an inherent risk of fraud due to this pressure.
+-   If certain items/transactions are new, complex, one-off, or subjective, they are high risk.
+
+Pg. 48 see more
+
+## Control Risk
+
+-   How strong a client's internal controls are to detect the inherent risk of error/fraud.
+-   Stronger controls mean less control risk. Weaker controls means higher control risk. This makes sense - weaker controls are more likely to fail to detect errors/fraud.
+-   Auditors generally cannot control this as well.
+
+See the [internal controls page](assurance/controls.qmd) for more details on how controls work, and how to evaluate controls.
+
+## Detection Risk
+
+The risk that auditors fail to detect material misstatements. If inherent risk and control risk are higher, auditors need to reduce detection risk to lower audit risk overall.
+
+To lower detection risk, auditors can:
+
+-   Increase the sample size that they are testing, especially for accounts with high inherent/control risk.
+-   Lower the materiality threshold.
+-   Improve the quality of evidence to make sure it is sufficient and appropriate.
+:::
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Sustainability Risk
+
+Risks also exist in relation to climate change. These include:
+
+-   **Physical Risks**: risks from the physical effects of climate change, like extreme weather and storms. For example, dependent on supply chains/stock affected by climate change, such as farming and storms.
+-   **Transitional Risks**: Risks relating to shifts to a low-carbon economy, such as changes to policy, regulation, technology, and market.
+
+These are important because they can affect the financial statements. For example, destroyed assets/inventory.
+:::
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Related Parties
+
+-   A related party is a firm who is influenced, or has influence over the client. For example, company A's director is married to company B's (our client's) company.
+-   There is nothing inherently wrong with transactions involving a related party. However, they do increase the potential of manipulation between the two parties.
+-   Generally, there is the principle of **arm's length**: that if the two parties were not related, the transaction's prices would still make sense.
+-   Related party transactions must be disclosed separately, even if arm's length is met. These are considered [material by nature]{.underline} (regardless of the size of the transaction).
+-   Related parties can be difficult to identify, and if there is manipulation, these are often concealed from auditors.
+:::
+
+<br />
+
+### Setting Materiality
+
+Recall that a mistake is **material** if its [omission or misstatement could influence the economic decisions of users of the report.]{.mark}
+
+When determining if a transaction/error is material, there are two ways to do this:
+
+1.  Material based on the **size** of the transaction (common thresholds below). This is determined during the planning stage.
+2.  Material based on the **nature**. For example, transactions between the company and its directors must be disclosed, as these are considered material *regardless* of size. Related party transactions are also material by nature.
+
+In higher risk businesses, the tolerance level for mistakes is lower, so we set the materiality threshold to the lower end of these ranges.
+
+| Item              | Threshold Size |
+|-------------------|----------------|
+| Profit before tax | 5% to 10%      |
+| Revenue           | 0.5% to 1%     |
+| Total Assets      | 1% to 2%       |
+
+: {.bordered tbl-colwidths="\[50,50\]"}
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Performance Materiality
+
+Performance materiality is an amount set by the auditor *lower* than the materiality threshold of the financial statements to reduce the risk of a specific account.
+
+-   For example, if one branch of a large company is accused of fraud, you might have a special performance materiality for that branch, while the other branches are at the normal threshold.
+:::
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Sustainability Materiality
+
+In sustainability assurance, materiality is assessed in a similar way.
+
+-   ISSB sustainability materiality: sustainability-related risks and opportunities that could reasonably affect the entity's prospects that could influence the decisions of users.
+-   Double materiality is a concept which considers not only the sustainability issues that reate financial risks for a company, but also the materiality of a company's impact on people and the environment.
+:::
+
+<br />
+
+### Analytical Procedures
+
+Analytical procedures is comparing non-financial information (like expectations based on experience) to actual financial information. Inconsistencies in comparisons may indicate potential risk.
+
+-   Ex. During the pandemic lockdowns, we might assume an airline would have a difficult year, and expect a net loss. If the airline actually has a net profit, that is an inconsistency that could be a result of errors/fraud.
+
+Analytical procedures are mandatory at planning to identify potential risks, according to ISA (UK) 315. They are also required to be used to assist forming an overall conclusion based on ISA (UK) 520.
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Limitations of Analytical Procedures
+
+-   They generally require strong background knowledge and experience of the client, which may be limited if the client is new.
+-   They generally require experienced staff to be effective.
+-   The quality of the procedure depends on the reliability of the sources.
+:::
+
+Often, when comparing in analytical procedures, we will need to use **ratios** to see how their value or how they have changed, which can be used in the comparison with our expectations.
+
+::: panel-tabset
+## Performance
+
+| Ratio | Calculation | Purpose |
+|------------------------|------------------------|------------------------|
+| Gross Profit Margin | gross profit $\div$ revenue | Assesses profitability before taking operating expenses into account. |
+| Operating/Net Margin | operating profit $\div$ revenue | Assess profitability with operating expenses included. |
+| Cost of Sales Percent | cost of sales $\div$ revenue | How much costs of inventory make up of revenue. |
+| Operating Cost Percent | operating expenses $\div$ revenue | How much operating expenses make up of revenue. |
+| Return on Capital Employed (ROCE) | operating profit $\div$ (equity + net debt) | Effective use of resources. |
+| Return on Shareholder's Fund | operating profit $\div$ (share capital + share reserve) | Effective use of resources. |
+
+: {.bordered tbl-colwidths="\[20,35,45\]"}
+
+## Liquidity/Solvency
+
+| Ratio | Calculation | Purpose |
+|------------------------|------------------------|------------------------|
+| Current Ratio | current assets $\div$ current liabilities | Ability to pay liabilities due soon with liquid assets. |
+| Quick Ratio | (receivables + cash + current investments) $\div$ current liabilities | Ability to pay liabilities due soon with liquid assets. |
+| Gearing Ratio |  |  |
+| Interest Cover |  |  |
+
+: {.bordered tbl-colwidths="\[20,35,45\]"}
+
+## Efficiency
+
+| Ratio                    | Calculation | Purpose |
+|--------------------------|-------------|---------|
+| Net Asset Turnover       |             |         |
+| Trade Receivables Period |             |         |
+| Trade Payables Period    |             |         |
+| Inventory Holding Period |             |         |
+
+: {.bordered tbl-colwidths="\[20,35,45\]"}
+:::
+
+<br />
+
+<br />
+
+------------------------------------------------------------------------
+
+# Audit Evidence
+
+<br />
+
+<br />
+
+------------------------------------------------------------------------
+
+# Conclusion and Reporting

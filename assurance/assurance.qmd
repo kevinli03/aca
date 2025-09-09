@@ -2,7 +2,7 @@
 title: "Assurance Basics"
 ---
 
-This section contains many pages on assurance and risk. Use the left-side navigation bar to navigate to different pages with more information. Below, a brief introduction to assurance is provided.
+This page covers the basics of assurance, ethical codes, and obtaining/accepting an assurance engagement. The content in this section is a part of the **Accounting and Risk Fundamentals** (certificate level) for the ACA qualification.
 
 <br />
 
@@ -50,7 +50,7 @@ Limitations:
 
 Usually, when considering the accuracy of financial statements, auditors are concerned with **materiality**.
 
-> An mistake is material if its omission or misstatement could influence the economic decisions of users of the report.
+> A mistake is material if its omission or misstatement could influence the economic decisions of users of the report.
 
 ::: {.callout-note collapse="true" appearance="simple"}
 ## Materiality, Error, and Fraud
@@ -291,6 +291,16 @@ There are several common threats to ethical behaviour:
 -   **Intimidation Threat**: When you are deterred from acting objectively by external pressures. Ex. the client threatens to replace you as auditor if you do not provide favourable audit conclusion.
 -   **Management Threat**: When you or your firm that influences client management decisions, and your interests become aligned with the client management. Ex. you do consulting services for a client that influences their management decisions, then you audit them.
 
+::: {.callout-note collapse="true" appearance="simple"}
+## More on Self Interest
+
+percentage of revenue
+:::
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Audit Rotation
+:::
+
 These threats can be alleviated by profession-wide safeguards, such as training standards, quality control standards, and external reviews. They can also be done by work/company safeguards, like rotation of senior staff and policies on independence. If no safeguards are sufficient to address these threats, you should withdraw from/decline the engagement.
 
 <br />
@@ -300,3 +310,28 @@ These threats can be alleviated by profession-wide safeguards, such as training 
 <br />
 
 ### Data Protection Regulations
+
+<br />
+
+<br />
+
+------------------------------------------------------------------------
+
+# **Obtaining an Engagement**
+
+### Agreeing an Engagement
+
+Before an assurance engagement starts, a few things need to be done:
+
+1.  Obtaining the engagement: practitioners can advertise their services. The responsible party can tender: invite multiple practitioners to "apply" to be their practitioner for the engagement, and choosing based on price/approach/etc.
+    -   Practitioners can obtain engagements through advertising/tendering. However, they must ensure these do not compromise their independence or integrity as required by ethical standards.
+2.  Accepting the engagement. A few things can influence this choice of acceptance:
+    -   If there is a previous auditor, the current practitioner must communicate with them, and determine if there are any reasons not to accept (like ethical concerns). Permission must be granted by the responsible party for this communication, but if this permission is denied, the audit is almost always refused by the practitioner.
+    -   The practitioner needs to assess resources.
+    -   Client due diligence: verifying the identity of the business the practitioner is accepting as a client, and ensure the business is legit and not money laundering.
+3.  Agreeing to terms: this is done with an engagement letter, which is a contract between the practitioner and responsible party.
+    -   The engagement letter is required and regulated by standards such as ISA 210 for audits, or ISAE 3000 for other assurance engagements.
+    -   The letter covers the objective and scope of the engagement, the responsibilities of the practitioner and responsible party, the reporting framework (what accounting standards), and the form and final contact of the final report.
+    -   This will prevent miscommunication and disagreements later.
+
+<br />
