@@ -178,12 +178,6 @@ window.Quarto = {
  <span class="menu-text">Internal Controls</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../assurance/audit.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Audit Evidence</span></a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
@@ -202,8 +196,21 @@ window.Quarto = {
   <li><a href="#setting-materiality" id="toc-setting-materiality" class="nav-link" data-scroll-target="#setting-materiality">Setting Materiality</a></li>
   <li><a href="#analytical-procedures" id="toc-analytical-procedures" class="nav-link" data-scroll-target="#analytical-procedures">Analytical Procedures</a></li>
   </ul></li>
-  <li><a href="#audit-evidence" id="toc-audit-evidence" class="nav-link" data-scroll-target="#audit-evidence">Audit Evidence</a></li>
-  <li><a href="#conclusion-and-reporting" id="toc-conclusion-and-reporting" class="nav-link" data-scroll-target="#conclusion-and-reporting">Conclusion and Reporting</a></li>
+  <li><a href="#audit-evidence" id="toc-audit-evidence" class="nav-link" data-scroll-target="#audit-evidence"><strong>Audit Evidence</strong></a>
+  <ul class="collapse">
+  <li><a href="#standard-of-evidence" id="toc-standard-of-evidence" class="nav-link" data-scroll-target="#standard-of-evidence">Standard of Evidence</a></li>
+  <li><a href="#evidence-stage" id="toc-evidence-stage" class="nav-link" data-scroll-target="#evidence-stage">Evidence Stage</a></li>
+  <li><a href="#substantive-procedures" id="toc-substantive-procedures" class="nav-link" data-scroll-target="#substantive-procedures">Substantive Procedures</a></li>
+  <li><a href="#automated-tools" id="toc-automated-tools" class="nav-link" data-scroll-target="#automated-tools">Automated Tools</a></li>
+  <li><a href="#directional-testing" id="toc-directional-testing" class="nav-link" data-scroll-target="#directional-testing">Directional Testing</a></li>
+  <li><a href="#audit-sampling" id="toc-audit-sampling" class="nav-link" data-scroll-target="#audit-sampling">Audit Sampling</a></li>
+  <li><a href="#errors-and-mistatements" id="toc-errors-and-mistatements" class="nav-link" data-scroll-target="#errors-and-mistatements">Errors and Mistatements</a></li>
+  </ul></li>
+  <li><a href="#conclusion-and-reporting" id="toc-conclusion-and-reporting" class="nav-link" data-scroll-target="#conclusion-and-reporting"><strong>Conclusion and Reporting</strong></a>
+  <ul class="collapse">
+  <li><a href="#audit-opinions" id="toc-audit-opinions" class="nav-link" data-scroll-target="#audit-opinions">Audit Opinions</a></li>
+  <li><a href="#audit-report-format" id="toc-audit-report-format" class="nav-link" data-scroll-target="#audit-report-format">Audit Report Format</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -330,7 +337,7 @@ window.Quarto = {
 <li>Stronger controls mean less control risk. Weaker controls means higher control risk. This makes sense - weaker controls are more likely to fail to detect errors/fraud.</li>
 <li>Auditors generally cannot control this as well.</li>
 </ul>
-<p>See the <a href="assurance/controls.qmd">internal controls page</a> for more details on how controls work, and how to evaluate controls.</p>
+<p>See the <a href="../assurance/controls.html">internal controls page</a> for more details on how controls work, and how to evaluate controls.</p>
 </div>
 <div id="tabset-3-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-3-tab">
 <p>The risk that auditors fail to detect material misstatements. If inherent risk and control risk are higher, auditors need to reduce detection risk to lower audit risk overall.</p>
@@ -627,15 +634,327 @@ Limitations of Analytical Procedures
 </section>
 </section>
 <section id="audit-evidence" class="level1">
-<h1>Audit Evidence</h1>
+<h1><strong>Audit Evidence</strong></h1>
+<section id="standard-of-evidence" class="level3">
+<h3 class="anchored" data-anchor-id="standard-of-evidence">Standard of Evidence</h3>
+<p>ISA (UK) 500 requires auditors to obtain <strong>sufficient</strong> and <strong>appropriate</strong> evidence to draw an audit opinion.</p>
+<ul>
+<li>Sufficient evidence is about quantity. If you have higher risk, you will need more quantity of evidence. If you have lower materiality threshold, the more quantity of evidence is needed. Reasonable assurance will need more quantity of evidence than limited assurance.</li>
+<li>Appropriate evidence is about the quality of evidence. Is the evidence reliable and from third parties? Is the evidence relevant to the financial statement assertions?</li>
+</ul>
+<p>The highest quality form of evidence is either auditor generated or from an independent third party. Original documents are better than copies. Written evidence is better than oral evidence.</p>
+<p>Audit evidence is relevant depending on what we are considering:</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-5-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-1" role="tab" aria-controls="tabset-5-1" aria-selected="true">Transactions/Events</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-2" role="tab" aria-controls="tabset-5-2" aria-selected="false">Account Balances</a></li></ul>
+<div class="tab-content">
+<div id="tabset-5-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-5-1-tab">
+<p>For transactions/events, relevant evidence includes:</p>
+<ul>
+<li><strong>Occurence</strong>: proof that the transaction occurred. For example, actually having the product, or an invoice.</li>
+<li><strong>Completeness</strong>: all transactions that should have been recorded are recorded.</li>
+<li><strong>Accuracy</strong>: the amounts of each transaction are accurately recorded. Invoices are useful for this.</li>
+<li><strong>Cut-off</strong>: transactions are recorded in the correct accounting period.</li>
+<li><strong>Classification</strong>: transactions are recorded in the correct accounts.</li>
+<li><strong>Presentation</strong>: transactions and events are accurately aggregated, clearly described, and disclosures are relevant and understandable.</li>
+</ul>
+</div>
+<div id="tabset-5-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-2-tab">
+<p>For account balances, relevant evidence includes:</p>
+<ul>
+<li><strong>Existence</strong>: assets, liabilities, and equity balances do exist. Physical visits to check assets are common.</li>
+<li><strong>Rights and Obligations</strong>: the client actually owns the assets, and the liabilities are indeed the obligations of the client. For example, look at purchase records, contact bank for cash account/loans.</li>
+<li><strong>Completness</strong>: all assets, liabilities, and equity are recorded.</li>
+<li><strong>Accuracy, Valuation, and Allocation</strong>: assets, liabilities, and equity are at the appropriate amounts.</li>
+<li><strong>Classification</strong>: assets, liabilities, and equity have been recorded in the correct accounts.</li>
+<li><strong>Presentation</strong>: assets, liabilities, and equity are accurately aggregated, clearly described, and disclosures are relevant and understandable.</li>
+</ul>
+</div>
+</div>
+</div>
+<p><br></p>
+</section>
+<section id="evidence-stage" class="level3">
+<h3 class="anchored" data-anchor-id="evidence-stage">Evidence Stage</h3>
+<p>Walkthrough tests begin at the start of the evidence stage. The tests and procedures you will do in the audit will depend on what happens in the walkthrough test.</p>
+<ul>
+<li>Walkthrough test will get you a feel of the company.</li>
+<li>It will help you decide if you expect the controls to be effective, or expect the controls to be ineffective.</li>
+</ul>
+<p>Then, your audit evidence stage will depend on which expectation you have.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-6-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-1" role="tab" aria-controls="tabset-6-1" aria-selected="true">Effective Controls</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-2" role="tab" aria-controls="tabset-6-2" aria-selected="false">Ineffective Controls</a></li></ul>
+<div class="tab-content">
+<div id="tabset-6-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-6-1-tab">
+<p>If you expect effective controls after the walkthrough, the steps you will take will be:</p>
+<ol type="1">
+<li>Do strong tests of controls. Note if the tests match your expectation.</li>
+<li><em>If controls are found to be effective</em>, you can do limited audit testing due to limitations of any control system.</li>
+<li><em>If controls are found to be ineffective</em>, you should conduct full substantive testing.</li>
+</ol>
+</div>
+<div id="tabset-6-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-2-tab">
+<p>If you do not expect controls to be effective, the steps you will take are:</p>
+<ol type="1">
+<li>Skip tests of controls, since we assume they will be ineffective.</li>
+<li>Conduct full substantive testing.</li>
+</ol>
+</div>
+</div>
+</div>
+<p>You can do this for each separate account/transaction. For example, if most controls are expected to be strong, but there are certain unusual/complex/one-off transactions, you can apply the ineffective controls assumption to those.</p>
+<p><br></p>
+</section>
+<section id="substantive-procedures" class="level3">
+<h3 class="anchored" data-anchor-id="substantive-procedures">Substantive Procedures</h3>
+<p>Substantive procedures are tests with numbers. ISA (UK) 500 sets out the following types of procedures:</p>
+<ul>
+<li><strong>Inspection</strong>: examining records, documents, or physcial assets. For example, an auditor could look at an invoice to confirm the cost of inventory. Third party documentation (like invoices, certificates) are more reliable than internally created documents. Inspection can provide evidence regarding the existence of things, the value of things, the rights and obligations (like in a contract), and the completeness of things. Inspection may not work well for intangible items like goodwill.</li>
+<li><strong>Observation</strong>: watching a process or procedure being performed. For example, observe a firm’s staff counting inventory. Observation is useful for confirming a process is performed as described. However, be aware that processes may not be the same when observed vs.&nbsp;unobserved.</li>
+<li><strong>Inquiry and Confirmation</strong>: regards asking staff (inquiry) or third-parties (confirmation). This is useful for understanding processes or obtaining explanations. Confrimation from third parties (banks, customers) is a strong form of evidence. Be aware that oral responses are less reliable than written confirmation.</li>
+<li><strong>Recalculation and Reperformance</strong>: checking the mathematical accuracy of documents and records. This is strong evidence as the auditor does it directly. For example, the auditor recalculates the depreciation to confirm they match the accounts. Reperformance is similar to recalculation, but not with math. Basically, do the same thing that the firm did previously.</li>
+<li><strong>Analytical Procedures</strong>: like done in the planning stage. In the evidence stage, if inconsistency of expectations and figures are unacceptable, seek further evidence.</li>
+<li><strong>Remote Auditing Techniques</strong>: this is inspection, but remote. For example, observing inventory counts through a live video, sharing documents electronically, and interviews via video call. This is useful when physical access is limited.</li>
+</ul>
+<p>Some accounts require estimation, such as depreciation, allowance for receivables, and provisions. Since these are subjective, they are at risk of management bias. To audit these estimates, the common accounting procedures are:</p>
+<ul>
+<li>Review and test the process used by management to develop the estimate. Is it reasonable?</li>
+<li>Use an independent expert to make an estimate for comparision with the company’s figure.</li>
+<li>Review subsequent events (events after the year-end) for confirmation of the accuracy.</li>
+<li>Test the operating effectiveness of the controls over how management made the estimates.</li>
+</ul>
+<p><br></p>
+</section>
+<section id="automated-tools" class="level3">
+<h3 class="anchored" data-anchor-id="automated-tools">Automated Tools</h3>
+<p>Modern accounting systems use computer software, so using technology to carry out audit procedures is common. There are two ways to use automate tools:</p>
+<table class="table-bordered caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Test Data</th>
+<th>Audit Software</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Can be used as a test of control.</td>
+<td>Used for reperformance and recalculation in substantive procedures.</td>
+</tr>
+<tr class="even">
+<td>Auditor’s data (real or fake) is put into the client’s system. This tests the controls in the system.</td>
+<td>Using client data (real) into the auditor’s system, to recalculate and reperform transactions. It can also be used to conduct data analysis.</td>
+</tr>
+<tr class="odd">
+<td><p>Examples:</p>
+<ul>
+<li>Enter data with a timesheet with hours outside the normal range to check if the system rejects it.</li>
+<li>Enter a valid purchase invoice to check the system correct allocates the purchase to the correct account.</li>
+</ul></td>
+<td><p>Examples:</p>
+<ul>
+<li>Reperformance to check the values in accounts.</li>
+<li>Transaction analysis: matching purchase orders, goods received notes, and invoices.</li>
+<li>Analytical procedures: analysing revenue trends by product or region.</li>
+<li>Judgemental areas: using sensitivity analysis to test assumptions on the net realisable value of inventory.</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</section>
+<section id="directional-testing" class="level3">
+<h3 class="anchored" data-anchor-id="directional-testing">Directional Testing</h3>
+<p>A mistated balance can be overstated (too large) or understated (too low). Generally, the risk is one direction. For example, companies rarely want to understate revenue or overtate expenses.</p>
+<p>Testing for overstated and understated balances is different. For example, if you are testing non-current assests, you have the following sources/accounts/records:</p>
+<ol type="1">
+<li>Financial statements (non-current assets section).</li>
+<li>Non-current asset register (an excel sheet of all non-current assets).</li>
+<li>Physical assets (the actual non-current assets).</li>
+</ol>
+<table class="table-bordered caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Test Overstatement</th>
+<th>Test Understatement</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><ol type="1">
+<li>Start with financial statements.</li>
+<li>Check the non-current asset register. See if it agrees with the financial statement.</li>
+<li>Select a sample of assets in the non-current asset register.</li>
+<li>Perform physical checks of the sampled assets and confirm they all exist.</li>
+</ol></td>
+<td><ol type="1">
+<li>Start with the physical assets you can see being used in the client’s business.</li>
+<li>See if these physical assets exist in the non-current asset register.</li>
+<li>If they are present, check they are also in the financial statements.</li>
+</ol></td>
+</tr>
+<tr class="even">
+<td>Why? If assets are overstated, that means some on the financial statements don’t exist in real life. So you start from the financial statements and check they exist.</td>
+<td>Why? If assets are understated, some assets that are being used aren’t on the financial statements. Thus, start from the physical assets, and check all of them are on the financial statements.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</section>
+<section id="audit-sampling" class="level3">
+<h3 class="anchored" data-anchor-id="audit-sampling">Audit Sampling</h3>
+<p>In audit, we almost never check every transaction. We use a subset sample of the transactions to determine if there are material misstatements.</p>
+<ul>
+<li>There are some transactions, such as high-value transactions, which will always be tested. These are not sampled.</li>
+</ul>
+<p>The sampling procedure is as follows:</p>
+<ol type="1">
+<li>Identify the population. If we are auditing receivables, then receivables is our population.</li>
+<li>Identify sampling unit. If we are auditing receivables, then invoices of credit customer purchases are the unit.</li>
+<li>Select sample (see below).</li>
+<li>Identify errors within the sample, and draw conclusions.</li>
+</ol>
+<p>The way we select samples can be of many different ways.</p>
+<ul>
+<li>Random selection: we randomly sample from the population.</li>
+<li>Systematic selection: we randomly select the first unit for the sample, then maintain the same interval between selections. Ex. invoice 5, 10, 15, etc.</li>
+<li>Money sampling unit: every £1 in the population has an equal chance of being selected. So the unit is actually every £1, not each invoice.</li>
+<li>Haphazard sampling: just taking a sample manually without statistical theory.</li>
+</ul>
+<p>Having a larger sample means lower detection risk, thus lowering the audit risk and creating a higher level of assurance.</p>
+<p><strong>Sampling risk</strong> is the risk that your sample might not reflect the entire population, leading to incorrect conclusions. For example, if you under-sample transactions that are likely to be fraudulent, you are likely to miss errors/fraud.</p>
+<p><br></p>
+</section>
+<section id="errors-and-mistatements" class="level3">
+<h3 class="anchored" data-anchor-id="errors-and-mistatements">Errors and Mistatements</h3>
+<p>Once an auditor has tested a sample of items, they must draw conclusions both to the sample, but also the entire account population.</p>
+<p>Things to consider include:</p>
+<ol type="1">
+<li>The nature of the errors identified. Are they true misstatements?</li>
+<li>The cause of the errors identified. Do they all have a pattern - i.e.&nbsp;all of them have messed up VAT? Do they all occur on one day?</li>
+<li>The impact on other parts of the audit. Does it affect the account balances, or do the errors cancel out? How does it affect the accounting equation.</li>
+<li>The probable misstatement in the population. Determine how frequently based on the sample, the misstatement will be repeated in the unsampled population. If the total misstatement is material, then additional testing needs to be done.</li>
+</ol>
+<p>The auditor must communicate all misstatements to management, and request they to be corrected, no matter if they are material or immaterial.</p>
+<ul>
+<li>If a client refuses to correct a material error, first understand why management refuses. Double check it is a misstatement. If it is material, you will modify the opinion (implied opinion, see below).</li>
+<li>If a misstatement is not material, and the management refuses to correct it, you do not need to modify the opinion (but it should be mentioned separately).</li>
+</ul>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Misstatements Material in Nature
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Some categories which are always material, no matter the size, include:</p>
+<ul>
+<li>Affect compliance with laws and regulations.</li>
+<li>Affect compliance with debt covenants.</li>
+<li>Affect ratios used to evaluate financial position, results, or cash flows.</li>
+<li>Increase the management’s compensation (renumeration).</li>
+<li>Related party transactions.</li>
+</ul>
+</div>
+</div>
+</div>
 <p><br></p>
 <p><br></p>
 <hr>
 </section>
+</section>
 <section id="conclusion-and-reporting" class="level1">
-<h1>Conclusion and Reporting</h1>
+<h1><strong>Conclusion and Reporting</strong></h1>
+<section id="audit-opinions" class="level3">
+<h3 class="anchored" data-anchor-id="audit-opinions">Audit Opinions</h3>
+<p>The auditor’s report contains two different options:</p>
+<table class="table-bordered caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Explicit Opinions</th>
+<th>Implied (Modified) Opinions</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Always reported in a final opinion.</td>
+<td>Only required if a material problem arises.</td>
+</tr>
+<tr class="even">
+<td><p>Presents the opinion on the financial statements:</p>
+<ul>
+<li>Are they true and fair?</li>
+<li>Are they properly prepared in accordance to accounting standards?</li>
+<li>Is the Information contained in the director’s report and strategic is consistent with the financial statement?</li>
+</ul></td>
+<td><p>Reported under the following situations:</p>
+<ul>
+<li>Returns adequate for audit have not been received by branches not visited by the auditors.</li>
+<li>Accounts are not in agreement with the underlying accounting records.</li>
+<li>Proper accounting records have not been kept.</li>
+<li>Information and explanations required for the audit were not received.</li>
+<li>Directors remuneration disclosures required by law were not made.</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</section>
+<section id="audit-report-format" class="level3">
+<h3 class="anchored" data-anchor-id="audit-report-format">Audit Report Format</h3>
+<p>ISA (UK) 700 states the following must be included in the final audit report:</p>
+<ol type="1">
+<li>Title, addressee, and date of report.</li>
+<li>Auditor’s opinion on the financial statements, and basis for opinion.</li>
+<li>Key audit matters (listed companies), such as high risk, significant judgmental items, and significant transactional events.</li>
+<li>Management and auditor responsibilities.</li>
+<li>Explanation of the extent to which the audit was capable of detecting irregularities, including fraud.</li>
+<li>Going concern section, and opinion on other matters (see above).</li>
+<li>Additional explanations/definitions of an assessment of risks of material misstatement, application of materiality, and overview of the scope of the audit. This is to close the expectations gap.</li>
+<li>Name and signature of the engagement partner, and their address.</li>
+</ol>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Other Assurance Reports
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>For non-audit assurance engagements, a few things need to be included:</p>
+<ol type="1">
+<li>Identification and description of the subject matter (is it sustainability, due dilligence?)</li>
+<li>Identification of criteria.</li>
+<li>Any inherent limitations which exist.</li>
+<li>Any restrictions upon the purpose/user.</li>
+<li>Work performed in accordance to which set of standards.</li>
+<li>Conclusion must be negatively expressed (limited assurance).</li>
+</ol>
+</div>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

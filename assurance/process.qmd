@@ -101,7 +101,7 @@ Pg. 48 see more
 -   Stronger controls mean less control risk. Weaker controls means higher control risk. This makes sense - weaker controls are more likely to fail to detect errors/fraud.
 -   Auditors generally cannot control this as well.
 
-See the [internal controls page](assurance/controls.qmd) for more details on how controls work, and how to evaluate controls.
+See the [internal controls page](controls.qmd) for more details on how controls work, and how to evaluate controls.
 
 ## Detection Risk
 
@@ -196,25 +196,37 @@ Often, when comparing in analytical procedures, we will need to use **ratios** t
 ::: panel-tabset
 ## Performance
 
-| Ratio | Calculation | Purpose |
-|------------------------|------------------------|------------------------|
-| Gross Profit Margin | gross profit $\div$ revenue | Assesses profitability before taking operating expenses into account. |
-| Operating/Net Margin | operating profit $\div$ revenue | Assess profitability with operating expenses included. |
-| Cost of Sales Percent | cost of sales $\div$ revenue | How much costs of inventory make up of revenue. |
-| Operating Cost Percent | operating expenses $\div$ revenue | How much operating expenses make up of revenue. |
-| Return on Capital Employed (ROCE) | operating profit $\div$ (equity + net debt) | Effective use of resources. |
-| Return on Shareholder's Fund | operating profit $\div$ (share capital + share reserve) | Effective use of resources. |
++-----------------------------------+---------------------------------------------------------+-----------------------------------------------------------------------+
+| Ratio                             | Calculation                                             | Purpose                                                               |
++===================================+=========================================================+=======================================================================+
+| Gross Profit Margin               | gross profit $\div$ revenue                             | Assesses profitability before taking operating expenses into account. |
++-----------------------------------+---------------------------------------------------------+-----------------------------------------------------------------------+
+| Operating/Net Margin              | operating profit $\div$ revenue                         | Assess profitability with operating expenses included.                |
++-----------------------------------+---------------------------------------------------------+-----------------------------------------------------------------------+
+| Cost of Sales Percent             | cost of sales $\div$ revenue                            | How much costs of inventory make up of revenue.                       |
++-----------------------------------+---------------------------------------------------------+-----------------------------------------------------------------------+
+| Operating Cost Percent            | operating expenses $\div$ revenue                       | How much operating expenses make up of revenue.                       |
++-----------------------------------+---------------------------------------------------------+-----------------------------------------------------------------------+
+| Return on Capital Employed (ROCE) | operating profit $\div$ (equity + net debt)             | Effective use of resources.                                           |
++-----------------------------------+---------------------------------------------------------+-----------------------------------------------------------------------+
+| Return on Shareholder's Fund      | operating profit $\div$ (share capital + share reserve) | Effective use of resources.                                           |
++-----------------------------------+---------------------------------------------------------+-----------------------------------------------------------------------+
 
 : {.bordered tbl-colwidths="\[20,35,45\]"}
 
 ## Liquidity/Solvency
 
-| Ratio | Calculation | Purpose |
-|------------------------|------------------------|------------------------|
-| Current Ratio | current assets $\div$ current liabilities | Ability to pay liabilities due soon with liquid assets. |
-| Quick Ratio | (receivables + cash + current investments) $\div$ current liabilities | Ability to pay liabilities due soon with liquid assets. |
-| Gearing Ratio |  |  |
-| Interest Cover |  |  |
++----------------+-----------------------------------------------------------------------+---------------------------------------------------------+
+| Ratio          | Calculation                                                           | Purpose                                                 |
++================+=======================================================================+=========================================================+
+| Current Ratio  | current assets $\div$ current liabilities                             | Ability to pay liabilities due soon with liquid assets. |
++----------------+-----------------------------------------------------------------------+---------------------------------------------------------+
+| Quick Ratio    | (receivables + cash + current investments) $\div$ current liabilities | Ability to pay liabilities due soon with liquid assets. |
++----------------+-----------------------------------------------------------------------+---------------------------------------------------------+
+| Gearing Ratio  |                                                                       |                                                         |
++----------------+-----------------------------------------------------------------------+---------------------------------------------------------+
+| Interest Cover |                                                                       |                                                         |
++----------------+-----------------------------------------------------------------------+---------------------------------------------------------+
 
 : {.bordered tbl-colwidths="\[20,35,45\]"}
 
@@ -236,7 +248,196 @@ Often, when comparing in analytical procedures, we will need to use **ratios** t
 
 ------------------------------------------------------------------------
 
-# Audit Evidence
+# **Audit Evidence**
+
+### Standard of Evidence
+
+ISA (UK) 500 requires auditors to obtain **sufficient** and **appropriate** evidence to draw an audit opinion.
+
+-   Sufficient evidence is about quantity. If you have higher risk, you will need more quantity of evidence. If you have lower materiality threshold, the more quantity of evidence is needed. Reasonable assurance will need more quantity of evidence than limited assurance.
+-   Appropriate evidence is about the quality of evidence. Is the evidence reliable and from third parties? Is the evidence relevant to the financial statement assertions?
+
+The highest quality form of evidence is either auditor generated or from an independent third party. Original documents are better than copies. Written evidence is better than oral evidence.
+
+Audit evidence is relevant depending on what we are considering:
+
+::: panel-tabset
+## Transactions/Events
+
+For transactions/events, relevant evidence includes:
+
+-   **Occurence**: proof that the transaction occurred. For example, actually having the product, or an invoice.
+-   **Completeness**: all transactions that should have been recorded are recorded.
+-   **Accuracy**: the amounts of each transaction are accurately recorded. Invoices are useful for this.
+-   **Cut-off**: transactions are recorded in the correct accounting period.
+-   **Classification**: transactions are recorded in the correct accounts.
+-   **Presentation**: transactions and events are accurately aggregated, clearly described, and disclosures are relevant and understandable.
+
+## Account Balances
+
+For account balances, relevant evidence includes:
+
+-   **Existence**: assets, liabilities, and equity balances do exist. Physical visits to check assets are common.
+-   **Rights and Obligations**: the client actually owns the assets, and the liabilities are indeed the obligations of the client. For example, look at purchase records, contact bank for cash account/loans.
+-   **Completness**: all assets, liabilities, and equity are recorded.
+-   **Accuracy, Valuation, and Allocation**: assets, liabilities, and equity are at the appropriate amounts.
+-   **Classification**: assets, liabilities, and equity have been recorded in the correct accounts.
+-   **Presentation**: assets, liabilities, and equity are accurately aggregated, clearly described, and disclosures are relevant and understandable.
+:::
+
+<br />
+
+### Evidence Stage
+
+Walkthrough tests begin at the start of the evidence stage. The tests and procedures you will do in the audit will depend on what happens in the walkthrough test.
+
+-   Walkthrough test will get you a feel of the company.
+-   It will help you decide if you expect the controls to be effective, or expect the controls to be ineffective.
+
+Then, your audit evidence stage will depend on which expectation you have.
+
+::: panel-tabset
+## Effective Controls
+
+If you expect effective controls after the walkthrough, the steps you will take will be:
+
+1.  Do strong tests of controls. Note if the tests match your expectation.
+2.  *If controls are found to be effective*, you can do limited audit testing due to limitations of any control system.
+3.  *If controls are found to be ineffective*, you should conduct full substantive testing.
+
+## Ineffective Controls
+
+If you do not expect controls to be effective, the steps you will take are:
+
+1.  Skip tests of controls, since we assume they will be ineffective.
+2.  Conduct full substantive testing.
+:::
+
+You can do this for each separate account/transaction. For example, if most controls are expected to be strong, but there are certain unusual/complex/one-off transactions, you can apply the ineffective controls assumption to those.
+
+<br />
+
+### Substantive Procedures
+
+Substantive procedures are tests with numbers. ISA (UK) 500 sets out the following types of procedures:
+
+-   **Inspection**: examining records, documents, or physcial assets. For example, an auditor could look at an invoice to confirm the cost of inventory. Third party documentation (like invoices, certificates) are more reliable than internally created documents. Inspection can provide evidence regarding the existence of things, the value of things, the rights and obligations (like in a contract), and the completeness of things. Inspection may not work well for intangible items like goodwill.
+-   **Observation**: watching a process or procedure being performed. For example, observe a firm's staff counting inventory. Observation is useful for confirming a process is performed as described. However, be aware that processes may not be the same when observed vs. unobserved.
+-   **Inquiry and Confirmation**: regards asking staff (inquiry) or third-parties (confirmation). This is useful for understanding processes or obtaining explanations. Confrimation from third parties (banks, customers) is a strong form of evidence. Be aware that oral responses are less reliable than written confirmation.
+-   **Recalculation and Reperformance**: checking the mathematical accuracy of documents and records. This is strong evidence as the auditor does it directly. For example, the auditor recalculates the depreciation to confirm they match the accounts. Reperformance is similar to recalculation, but not with math. Basically, do the same thing that the firm did previously.
+-   **Analytical Procedures**: like done in the planning stage. In the evidence stage, if inconsistency of expectations and figures are unacceptable, seek further evidence.
+-   **Remote Auditing Techniques**: this is inspection, but remote. For example, observing inventory counts through a live video, sharing documents electronically, and interviews via video call. This is useful when physical access is limited.
+
+Some accounts require estimation, such as depreciation, allowance for receivables, and provisions. Since these are subjective, they are at risk of management bias. To audit these estimates, the common accounting procedures are:
+
+-   Review and test the process used by management to develop the estimate. Is it reasonable?
+-   Use an independent expert to make an estimate for comparision with the company's figure.
+-   Review subsequent events (events after the year-end) for confirmation of the accuracy.
+-   Test the operating effectiveness of the controls over how management made the estimates.
+
+<br />
+
+### Automated Tools
+
+Modern accounting systems use computer software, so using technology to carry out audit procedures is common. There are two ways to use automate tools:
+
++---------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| Test Data                                                                                                     | Audit Software                                                                                                                               |
++===============================================================================================================+==============================================================================================================================================+
+| Can be used as a test of control.                                                                             | Used for reperformance and recalculation in substantive procedures.                                                                          |
++---------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| Auditor's data (real or fake) is put into the client's system. This tests the controls in the system.         | Using client data (real) into the auditor's system, to recalculate and reperform transactions. It can also be used to conduct data analysis. |
++---------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| Examples:                                                                                                     | Examples:                                                                                                                                    |
+|                                                                                                               |                                                                                                                                              |
+| -   Enter data with a timesheet with hours outside the normal range to check if the system rejects it.        | -   Reperformance to check the values in accounts.                                                                                           |
+| -   Enter a valid purchase invoice to check the system correct allocates the purchase to the correct account. | -   Transaction analysis: matching purchase orders, goods received notes, and invoices.                                                      |
+|                                                                                                               | -   Analytical procedures: analysing revenue trends by product or region.                                                                    |
+|                                                                                                               | -   Judgemental areas: using sensitivity analysis to test assumptions on the net realisable value of inventory.                              |
++---------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered tbl-colwidths="\[50,50\]"}
+
+<br />
+
+### Directional Testing
+
+A mistated balance can be overstated (too large) or understated (too low). Generally, the risk is one direction. For example, companies rarely want to understate revenue or overtate expenses.
+
+Testing for overstated and understated balances is different. For example, if you are testing non-current assests, you have the following sources/accounts/records:
+
+1.  Financial statements (non-current assets section).
+2.  Non-current asset register (an excel sheet of all non-current assets).
+3.  Physical assets (the actual non-current assets).
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Test Overstatement                                                                                                                                                    | Test Understatement                                                                                                                                                                              |
++=======================================================================================================================================================================+==================================================================================================================================================================================================+
+| 1.  Start with financial statements.                                                                                                                                  | 1.  Start with the physical assets you can see being used in the client's business.                                                                                                              |
+| 2.  Check the non-current asset register. See if it agrees with the financial statement.                                                                              | 2.  See if these physical assets exist in the non-current asset register.                                                                                                                        |
+| 3.  Select a sample of assets in the non-current asset register.                                                                                                      | 3.  If they are present, check they are also in the financial statements.                                                                                                                        |
+| 4.  Perform physical checks of the sampled assets and confirm they all exist.                                                                                         |                                                                                                                                                                                                  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Why? If assets are overstated, that means some on the financial statements don't exist in real life. So you start from the financial statements and check they exist. | Why? If assets are understated, some assets that are being used aren't on the financial statements. Thus, start from the physical assets, and check all of them are on the financial statements. |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered tbl-colwidths="\[50,50\]"}
+
+<br />
+
+### Audit Sampling
+
+In audit, we almost never check every transaction. We use a subset sample of the transactions to determine if there are material misstatements.
+
+-   There are some transactions, such as high-value transactions, which will always be tested. These are not sampled.
+
+The sampling procedure is as follows:
+
+1.  Identify the population. If we are auditing receivables, then receivables is our population.
+2.  Identify sampling unit. If we are auditing receivables, then invoices of credit customer purchases are the unit.
+3.  Select sample (see below).
+4.  Identify errors within the sample, and draw conclusions.
+
+The way we select samples can be of many different ways.
+
+-   Random selection: we randomly sample from the population.
+-   Systematic selection: we randomly select the first unit for the sample, then maintain the same interval between selections. Ex. invoice 5, 10, 15, etc.
+-   Money sampling unit: every £1 in the population has an equal chance of being selected. So the unit is actually every £1, not each invoice.
+-   Haphazard sampling: just taking a sample manually without statistical theory.
+
+Having a larger sample means lower detection risk, thus lowering the audit risk and creating a higher level of assurance.
+
+**Sampling risk** is the risk that your sample might not reflect the entire population, leading to incorrect conclusions. For example, if you under-sample transactions that are likely to be fraudulent, you are likely to miss errors/fraud.
+
+<br />
+
+### Errors and Mistatements
+
+Once an auditor has tested a sample of items, they must draw conclusions both to the sample, but also the entire account population.
+
+Things to consider include:
+
+1.  The nature of the errors identified. Are they true misstatements?
+2.  The cause of the errors identified. Do they all have a pattern - i.e. all of them have messed up VAT? Do they all occur on one day?
+3.  The impact on other parts of the audit. Does it affect the account balances, or do the errors cancel out? How does it affect the accounting equation.
+4.  The probable misstatement in the population. Determine how frequently based on the sample, the misstatement will be repeated in the unsampled population. If the total misstatement is material, then additional testing needs to be done.
+
+The auditor must communicate all misstatements to management, and request they to be corrected, no matter if they are material or immaterial.
+
+-   If a client refuses to correct a material error, first understand why management refuses. Double check it is a misstatement. If it is material, you will modify the opinion (implied opinion, see below).
+-   If a misstatement is not material, and the management refuses to correct it, you do not need to modify the opinion (but it should be mentioned separately).
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Misstatements Material in Nature
+
+Some categories which are always material, no matter the size, include:
+
+-   Affect compliance with laws and regulations.
+-   Affect compliance with debt covenants.
+-   Affect ratios used to evaluate financial position, results, or cash flows.
+-   Increase the management's compensation (renumeration).
+-   Related party transactions.
+:::
 
 <br />
 
@@ -244,4 +445,52 @@ Often, when comparing in analytical procedures, we will need to use **ratios** t
 
 ------------------------------------------------------------------------
 
-# Conclusion and Reporting
+# **Conclusion and Reporting**
+
+### Audit Opinions
+
+The auditor's report contains two different options:
+
++---------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| Explicit Opinions                                                                                                   | Implied (Modified) Opinions                                                                    |
++=====================================================================================================================+================================================================================================+
+| Always reported in a final opinion.                                                                                 | Only required if a material problem arises.                                                    |
++---------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| Presents the opinion on the financial statements:                                                                   | Reported under the following situations:                                                       |
+|                                                                                                                     |                                                                                                |
+| -   Are they true and fair?                                                                                         | -   Returns adequate for audit have not been received by branches not visited by the auditors. |
+| -   Are they properly prepared in accordance to accounting standards?                                               | -   Accounts are not in agreement with the underlying accounting records.                      |
+| -   Is the Information contained in the director's report and strategic is consistent with the financial statement? | -   Proper accounting records have not been kept.                                              |
+|                                                                                                                     | -   Information and explanations required for the audit were not received.                     |
+|                                                                                                                     | -   Directors remuneration disclosures required by law were not made.                          |
++---------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
+
+: {.bordered tbl-colwidths="\[50,50\]"}
+
+<br />
+
+### Audit Report Format
+
+ISA (UK) 700 states the following must be included in the final audit report:
+
+1.  Title, addressee, and date of report.
+2.  Auditor's opinion on the financial statements, and basis for opinion.
+3.  Key audit matters (listed companies), such as high risk, significant judgmental items, and significant transactional events.
+4.  Management and auditor responsibilities.
+5.  Explanation of the extent to which the audit was capable of detecting irregularities, including fraud.
+6.  Going concern section, and opinion on other matters (see above).
+7.  Additional explanations/definitions of an assessment of risks of material misstatement, application of materiality, and overview of the scope of the audit. This is to close the expectations gap.
+8.  Name and signature of the engagement partner, and their address.
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Other Assurance Reports
+
+For non-audit assurance engagements, a few things need to be included:
+
+1.  Identification and description of the subject matter (is it sustainability, due dilligence?)
+2.  Identification of criteria.
+3.  Any inherent limitations which exist.
+4.  Any restrictions upon the purpose/user.
+5.  Work performed in accordance to which set of standards.
+6.  Conclusion must be negatively expressed (limited assurance).
+:::
