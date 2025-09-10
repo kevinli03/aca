@@ -148,7 +148,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../accounting/accounting.html">Overview</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../accounting/accounting.html">Accounting Basements</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -163,7 +163,7 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../accounting/accounting.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Overview</span></a>
+ <span class="menu-text">Accounting Basements</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -174,14 +174,8 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../accounting/income.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Income Statement</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../accounting/cash.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cash Flow Statement</span></a>
+  <a href="../accounting/adjust.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Adjustments</span></a>
   </div>
 </li>
     </ul>
@@ -204,15 +198,13 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#accounting-equation" id="toc-accounting-equation" class="nav-link" data-scroll-target="#accounting-equation">Accounting Equation</a></li>
   <li><a href="#expenditures" id="toc-expenditures" class="nav-link" data-scroll-target="#expenditures">Expenditures</a></li>
-  <li><a href="#double-entry-accounting" id="toc-double-entry-accounting" class="nav-link" data-scroll-target="#double-entry-accounting">Double Entry Accounting</a></li>
+  <li><a href="#debits-and-credits" id="toc-debits-and-credits" class="nav-link" data-scroll-target="#debits-and-credits">Debits and Credits</a></li>
   <li><a href="#accrual-accounting" id="toc-accrual-accounting" class="nav-link" data-scroll-target="#accrual-accounting">Accrual Accounting</a></li>
   <li><a href="#going-concern" id="toc-going-concern" class="nav-link" data-scroll-target="#going-concern">Going Concern</a></li>
   <li><a href="#accounting-errors" id="toc-accounting-errors" class="nav-link" data-scroll-target="#accounting-errors">Accounting Errors</a></li>
   </ul></li>
   <li><a href="#reporting-standards" id="toc-reporting-standards" class="nav-link" data-scroll-target="#reporting-standards"><strong>Reporting Standards</strong></a>
   <ul class="collapse">
-  <li><a href="#double-entry-accounting-1" id="toc-double-entry-accounting-1" class="nav-link" data-scroll-target="#double-entry-accounting-1">Double Entry Accounting</a></li>
-  <li><a href="#limited-companies" id="toc-limited-companies" class="nav-link" data-scroll-target="#limited-companies">Limited Companies</a></li>
   <li><a href="#accrual-accounting-1" id="toc-accrual-accounting-1" class="nav-link" data-scroll-target="#accrual-accounting-1">Accrual Accounting</a></li>
   </ul></li>
   </ul>
@@ -282,7 +274,7 @@ window.Quarto = {
 </tr>
 </tbody>
 </table>
-<p>See the accounting equatino for more details on assets, equity, and liabilities.</p>
+<p>See the accounting equation for more details on assets, equity, and liabilities.</p>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <p>The <strong>statement of profit or loss</strong> (income statement) reflects the <strong>performance</strong> (profitability) of a business over a period of time (usually a year).</p>
@@ -351,13 +343,13 @@ window.Quarto = {
 <td><strong>Sole Trader</strong></td>
 <td>A business owned and operated by one person. Common with small businesses.</td>
 <td>The owner is <strong>personally liable</strong> for any losses.</td>
-<td></td>
+<td>Sole traders legally only need to file accounts for tax purposes.</td>
 </tr>
 <tr class="even">
 <td><strong>Partnership</strong></td>
 <td>A business owned and operated by a joint number of partners (a collection of sole traders). Common with law and accountancy firms.</td>
 <td>The partners are <strong>personally liable</strong> for any losses.</td>
-<td></td>
+<td>Partnerships legally only need to file accounts for tax purposes.</td>
 </tr>
 <tr class="odd">
 <td><strong>Company</strong></td>
@@ -368,7 +360,7 @@ window.Quarto = {
 <li>Limited Liability Partnerships (LLP): a partnership that is a separate legal entity.</li>
 </ul></td>
 <td><strong><em>Limited liability</em></strong> - the shareholders are not personally liable for losses.</td>
-<td></td>
+<td>Companies are required to provide more details in their financial statements. These accounts must be provided to Companies House.</td>
 </tr>
 <tr class="even">
 <td><strong>Not-for-Profit</strong></td>
@@ -629,8 +621,52 @@ Individual Judgement
 </div>
 <p><br></p>
 </section>
-<section id="double-entry-accounting" class="level3">
-<h3 class="anchored" data-anchor-id="double-entry-accounting">Double Entry Accounting</h3>
+<section id="debits-and-credits" class="level3">
+<h3 class="anchored" data-anchor-id="debits-and-credits">Debits and Credits</h3>
+<p>We know from the accounting equation, there is a <strong>duality concept</strong>. Another way to specify this concept is with <strong>debits</strong> (Dr) and <strong>credits</strong> (Cr). They are just fancy ways to say increase and decrease. Importantly, debits and credits do different things for different accounts.</p>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Account</th>
+<th style="text-align: center;">Debit</th>
+<th style="text-align: center;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Assets</strong> (all)</td>
+<td style="text-align: center;">🔺</td>
+<td style="text-align: center;">🔻</td>
+</tr>
+<tr class="even">
+<td><strong>Liabilities</strong> (all)</td>
+<td style="text-align: center;">🔻</td>
+<td style="text-align: center;">🔺</td>
+</tr>
+<tr class="odd">
+<td><strong>General Equity</strong> (Share capital, share premium, injections)</td>
+<td style="text-align: center;">🔻</td>
+<td style="text-align: center;">🔺</td>
+</tr>
+<tr class="even">
+<td><strong>Expenses</strong> (negative equity)</td>
+<td style="text-align: center;">🔺</td>
+<td style="text-align: center;">🔻</td>
+</tr>
+<tr class="odd">
+<td><strong>Drawings/Dividends</strong> (negative equity)</td>
+<td style="text-align: center;">🔺</td>
+<td style="text-align: center;">🔻</td>
+</tr>
+</tbody>
+</table>
+<p>The debits and credits of each recorded transaction should balance. See the preparing financial statements to see how we turn debit and credit records into financial statements.</p>
+<p><br></p>
 <p><br></p>
 </section>
 <section id="accrual-accounting" class="level3">
@@ -709,30 +745,9 @@ Examples
 </div>
 </div>
 <p><br></p>
-<section id="double-entry-accounting-1" class="level3">
-<h3 class="anchored" data-anchor-id="double-entry-accounting-1">Double Entry Accounting</h3>
-<p>The accounting equation is <strong>assets = liabilities + capital</strong>.</p>
 <ul>
-<li>Or alternatively, <strong>assets - liabilities = capital</strong>. We often call assets - liabilities <strong>net assets</strong>.</li>
-</ul>
-<p>This equation will always hold true for the business. Why? If the business owns something (asset), it must have gotten the money for it somewhere (liabilities or equity).</p>
-<p>This means for <strong>every transaction</strong> a business makes, there must be an equal change on both sides of this equation. If there is an inequality, this usually indicates some mistake in recording transactions.</p>
-<p>Alternatively, we use <strong>debits</strong> and <strong>credits</strong> to express this equation. Debits and credits represent changes in accounts (such as inventory, cash, etc.).</p>
-<p><img src="images/paste-2.png" class="img-fluid" style="width:60.0%"></p>
-<p>Debits and credits should be equal to each other for each transaction a firm makes.</p>
-<ul>
-<li>Ex. If the firm buys £10 of inventory (an asset) with cash (an asset), that means debit (increase) inventory by £10 and credit (decrease) cash by £10. Thus, debits and credits are equal.</li>
-<li>Ex. If Kevin starts his firm by injecting £1,000 into his firm, he credits (increases) equity by £1,000 and debits (increases) cash assets by £1,000. Once again, debits and credits are balanced.</li>
-</ul>
-<p><br></p>
-</section>
-<section id="limited-companies" class="level3">
-<h3 class="anchored" data-anchor-id="limited-companies">Limited Companies</h3>
-<p>A Limited Company is created when an individual or group incorporates a company as a separate legal identity to themselves. This means owners become shareholders in the company, and the company is a separate company. This is different than a sole trader who is responsible for the company.</p>
-<p>Incorporation changes a few things compared to sole traders in terms of legal requirements regarding accounting and financial statements.</p>
-<ul>
-<li>Companies are required to provide more details in their financial statements. This is because companies tend to have more shareholders, who have a financial interest in the company. This does not apply to sole traders, who themselves own the business.</li>
-<li>Sole traders legally only need to file accounts for tax purposes. Limited companies must maintain financial records and file them with authorities. In the UK, they must be filed annually with companies house.</li>
+<li>This does not apply to sole traders, who themselves own the business.</li>
+<li>Limited companies must maintain financial records and file them with authorities. In the UK, they must be filed annually with companies house.</li>
 <li>Public companies (who are traded on the stock market) must make financial statements publicly available for anyone to read.</li>
 <li>Companies need to prepare statements regarding changes in equity.</li>
 </ul>
@@ -743,7 +758,6 @@ Examples
 <li>In the income statement expenses, limited companies must more clearly report expenses grouped by headings, such as “distribution costs”, “advertising costs”, or “administrative expenses” for example. Sole traders do not need to go into this detail.</li>
 </ul>
 <p><br></p>
-</section>
 <section id="accrual-accounting-1" class="level3">
 <h3 class="anchored" data-anchor-id="accrual-accounting-1">Accrual Accounting</h3>
 <p>In accounting, cash flow is not equal to profit/sales/expenses. For example, if a customer buys a product on credit (so without paying immediately), this sale is already counted in sales/expenses/COGS for the profit statement, even <strong>before the cash has arrived</strong>.</p>

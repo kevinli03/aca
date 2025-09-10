@@ -21,25 +21,25 @@ The statement of financial position (balance sheet) reflects the **position** of
 
 This includes the assets (the things the company owns), the liabilities (what the company owes), and the equity (the investment in the company).
 
-+--------------------------------------+----------------+
-| Current Assets                       | £--            |
-|                                      |                |
-| Non Current Assets                   | £--            |
-|                                      |                |
-| **Total Assets**                     | £--            |
-+--------------------------------------+----------------+
-| Equity                               | £--            |
-|                                      |                |
-| Current Liabilities                  | £--            |
-|                                      |                |
-| Non-Current Liabilities              | £--            |
-+--------------------------------------+----------------+
-| **Total Equity and Liabilities**     | £--            |
-+--------------------------------------+----------------+
++----------------------------------+----------------+
+| Current Assets                   | £--            |
+|                                  |                |
+| Non Current Assets               | £--            |
+|                                  |                |
+| **Total Assets**                 | £--            |
++----------------------------------+----------------+
+| Equity                           | £--            |
+|                                  |                |
+| Current Liabilities              | £--            |
+|                                  |                |
+| Non-Current Liabilities          | £--            |
++----------------------------------+----------------+
+| **Total Equity and Liabilities** | £--            |
++----------------------------------+----------------+
 
 : {.bordered .sm tbl-colwidths="\[35,65\]"}
 
-See the accounting equatino for more details on assets, equity, and liabilities.
+See the accounting equation for more details on assets, equity, and liabilities.
 
 ## Income Statement
 
@@ -47,27 +47,27 @@ The **statement of profit or loss** (income statement) reflects the **performanc
 
 The income statement starts with the revenue of the year, then subtracts different revenue expenditures until we reach the net profit figure.
 
-+------------------------------------+----------------+
-| Revenue                            | £–             |
-+------------------------------------+----------------+
-| less Cost of Sales                 | (£–)           |
-|                                    |                |
-| **Gross Profit**                   | £–             |
-+------------------------------------+----------------+
-| (less) Operating Expenses          | (£–)           |
-|                                    |                |
-| **Operating Profit**               | £–             |
-+------------------------------------+----------------+
-| Finance income (bank interest)     | £–             |
-|                                    |                |
-| (less) Financing Expenses          | (£–)           |
-|                                    |                |
-| **Profit before Tax**              | £–             |
-+------------------------------------+----------------+
-| (less) Tax Expenses                | (£–)           |
-|                                    |                |
-| **Net Profit**                     | £–             |
-+------------------------------------+----------------+
++--------------------------------+----------------+
+| Revenue                        | £–             |
++--------------------------------+----------------+
+| less Cost of Sales             | (£–)           |
+|                                |                |
+| **Gross Profit**               | £–             |
++--------------------------------+----------------+
+| (less) Operating Expenses      | (£–)           |
+|                                |                |
+| **Operating Profit**           | £–             |
++--------------------------------+----------------+
+| Finance income (bank interest) | £–             |
+|                                |                |
+| (less) Financing Expenses      | (£–)           |
+|                                |                |
+| **Profit before Tax**          | £–             |
++--------------------------------+----------------+
+| (less) Tax Expenses            | (£–)           |
+|                                |                |
+| **Net Profit**                 | £–             |
++--------------------------------+----------------+
 
 : {.bordered .sm tbl-colwidths="\[35,65\]"}
 
@@ -86,19 +86,19 @@ The **statement of changes in equity** shows how **equity** (stock/shares) are c
 
 There are several types of businesses, that will affect the reporting standards and legal liability of businesses.
 
-+--------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+----------+
-| **Sole Trader**    | A business owned and operated by one person. Common with small businesses.                                                         | The owner is **personally liable** for any losses.                               |          |
-+--------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+----------+
-| **Partnership**    | A business owned and operated by a joint number of partners (a collection of sole traders). Common with law and accountancy firms. | The partners are **personally liable** for any losses.                           |          |
-+--------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+----------+
-| **Company**        | A business that is a separate legal entity. It is owned by **shareholders**, who elect **directors** to run the business.          | ***Limited liability*** - the shareholders are not personally liable for losses. |          |
-|                    |                                                                                                                                    |                                                                                  |          |
-|                    | -   Limited Liability Companies (LLC): privately owned, no trading shares.                                                         |                                                                                  |          |
-|                    | -   Public Limited Company (PLC): publicly owned, shares are traded.                                                               |                                                                                  |          |
-|                    | -   Limited Liability Partnerships (LLP): a partnership that is a separate legal entity.                                           |                                                                                  |          |
-+--------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+----------+
-| **Not-for-Profit** | Charities, clubs and societies, and government/public sector organisations (ex. NHS).                                              |                                                                                  |          |
-+--------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+----------+
++--------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| **Sole Trader**    | A business owned and operated by one person. Common with small businesses.                                                         | The owner is **personally liable** for any losses.                               | Sole traders legally only need to file accounts for tax purposes.                                                                 |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| **Partnership**    | A business owned and operated by a joint number of partners (a collection of sole traders). Common with law and accountancy firms. | The partners are **personally liable** for any losses.                           | Partnerships legally only need to file accounts for tax purposes.                                                                 |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| **Company**        | A business that is a separate legal entity. It is owned by **shareholders**, who elect **directors** to run the business.          | ***Limited liability*** - the shareholders are not personally liable for losses. | Companies are required to provide more details in their financial statements. These accounts must be provided to Companies House. |
+|                    |                                                                                                                                    |                                                                                  |                                                                                                                                   |
+|                    | -   Limited Liability Companies (LLC): privately owned, no trading shares.                                                         |                                                                                  |                                                                                                                                   |
+|                    | -   Public Limited Company (PLC): publicly owned, shares are traded.                                                               |                                                                                  |                                                                                                                                   |
+|                    | -   Limited Liability Partnerships (LLP): a partnership that is a separate legal entity.                                           |                                                                                  |                                                                                                                                   |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| **Not-for-Profit** | Charities, clubs and societies, and government/public sector organisations (ex. NHS).                                              |                                                                                  |                                                                                                                                   |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 
 : {.bordered .sm tbl-colwidths="\[20,35,20,25\]"}
 
@@ -263,7 +263,29 @@ Refer to the International Ethics Standards Borad for Accountants (IESBA) and th
 
 <br />
 
-### Double Entry Accounting
+### Debits and Credits
+
+We know from the accounting equation, there is a **duality concept**. Another way to specify this concept is with **debits** (Dr) and **credits** (Cr). They are just fancy ways to say increase and decrease. Importantly, debits and credits do different things for different accounts.
+
++---------------------------------------------------------------+----------+----------+
+| Account                                                       | Debit    | Credit   |
++===============================================================+:========:+:========:+
+| **Assets** (all)                                              | 🔺       | 🔻       |
++---------------------------------------------------------------+----------+----------+
+| **Liabilities** (all)                                         | 🔻       | 🔺       |
++---------------------------------------------------------------+----------+----------+
+| **General Equity** (Share capital, share premium, injections) | 🔻       | 🔺       |
++---------------------------------------------------------------+----------+----------+
+| **Expenses** (negative equity)                                | 🔺       | 🔻       |
++---------------------------------------------------------------+----------+----------+
+| **Drawings/Dividends** (negative equity)                      | 🔺       | 🔻       |
++---------------------------------------------------------------+----------+----------+
+
+: {.bordered .sm tbl-colwidths="\[50,25,25\]"}
+
+The debits and credits of each recorded transaction should balance. See the preparing financial statements to see how we turn debit and credit records into financial statements.
+
+<br />
 
 <br />
 
@@ -323,35 +345,8 @@ Below are more examples of assets, liabilities, and equity.
 
 <br />
 
-### Double Entry Accounting
-
-The accounting equation is **assets = liabilities + capital**.
-
--   Or alternatively, **assets - liabilities = capital**. We often call assets - liabilities **net assets**.
-
-This equation will always hold true for the business. Why? If the business owns something (asset), it must have gotten the money for it somewhere (liabilities or equity).
-
-This means for **every transaction** a business makes, there must be an equal change on both sides of this equation. If there is an inequality, this usually indicates some mistake in recording transactions.
-
-Alternatively, we use **debits** and **credits** to express this equation. Debits and credits represent changes in accounts (such as inventory, cash, etc.).
-
-![](images/paste-2.png){width="60%"}
-
-Debits and credits should be equal to each other for each transaction a firm makes.
-
--   Ex. If the firm buys £10 of inventory (an asset) with cash (an asset), that means debit (increase) inventory by £10 and credit (decrease) cash by £10. Thus, debits and credits are equal.
--   Ex. If Kevin starts his firm by injecting £1,000 into his firm, he credits (increases) equity by £1,000 and debits (increases) cash assets by £1,000. Once again, debits and credits are balanced.
-
-<br />
-
-### Limited Companies
-
-A Limited Company is created when an individual or group incorporates a company as a separate legal identity to themselves. This means owners become shareholders in the company, and the company is a separate company. This is different than a sole trader who is responsible for the company.
-
-Incorporation changes a few things compared to sole traders in terms of legal requirements regarding accounting and financial statements.
-
--   Companies are required to provide more details in their financial statements. This is because companies tend to have more shareholders, who have a financial interest in the company. This does not apply to sole traders, who themselves own the business.
--   Sole traders legally only need to file accounts for tax purposes. Limited companies must maintain financial records and file them with authorities. In the UK, they must be filed annually with companies house.
+-   This does not apply to sole traders, who themselves own the business.
+-   Limited companies must maintain financial records and file them with authorities. In the UK, they must be filed annually with companies house.
 -   Public companies (who are traded on the stock market) must make financial statements publicly available for anyone to read.
 -   Companies need to prepare statements regarding changes in equity.
 

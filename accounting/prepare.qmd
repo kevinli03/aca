@@ -1,10 +1,251 @@
 ---
-title: "Statement of Financial Position (Balance Sheet)"
+title: "Preparing Statements"
 ---
 
-### Overview
+<br />
+
+------------------------------------------------------------------------
+
+# **Trial Balance**
+
+### Ledger Accounts
+
+For each transaction, we should list the debits and credits, and ensure they are equal. Then, we put each debit/credit entry into their respective accounts (like cash, inventory, etc.). These respective accounts are called T-accounts/ledger accounts. This process is called **double entry accounting**.
+
+For example, imagine I invest £5,000 into the firm's bank account. In double entry accounting, we know the debits and credits are:
+
+-   Dr. Cash (Asset) £5,000
+-   Cr. Equity (Equity) £5,000
+
+Then, list the debits and credits in the correct accounts:
+
++:-------------------------------------------:+:-------------------------------------------:+
+| **Equity**                                  | **Cash (Asset)**                            |
+|                                             |                                             |
+| | Debits | Credits |                        | | Debits | Credits |                        |
+| |:------:|:-------:|                        | |:------:|:-------:|                        |
+| |   £0   | £5,000  |                        | | £5,000 |   £0    |                        |
+|                                             |                                             |
+| : {.bordered .sm tbl-colwidths="\[50,50\]"} | : {.bordered .sm tbl-colwidths="\[50,50\]"} |
++---------------------------------------------+---------------------------------------------+
+
+Each transaction's debits and credits should balance. However, each t-account individually does not need to be balanced.
+
+-   Note: for income statement accounts (revenue, purchases, expenses), the starting balance of all accounts at the beggining of the period should be reset to 0.
+-   For all other accounts (on the balance sheet), the starting balance of debits/credits should be carried over from the previous period.
 
 <br />
+
+### Closing the Accounts
+
+At the end of the year, we need to **close the accounts**. This differs between the income statement accounts (revenue, purchases, expenses) and balance sheet (everything else).
+
+::: panel-tabset
+## Income Statement Accounts
+
+Say we have this revenue account (similar thing applies to the other income statement accounts):
+
++--------+---------+
+| Debits | Credits |
++:======:+:=======:+
+|        | £600    |
+|        |         |
+|        | £300    |
++--------+---------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+We close this account by summing up the credits, and summing up the debits.
+
+-   Usually there is only entries on one side (debits or credits) for each account. Revenue only has credits, and expenses only have debits.
+
+The total of the non-zero side is the closing balance. Remember to write the closing balance in the correct side (debits/credits) of their sum:
+
++---------------+-------------------+
+| Debits        | Credits           |
++:=============:+:=================:+
+|               | £600              |
+|               |                   |
+|               | £300              |
+|               |                   |
+|               | **Closing: £900** |
++---------------+-------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+This closing balance goes onto our trial balance (make sure you correctly put it in the debit/credit side), and the balance is **refreshed** to 0 debits/credits for the next period.
+
+## Balance Sheet Accounts
+
+Say we have an account. Sum up each side of debits and credits.
+
+Find the side (debit or credit) with the higher sum value. Put this at the bottom of both sides:
+
++-----------------------+-------------------------------------------+
+| Debits                | Credits                                   |
++:=====================:+:=========================================:+
+| £1000                 | £600                                      |
++-----------------------+-------------------------------------------+
+| **highest: £1000**    | **highest: £1000**                        |
++-----------------------+-------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+Now, look at the side with the lower value. Find the "difference" between the lower and higher values, and put it on the side of the lower side. This difference is called the **balance carried forward (c/f)**. Write it on the smaller side.
+
++-----------------------+-------------------------------------------+
+| Debits                | Credits                                   |
++:=====================:+:=========================================:+
+| £1000                 | £600                                      |
++-----------------------+-------------------------------------------+
+| \-                    | **balance c/f £400**                      |
+|                       |                                           |
+| **highest: £1000**    | **highest: £1000**                        |
++-----------------------+-------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+On the side with the larger value, copy the balance c/f value to that side on the very bottom, called the **balance brought forward (b/f)**.
+
++------------------------------------+-------------------------------+
+| Debits                             | Credits                       |
++:==================================:+:=============================:+
+| £1000                              | £600                          |
++------------------------------------+-------------------------------+
+| \-                                 | **c/f £400**                  |
+|                                    |                               |
+| **highest: £1000**                 | **highest: £1000**            |
+|                                    |                               |
+| [**balance b/f £400**]{.underline} |                               |
++------------------------------------+-------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+The balance b/f is the final balance of the account. This final balance (note if it is a debit or credit) will go into the trial balance, as well as be the starting debit/credit value for the next period's account.
+:::
+
+<br />
+
+### Trial Balance
+
+A trial balance is simply a list of all accounts, and their closing balances. It takes the form of the following:
+
+|              | Dr £  | Cr £  |
+|--------------|-------|-------|
+| Cash         | 3,000 |       |
+| Revenue      |       | 4,000 |
+| Rent Expense | 3,000 |       |
+| Capital      |       | 2,000 |
+
+: {.bordered .sm tbl-colwidths="\[50,25,25\]"}
+
+The trial balance should **balance**: the total number of debits and credits should be equal.
+
+-   Make sure you put the value of the account into the correct column (debit or credit).
+-   A quick way to check if the column is correct, is that revenue should always be in the debit column (you cannot have negative revenue, and debit increases revenue), and expenses/drawings should always be in the credit column.
+
+This trial balance will help us create both the income statement, and the balance sheet.
+
+<br />
+
+<br />
+
+------------------------------------------------------------------------
+
+# **Compiling Statements**
+
+### Income Statement
+
+To create the income statement from the trial balance, we just simply put the closing balances of the relevant accounts into the following form:
+
++-------------------------+----------------+----------------+
+|                         | Dr £           | Cr £           |
++=========================+================+================+
+| Revenue                 |                | £–             |
++-------------------------+----------------+----------------+
+| Cost of Sales\*         | £–             |                |
+|                         |                |                |
+| **Gross Profit**        |                |                |
++-------------------------+----------------+----------------+
+| Rent Expense            | £–             |                |
+|                         |                |                |
+| Salary                  | £–             |                |
+|                         |                |                |
+| Other Operating Expense | £–             |                |
+|                         |                |                |
+| **Operating Profit**    |                |                |
++-------------------------+----------------+----------------+
+| Finance Expense         | £–             |                |
+|                         |                |                |
+| **Profit Before Tax**   |                |                |
++-------------------------+----------------+----------------+
+| Tax Expense             | £–             |                |
+|                         |                |                |
+| **Net Profit**          |                |                |
++-------------------------+----------------+----------------+
+
+: {.bordered .sm tbl-colwidths="\[50,25,25\]"}
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Calculating Cost of Sales
+
+Cost of sales, or Cost of goods sold (COGS) is the cost of purchasing/producing all of the goods sold (inventory) that generated the revenue at the top of the income statement.
+
+-   For example, if you sold 5 shoes to generate the reported revenue, the COGS should be the cost of purchasing those 5 shoes in inventory.
+
+To calculate COGS for a specific period (like a year), we take the formula:
+
+> *COGS = opening inventory + purchases in period - closing inventory*
+
+This accounts for the goods that were not sold by the end of the period and remain in our inventory.
+:::
+
+The **bolded** parts are not accounts, and should be left blank until all accounts are filled in. Then, to calculate the bolded metrics, sum up all the credits, and all the debits, [above]{.underline} the bolded metric (all the way to the top). Then do the sum of credits minus the sum of debits.
+
+<br />
+
+### Balance Sheet
+
+To compile the balance sheet, simply list the remaining non-income statement accounts into their proper location. Remember that for assets, debit is positive and credit is negative. For liabilities and equity, debit is negative and credit is positive.
+
++--------------------------------------+----------------+
+| Non-Current Assets                   | \-             |
+|                                      |                |
+| -   Accounts go here                 | -   £–         |
+|                                      |                |
+| Current Assets                       | \-             |
+|                                      |                |
+| -   Accounts go here                 | -   £–         |
+|                                      |                |
+| **Total Assets**                     | £–             |
++--------------------------------------+----------------+
+| Equity                               | \-             |
+|                                      |                |
+| -   Share Capital, Premium, Drawings | -   £–         |
+| -   Retained Earnings\*              | -   £–         |
+|                                      |                |
+| Non-Current Liabilities              | \-             |
+|                                      |                |
+| -   Accounts go here                 | -   £–         |
+|                                      |                |
+| Current Liabities                    | \-             |
+|                                      |                |
+| -   Accounts go here                 | -   £–         |
+|                                      |                |
+| **Total Equity + Assets**            | £–             |
++--------------------------------------+----------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+For **retained earnings**, you calculate it as the *closing balance of retained earnings from the last period + the net profit/loss* (from the income statement). You should find that the accounting equation holds true. If it doesn't, you have likely made some mistake.
+
+<br />
+
+<br />
+
+------------------------------------------------------------------------
+
+# **Changes in Equity**
 
 ### Composition of Equity
 
@@ -39,3 +280,53 @@ The statement of changes in equity explains how the value of equity has changed 
 Thus, the statement of changes in Equity basically gives readers more information about how equity went from the starting balance to the ending balance.
 
 <br />
+
+------------------------------------------------------------------------
+
+# **Cash Flow Statement**
+
+### Cash Flow
+
+Since the income statement (and net profit/loss) is recorded with accrual accounting, it does not record when cash is received/leaving a business. However, cash is still important as cash is needed to pay suppliers and liabilities.
+
+The cash flow statement records how cash flows in and out of a business. It is divided into 3 parts:
+
+1.  **Cash flow from operating activities**: this includes cash flows from core business operations, such as from sales, COGS, and operating expenses.
+2.  **Cash flow from investing activities**: this includes cash flow from the purchase and disposal of assets.
+3.  **Cash flow from financing activities**: this includes cash flows from liabilities/equity (loans, shares) and dividends.
+
+There are two ways to prepare a cash flow statement.
+
+-   **Direct method**: this is basically recording and counting all the inflows and outflows of cash.
+-   **Indirect method** (more common): it uses different details from the income statement and balance sheet to work out the cash flow. Essentially, it is undoing the accruals/prepayments and payables/receivables to calculate cash flow.
+
+<br />
+
+### Indirect Method
+
+**Cash flow from operating activities**:
+
+1.  Start with the [profit before tax]{.underline} figure from the income statement.
+2.  *Add* [finance costs]{.underline} (so if you spend £X on finance costs, do + £X).
+3.  *Subtract* [finance income]{.underline} (so if you earn £X in finance income, do -£X).
+4.  *Subtract* [profits from disposal of non-current assets]{.underline} (so if you earn £X, do -£X, and if you lost £X, do +£X).
+5.  *Add* [depreciation expense]{.underline} (so if you spent £X on depreciation costs, do +£X).
+6.  *Add* [amoritsation expense]{.underline} (so if you spent £X on amoritsation, do +£X).
+7.  *Subtract* [change in inventory]{.underline} (so if inventory increased from last period, subtract. If inventory decreased from last period, add).
+8.  *Subtract* [change in trade receivables]{.underline} (so if receivables increased from last period, subtract. If receivables decreased from last period, add).
+9.  *Add* [change in trade payables]{.underline} (so if payables account increased from last period, add. If payables account decreased, subtract).
+10. *Add* [change in accruals]{.underline} (so if accruals account increased from last period, add. If accruals account decreased, subtract).
+11. *Subtract* [tax expense]{.underline} (so if you spent £X on tax, do -£X).
+12. *Subtract* [interest paid]{.underline} (so if you spent £X on tax, do -£X).
+
+**Cash flow from investing activities**
+
+1.  *Subtract* [amount spent on property, plant, and equipment]{.underline} (so if you spent £X, do -£X).
+2.  *Subtract* [amount spent on intangible assets]{.underline} (so if you spent £X, do -£X).
+3.  *Add* [proceeds from sale of property, plant, and equipment]{.underline} (so if you gained £X, do +£X).
+
+**Cash flow from financing activities**
+
+1.  *Add* [proceeds from issue of shares]{.underline} (so if you gained £X, do +£X).
+2.  *Add* [change in borrowings]{.underline}.
+3.  *Subtract* [dividends paid]{.underline} (so if you paid £X, do -£X).

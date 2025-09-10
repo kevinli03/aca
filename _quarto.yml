@@ -22,13 +22,11 @@ website:
       style: "docked"
       contents:
         - href: accounting/accounting.qmd
-          text: Overview
+          text: Accounting Basements
         - href: accounting/prepare.qmd
           text: Preparing Statements
-        - href: accounting/income.qmd
-          text: Income Statement
-        - href: accounting/cash.qmd
-          text: Cash Flow Statement
+        - href: accounting/adjust.qmd
+          text: Adjustments
 
     - title: "Assurance"
       style: "docked"
