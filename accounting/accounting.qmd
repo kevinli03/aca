@@ -2,7 +2,7 @@
 title: "Accounting Basics"
 ---
 
-This section contains many pages on accounting. The content in this section is a part of the **Accounting Fundamentals** (certificate level) for the ACA qualification.
+This page contains the basics of accounting, including the different financial statements, accounting principles, and reporting standards. The content in this section is a part of the **Accounting Fundamentals** (certificate level) for the ACA qualification.
 
 <br />
 
@@ -17,9 +17,7 @@ Summarising transactions: this provides information about the company to stakeho
 ::: panel-tabset
 ## Balance Sheet
 
-The statement of financial position (balance sheet) reflects the **position** of a business at a specific point in time (end of accounting period, snapshot in time).
-
-This includes the assets (the things the company owns), the liabilities (what the company owes), and the equity (the investment in the company).
+The statement of financial position (balance sheet) reflects the **position** of a business at a specific point in time. This includes the assets (the things the company owns), the liabilities (what the company owes), and the equity (the investment in the company).
 
 +----------------------------------+----------------+
 | Current Assets                   | £--            |
@@ -43,9 +41,7 @@ See the accounting equation for more details on assets, equity, and liabilities.
 
 ## Income Statement
 
-The **statement of profit or loss** (income statement) reflects the **performance** (profitability) of a business over a period of time (usually a year).
-
-The income statement starts with the revenue of the year, then subtracts different revenue expenditures until we reach the net profit figure.
+The **statement of profit or loss** (income statement) reflects the **performance** (profitability) of a business over a period of time (usually a year). It starts with the revenue of the year, then subtracts different revenue expenditures until we reach the net profit figure.
 
 +--------------------------------+----------------+
 | Revenue                        | £–             |
@@ -125,14 +121,45 @@ No matter the type of business, their financial statements should only include t
 
 ### Accounting Principles
 
-Accounting is a set of standards to record business transactions, allowing comparisons between companies, and for stakeholders to make decisions. It is important the financial information has certain qualities:
+There are a set of principles that characterise good financial information and reporting:
 
--   **Relevance**: the financial information is relevant to the decisions that need to be made.
--   **Faithful Representation**: show what really happened with business transactions (accurate/truthful).
--   **Comparable**: financial information needs to be comparable to other businesses, or previous/future years.
--   **Understandable**: clear and easy to read.
--   **Timely**: up to date
--   **Verifiable**: checked by someone else, like an auditor.
++--------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Relevance**                              | Information should be useful, and has the ability to influence decisions of users. Non-material things are not very important.                                                                                                                 |
++--------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Faithful Representation / Reliabiility** | Information in the statements should represent reality correctly and accurately. Information should be neutral, free from bias, and free from errors. No speculation, just what is there.                                                      |
++--------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Comparability**                          | Information should be reported in a similar manner (with same methods) for different firms over the same time period to allow for comparisons between firms. They should also be reported similarly between years to allow for trend analysis. |
++--------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Verifiability**                          | The information should be able to be verified to be accurate (generally through an audit), and has evidence to back up the assertions.                                                                                                         |
++--------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Timeliness**                             | Information should be available quickly to influence decisions - info should not be delayed so that it is out-of-date.                                                                                                                         |
++--------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Understandability**                      | Information should be expressed clearly and according to standards so it is understood.                                                                                                                                                        |
++--------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+<br />
+
+### Accounting Conventions
+
+Accounting is a set of standards to record business transactions, allowing comparisons between companies, and for stakeholders to make decisions. It is important the financial information follows certain conventions:
+
++---------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Convention                | Description                                                                                                                                                                            | Example                                                                                                                                                                                                |
++===========================+========================================================================================================================================================================================+========================================================================================================================================================================================================+
+| **Historic Cost**         | We should report things at historic cost: the cost at acquisition. Current valuations are subjective and can change.                                                                   | If a firm bought a property for £50m, it should be listed as £50m.                                                                                                                                     |
++---------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Prudence/Conservatism** | We should be conservative in making judgmenets. Under-promise (don't overstate profits/good things, always state even potential bad things like losses and liabilities).               | If a firm has a reasonable chance of incurring a liability, we should notify investors of this ahead of time. However, we should not notify investors of good news (profits) before they are realised. |
++---------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Money Measurement**     | In general, financial statements should include things that can be valued in monetary terms. This is to avoid subjectiveness.                                                          | Things like favourable geographic location cannot be given a monetary value, so are at risk of being inflated by management.                                                                           |
++---------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Matching**              | Expenses should be matched to the revenues they generate.                                                                                                                              | If we sell a car this period, but haven't yet received the payment, we should still match the expense of the car to this sale this period.                                                             |
++---------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Going Concern**         | We report statements, with the assumption that the business will continue operations for the foreseeable future. If this isn't the case, we should recommend to not use going concern. | If Microsoft is suing a small firm that will cease operations if they lose, and the firm has a 95% chance of losing, it is reasonable to notify investors about this.                                  |
++---------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[20,45,35\]"}
 
 <br />
 
@@ -267,19 +294,19 @@ Refer to the International Ethics Standards Borad for Accountants (IESBA) and th
 
 We know from the accounting equation, there is a **duality concept**. Another way to specify this concept is with **debits** (Dr) and **credits** (Cr). They are just fancy ways to say increase and decrease. Importantly, debits and credits do different things for different accounts.
 
-+---------------------------------------------------------------+----------+----------+
-| Account                                                       | Debit    | Credit   |
-+===============================================================+:========:+:========:+
-| **Assets** (all)                                              | 🔺       | 🔻       |
-+---------------------------------------------------------------+----------+----------+
-| **Liabilities** (all)                                         | 🔻       | 🔺       |
-+---------------------------------------------------------------+----------+----------+
-| **General Equity** (Share capital, share premium, injections) | 🔻       | 🔺       |
-+---------------------------------------------------------------+----------+----------+
-| **Expenses** (negative equity)                                | 🔺       | 🔻       |
-+---------------------------------------------------------------+----------+----------+
-| **Drawings/Dividends** (negative equity)                      | 🔺       | 🔻       |
-+---------------------------------------------------------------+----------+----------+
++---------------------------------------------------------------+-----------+-----------+
+| Account                                                       | Debit     | Credit    |
++===============================================================+:=========:+:=========:+
+| **Assets** (all)                                              | 🔺        | 🔻        |
++---------------------------------------------------------------+-----------+-----------+
+| **Liabilities** (all)                                         | 🔻        | 🔺        |
++---------------------------------------------------------------+-----------+-----------+
+| **General Equity** (Share capital, share premium, injections) | 🔻        | 🔺        |
++---------------------------------------------------------------+-----------+-----------+
+| **Expenses** (negative equity)                                | 🔺        | 🔻        |
++---------------------------------------------------------------+-----------+-----------+
+| **Drawings/Dividends** (negative equity)                      | 🔺        | 🔻        |
++---------------------------------------------------------------+-----------+-----------+
 
 : {.bordered .sm tbl-colwidths="\[50,25,25\]"}
 
@@ -291,13 +318,27 @@ The debits and credits of each recorded transaction should balance. See the prep
 
 ### Accrual Accounting
 
-pg. 43
+In accounting, cash flow is not equal to profit/sales/expenses. For example, if a customer buys a product on credit (so without paying immediately), this sale is already counted in sales/expenses/COGS for the profit statement, even **before the cash has arrived**.
 
-<br />
+This type of accounting applies to many different scenarios:
 
-### Going Concern
+-   For purchases on credit, the sale/COGS is recognised immediately, even when the cash has yet to leave.
+-   For pre-payments of expenses (like paying rent ahead of time), the expense is for a later period, but the cash has already left.
 
-pg. 45
+When we record transactions in the income statement is called the **accrual basis of accounting**. We record profit/expenses for the specific time period in which the transaction occurred, not when the cash transfer occurred.
+
+-   Sales are recorded when they are earned, not when the money is actually received. For example, if the sale occurred in March but the cash was received in April, the sale (and COGS of the sale) go into the March accounts.
+-   Expenses are recorded when they are incurred, rather than when they are paid. For example, if rent for March is paid in April, the rent is considered a March expense.
+
+This accrual form of accounting requires two expense accounts.
+
++-----------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Accruals**    | Accruals are a current period expense, that will not be paid until the next period. | To complete the double entry in the current period, we would ***DR (increase) the expense***, and ***CR (increase) the accrued expense*** (liability). | To complete the double entry once paid later, we would ***DR (decrease) the accrued expense*** (liability), and ***CR (decrease) cash*** (asset).           |
++-----------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Prepayments** | Prepayments are a future period expense, that have been paid during this period.    | To complete the double entry in the payment period, we would ***DR (increase) prepayment*** (asset), and ***CR (decrease) cash*** (asset).             | To complete the double entry once the service has been delivered, we would ***CR (decrease) the prepayment*** (asset), and ***DR (increase) the expense***. |
++-----------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[20,20,30,30\]"}
 
 <br />
 
@@ -356,35 +397,5 @@ The actual financial statements may differ as well between sole traders and comp
 
 -   In the income statement, companies report tax expenses, but sole traders do not report tax expenses. This is because for a sole trader, the company is not a separate legal entity, so the sole trader files their own tax return. As a result, limited companies will have a [profit before tax]{.underline} and [net profit]{.underline} on their statement.
 -   In the income statement expenses, limited companies must more clearly report expenses grouped by headings, such as "distribution costs", "advertising costs", or "administrative expenses" for example. Sole traders do not need to go into this detail.
-
-<br />
-
-### Accrual Accounting
-
-In accounting, cash flow is not equal to profit/sales/expenses. For example, if a customer buys a product on credit (so without paying immediately), this sale is already counted in sales/expenses/COGS for the profit statement, even **before the cash has arrived**.
-
-This type of accounting applies to many different scenarios:
-
--   For purchases on credit, the sale/COGS is recognised immediately, even when the cash has yet to leave.
--   For pre-payments of expenses (like paying rent ahead of time), the expense is for a later period, but the cash has already left.
-
-When we record transactions in the income statement is called the **accrual basis of accounting**.
-
--   We record profit/expenses for the specific time period in which the transaction occurred, not when the cash transfer occurred.
--   Sales are recorded when they are earned, not when the money is actually received. For example, if the sale occurred in March but the cash was received in April, the sale (and COGS of the sale) go into the March accounts.
--   Expenses are recorded when they are incurred, rather than when they are paid. For example, if rent for March is paid in April, the rent is considered a March expense.
-
-The income statement always uses the accrual basis of accounting.[^1] Thus, another statement, the cash flow statement, represents the cash flows in and out of a business, and connects the opening and closing cash balances from the balance sheet.
-
-[^1]: In the UK, only small self-employed businesses or partnerships with revenue less than £150,000 can use cash-flow accounting.
-
-This accrual form of accounting requires two expense accounts.
-
-1.  **Accruals**: accruals are a current period expense, that will not be paid until the next period.
-    -   To complete the double entry in the current period, we would DR (increase) the electricity expense, and CR (increase) the electricity accrual (liability).
-    -   To complete the double entry once paid later, we would DR (decrease) the electricity accrual (liability), and CR (decrease) the cash (asset).
-2.  **Prepayments**: prepayments are a future period expense, that have been paid during this period.
-    -   To complete the double entry in the payment period, we would DR (increase) the electricity prepayment (asset), and CR (decrease) cash (asset).
-    -   To complete the double entry once the service has been delivered, we would CR (decrease) the electricity prepayment (asset), and DR (increase) the electricity expense.
 
 <br />

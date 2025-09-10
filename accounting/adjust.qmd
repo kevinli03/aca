@@ -2,6 +2,12 @@
 title: "Adjustments to Financial Statements"
 ---
 
+This page covers the common adjustments needed in standard accounting and financial statement reporting. The content in this section is a part of the **Accounting Fundamentals** (certificate level) for the ACA qualification.
+
+<br />
+
+------------------------------------------------------------------------
+
 # **Cost of Sales and Inventory**
 
 # **Accruals and Prepayments**

@@ -22,7 +22,7 @@ website:
       style: "docked"
       contents:
         - href: accounting/accounting.qmd
-          text: Accounting Basements
+          text: Accounting Basics
         - href: accounting/prepare.qmd
           text: Preparing Statements
         - href: accounting/adjust.qmd

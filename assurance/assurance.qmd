@@ -50,7 +50,7 @@ Limitations:
 
 Usually, when considering the accuracy of financial statements, auditors are concerned with **materiality**.
 
-> A mistake is material if its omission or misstatement could influence the economic decisions of users of the report.
+> **A mistake is material if its omission or misstatement could influence the economic decisions of users of the report.**
 
 ::: {.callout-note collapse="true" appearance="simple"}
 ## Materiality, Error, and Fraud
@@ -62,17 +62,17 @@ Usually, when considering the accuracy of financial statements, auditors are con
 
 At the end of an engagement, the auditor needs to write an **opinion** on the level of assurance they can assure regarding the accuracy of the financial statements. There are two **levels of assurance**.
 
-+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
-| Reasonable Assurance                                                  | Limited Assurance                                                                                                  |
-+=======================================================================+====================================================================================================================+
-| High level of assurance of accuracy, but not absolute.                | Moderate/low level of assurance of accuracy.                                                                       |
-+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
-| Conclusion expressed positively.                                      | Conclusion expressed negatively.                                                                                   |
-+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
-| > In our opinion, the financial statements show a true and fair view. | > Nothing has come to our attention that causes us to believe that the financial information is not true and fair. |
-+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
-| Used in statutory audits.                                             | Used in all other engagements.                                                                                     |
-+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
+| Reasonable Assurance                                                      | Limited Assurance                                                                                                      |
++===========================================================================+========================================================================================================================+
+| High level of assurance of accuracy, but not absolute.                    | Moderate/low level of assurance of accuracy.                                                                           |
++---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
+| Conclusion expressed **positively**.                                      | Conclusion expressed **negatively**.                                                                                   |
++---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
+| > **In our opinion, the financial statements show a true and fair view.** | > **Nothing has come to our attention that causes us to believe that the financial information is not true and fair.** |
++---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
+| Used in statutory audits.                                                 | Used in all other engagements.                                                                                         |
++---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
 
 : {.bordered .sm tbl-colwidths="\[50,50\]"}
 
@@ -219,15 +219,27 @@ The EU CSRD also has guidelines on how to obtain limited assurance for sustainab
 
 Regulatory bodies set the rules for auditors and the auditing process. There are a few main regulatory bodies in the UK:
 
--   **ICAEW** (Institute of Chartered Accountants in England and Wales): sets the code of ethics for member auditors/accountants. The ICAEW code is based on the internal code of ethics established by the IESBA.
--   **FRC** (Financial Reporting Council): oversees auditors, sets the ethical standards for audit work, and supervises corporate governance and financial reporting bodies. The FRC also has a professional oversight function.
--   **IESBA** (International Ethics Standards Board for Accountants): develops the international code of ethics for auditors/accountants, which serves as the foundation for the ICAEW ethics code.
--   **RSBs** (Recognised Supervisory Bodies): organisations like ICAEW that supervise auditors, and ensure compliance with ethical and professional standards. These bodies work together to set, monitor, and enforce ethical standards, ensuring public trust in audits/auditors.
++---------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **ICAEW** (Institute of Chartered Accountants in England and Wales) | Sets the code of ethics for member auditors/accountants. The ICAEW code is based on the internal code of ethics established by the IESBA.                                                                                             |
++---------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **FRC** (Financial Reporting Council)                               | Oversees auditors, sets the ethical standards for audit work, and supervises corporate governance and financial reporting bodies. The FRC also has a professional oversight function.                                                 |
++---------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **IESBA** (International Ethics Standards Board for Accountants)    | Develops the international code of ethics for auditors/accountants, which serves as the foundation for the ICAEW ethics code.                                                                                                         |
++---------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Recognised Supervisory Bodies**                                   | Organisations like ICAEW that supervise auditors, and ensure compliance with ethical and professional standards. These bodies work together to set, monitor, and enforce ethical standards, ensuring public trust in audits/auditors. |
++---------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
 
 The ethical codes that these bodies set can be divided into two types:
 
--   **Rule-based codes**: set out specific, detailed requirements, like a checklist of what is and isn't allowed. Ex. no gifts over £30.
--   **Principle-based codes**: focus on broad principles that guide behaviour for a wide range of professional situations. They focus more on professional judgment rather than spelling out rules for every possible scenario. Ex. no gifts that could impair your objectivity (no specific max value). This is used by the ICAEW and IESBA, since they are more flexible and adaptable to new situations.
++---------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Rule-Based Codes**      | Set out specific, detailed requirements, like a checklist of what is and isn't allowed. Ex. no gifts over £30.                                                                                                                                                                                                                                                               |
++---------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Principle Based Codes** | Focus on broad principles that guide behaviour for a wide range of professional situations. They focus more on professional judgment rather than spelling out rules for every possible scenario. Ex. no gifts that could impair your objectivity (no specific max value). This is used by the ICAEW and IESBA, since they are more flexible and adaptable to new situations. |
++---------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
 
 <br />
 
@@ -235,11 +247,19 @@ The ethical codes that these bodies set can be divided into two types:
 
 ICAEW's ethics code is mostly principle-based, but also has some specific rule-based codes for specific things. There are 5 fundamental ethical principles for ICAEW:
 
-1.  **Integrity**: honest, straight forward.
-2.  **Objectivity**: not allow bias, conflict of interest, or undue influence to affect your business judgment.
-3.  **Professional Competence and Due Care**: maintain your skills and knowledge to provide a competent service, and act in accordance with professional standards.
-4.  **Confidentiality**: respect confidentiality of information, do not disclose without proper authority.
-5.  **Professional Behaviour**: comply with rules and regulations, avoid conduct that would discredit the occupation.
++------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+| **Integrity**                            | Be honest and straight forward.                                                                                       |
++------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+| **Objectivity**                          | To not allow bias, conflict of interest, or undue influence to affect your business judgment.                         |
++------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+| **Professional Competence and Due Care** | Maintain your skills and knowledge to provide a competent service, and act in accordance with professional standards. |
++------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+| **Confidentiality**                      | Respect confidentiality of information, do not disclose without proper authority.                                     |
++------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+| **Professional Behaviour**               | Comply with rules and regulations, avoid conduct that would discredit the occupation.                                 |
++------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
 
 **Independence** is key to objectivity. [Independence of mind]{.underline} is the ability to make decisions free from bias or influence. [Independence in appearance]{.underline} is avoiding situations that may make a third party doubt your impartiality, even if you are already not biased.
 
@@ -280,36 +300,58 @@ Independence is not necessarily threatened if auditors use the client's services
 
 <br />
 
-### Threats to Ethics
+### Threats and Safeguards
 
 There are several common threats to ethical behaviour:
 
--   **Self-Interest Threat**: When you have a financial or personal interest that may affect your judgment/bias. Ex. owning shares in a company you are auditing.
--   **Self-Review Threat**: When you are in the position of reviewing your own work, or work by your team, previously did. Ex. auditing financial statements that you yourself produced.
--   **Advocacy Threat**: When you promote a clients position to a point where your objectivity is compromised. Ex. representing a firm in a legal dispute, yet also auditing them.
--   **Familiarity Threat**: Having a long standing or close relationship with the client, making you more sympathetic to them. Ex. you are auditing a company which has your best friend as financial director.
--   **Intimidation Threat**: When you are deterred from acting objectively by external pressures. Ex. the client threatens to replace you as auditor if you do not provide favourable audit conclusion.
--   **Management Threat**: When you or your firm that influences client management decisions, and your interests become aligned with the client management. Ex. you do consulting services for a client that influences their management decisions, then you audit them.
++---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Threat                          | Description                                                                                                                                                                                                                                   | Safeguards                                                                                                                                                                             |
++=================================+===============================================================================================================================================================================================================================================+========================================================================================================================================================================================+
+| **Self-Interest Threat**        | When you have a financial or personal interest that may affect your judgment/bias. Ex. owning shares in a company you are auditing, or one client making up a large proportion of fees for your auditing firm.                                | -   Make sure no audit team members have shares.                                                                                                                                       |
+|                                 |                                                                                                                                                                                                                                               | -   No accepting gifts unless they are very small in value.                                                                                                                            |
+|                                 |                                                                                                                                                                                                                                               | -   Listed company's audit fees should make no more than 10% of the audit firm's income, and needs to be disclosed if it exceeds 5% (Add 5% to thresholds for non-listed companies).   |
++---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Self-Review Threat**          | When you are in the position of reviewing your own work, or work by your team, previously did. Ex. auditing financial statements that you yourself produced.                                                                                  | -   Accounting services can only be offered to the client if the services and audit are 2 separate teams, and work is mechanical/technical.                                            |
+|                                 |                                                                                                                                                                                                                                               | -   Tax calculations and valuations cannot be offered by the audit firm if the client is listed.                                                                                       |
++---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Advocacy Threat**             | When you promote a clients position to a point where your objectivity is compromised. Ex. representing a firm in a legal dispute, yet also auditing them.                                                                                     | -   Audit firm is not allowed to promote, deal in, or underwrite a client's shares.                                                                                                    |
+|                                 |                                                                                                                                                                                                                                               | -   Audit firm cannot provide legal services in a legal case to the client.                                                                                                            |
++---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Familiarity Threat**          | Having a long standing or close relationship with the client, making you more sympathetic to them. Ex. you are auditing a company which has your best friend as financial director.                                                           | -   **Audit rotation**: for listed companies, lead partner of audit must be changed every 5 years (can extend to 7 years in exceptional circumstances), and cannot return for 5 years. |
+|                                 |                                                                                                                                                                                                                                               | -   Audit employees with personal relationships with client should not be on audit team.                                                                                               |
++---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Intimidation Threat**         | When you are deterred from acting objectively by external pressures. Ex. the client threatens to replace you as auditor if you do not provide favourable audit conclusion.                                                                    | -   If partner of audit firm joins client, the firm should resign as auditor, and cannot take the audit for 2 years.                                                                   |
+|                                 |                                                                                                                                                                                                                                               | -   Audit employees with personal relationships with client should not be on audit team.                                                                                               |
++---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Management Threat** (UK Only) | When you or your firm that influences client management decisions, and your interests become aligned with the client management. Ex. you do consulting services for a client that influences their management decisions, then you audit them. | -   Use the engagement letter to limit the involvement of the audit firm away from management decisions.                                                                               |
+|                                 |                                                                                                                                                                                                                                               | -   Regulations meaning providing consultant services means cannot be auditor.                                                                                                         |
++---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-::: {.callout-note collapse="true" appearance="simple"}
-## More on Self Interest
-
-percentage of revenue
-:::
-
-::: {.callout-note collapse="true" appearance="simple"}
-## Audit Rotation
-:::
-
-These threats can be alleviated by profession-wide safeguards, such as training standards, quality control standards, and external reviews. They can also be done by work/company safeguards, like rotation of senior staff and policies on independence. If no safeguards are sufficient to address these threats, you should withdraw from/decline the engagement.
+: {.bordered .sm tbl-colwidths="\[20,35,45\]"}
 
 <br />
 
-### Safeguards to Ethics
+### Data Protection (GDPR)
 
-<br />
+General Data Privacy Regulations (GDPR) in the UK and EU restrict the way auditors can collect and store data.
 
-### Data Protection Regulations
+-   Auditors (and anyone) who processes personal information must ensure it is protected.
+-   Individuals hve a right to access their personal data, and information on how it is being processed.
+-   Individual data can only be held if the individual has opted in, or there is a specific legal duty.
+
+Disclosure of information is divided into two ways: right to disclose and duty to disclose.
+
++----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
+| Right to Disclose                                                                      | Duty to Disclose                                                                    |
++========================================================================================+=====================================================================================+
+| You have the option to disclose private information if the following conditions apply. | You **must** disclose private information if any of the following conditions apply. |
++----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
+| -   Client has given permission.                                                       | -   Suspicions of money laundering.                                                 |
+| -   Disclosure is in the "public interest".                                            | -   Suspicions of criminal activity.                                                |
+| -   To defend the firm in a negligence claim.                                          | -   Quality review or investigation of a professional/regulatory body.              |
++----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
 
 <br />
 
@@ -317,21 +359,44 @@ These threats can be alleviated by profession-wide safeguards, such as training 
 
 ------------------------------------------------------------------------
 
-# **Obtaining an Engagement**
+# **Agreeing an Engagement**
 
-### Agreeing an Engagement
+### Obtaining an Engagement
 
-Before an assurance engagement starts, a few things need to be done:
+There are several ways to get clients for an audit engagement.
 
-1.  Obtaining the engagement: practitioners can advertise their services. The responsible party can tender: invite multiple practitioners to "apply" to be their practitioner for the engagement, and choosing based on price/approach/etc.
-    -   Practitioners can obtain engagements through advertising/tendering. However, they must ensure these do not compromise their independence or integrity as required by ethical standards.
-2.  Accepting the engagement. A few things can influence this choice of acceptance:
-    -   If there is a previous auditor, the current practitioner must communicate with them, and determine if there are any reasons not to accept (like ethical concerns). Permission must be granted by the responsible party for this communication, but if this permission is denied, the audit is almost always refused by the practitioner.
-    -   The practitioner needs to assess resources.
-    -   Client due diligence: verifying the identity of the business the practitioner is accepting as a client, and ensure the business is legit and not money laundering.
-3.  Agreeing to terms: this is done with an engagement letter, which is a contract between the practitioner and responsible party.
-    -   The engagement letter is required and regulated by standards such as ISA 210 for audits, or ISAE 3000 for other assurance engagements.
-    -   The letter covers the objective and scope of the engagement, the responsibilities of the practitioner and responsible party, the reporting framework (what accounting standards), and the form and final contact of the final report.
-    -   This will prevent miscommunication and disagreements later.
++--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Tender**         | A client needs an auditor, and opens up a bidding process where multiple audit firms present offers. The client will then select an auditor.                                                                |
++--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Advertise**      | Using advertisements to get clients.                                                                                                                                                                        |
+|                    |                                                                                                                                                                                                             |
+|                    | Note: you must stick to ethical guidelines. This includes not discrediting the profession - meaning you cannot claim you are better than other audit firm in quality, or that another firm does a poor job. |
++--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Recommendation** | A client of yours recommends your audit firm to another firm. They then become your client.                                                                                                                 |
++--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+However, before you agree to be the auditor, ensure that a few things have been met:
+
+-   Ensure that you are professional qualified to act as an auditor.
+-   Ensure there are no legal or ethical reasons for you to not be the auditor.
+-   Ensure you have adequate resources (staff, budget) to complete the audit.
+-   If there is a previous auditor, the current practitioner must communicate with them, and determine if there are any reasons not to accept (like ethical concerns). Permission must be granted by the responsible party for this communication, but if this permission is denied, the audit is almost always refused by the practitioner.
+
+<br />
+
+### Audit Engagement Letters
+
+After accepting an engagement, an engagement letter (contract) needs to be set up. his engagement letter should include:
+
+1.  The extent of the auditor and management's responsibilities.
+2.  The scope of the engagement, and the objectives of the audit.
+3.  The form of the reports that will be issued, and what reporting framework.
+4.  Level of access to books and records for evidence.
+5.  Restrictiosn on the auditor's liability (if possible).
+6.  Fees and how they are calculated.
+
+The audit engagement letter serves as a contract that will minimise misunderstanding and ensure all parties know their roles in the audit.
 
 <br />

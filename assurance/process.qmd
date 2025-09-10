@@ -154,7 +154,7 @@ In higher risk businesses, the tolerance level for mistakes is lower, so we set 
 | Revenue           | 0.5% to 1%     |
 | Total Assets      | 1% to 2%       |
 
-: {.bordered tbl-colwidths="\[50,50\]"}
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
 
 ::: {.callout-note collapse="true" appearance="simple"}
 ## Performance Materiality
@@ -212,7 +212,7 @@ Often, when comparing in analytical procedures, we will need to use **ratios** t
 | Return on Shareholder's Fund      | operating profit $\div$ (share capital + share reserve) | Effective use of resources.                                           |
 +-----------------------------------+---------------------------------------------------------+-----------------------------------------------------------------------+
 
-: {.bordered tbl-colwidths="\[20,35,45\]"}
+: {.bordered .sm tbl-colwidths="\[20,35,45\]"}
 
 ## Liquidity/Solvency
 
@@ -228,7 +228,7 @@ Often, when comparing in analytical procedures, we will need to use **ratios** t
 | Interest Cover |                                                                       |                                                         |
 +----------------+-----------------------------------------------------------------------+---------------------------------------------------------+
 
-: {.bordered tbl-colwidths="\[20,35,45\]"}
+: {.bordered .sm tbl-colwidths="\[20,35,45\]"}
 
 ## Efficiency
 
@@ -239,7 +239,7 @@ Often, when comparing in analytical procedures, we will need to use **ratios** t
 | Trade Payables Period    |             |         |
 | Inventory Holding Period |             |         |
 
-: {.bordered tbl-colwidths="\[20,35,45\]"}
+: {.bordered .sm tbl-colwidths="\[20,35,45\]"}
 :::
 
 <br />
@@ -321,19 +321,38 @@ You can do this for each separate account/transaction. For example, if most cont
 
 Substantive procedures are tests with numbers. ISA (UK) 500 sets out the following types of procedures:
 
--   **Inspection**: examining records, documents, or physcial assets. For example, an auditor could look at an invoice to confirm the cost of inventory. Third party documentation (like invoices, certificates) are more reliable than internally created documents. Inspection can provide evidence regarding the existence of things, the value of things, the rights and obligations (like in a contract), and the completeness of things. Inspection may not work well for intangible items like goodwill.
--   **Observation**: watching a process or procedure being performed. For example, observe a firm's staff counting inventory. Observation is useful for confirming a process is performed as described. However, be aware that processes may not be the same when observed vs. unobserved.
--   **Inquiry and Confirmation**: regards asking staff (inquiry) or third-parties (confirmation). This is useful for understanding processes or obtaining explanations. Confrimation from third parties (banks, customers) is a strong form of evidence. Be aware that oral responses are less reliable than written confirmation.
--   **Recalculation and Reperformance**: checking the mathematical accuracy of documents and records. This is strong evidence as the auditor does it directly. For example, the auditor recalculates the depreciation to confirm they match the accounts. Reperformance is similar to recalculation, but not with math. Basically, do the same thing that the firm did previously.
--   **Analytical Procedures**: like done in the planning stage. In the evidence stage, if inconsistency of expectations and figures are unacceptable, seek further evidence.
--   **Remote Auditing Techniques**: this is inspection, but remote. For example, observing inventory counts through a live video, sharing documents electronically, and interviews via video call. This is useful when physical access is limited.
++-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Inspection**                      | -   Examining records, documents, or physical assets.                                                                                                                        |
+|                                     | -   For example, an auditor could look at an invoice to confirm the cost of inventory.                                                                                       |
+|                                     | -   Third party documentation (like invoices, certificates) are more reliable than internally created documents.                                                             |
+|                                     | -   Inspection can provide evidence regarding the existence of things, the value of things, the rights and obligations (like in a contract), and the completeness of things. |
+|                                     | -   **Remote Auditing Techniques**: For example, observing inventory counts through a live video, sharing documents electronically, and interviews via video call.           |
++-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Observation**                     | -   Watching a process or procedure being performed.                                                                                                                         |
+|                                     | -   For example, observe a firm's staff counting inventory.                                                                                                                  |
+|                                     | -   Observation is useful for confirming a process is performed as described.                                                                                                |
+|                                     | -   However, be aware that processes may not be the same when observed vs. unobserved.                                                                                       |
++-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Inquiry and Confirmation**        | -   Regards asking staff (inquiry) or third-parties (confirmation).                                                                                                          |
+|                                     | -   This is useful for understanding processes or obtaining explanations.                                                                                                    |
+|                                     | -   Confirmation from third parties (banks, customers) is a strong form of evidence.                                                                                         |
+|                                     | -   Be aware that oral responses are less reliable than written confirmation.                                                                                                |
++-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Recalculation and Reperformance** | -   Checking the mathematical accuracy of documents and records. This is strong evidence as the auditor does it directly.                                                    |
+|                                     | -   For example, the auditor recalculates the depreciation to confirm they match the accounts.                                                                               |
+|                                     | -   Reperformance is similar to recalculation, but not with math. Basically, do the same thing that the firm did previously.                                                 |
++-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Analytical Procedures**           | -   Like done in the planning stage.                                                                                                                                         |
+|                                     | -   In the evidence stage, if inconsistency of expectations and figures are unacceptable, seek further evidence.                                                             |
++-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Estimation Procedures**           | -   Some accounts require estimation, such as depreciation, allowance for receivables, and provisions. Since these are subjective, they are at risk of management bias.      |
+|                                     | -   Review and test the process used by management to develop the estimate. Is it reasonable?                                                                                |
+|                                     | -   Use an independent expert to make an estimate for comparision with the company's figure.                                                                                 |
+|                                     | -   Review subsequent events (events after the year-end) for confirmation of the accuracy.                                                                                   |
+|                                     | -   Test the operating effectiveness of the controls over how management made the estimates.                                                                                 |
++-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-Some accounts require estimation, such as depreciation, allowance for receivables, and provisions. Since these are subjective, they are at risk of management bias. To audit these estimates, the common accounting procedures are:
-
--   Review and test the process used by management to develop the estimate. Is it reasonable?
--   Use an independent expert to make an estimate for comparision with the company's figure.
--   Review subsequent events (events after the year-end) for confirmation of the accuracy.
--   Test the operating effectiveness of the controls over how management made the estimates.
+: {.bordered .sm tbl-colwidths="\[20,80\]"}
 
 <br />
 
@@ -356,7 +375,7 @@ Modern accounting systems use computer software, so using technology to carry ou
 |                                                                                                               | -   Judgemental areas: using sensitivity analysis to test assumptions on the net realisable value of inventory.                              |
 +---------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
 
-: {.bordered tbl-colwidths="\[50,50\]"}
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
 
 <br />
 
@@ -381,7 +400,7 @@ Testing for overstated and understated balances is different. For example, if yo
 | Why? If assets are overstated, that means some on the financial statements don't exist in real life. So you start from the financial statements and check they exist. | Why? If assets are understated, some assets that are being used aren't on the financial statements. Thus, start from the physical assets, and check all of them are on the financial statements. |
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-: {.bordered tbl-colwidths="\[50,50\]"}
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
 
 <br />
 
@@ -465,7 +484,7 @@ The auditor's report contains two different options:
 |                                                                                                                     | -   Directors remuneration disclosures required by law were not made.                          |
 +---------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
 
-: {.bordered tbl-colwidths="\[50,50\]"}
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
 
 <br />
 
