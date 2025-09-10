@@ -2,7 +2,7 @@
 title: "Assurance Basics"
 ---
 
-This page covers the basics of assurance, ethical codes, and obtaining/accepting an assurance engagement. The content in this section is a part of the **Accounting and Risk Fundamentals** (certificate level) for the ACA qualification.
+This page covers the basics of assurance, ethical codes, and obtaining/accepting an assurance engagement. The content in this section is a part of the **Assurance and Risk Fundamentals** (certificate level) for the ACA qualification.
 
 <br />
 
@@ -74,7 +74,7 @@ At the end of an engagement, the auditor needs to write an **opinion** on the le
 | Used in statutory audits.                                             | Used in all other engagements.                                                                                     |
 +-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
 
-: {.bordered tbl-colwidths="\[50,50\]"}
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
 
 ::: {.callout-note collapse="true" appearance="simple"}
 ## The Expectations Gap
@@ -95,7 +95,7 @@ Users and the public often misinterpret audit opinions to mean other things. Thi
 | The public often thinks the balance sheet shows the true value of the company.                             | This is not true, valuation is done by separate teams.                                                                                                                                                         |
 +------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-: {.bordered tbl-colwidths="\[50,50\]"}
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
 :::
 
 <br />
@@ -118,7 +118,7 @@ To qualify for an exemption, a firm must **not** be an insurance, banking, or li
 | **Less** than £15m in turnover.        | **Less** than £10.2m in turnover.      |
 +----------------------------------------+----------------------------------------+
 
-: {.bordered tbl-colwidths="\[50,50\]"}
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
 
 <br />
 
@@ -135,7 +135,7 @@ Sustainability is about meeting he needs of the present, without compromising th
 | About the planet. For example, emissions and pollution. | About the people. Diversity, inclusion, worker health, mental health, etc. | About company practices and ethics. |
 +---------------------------------------------------------+----------------------------------------------------------------------------+-------------------------------------+
 
-: {.bordered tbl-colwidths="\[33,34,33\]"}
+: {.bordered .sm tbl-colwidths="\[33,34,33\]"}
 :::
 
 Because of growing demand from users for information regarding sustainability, assurance is needed to ensure that the reported sustainability metrics of a firm are accurate.
@@ -275,7 +275,7 @@ Independence is not necessarily threatened if auditors use the client's services
 | Selective Perception | Expectations influencing personal views.                                                   | If you expect something to be bad, you are more likely to look for the bad parts.                                                            |
 +----------------------+--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
 
-: {.bordered tbl-colwidths="\[20,35,45\]"}
+: {.bordered .sm tbl-colwidths="\[20,35,45\]"}
 :::
 
 <br />

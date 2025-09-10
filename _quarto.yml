@@ -23,8 +23,8 @@ website:
       contents:
         - href: accounting/accounting.qmd
           text: Overview
-        - href: accounting/balance.qmd
-          text: Balance Sheet
+        - href: accounting/prepare.qmd
+          text: Preparing Statements
         - href: accounting/income.qmd
           text: Income Statement
         - href: accounting/cash.qmd

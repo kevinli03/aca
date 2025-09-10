@@ -1,28 +1,129 @@
 ---
-title: "Accounting"
+title: "Accounting Basics"
 ---
 
-This section contains many pages on accounting. Use the left-side navigation bar to navigate to different pages with more information. Below, a brief introduction to accounting is provided.
+This section contains many pages on accounting. The content in this section is a part of the **Accounting Fundamentals** (certificate level) for the ACA qualification.
 
 <br />
 
-### Overview of Accounting
+------------------------------------------------------------------------
 
-Businesses need to interact with other stakeholders.
+# **Introduction**
 
--   A business might need a loan from the bank. How does the bank know you will pay back the loan?
--   A business might need to purchase supplies from a supplier. How does the supplier know they will get paid?
--   An investor might want to invest in your company? How does the investor know how well your company is doing, and how it is compared to the competitors?
+### Financial Statements
+
+Summarising transactions: this provides information about the company to stakeholders. Stakeholders can include shareholders, investors, employees, banks, or any users that may interact with the company. This takes the form of 4 financial statements:
+
+::: panel-tabset
+## Balance Sheet
+
+The statement of financial position (balance sheet) reflects the **position** of a business at a specific point in time (end of accounting period, snapshot in time).
+
+This includes the assets (the things the company owns), the liabilities (what the company owes), and the equity (the investment in the company).
+
++--------------------------------------+----------------+
+| Current Assets                       | £--            |
+|                                      |                |
+| Non Current Assets                   | £--            |
+|                                      |                |
+| **Total Assets**                     | £--            |
++--------------------------------------+----------------+
+| Equity                               | £--            |
+|                                      |                |
+| Current Liabilities                  | £--            |
+|                                      |                |
+| Non-Current Liabilities              | £--            |
++--------------------------------------+----------------+
+| **Total Equity and Liabilities**     | £--            |
++--------------------------------------+----------------+
+
+: {.bordered .sm tbl-colwidths="\[35,65\]"}
+
+See the accounting equatino for more details on assets, equity, and liabilities.
+
+## Income Statement
+
+The **statement of profit or loss** (income statement) reflects the **performance** (profitability) of a business over a period of time (usually a year).
+
+The income statement starts with the revenue of the year, then subtracts different revenue expenditures until we reach the net profit figure.
+
++------------------------------------+----------------+
+| Revenue                            | £–             |
++------------------------------------+----------------+
+| less Cost of Sales                 | (£–)           |
+|                                    |                |
+| **Gross Profit**                   | £–             |
++------------------------------------+----------------+
+| (less) Operating Expenses          | (£–)           |
+|                                    |                |
+| **Operating Profit**               | £–             |
++------------------------------------+----------------+
+| Finance income (bank interest)     | £–             |
+|                                    |                |
+| (less) Financing Expenses          | (£–)           |
+|                                    |                |
+| **Profit before Tax**              | £–             |
++------------------------------------+----------------+
+| (less) Tax Expenses                | (£–)           |
+|                                    |                |
+| **Net Profit**                     | £–             |
++------------------------------------+----------------+
+
+: {.bordered .sm tbl-colwidths="\[35,65\]"}
+
+## Cash Flows
+
+The **statement of cash flows** shows how **cash** is entering and exiting the business over a period of time. Useful to see if the company has enough cash to pay off short term loans/liabilities.
+
+## Changes in Equity
+
+The **statement of changes in equity** shows how **equity** (stock/shares) are changing in a business over a period of time. Useful to see how the company is issuing shares.
+:::
+
+<br />
+
+### Types of Businesses
+
+There are several types of businesses, that will affect the reporting standards and legal liability of businesses.
+
++--------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+----------+
+| **Sole Trader**    | A business owned and operated by one person. Common with small businesses.                                                         | The owner is **personally liable** for any losses.                               |          |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+----------+
+| **Partnership**    | A business owned and operated by a joint number of partners (a collection of sole traders). Common with law and accountancy firms. | The partners are **personally liable** for any losses.                           |          |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+----------+
+| **Company**        | A business that is a separate legal entity. It is owned by **shareholders**, who elect **directors** to run the business.          | ***Limited liability*** - the shareholders are not personally liable for losses. |          |
+|                    |                                                                                                                                    |                                                                                  |          |
+|                    | -   Limited Liability Companies (LLC): privately owned, no trading shares.                                                         |                                                                                  |          |
+|                    | -   Public Limited Company (PLC): publicly owned, shares are traded.                                                               |                                                                                  |          |
+|                    | -   Limited Liability Partnerships (LLP): a partnership that is a separate legal entity.                                           |                                                                                  |          |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+----------+
+| **Not-for-Profit** | Charities, clubs and societies, and government/public sector organisations (ex. NHS).                                              |                                                                                  |          |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+----------+
+
+: {.bordered .sm tbl-colwidths="\[20,35,20,25\]"}
 
 ::: {.callout-note collapse="true" appearance="simple"}
-## Types of Businesses
+## Personal Liability
 
-There are three types of businesses in accounting.
+When saying personal liability, this means people can have their personal belongings repossessed to pay off the debts of a business.
 
-1.  **Sole trader**: a small business owned and managed by the same person. This person is legally responsible for all of the losses of the business. Sole trader firms are not as heavily regulated in terms of accounting.
-2.  **Partnership**: a business owned and managed by two or more people. For example, accountancy and law firms. Each partner is a sole trader for accounting purposes, and a partnership is a collection of sole traders acting together in a business. Thus, they are jointly liable for any losses the business makes.
-3.  **Company**: a company is not always owned by the managers of the business (directors), but instead, by shareholders who buy shared in the company and elect the directors to run the company. Companies have *limited liability*: the shareholders are not responsible for the losses of the company, and the company is a separate legal entity. Companies are more heavily regulated in terms of accounting standards.
+-   A person's private car and house can be taken away.
+
+In limited liability, only the money the person invested can be lost. Their personal belongings are not at risk even if the company is in debt.
 :::
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Business Entity Concept
+
+No matter the type of business, their financial statements should only include transactions related to the business. This is the business entity concept - the business is a separate entity (even if legal liability is not separate).
+
+-   Ex. most sole traders should have a separate account for personal and business matters. Personal matters should not be included in the financial statements.
+-   If a sole trader needs to pull things in and out of a business, they invest capital into the business (equity increase), or draw from the business (equity decrease).
+:::
+
+<br />
+
+### Accounting Principles
 
 Accounting is a set of standards to record business transactions, allowing comparisons between companies, and for stakeholders to make decisions. It is important the financial information has certain qualities:
 
@@ -35,46 +136,189 @@ Accounting is a set of standards to record business transactions, allowing compa
 
 <br />
 
-### Financial Statments
+<br />
 
-The accounting process takes all of these different business transactions and tries to make them comparable/understandable/relevant by summarising information in 3 statements:
+------------------------------------------------------------------------
 
-1.  The **statement of financial position**, also called the **balance sheet**, states the assets, liabilities, and equity of the business at a given date (a snapshot in time).
-    -   Contains assets (what the firm owns), liabilities (what the firm owes to external sources), and equities (what the firm owes to owners/shareholders).
-2.  The **statement of profit or loss**, also called the **income statement**, summarises the revenues and expenses during a period.
-    -   Helps calculate the profitability of the company.
-3.  The **cash flow statement** shows the flows of cash in and out of the business to indicate how much cash the business has on hand to pay off obligations.
+# **Accounting Concepts**
 
-The profit/loss from the statement of profit or loss makes its way into the statement of financial position through retained earnings. This makes these two statements connected.
+### Accounting Equation
+
+The **accounting equation** is the following equation:
+
+> **Assets = Liabilities + Equity** $\implies$ **Assets - Liabilities = Equity**
+
+::: panel-tabset
+## Assets
+
+Assets are things the company owns, that helps it generate profit. They are divided into current assets and non-current assets.
+
++------------------------+------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+
+| **Current Assets**     | Assets you plan to liquidate (turn into cash, move around, sell) within the next 12 months as part of making business. | Inventory, Cash, Cash at bank, Trade Receivables (things customers need to pay to you), Prepayments. |
++------------------------+------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+
+| **Non-Current Assets** | Assets you do not plan to sell/move on from in the next 12 months, but still help generate profit.                     | Property Plant Equipment, Fixtures, Vehicles, Factories, Computers, Capital Expenditures.            |
++------------------------+------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[25,40,35\]"}
+
+## Liabilities
+
+Liabilities are things the company owes to external lenders. For example, money they owe to the bank or suppliers. They are divided into current and non-current liabilities.
+
++-----------------------------+-------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+| **Current Liabilities**     | Things you owe to external lenders that are due within 12 months.       | Short Term Borrowings, Trade Payables (things you need to pay), Provisions, Overdrafts. |
++-----------------------------+-------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+| **Non-Current Liabilities** | Things you owe to external lenders that are due in more than 12 months. | Bank Loan.                                                                              |
++-----------------------------+-------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[25,40,35\]"}
+
+## Equity
+
+Equity is the investment of the shareholders of the company. Equity consists of the following accounts:
+
++-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------+
+| **Shares/Capital**    | The direct investment of shareholders/owners. This includes share premium and share capital (discussed later).                             | Share Premium, Share Capital, Injections |
++-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------+
+| **Retained Earnings** | The accumulated profits/loss of the business. Each new year profit is added/subtracted from it.                                            | Retained Earnings.                       |
++-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------+
+| **Drawings**          | When the owners take out money. This can be a sole trader taking a computer out to give to their kid, or dividends issued to shareholders. | Dividends, Drawings.                     |
++-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[25,40,35\]"}
+
+Based on the above, we can determine the ending equity of a period is:
+
+> **(Ending) Equity = Injection of Shares + Opening Equity + Profit - Drawings**
+:::
+
+The accounting equation is **always true**: the statement of financial position's listed assets, liabilities, and equity should always equal/balance.
+
+This equation implies the **duality concept**: that every transaction that affects one side of the equation, must also affect the other side of the equation, in order to keep the accounting equation true.
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Net Assets
+
+Net assets are defined as:
+
+> **Net Assets = Assets - Liabilities**
+
+Net current assets are defined as:
+
+> **Net Current Assets = Current Assets - Current Liabilities**
+:::
 
 <br />
 
-### Assets, Liabilities, Equity
+### Expenditures
 
-There are three types of accounts in the statement of financial position:
+There are two main types of expenditures accounts that are also important to note, since these go on different financial statements:
 
-1.  **Assets**: these are things that the business *owns* or *controls*. These are split into non-current and current assets.
-    -   Non-current assets are assets a business has that it intends to use for more than one year (often several years) to help them earn profits without selling these assets. For example, land, buildings, machines, patents, vehicles, tools, equipment, and other assets are used by the company long-term to produce profit.
-    -   Current assets are ones that are expected to be converted into cash within 12 months. These are usually things the business aims to sell in order to generate profits. The most notable assets are inventories, cash, and receivables.
-2.  **Liabilities**: liability is an amount owed by the business. These include loans, delayed payments, and bank overdrafts. Non-current liabilities are payments the firm needs to make in more than 1 year into the future, while current liabilities are liabilities that need to be paid soon.
-3.  **Equity** (capital): recall that the company and owner are separate legal entities. Thus, if the business puts money into a business, the business owes this money to the owner. Equity is what the firm owes to its owners/shareholders.
-    -   *Opening capital* is the amount which the owners have invested in the business at the start of the year/start of the business.
-    -   *Capital injections* is the amount the owners have invested in the business during the year.
-    -   *Profits* are funds generated by the business. Profits are equity (well the part that is not put back/reinvested into the business).
-    -   *Drawings* are the amounts of funds taken out of the business by an owner.
+::: panel-tabset
+## Capital Expenditure
 
-Equity can also be defined as how much the owners/shareholders would get if the company sold all its assets, and settled all its liabilities.
+Capital expenditure are expenses used to acquire long-term assets, or to improve or enhance the earning capacity (not maintenance, only improvement) of long term assets you already hold.
+
+-   Ex. Purchasing a factory is acquiring a long-term asset.
+-   However, painting it or repairing it is not enhancing the earning capacity, only maintaining it.
+
+Capital expenditures are included in **non-current assets** in the **statement of financial position**.
+
+## Revenue Expenditure
+
+Revenue expenditure is incurred for either:
+
+1.  Purchases for trade purposes, such a raw material, inventory (cost of goods sold), operating expenses (wages, rent, administrative), tax expenses (see below).
+2.  To repair/maintain a non-current asset. For example, repairing the roof of a factory is a revenue expenditure, not a capital expenditure.
+
+Revenue expenditure is classified into expenses on the **statement of profit or loss**. However, since the net profit is added to retained earnings in the equity section of the balance sheet, it is also indirectly in the balance sheet.
+:::
+
+Revenue Expenditures are divided further into these expense accounts:
+
++------------------------+------------------------------------------------------------------------------------------------------+-----------------------------------+
+| **Cost of Sales**      | The cost of purchasing the inventory that was sold to generate the revenue in the accounting period. | Ex. Cost of inventory/goods sold. |
+|                        |                                                                                                      |                                   |
+|                        | Can be calculated as: *opening inventory + purchases - closing inventory*.                           |                                   |
++------------------------+------------------------------------------------------------------------------------------------------+-----------------------------------+
+| **Operating Expenses** | The expenses involved in operating the business day-to-day outside of cost of sales.                 | Ex. wages, rent, utility bills.   |
++------------------------+------------------------------------------------------------------------------------------------------+-----------------------------------+
+| **Finance Expenses**   | Expenses needed for finance/loan arrangements.                                                       | Ex. interest payments.            |
++------------------------+------------------------------------------------------------------------------------------------------+-----------------------------------+
+| **Tax Expenses**       | Expenses needed to pay taxes owed.                                                                   | Ex. Tax                           |
++------------------------+------------------------------------------------------------------------------------------------------+-----------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[25,40,35\]"}
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Individual Judgement
+
+Many figures in financial statements are derived from the application of judgment in applying accounting concepts. This means different people can reach different conclusions.
+
+-   Example: determining whether expenditure is revenue or capital.
+-   Other examples: valuation of buildings, depreciation, etc.
+
+Refer to the International Ethics Standards Borad for Accountants (IESBA) and the ICAEW code of ethics, and their [ethical principles](../assurance/assurance.qmd#ethical-principles).
+:::
+
+<br />
+
+### Double Entry Accounting
+
+<br />
+
+### Accrual Accounting
+
+pg. 43
+
+<br />
+
+### Going Concern
+
+pg. 45
+
+<br />
+
+### Accounting Errors
+
+There are 5 main types of errors:
+
+1.  **Errors of omission**: forgetting to include a transaction in the accounts.
+2.  **Transposition errors**: when an accountant accidentally swaps the positions of digits in an entry. For example, instead of £3,850, they record it as £3,580.
+3.  **Errors of principle**: when an accountant records a transaction that breaks the rules/standards of accounting.
+4.  **Errors of commission**: when an accountant records a transaction in the correct large account but wrong sub-account. For example, they correctly choose asset/liability/equity, but put it in the wrong account. The most common is recording one expense as another.
+5.  **Compensating errors**: when two are more errors offset each other, resulting in a correct balance for all accounts, but the individual errors are still there.
+
+To correct errors, we should take a few steps.
+
+1.  Identify the incorrect entry. Note the values included in this incorrect entry.
+2.  Decide what the correct entry should be. Note the values included in this correct entry.
+3.  Compare the result of the first two steps, and create a journal entry to fix the error. This journal entry should correct the account balances from the incorrect entry to the correct entry. We do not withdraw the old entry, just a new entry to correct the difference.
+
+**Suspense accounts** are a way to avoid errors in the first place. Sometimes, you know one account for the entry debits/credits, but you are not sure about another. Thus, instead of putting the unknown side of the transaction into a wrong account, you can put it into a temporary account called a suspense account. Later, you can correctly record the transaction.
+
+<br />
+
+<br />
+
+------------------------------------------------------------------------
+
+# **Reporting Standards**
+
+<br />
 
 ::: {.callout-note collapse="true" appearance="simple"}
 ## Examples
 
 Below are more examples of assets, liabilities, and equity.
 
-|  |  |  |
-|------------------------|------------------------|------------------------|
-|  | **Current** | **Non-current** |
-| **Assets** | Inventory, cash, receivables. | Land, buildings, plant and machinery, patents, motor vehicles, tools, fixtures and fittings, office equipment, computers, long-term investments, ships, works of art. |
-| **Liabilities** | Trade payables, bank overdrafts. | Long-term loans. |
++-----------------+----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                 | **Current**                      | **Non-current**                                                                                                                                                       |
++-----------------+----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Assets**      | Inventory, cash, receivables.    | Land, buildings, plant and machinery, patents, motor vehicles, tools, fixtures and fittings, office equipment, computers, long-term investments, ships, works of art. |
++-----------------+----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Liabilities** | Trade payables, bank overdrafts. | Long-term loans.                                                                                                                                                      |
++-----------------+----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 :::
 
 <br />
@@ -149,21 +393,3 @@ This accrual form of accounting requires two expense accounts.
     -   To complete the double entry once the service has been delivered, we would CR (decrease) the electricity prepayment (asset), and DR (increase) the electricity expense.
 
 <br />
-
-## Errors and Controls
-
-There are 5 main types of errors:
-
-1.  **Errors of omission**: forgetting to include a transaction in the accounts.
-2.  **Transposition errors**: when an accountant accidentally swaps the positions of digits in an entry. For example, instead of £3,850, they record it as £3,580.
-3.  **Errors of principle**: when an accountant records a transaction that breaks the rules/standards of accounting.
-4.  **Errors of commission**: when an accountant records a transaction in the correct large account but wrong sub-account. For example, they correctly choose asset/liability/equity, but put it in the wrong account. The most common is recording one expense as another.
-5.  **Compensating errors**: when two are more errors offset each other, resulting in a correct balance for all accounts, but the individual errors are still there.
-
-To correct errors, we should take a few steps.
-
-1.  Identify the incorrect entry. Note the values included in this incorrect entry.
-2.  Decide what the correct entry should be. Note the values included in this correct entry.
-3.  Compare the result of the first two steps, and create a journal entry to fix the error. This journal entry should correct the account balances from the incorrect entry to the correct entry. We do not withdraw the old entry, just a new entry to correct the difference.
-
-**Suspense accounts** are a way to avoid errors in the first place. Sometimes, you know one account for the entry debits/credits, but you are not sure about another. Thus, instead of putting the unknown side of the transaction into a wrong account, you can put it into a temporary account called a suspense account. Later, you can correctly record the transaction.
