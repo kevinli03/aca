@@ -159,26 +159,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#trial-balance" id="toc-trial-balance" class="nav-link active" data-scroll-target="#trial-balance"><strong>Trial Balance</strong></a>
+  <li><a href="#bookkeeping" id="toc-bookkeeping" class="nav-link active" data-scroll-target="#bookkeeping"><strong>Bookkeeping</strong></a>
   <ul class="collapse">
-  <li><a href="#ledger-accounts" id="toc-ledger-accounts" class="nav-link" data-scroll-target="#ledger-accounts">Ledger Accounts</a></li>
+  <li><a href="#recording-transactions" id="toc-recording-transactions" class="nav-link" data-scroll-target="#recording-transactions">Recording Transactions</a></li>
+  <li><a href="#inventory-and-cost-of-sales" id="toc-inventory-and-cost-of-sales" class="nav-link" data-scroll-target="#inventory-and-cost-of-sales">Inventory and Cost of Sales</a></li>
+  <li><a href="#advanced-transactions" id="toc-advanced-transactions" class="nav-link" data-scroll-target="#advanced-transactions">Advanced Transactions</a></li>
   <li><a href="#closing-the-accounts" id="toc-closing-the-accounts" class="nav-link" data-scroll-target="#closing-the-accounts">Closing the Accounts</a></li>
-  <li><a href="#trial-balance-1" id="toc-trial-balance-1" class="nav-link" data-scroll-target="#trial-balance-1">Trial Balance</a></li>
+  <li><a href="#trial-balance" id="toc-trial-balance" class="nav-link" data-scroll-target="#trial-balance">Trial Balance</a></li>
   </ul></li>
   <li><a href="#compiling-statements" id="toc-compiling-statements" class="nav-link" data-scroll-target="#compiling-statements"><strong>Compiling Statements</strong></a>
   <ul class="collapse">
   <li><a href="#income-statement" id="toc-income-statement" class="nav-link" data-scroll-target="#income-statement">Income Statement</a></li>
   <li><a href="#balance-sheet" id="toc-balance-sheet" class="nav-link" data-scroll-target="#balance-sheet">Balance Sheet</a></li>
-  </ul></li>
-  <li><a href="#changes-in-equity" id="toc-changes-in-equity" class="nav-link" data-scroll-target="#changes-in-equity"><strong>Changes in Equity</strong></a>
-  <ul class="collapse">
-  <li><a href="#composition-of-equity" id="toc-composition-of-equity" class="nav-link" data-scroll-target="#composition-of-equity">Composition of Equity</a></li>
   <li><a href="#statement-of-changes-in-equity" id="toc-statement-of-changes-in-equity" class="nav-link" data-scroll-target="#statement-of-changes-in-equity">Statement of Changes in Equity</a></li>
-  </ul></li>
-  <li><a href="#cash-flow-statement" id="toc-cash-flow-statement" class="nav-link" data-scroll-target="#cash-flow-statement"><strong>Cash Flow Statement</strong></a>
-  <ul class="collapse">
   <li><a href="#cash-flow" id="toc-cash-flow" class="nav-link" data-scroll-target="#cash-flow">Cash Flow</a></li>
-  <li><a href="#indirect-method" id="toc-indirect-method" class="nav-link" data-scroll-target="#indirect-method">Indirect Method</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -208,11 +202,11 @@ ul.task-list li input[type="checkbox"] {
 <p>This page contains basic steps on how to prepare the core financial statements for sole-companies (not groups). The content in this section is a part of the <strong>Accounting Fundamentals</strong> (certificate level) for the ACA qualification.</p>
 <p><br></p>
 <hr>
-<section id="trial-balance" class="level1">
-<h1><strong>Trial Balance</strong></h1>
-<section id="ledger-accounts" class="level3">
-<h3 class="anchored" data-anchor-id="ledger-accounts">Ledger Accounts</h3>
-<p>For each transaction, we should list the debits and credits, and ensure they are equal. Then, we put each debit/credit entry into their respective accounts (like cash, inventory, etc.). These respective accounts are called T-accounts/ledger accounts. This process is called <strong>double entry accounting</strong>.</p>
+<section id="bookkeeping" class="level1">
+<h1><strong>Bookkeeping</strong></h1>
+<section id="recording-transactions" class="level3">
+<h3 class="anchored" data-anchor-id="recording-transactions">Recording Transactions</h3>
+<p>For each transaction, we should <mark>list the debits and credits, and ensure they are equal</mark>. Then, we put each debit/credit entry into their respective accounts (like cash, inventory, etc.). These respective accounts are called T-accounts/ledger accounts. This process is called <strong>double entry accounting</strong>.</p>
 <p>For example, imagine I invest £5,000 into the firm’s bank account. In double entry accounting, we know the debits and credits are:</p>
 <ul>
 <li>Dr.&nbsp;Cash (Asset) £5,000</li>
@@ -269,68 +263,258 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <p>Each transaction’s debits and credits should balance. However, each t-account individually does not need to be balanced.</p>
 <ul>
-<li>Note: for income statement accounts (revenue, purchases, expenses), the starting balance of all accounts at the beggining of the period should be reset to 0.</li>
-<li>For all other accounts (on the balance sheet), the starting balance of debits/credits should be carried over from the previous period.</li>
+<li>Note: for <mark>income statement accounts (revenue, purchases, expenses), the starting balance of all accounts at the beggining of the period should be reset to 0</mark>.</li>
+<li>For <mark>all other accounts (on the balance sheet), the starting balance of debits/credits should be carried over</mark> from the previous period.</li>
 </ul>
+<p>Note: do not record transactions to inventory. See below.</p>
+<p><br></p>
+</section>
+<section id="inventory-and-cost-of-sales" class="level3">
+<h3 class="anchored" data-anchor-id="inventory-and-cost-of-sales">Inventory and Cost of Sales</h3>
+<p>When dealing with inventory, we <mark>do not update the inventory account</mark>. For a transaction that increases inventory, we instead use the purchases account.</p>
+<ul>
+<li><strong>Dr Purchases</strong> £–</li>
+<li><strong>Cr Cash/Payables</strong> £–</li>
+</ul>
+<p>However, at the end of the year, we need to know the closing inventory balance. Closing inventory consists of:</p>
+<ul>
+<li>Goods which have been purchased, bur not yet sold.</li>
+<li>Goods which are not part of ‘cost of goods sold’ (see adjustments and accrual accounting).</li>
+<li>An asset of the business, or held for resale and are classified as a current asset.</li>
+</ul>
+<p>At the close of the period, we will complete this transaction:</p>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 70%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Dr Closing Inventory (Asset)</strong></td>
+<td><p>This is an asset on the balance sheet, and will be the value of the inventory listed.</p>
+<p>This figure will also become the opening inventory of the next period.</p></td>
+</tr>
+<tr class="even">
+<td><strong>Cr Closing Inventory (Expense)</strong></td>
+<td>This is a (negative) expense account on the income statement. It will be used alongside purchases and the previous period’s closing inventory to calculate cost of sales.</td>
+</tr>
+</tbody>
+</table>
+<p>To calculate the <strong>cost of sales</strong> debit value, we do the following calculation:</p>
+<blockquote class="blockquote">
+<p><strong>Cost of sales debit = opening inventory + purchases + delivery inwards - closing inventory</strong></p>
+</blockquote>
+<ul>
+<li>See advanced transactions for delivery inwards. It is not all delivery expenses.</li>
+</ul>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Inventory and Service Organisations
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Some service based industries will have very few physical inventory. For example, netflix or financial services have very few inventory.</p>
+<p>Instead, cost of sales will <strong>reflect the cost of providing the service to customers</strong>. This includes:</p>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 70%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Direct Labour Costs</strong></td>
+<td><ul>
+<li>If you are offering a tax specialist to a company, their salary would be included in cost of sales.</li>
+<li>If you are a pool cleaning company, then the pool cleaner should be included in the cost of sales.</li>
+<li>See note below.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><strong>Materials Used</strong></td>
+<td><ul>
+<li>If you are offering a pool cleaning company, then the pool cleaning chemicals would be included in the cost of sales.</li>
+<li>Note the difference between expenses (recurring) and one-time purchases of non-current assets (like equipment).</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><strong>Sales Commission</strong></td>
+<td><ul>
+<li>The commission or bonus earned by salespeople, specifically as a result of securing work from customers.</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+<p>NOTE: costs incurred that are not directly related to the service are not included. For example, receptionists and their salary, the sales-persons team and their salary.</p>
+</div>
+</div>
+</div>
+<p><br></p>
+</section>
+<section id="advanced-transactions" class="level3">
+<h3 class="anchored" data-anchor-id="advanced-transactions">Advanced Transactions</h3>
+<p>Some more complex transactions and their record in t-accounts include returns, discounts, delivery costs, and payroll.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Returns</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Discounts</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Payroll</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Delivery</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>The recording of sales (selling to a consumer) and purchases (buying from a supplier) are typically done as:</p>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Sales</strong> (selling to customer)</td>
+<td><strong>Purchases</strong> (buying from supplier)</td>
+</tr>
+<tr class="even">
+<td><p>Dr Cash/Expenses (increase)</p>
+<p>Cr Revenue (increase)</p></td>
+<td><p>Dr Purchases (increase)</p>
+<p>Cr Cash (decrease) / Cr Payables (increase)</p></td>
+</tr>
+</tbody>
+</table>
+<p>However, sometimes, the consumer (or us) will want to return a good. For returns, we simply “undo” the transaction with the reverse record:</p>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Sales</strong> (selling to customer)</td>
+<td><strong>Purchases</strong> (buying from supplier)</td>
+</tr>
+<tr class="even">
+<td><p>Dr Revenue (decrease)</p>
+<p>Cr Cash (decrease)</p></td>
+<td><p>Dr Cash (increase) / Dr Payables (decrease)</p>
+<p>Cr Purchases (decrease)</p></td>
+</tr>
+</tbody>
+</table>
+<p>Sometimes, some companies will have a separate expense account for returns (so instead of Dr Revenue, they would Dr Returns).</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>For discounts, we <strong>initially</strong> record what you expect to receive/pay (including likely discounts). However, you may need to go back and adjust this. This is because of <strong>early settlement</strong> discounts: a discount for paying early after you have received the good.</p>
+<ul>
+<li>Ex. I buy materials on credit for 6100. The supplier offers a £5 discount if you pay within 10 days. If I do pay off within 10 days and get the discount, this may require adjustment in the books.</li>
+<li>Note: if your expectation of discount is actually come true, then no adjustment is needed.</li>
+</ul>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 40%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Initially</th>
+<th>Once Paid</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><strong>Sales</strong></p>
+<p>(selling to customer)</p></td>
+<td><p>Dr Receivables (expected price)</p>
+<p>Cr Revenue (expected price)</p></td>
+<td><p>Cr Recievables (expected price)</p>
+<p>Dr Cash (actual paid price)</p>
+<p>Cr/Dr Revenue (different to balance dr/cr)</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>Purchases</strong></p>
+<p>(buying from supplier)</p></td>
+<td><p>Cr Payables (expected price)</p>
+<p>Dr Purchases (expected price)</p></td>
+<td><p>Dr Payables (expected price)</p>
+<p>Cr Cash (actual paid price)</p>
+<p>Cr/Dr Purchases (difference to balance dr/cr)</p></td>
+</tr>
+</tbody>
+</table>
+<p>The same applies to initially expecting a discount but failing to get it. In some standards (UK GAAP), instead of Cr/Dr purchases, we Cr/Dr a separate account - discounts, to make the adjustment.</p>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p>When a firm pays its employees, it has to pay 3 things:</p>
+<ol type="1">
+<li>Pay the employee’s income tax to the tax collector (HRMC in the UK).</li>
+<li>Pay the employee’s national insurance contribution (and the employer’s additional contribution) to the tax collector.</li>
+<li>Pay the employee the remaining net salary.</li>
+</ol>
+<p>The net income to the employee is paid immediately (such as at the end of the month), but the tax and national insurance is usually withheld until tax filling season.</p>
+<p>The transaction would be as follows:</p>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 30%">
+<col style="width: 40%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Dr Wages (Expense)</strong></td>
+<td>gross wages + employer national insurance</td>
+<td>This expense covers net salary, income tax, and employee <u>+ employer national insurance contribution</u>.</td>
+</tr>
+<tr class="even">
+<td><strong>Cr Cash (Asset)</strong></td>
+<td>net wages</td>
+<td>The cash of net income that is paid out to the employee.</td>
+</tr>
+<tr class="odd">
+<td><strong>Cr Tax Payable (Liability)</strong></td>
+<td>income tax + employee and employer national insurance</td>
+<td>Taxes are paid at the end of the year, so there is a liability for income tax and national insurance.</td>
+</tr>
+</tbody>
+</table>
+<p>When the tax is later paid to the tax authority (HMRC), the liability is reduced (debited) and cash is decreased (credited).</p>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<p>There are two types of delivery expenses that might be incurred, which have to be recorded differently.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Delivery Inwards</th>
+<th>Delivery Outwards</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Delivery costs and expenses to deliver products <u>from suppliers to your inventory.</u></td>
+<td>Delivery costs and expenses to deliver products from <u>your inventory to customers</u>.</td>
+</tr>
+<tr class="even">
+<td>This will be included/added as an expense within the <strong>cost of sales</strong>.</td>
+<td>This is a separate expense in the <strong>operating expenses</strong>.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
 <p><br></p>
 </section>
 <section id="closing-the-accounts" class="level3">
 <h3 class="anchored" data-anchor-id="closing-the-accounts">Closing the Accounts</h3>
-<p>At the end of the year, we need to <strong>close the accounts</strong>. This differs between the income statement accounts (revenue, purchases, expenses) and balance sheet (everything else).</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Income Statement Accounts</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Balance Sheet Accounts</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>Say we have this revenue account (similar thing applies to the other income statement accounts):</p>
-<table class="table-bordered table-sm small caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Debits</th>
-<th style="text-align: center;">Credits</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;"></td>
-<td style="text-align: center;"><p>£600</p>
-<p>£300</p></td>
-</tr>
-</tbody>
-</table>
-<p>We close this account by summing up the credits, and summing up the debits.</p>
-<ul>
-<li>Usually there is only entries on one side (debits or credits) for each account. Revenue only has credits, and expenses only have debits.</li>
-</ul>
-<p>The total of the non-zero side is the closing balance. Remember to write the closing balance in the correct side (debits/credits) of their sum:</p>
-<table class="table-bordered table-sm small caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Debits</th>
-<th style="text-align: center;">Credits</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;"></td>
-<td style="text-align: center;"><p>£600</p>
-<p>£300</p>
-<p><strong>Closing: £900</strong></p></td>
-</tr>
-</tbody>
-</table>
-<p>This closing balance goes onto our trial balance (make sure you correctly put it in the debit/credit side), and the balance is <strong>refreshed</strong> to 0 debits/credits for the next period.</p>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p>Say we have an account. Sum up each side of debits and credits.</p>
-<p>Find the side (debit or credit) with the higher sum value. Put this at the bottom of both sides:</p>
+<p>At the end of the year, we need to <strong>close the accounts</strong> (except inventory and cost of sales, see above). The steps are as follows:</p>
+<ol type="1">
+<li>Sum up each side of debits and credits. Find the side (debit or credit) with the higher sum value. Put this at the bottom of both sides:</li>
+</ol>
 <table class="table-bordered table-sm small caption-top table">
 <colgroup>
 <col style="width: 50%">
@@ -353,7 +537,9 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p>Now, look at the side with the lower value. Find the “difference” between the lower and higher values, and put it on the side of the lower side. This difference is called the <strong>balance carried forward (c/f)</strong>. Write it on the smaller side.</p>
+<ol start="2" type="1">
+<li>Look at the side with the lower value. <mark>Find the “difference” between the lower and higher values, and put it on the side of the lower side</mark>. This difference is called the <strong>balance carried forward (c/f)</strong>. Write it on the smaller side.</li>
+</ol>
 <table class="table-bordered table-sm small caption-top table">
 <colgroup>
 <col style="width: 50%">
@@ -378,7 +564,9 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p>On the side with the larger value, copy the balance c/f value to that side on the very bottom, called the <strong>balance brought forward (b/f)</strong>.</p>
+<ol start="3" type="1">
+<li>On the side with the larger value, copy the balance c/f value to that side on the very bottom, called the <strong>balance brought forward (b/f)</strong>.</li>
+</ol>
 <table class="table-bordered table-sm small caption-top table">
 <colgroup>
 <col style="width: 50%">
@@ -404,14 +592,17 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p>The balance b/f is the final balance of the account. This final balance (note if it is a debit or credit) will go into the trial balance, as well as be the starting debit/credit value for the next period’s account.</p>
-</div>
-</div>
-</div>
+<ol start="4" type="1">
+<li>The <mark>balance b/f is the final balance of the account</mark>. This final balance (note if it is a debit or credit) will go into the trial balance.
+<ul>
+<li>For income statement accounts (revenue, purchases, expenses), the starting balance will be <mark>reset to 0</mark> for the next year.</li>
+<li>For balance sheet accounts (all not on the income statement), the balance b/f will be <mark>starting balance</mark> for next year’s accounts.</li>
+</ul></li>
+</ol>
 <p><br></p>
 </section>
-<section id="trial-balance-1" class="level3">
-<h3 class="anchored" data-anchor-id="trial-balance-1">Trial Balance</h3>
+<section id="trial-balance" class="level3">
+<h3 class="anchored" data-anchor-id="trial-balance">Trial Balance</h3>
 <p>A trial balance is simply a list of all accounts, and their closing balances. It takes the form of the following:</p>
 <table class="table-bordered table-sm small caption-top table">
 <colgroup>
@@ -447,14 +638,20 @@ ul.task-list li input[type="checkbox"] {
 <td></td>
 <td>2,000</td>
 </tr>
+<tr class="odd">
+<td><u><strong>TOTAL</strong></u></td>
+<td><u><strong>£6,000</strong></u></td>
+<td><u><strong>£6,000</strong></u></td>
+</tr>
 </tbody>
 </table>
-<p>The trial balance should <strong>balance</strong>: the total number of debits and credits should be equal.</p>
+<p>The trial balance should <strong>balance</strong>: <mark>the total number of debits and credits should be equal</mark>.</p>
 <ul>
 <li>Make sure you put the value of the account into the correct column (debit or credit).</li>
 <li>A quick way to check if the column is correct, is that revenue should always be in the debit column (you cannot have negative revenue, and debit increases revenue), and expenses/drawings should always be in the credit column.</li>
 </ul>
 <p>This trial balance will help us create both the income statement, and the balance sheet.</p>
+<p><strong>NOTE: before you continue on to compiling statements, you will need to check if there are <a href="../accounting/adjust.html">adjustments</a> to be made</strong>. Adjustments are to correct for accrual accounting procedures, and include accrued payments/prepayments.</p>
 <p><br></p>
 <p><br></p>
 <hr>
@@ -485,7 +682,7 @@ ul.task-list li input[type="checkbox"] {
 <td>£–</td>
 </tr>
 <tr class="even">
-<td><p>Cost of Sales*</p>
+<td><p>Cost of Sales</p>
 <p><strong>Gross Profit</strong></p></td>
 <td>£–</td>
 <td></td>
@@ -514,30 +711,6 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<div class="callout callout-style-simple callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Calculating Cost of Sales
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Cost of sales, or Cost of goods sold (COGS) is the cost of purchasing/producing all of the goods sold (inventory) that generated the revenue at the top of the income statement.</p>
-<ul>
-<li>For example, if you sold 5 shoes to generate the reported revenue, the COGS should be the cost of purchasing those 5 shoes in inventory.</li>
-</ul>
-<p>To calculate COGS for a specific period (like a year), we take the formula:</p>
-<blockquote class="blockquote">
-<p><em>COGS = opening inventory + purchases in period - closing inventory</em></p>
-</blockquote>
-<p>This accounts for the goods that were not sold by the end of the period and remain in our inventory.</p>
-</div>
-</div>
-</div>
 <p>The <strong>bolded</strong> parts are not accounts, and should be left blank until all accounts are filled in. Then, to calculate the bolded metrics, sum up all the credits, and all the debits, <u>above</u> the bolded metric (all the way to the top). Then do the sum of credits minus the sum of debits.</p>
 <p><br></p>
 </section>
@@ -602,16 +775,31 @@ Calculating Cost of Sales
 </tr>
 </tbody>
 </table>
-<p>For <strong>retained earnings</strong>, you calculate it as the <em>closing balance of retained earnings from the last period + the net profit/loss</em> (from the income statement). You should find that the accounting equation holds true. If it doesn’t, you have likely made some mistake.</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Calculating Retained Earnings
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>For retained earnings, you calculate it as with this formula:</p>
+<blockquote class="blockquote">
+<p><strong>Closing balance of retained earnings from last period + net profit</strong></p>
+</blockquote>
+<p>You can also check the statement of changes in equity for this.</p>
+</div>
+</div>
+</div>
+<p>You should find that the accounting equation holds true. If it doesn’t, you have likely made some mistake. You should also check that the change in cash between the last period’s statement and this year’s statement matches the cash flow statement.</p>
 <p><br></p>
-<p><br></p>
-<hr>
 </section>
-</section>
-<section id="changes-in-equity" class="level1">
-<h1><strong>Changes in Equity</strong></h1>
-<section id="composition-of-equity" class="level3">
-<h3 class="anchored" data-anchor-id="composition-of-equity">Composition of Equity</h3>
+<section id="statement-of-changes-in-equity" class="level3">
+<h3 class="anchored" data-anchor-id="statement-of-changes-in-equity">Statement of Changes in Equity</h3>
 <p>For companies, the balance sheet has assets, liabilities, and equity. Equity has several accounts that commonly appear:</p>
 <ol type="1">
 <li><strong>Retained Earnings</strong>: The accumulation of profits/losses that were not paid out as dividends or withdrawn from the business. Each year, this figure is updated based on the net profit/loss from the income statement.</li>
@@ -632,9 +820,6 @@ Calculating Cost of Sales
 </ol>
 <p>The statement of changes in Equity basically gives readers more information about how equity went from the starting balance to the ending balance.Since they issued 100,000 shares at a premium of £0.5, multiply together to get a share premium of £50,000.</p>
 <p><br></p>
-</section>
-<section id="statement-of-changes-in-equity" class="level3">
-<h3 class="anchored" data-anchor-id="statement-of-changes-in-equity">Statement of Changes in Equity</h3>
 <p>The statement of changes in equity explains how the value of equity has changed during the year for a company.</p>
 <ul>
 <li>It lists the opening balance of each equity statement (retained earning, share capital, share premium).</li>
@@ -644,11 +829,7 @@ Calculating Cost of Sales
 <p><img src="images/paste-4.png" class="img-fluid"></p>
 <p>Thus, the statement of changes in Equity basically gives readers more information about how equity went from the starting balance to the ending balance.</p>
 <p><br></p>
-<hr>
 </section>
-</section>
-<section id="cash-flow-statement" class="level1">
-<h1><strong>Cash Flow Statement</strong></h1>
 <section id="cash-flow" class="level3">
 <h3 class="anchored" data-anchor-id="cash-flow">Cash Flow</h3>
 <p>Since the income statement (and net profit/loss) is recorded with accrual accounting, it does not record when cash is received/leaving a business. However, cash is still important as cash is needed to pay suppliers and liabilities.</p>
@@ -664,9 +845,6 @@ Calculating Cost of Sales
 <li><strong>Indirect method</strong> (more common): it uses different details from the income statement and balance sheet to work out the cash flow. Essentially, it is undoing the accruals/prepayments and payables/receivables to calculate cash flow.</li>
 </ul>
 <p><br></p>
-</section>
-<section id="indirect-method" class="level3">
-<h3 class="anchored" data-anchor-id="indirect-method">Indirect Method</h3>
 <p><strong>Cash flow from operating activities</strong>:</p>
 <ol type="1">
 <li>Start with the <u>profit before tax</u> figure from the income statement.</li>

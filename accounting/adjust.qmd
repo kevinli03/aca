@@ -8,9 +8,205 @@ This page covers the common adjustments needed in standard accounting and financ
 
 ------------------------------------------------------------------------
 
-# **Cost of Sales and Inventory**
-
 # **Accruals and Prepayments**
+
+### Matching Principle
+
+The matching principle is that we attribute/match expenses to the revenue they help generate. For example, the bills for this year helped generate next year's revenue, would actually be considered a bill for next year, since the revenue was earned in the next year.
+
+However, because of accruals and prepayments, the payment of bills may not be in the same period as the revenue they helped generate. The same ideas apply to income.
+
++----------------------+----------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Accrued Payments** | You have received a good/service [this period]{.underline}, but you will not pay for the good/service until [next period]{.underline}. | The utility company has provided you water [this year]{.underline}, but you will not pay for it until [next year]{.underline}. This should be an expense for [this year]{.underline}. |
++----------------------+----------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Prepayments**      | You will receive a good/service [next period]{.underline}, but you have already paid for it [this period]{.underline}.                 | You will get office to use [next year]{.underline}, but you have already paid for it [this year]{.underline}. This should be an expense for [next year]{.underline}.                  |
++----------------------+----------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Accrued Income**   | You have earned revenue from a transaction [this period]{.underline}, but you will not be paid until [next period]{.underline}.        | Income that you earned [this year]{.underline} by building a house, but you will not bill/be paid for the work until [next year]{.underline}.                                         |
++----------------------+----------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Deferred Income**  | You will earn revenue from a transaction [next period]{.underline}, but you have already been paid [this year]{.underline}.            | Income that you will earn by providing a magazine [next year]{.underline}, but you have already been paid [this year]{.underline}.                                                    |
++----------------------+----------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[24,38,38\]"}
+
+Acrruals basis of accounting means that to calculate the profit for the period, we need to include all the income and expenditure relating to the period, whether or not the cash has been received or paid, or whether or not an invoice has been issued.
+
+<br />
+
+### Payment Adjustments
+
+For accrued payments and pre-payments, adjustments are necessary.
+
+::: panel-tabset
+## Accrued Expense
+
+Let us say you receive a water service for 2024, but payment of the water bill is due in 2025. In 2024, you will originally not record anything, because you have yet to pay. However, you received the service/good for 2024, so the expense needs to be recorded in 2024.
+
+Thus, at the **year end in 2024**, you make the following adjustment:
+
++-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+| **Dr Expense**                      | This is the expense for water service in 2024. This will [be on the income statement for 2024]{.underline}.                         |
++-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+| **Cr Accrued Expenses (Liability)** | This is a liability - to show that you owe the water company for their service in 2024, which will later be paid in a later period. |
+|                                     |                                                                                                                                     |
+|                                     | This account can also be called "other payables".                                                                                   |
++-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+In **2025, as soon as the year begins**, you carry over the pervious accrual balance you want to reverse the accrual. Remember that expense accounts reset their balance, but accrued expenses (asset) carry over their balance.
+
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Cr Expense**                       | Reverse the accrued payment. You will essentially have a negative expense balance to start the year, since the expense account is set to 0 every new period. |
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Dr. Accrued Expenses (Liability)** | Reverse the accrued payment from the carry-forward last year.                                                                                                |
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+In **2025, once you have paid** the water bill for 2024, you will have:
+
++-----------------+------------------------------------------+
+| **Dr Expense**  | Will cancel out the original Cr Expense. |
++-----------------+------------------------------------------+
+| **Cr Cash**     | You decrease cash to pay the liability.  |
++-----------------+------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+You will do the same for accrued expenses in 2025 paid in 2026.
+
+## Prepayment
+
+Lets say you have a water utility service for 2025, but you paid in 2024. This expense is for 2025, but because payment was in 2024, you have to adjust this so the expense is correctly allocated to 2025.
+
+Thus, at the **year end in 2024**, you make the following adjustment:
+
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| **Cr Expense**             | Since the service is in 2025, our 2024 statements need to remove (credit) this expense.                                                   |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| **Dr Prepayments (Asset)** | This is an asset - basically a receivables showing you have already paid for the service, and the utility company "owes you" the service. |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+In **2025, as soon as the year begins**, you carry over the previous prepayment balance, and you want to reverse the prepayment. Remember that expense accounts reset their balance, but prepayment (assets) carry over their balance.
+
++--------------------+----------------------------------------------------------+
+| **Dr Expense**     | Add the expense to this year (2025).                     |
++--------------------+----------------------------------------------------------+
+| **Cr Prepayments** | Reverse the prepayment from the carry-forward last year. |
++--------------------+----------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+You will do the same for prepayment expenses in 2025 paid in 2026.
+:::
+
+You can do partial adjustments. For example, you pay rent for Nov 2024 to Aug 2025 in Nov 2024. You would need no adjustment in the 2024 accounts for Nov and Dec 2024, but Jan 2025 to Aug 2025 would be a prepayment.
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Calculating Expenses Quickly for Income Statement
+
+A quick way to calculate the expenses of a year for the income statement, when you are only given cash payments are:
+
+> **expenses on income statement = total cash amount paid for expenses in this period**
+>
+> **+ closing accrued expenses of this year - closing accrued expenses from last year**
+>
+> **+ prepayments closing from last period - prepayments closing for this period**
+:::
+
+<br />
+
+### Income Adjustments
+
+For accrued or deferred payment, adjustment is necessary.
+
+::: panel-tabset
+## Accrued Income
+
+Let us say you have delivered a product in 2024, you will only be paid in 2025. Because the product was delivered in 2024, the income is for 2024, even though the payment occurs in 2025, so you have to adjust this so the revenue is correctly allocated to 2024.
+
+Thus, at the **year end in 2024**, you make the following adjustment:
+
++-----------------------+--------------------------------------------------------------------------------------------------------------------------+
+| **Cr Revenue**        | This is the revenue for product in 2024. This will [be on the income statement for 2024]{.underline}.                    |
++-----------------------+--------------------------------------------------------------------------------------------------------------------------+
+| **Dr Accrued Income** | This is a asset - to show that your customer owes you for a product in 2024, which will later be paid in a later period. |
+|                       |                                                                                                                          |
+|                       | This account can also be called "other receivables".                                                                     |
++-----------------------+--------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+In **2025, as soon as the year begins**, you carry over the pervious accrual balance you want to reverse the accrual. Remember that expense accounts reset their balance, but accrued expenses (asset) carry over their balance.
+
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Dr Revenue**                | Reverse the accrued income. You will essentially have a negative revenue balance to start the year, since the revenue account is set to 0 every new period. |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Cr Accrued Income (Asset)** | Reverse the accrued income from the carry-forward last year.                                                                                                |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+In **2025, once you have paid** the water bill for 2024, you will have:
+
++-----------------+----------------------------------------------+
+| **Cr Revenue**  | Will cancel out the original Dr Revenue.     |
++-----------------+----------------------------------------------+
+| **Dr Cash**     | You gain cash as the customer pays you.      |
++-----------------+----------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+You will do the same for accrued income in 2025 paid in 2026.
+
+## Deferred Income
+
+Lets say you will deliver a product in 2025, but you were paid in 2024. This revenue is for 2025, but because product delivery was in 2024, so you have to adjust this so the revenue is correctly allocated to 2025.
+
+Thus, at the **year end in 2024**, you make the following adjustment:
+
++------------------------------------+-----------------------------------------------------------------------------------------+
+| **Dr Revenue**                     | Since the service is in 2025, our 2024 statements need to remove (credit) this revenue. |
++------------------------------------+-----------------------------------------------------------------------------------------+
+| **Cr Deferred Income (Liability)** | This is a liability - because you owe the customer a product of this value.             |
++------------------------------------+-----------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+In **2025, as soon as the year begins**, you carry over the previous prepayment balance, and you want to reverse the prepayment. Remember that expense accounts reset their balance, but prepayment (assets) carry over their balance.
+
++------------------------------------+---------------------------------------------------------------+
+| **Cr Revenue**                     | Add the revenue to this year (2025).                          |
++------------------------------------+---------------------------------------------------------------+
+| **Dr Deferred Income (Liability)** | Reverse the deferred income from the carry-forward last year. |
++------------------------------------+---------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+You will do the same for prepayment expenses in 2025 paid in 2026.
+:::
+
+You can do partial adjustments. For example, if you are building a house between Oct 2024 and Aug 2025, and payment is following the entire job. The parts you have already built (delivered) between Oct 2024 and Dec 2024 are revenue from the previous year, and should be adjusted.
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Calculating Expenses Quickly for Income Statement
+
+A quick way to calculate the expenses of a year for the income statement, when you are only given cash payments are:
+
+> **revenue on income statement = total cash amount paid for revenue in this period**
+>
+> **+ closing accrued income of this year - closing accrued income from last year**
+>
+> **+ deferred income closing from last period - deferred income closing for this period**
+:::
+
+<br />
+
+<br />
+
+------------------------------------------------------------------------
 
 # **Depreciation**
 

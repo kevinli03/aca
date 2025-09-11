@@ -8,11 +8,11 @@ This page contains basic steps on how to prepare the core financial statements f
 
 ------------------------------------------------------------------------
 
-# **Trial Balance**
+# **Bookkeeping**
 
-### Ledger Accounts
+### Recording Transactions
 
-For each transaction, we should list the debits and credits, and ensure they are equal. Then, we put each debit/credit entry into their respective accounts (like cash, inventory, etc.). These respective accounts are called T-accounts/ledger accounts. This process is called **double entry accounting**.
+For each transaction, we should [list the debits and credits, and ensure they are equal]{.mark}. Then, we put each debit/credit entry into their respective accounts (like cash, inventory, etc.). These respective accounts are called T-accounts/ledger accounts. This process is called **double entry accounting**.
 
 For example, imagine I invest £5,000 into the firm's bank account. In double entry accounting, we know the debits and credits are:
 
@@ -33,98 +33,217 @@ Then, list the debits and credits in the correct accounts:
 
 Each transaction's debits and credits should balance. However, each t-account individually does not need to be balanced.
 
--   Note: for income statement accounts (revenue, purchases, expenses), the starting balance of all accounts at the beggining of the period should be reset to 0.
--   For all other accounts (on the balance sheet), the starting balance of debits/credits should be carried over from the previous period.
+-   Note: for [income statement accounts (revenue, purchases, expenses), the starting balance of all accounts at the beggining of the period should be reset to 0]{.mark}.
+-   For [all other accounts (on the balance sheet), the starting balance of debits/credits should be carried over]{.mark} from the previous period.
+
+Note: do not record transactions to inventory. See below.
+
+<br />
+
+### Inventory and Cost of Sales
+
+When dealing with inventory, we [do not update the inventory account]{.mark}. For a transaction that increases inventory, we instead use the purchases account.
+
+-   **Dr Purchases** £–
+-   **Cr Cash/Payables** £–
+
+However, at the end of the year, we need to know the closing inventory balance. Closing inventory consists of:
+
+-   Goods which have been purchased, bur not yet sold.
+-   Goods which are not part of 'cost of goods sold' (see adjustments and accrual accounting).
+-   An asset of the business, or held for resale and are classified as a current asset.
+
+At the close of the period, we will complete this transaction:
+
++------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Dr Closing Inventory (Asset)**   | This is an asset on the balance sheet, and will be the value of the inventory listed.                                                                                     |
+|                                    |                                                                                                                                                                           |
+|                                    | This figure will also become the opening inventory of the next period.                                                                                                    |
++------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Cr Closing Inventory (Expense)** | This is a (negative) expense account on the income statement. It will be used alongside purchases and the previous period's closing inventory to calculate cost of sales. |
++------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+To calculate the **cost of sales** debit value, we do the following calculation:
+
+> **Cost of sales debit = opening inventory + purchases + delivery inwards - closing inventory**
+
+-   See advanced transactions for delivery inwards. It is not all delivery expenses.
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Inventory and Service Organisations
+
+Some service based industries will have very few physical inventory. For example, netflix or financial services have very few inventory.
+
+Instead, cost of sales will **reflect the cost of providing the service to customers**. This includes:
+
++-------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| **Direct Labour Costs** | -   If you are offering a tax specialist to a company, their salary would be included in cost of sales.                   |
+|                         | -   If you are a pool cleaning company, then the pool cleaner should be included in the cost of sales.                    |
+|                         | -   See note below.                                                                                                       |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| **Materials Used**      | -   If you are offering a pool cleaning company, then the pool cleaning chemicals would be included in the cost of sales. |
+|                         | -   Note the difference between expenses (recurring) and one-time purchases of non-current assets (like equipment).       |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| **Sales Commission**    | -   The commission or bonus earned by salespeople, specifically as a result of securing work from customers.              |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+NOTE: costs incurred that are not directly related to the service are not included. For example, receptionists and their salary, the sales-persons team and their salary.
+:::
+
+<br />
+
+### Advanced Transactions
+
+Some more complex transactions and their record in t-accounts include returns, discounts, delivery costs, and payroll.
+
+::: panel-tabset
+## Returns
+
+The recording of sales (selling to a consumer) and purchases (buying from a supplier) are typically done as:
+
++---------------------------------+---------------------------------------------+
+| **Sales** (selling to customer) | **Purchases** (buying from supplier)        |
++---------------------------------+---------------------------------------------+
+| Dr Cash/Expenses (increase)     | Dr Purchases (increase)                     |
+|                                 |                                             |
+| Cr Revenue (increase)           | Cr Cash (decrease) / Cr Payables (increase) |
++---------------------------------+---------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+However, sometimes, the consumer (or us) will want to return a good. For returns, we simply "undo" the transaction with the reverse record:
+
++---------------------------------+---------------------------------------------+
+| **Sales** (selling to customer) | **Purchases** (buying from supplier)        |
++---------------------------------+---------------------------------------------+
+| Dr Revenue (decrease)           | Dr Cash (increase) / Dr Payables (decrease) |
+|                                 |                                             |
+| Cr Cash (decrease)              | Cr Purchases (decrease)                     |
++---------------------------------+---------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+Sometimes, some companies will have a separate expense account for returns (so instead of Dr Revenue, they would Dr Returns).
+
+## Discounts
+
+For discounts, we **initially** record what you expect to receive/pay (including likely discounts). However, you may need to go back and adjust this. This is because of **early settlement** discounts: a discount for paying early after you have received the good.
+
+-   Ex. I buy materials on credit for 6100. The supplier offers a £5 discount if you pay within 10 days. If I do pay off within 10 days and get the discount, this may require adjustment in the books.
+-   Note: if your expectation of discount is actually come true, then no adjustment is needed.
+
++------------------------+---------------------------------+-----------------------------------------------+
+|                        | Initially                       | Once Paid                                     |
++========================+=================================+===============================================+
+| **Sales**              | Dr Receivables (expected price) | Cr Recievables (expected price)               |
+|                        |                                 |                                               |
+| (selling to customer)  | Cr Revenue (expected price)     | Dr Cash (actual paid price)                   |
+|                        |                                 |                                               |
+|                        |                                 | Cr/Dr Revenue (different to balance dr/cr)    |
++------------------------+---------------------------------+-----------------------------------------------+
+| **Purchases**          | Cr Payables (expected price)    | Dr Payables (expected price)                  |
+|                        |                                 |                                               |
+| (buying from supplier) | Dr Purchases (expected price)   | Cr Cash (actual paid price)                   |
+|                        |                                 |                                               |
+|                        |                                 | Cr/Dr Purchases (difference to balance dr/cr) |
++------------------------+---------------------------------+-----------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[20,40,40\]"}
+
+The same applies to initially expecting a discount but failing to get it. In some standards (UK GAAP), instead of Cr/Dr purchases, we Cr/Dr a separate account - discounts, to make the adjustment.
+
+## Payroll
+
+When a firm pays its employees, it has to pay 3 things:
+
+1.  Pay the employee's income tax to the tax collector (HRMC in the UK).
+2.  Pay the employee's national insurance contribution (and the employer's additional contribution) to the tax collector.
+3.  Pay the employee the remaining net salary.
+
+The net income to the employee is paid immediately (such as at the end of the month), but the tax and national insurance is usually withheld until tax filling season.
+
+The transaction would be as follows:
+
++--------------------------------+-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| **Dr Wages (Expense)**         | gross wages + employer national insurance             | This expense covers net salary, income tax, and employee [+ employer national insurance contribution]{.underline}. |
++--------------------------------+-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| **Cr Cash (Asset)**            | net wages                                             | The cash of net income that is paid out to the employee.                                                           |
++--------------------------------+-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| **Cr Tax Payable (Liability)** | income tax + employee and employer national insurance | Taxes are paid at the end of the year, so there is a liability for income tax and national insurance.              |
++--------------------------------+-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,30,40\]"}
+
+When the tax is later paid to the tax authority (HMRC), the liability is reduced (debited) and cash is decreased (credited).
+
+## Delivery
+
+There are two types of delivery expenses that might be incurred, which have to be recorded differently.
+
++-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+| Delivery Inwards                                                                                | Delivery Outwards                                                                               |
++=================================================================================================+=================================================================================================+
+| Delivery costs and expenses to deliver products [from suppliers to your inventory.]{.underline} | Delivery costs and expenses to deliver products from [your inventory to customers]{.underline}. |
++-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+| This will be included/added as an expense within the **cost of sales**.                         | This is a separate expense in the **operating expenses**.                                       |
++-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+:::
 
 <br />
 
 ### Closing the Accounts
 
-At the end of the year, we need to **close the accounts**. This differs between the income statement accounts (revenue, purchases, expenses) and balance sheet (everything else).
+At the end of the year, we need to **close the accounts** (except inventory and cost of sales, see above). The steps are as follows:
 
-::: panel-tabset
-## Income Statement Accounts
+1.  Sum up each side of debits and credits. Find the side (debit or credit) with the higher sum value. Put this at the bottom of both sides:
 
-Say we have this revenue account (similar thing applies to the other income statement accounts):
-
-+--------+---------+
-| Debits | Credits |
-+:======:+:=======:+
-|        | £600    |
-|        |         |
-|        | £300    |
-+--------+---------+
++--------------------+--------------------+
+| Debits             | Credits            |
++:==================:+:==================:+
+| £1000              | £600               |
++--------------------+--------------------+
+| **highest: £1000** | **highest: £1000** |
++--------------------+--------------------+
 
 : {.bordered .sm tbl-colwidths="\[50,50\]"}
 
-We close this account by summing up the credits, and summing up the debits.
+2.  Look at the side with the lower value. [Find the "difference" between the lower and higher values, and put it on the side of the lower side]{.mark}. This difference is called the **balance carried forward (c/f)**. Write it on the smaller side.
 
--   Usually there is only entries on one side (debits or credits) for each account. Revenue only has credits, and expenses only have debits.
-
-The total of the non-zero side is the closing balance. Remember to write the closing balance in the correct side (debits/credits) of their sum:
-
-+---------------+-------------------+
-| Debits        | Credits           |
-+:=============:+:=================:+
-|               | £600              |
-|               |                   |
-|               | £300              |
-|               |                   |
-|               | **Closing: £900** |
-+---------------+-------------------+
++--------------------+----------------------+
+| Debits             | Credits              |
++:==================:+:====================:+
+| £1000              | £600                 |
++--------------------+----------------------+
+| \-                 | **balance c/f £400** |
+|                    |                      |
+| **highest: £1000** | **highest: £1000**   |
++--------------------+----------------------+
 
 : {.bordered .sm tbl-colwidths="\[50,50\]"}
 
-This closing balance goes onto our trial balance (make sure you correctly put it in the debit/credit side), and the balance is **refreshed** to 0 debits/credits for the next period.
+3.  On the side with the larger value, copy the balance c/f value to that side on the very bottom, called the **balance brought forward (b/f)**.
 
-## Balance Sheet Accounts
-
-Say we have an account. Sum up each side of debits and credits.
-
-Find the side (debit or credit) with the higher sum value. Put this at the bottom of both sides:
-
-+----------------------+------------------------------------------+
-| Debits               | Credits                                  |
-+:====================:+:========================================:+
-| £1000                | £600                                     |
-+----------------------+------------------------------------------+
-| **highest: £1000**   | **highest: £1000**                       |
-+----------------------+------------------------------------------+
++------------------------------------+--------------------+
+| Debits                             | Credits            |
++:==================================:+:==================:+
+| £1000                              | £600               |
++------------------------------------+--------------------+
+| \-                                 | **c/f £400**       |
+|                                    |                    |
+| **highest: £1000**                 | **highest: £1000** |
+|                                    |                    |
+| [**balance b/f £400**]{.underline} |                    |
++------------------------------------+--------------------+
 
 : {.bordered .sm tbl-colwidths="\[50,50\]"}
 
-Now, look at the side with the lower value. Find the "difference" between the lower and higher values, and put it on the side of the lower side. This difference is called the **balance carried forward (c/f)**. Write it on the smaller side.
-
-+----------------------+------------------------------------------+
-| Debits               | Credits                                  |
-+:====================:+:========================================:+
-| £1000                | £600                                     |
-+----------------------+------------------------------------------+
-| \-                   | **balance c/f £400**                     |
-|                      |                                          |
-| **highest: £1000**   | **highest: £1000**                       |
-+----------------------+------------------------------------------+
-
-: {.bordered .sm tbl-colwidths="\[50,50\]"}
-
-On the side with the larger value, copy the balance c/f value to that side on the very bottom, called the **balance brought forward (b/f)**.
-
-+------------------------------------+------------------------------+
-| Debits                             | Credits                      |
-+:==================================:+:============================:+
-| £1000                              | £600                         |
-+------------------------------------+------------------------------+
-| \-                                 | **c/f £400**                 |
-|                                    |                              |
-| **highest: £1000**                 | **highest: £1000**           |
-|                                    |                              |
-| [**balance b/f £400**]{.underline} |                              |
-+------------------------------------+------------------------------+
-
-: {.bordered .sm tbl-colwidths="\[50,50\]"}
-
-The balance b/f is the final balance of the account. This final balance (note if it is a debit or credit) will go into the trial balance, as well as be the starting debit/credit value for the next period's account.
-:::
+4.  The [balance b/f is the final balance of the account]{.mark}. This final balance (note if it is a debit or credit) will go into the trial balance.
+    -   For income statement accounts (revenue, purchases, expenses), the starting balance will be [reset to 0]{.mark} for the next year.
+    -   For balance sheet accounts (all not on the income statement), the balance b/f will be [starting balance]{.mark} for next year's accounts.
 
 <br />
 
@@ -132,21 +251,30 @@ The balance b/f is the final balance of the account. This final balance (note if
 
 A trial balance is simply a list of all accounts, and their closing balances. It takes the form of the following:
 
-|              | Dr £  | Cr £  |
-|--------------|-------|-------|
-| Cash         | 3,000 |       |
-| Revenue      |       | 4,000 |
-| Rent Expense | 3,000 |       |
-| Capital      |       | 2,000 |
++-------------------------+--------------------------+--------------------------+
+|                         | Dr £                     | Cr £                     |
++=========================+==========================+==========================+
+| Cash                    | 3,000                    |                          |
++-------------------------+--------------------------+--------------------------+
+| Revenue                 |                          | 4,000                    |
++-------------------------+--------------------------+--------------------------+
+| Rent Expense            | 3,000                    |                          |
++-------------------------+--------------------------+--------------------------+
+| Capital                 |                          | 2,000                    |
++-------------------------+--------------------------+--------------------------+
+| [**TOTAL**]{.underline} | [**£6,000**]{.underline} | [**£6,000**]{.underline} |
++-------------------------+--------------------------+--------------------------+
 
 : {.bordered .sm tbl-colwidths="\[50,25,25\]"}
 
-The trial balance should **balance**: the total number of debits and credits should be equal.
+The trial balance should **balance**: [the total number of debits and credits should be equal]{.mark}.
 
 -   Make sure you put the value of the account into the correct column (debit or credit).
 -   A quick way to check if the column is correct, is that revenue should always be in the debit column (you cannot have negative revenue, and debit increases revenue), and expenses/drawings should always be in the credit column.
 
 This trial balance will help us create both the income statement, and the balance sheet.
+
+**NOTE: before you continue on to compiling statements, you will need to check if there are [adjustments](adjust.qmd) to be made**. Adjustments are to correct for accrual accounting procedures, and include accrued payments/prepayments.
 
 <br />
 
@@ -165,7 +293,7 @@ To create the income statement from the trial balance, we just simply put the cl
 +=========================+================+================+
 | Revenue                 |                | £–             |
 +-------------------------+----------------+----------------+
-| Cost of Sales\*         | £–             |                |
+| Cost of Sales           | £–             |                |
 |                         |                |                |
 | **Gross Profit**        |                |                |
 +-------------------------+----------------+----------------+
@@ -187,20 +315,6 @@ To create the income statement from the trial balance, we just simply put the cl
 +-------------------------+----------------+----------------+
 
 : {.bordered .sm tbl-colwidths="\[50,25,25\]"}
-
-::: {.callout-note collapse="true" appearance="simple"}
-## Calculating Cost of Sales
-
-Cost of sales, or Cost of goods sold (COGS) is the cost of purchasing/producing all of the goods sold (inventory) that generated the revenue at the top of the income statement.
-
--   For example, if you sold 5 shoes to generate the reported revenue, the COGS should be the cost of purchasing those 5 shoes in inventory.
-
-To calculate COGS for a specific period (like a year), we take the formula:
-
-> *COGS = opening inventory + purchases in period - closing inventory*
-
-This accounts for the goods that were not sold by the end of the period and remain in our inventory.
-:::
 
 The **bolded** parts are not accounts, and should be left blank until all accounts are filled in. Then, to calculate the bolded metrics, sum up all the credits, and all the debits, [above]{.underline} the bolded metric (all the way to the top). Then do the sum of credits minus the sum of debits.
 
@@ -239,17 +353,21 @@ To compile the balance sheet, simply list the remaining non-income statement acc
 
 : {.bordered .sm tbl-colwidths="\[50,50\]"}
 
-For **retained earnings**, you calculate it as the *closing balance of retained earnings from the last period + the net profit/loss* (from the income statement). You should find that the accounting equation holds true. If it doesn't, you have likely made some mistake.
+::: {.callout-note collapse="true" appearance="simple"}
+## Calculating Retained Earnings
+
+For retained earnings, you calculate it as with this formula:
+
+> **Closing balance of retained earnings from last period + net profit**
+
+You can also check the statement of changes in equity for this.
+:::
+
+You should find that the accounting equation holds true. If it doesn't, you have likely made some mistake. You should also check that the change in cash between the last period's statement and this year's statement matches the cash flow statement.
 
 <br />
 
-<br />
-
-------------------------------------------------------------------------
-
-# **Changes in Equity**
-
-### Composition of Equity
+### Statement of Changes in Equity
 
 For companies, the balance sheet has assets, liabilities, and equity. Equity has several accounts that commonly appear:
 
@@ -269,8 +387,6 @@ The statement of changes in Equity basically gives readers more information abou
 
 <br />
 
-### Statement of Changes in Equity
-
 The statement of changes in equity explains how the value of equity has changed during the year for a company.
 
 -   It lists the opening balance of each equity statement (retained earning, share capital, share premium).
@@ -282,10 +398,6 @@ The statement of changes in equity explains how the value of equity has changed 
 Thus, the statement of changes in Equity basically gives readers more information about how equity went from the starting balance to the ending balance.
 
 <br />
-
-------------------------------------------------------------------------
-
-# **Cash Flow Statement**
 
 ### Cash Flow
 
@@ -303,8 +415,6 @@ There are two ways to prepare a cash flow statement.
 -   **Indirect method** (more common): it uses different details from the income statement and balance sheet to work out the cash flow. Essentially, it is undoing the accruals/prepayments and payables/receivables to calculate cash flow.
 
 <br />
-
-### Indirect Method
 
 **Cash flow from operating activities**:
 
