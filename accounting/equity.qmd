@@ -1,0 +1,55 @@
+---
+title: "Equity and Capital"
+---
+
+### Statement of Changes in Equity
+
+For companies, the balance sheet has assets, liabilities, and equity. Equity has several accounts that commonly appear:
+
+1.  **Retained Earnings**: The accumulation of profits/losses that were not paid out as dividends or withdrawn from the business. Each year, this figure is updated based on the net profit/loss from the income statement.
+2.  **Share Capital**: When a company is established, the initial money invested by the founder is known as the share capital.
+    -   For example, if you invest £100,000 into starting the business, your share capital is £100,000.
+    -   This capital can be divided into units of equal size, known as **shares**. For example, if £100,000 share capital is divided into 100,000 shares, then each share is £1.
+    -   This initial share price (ex. £1) is called the **Par Value** or **Nominal Value**, and will [never change]{.underline}, no matter the market value of the share. This value is also noted by the value of an **ordinary** share.
+3.  **Share Premium**: When the market price of shares changes, the share premium reflects this change from the initial share capital.
+    -   Lets say the company needs £150,000, and found investors. They need to decide how many shares to issue, and at what price.
+    -   Shares cannot be issued below the par value.
+    -   Lets say the company decides to value each new share at £1.5, meaning they will issue 100,000 shares to get their funding needs.
+    -   Since the share price is £1.5 compared to the par of £1, it is issued at a **share premium** of £0.5. Share premium is the value in excess of the par value.
+    -   The remained of the £1 (par value) that is not the premium £0.5 is credited towards the share capital.
+
+The statement of changes in Equity basically gives readers more information about how equity went from the starting balance to the ending balance.Since they issued 100,000 shares at a premium of £0.5, multiply together to get a share premium of £50,000.
+
+<br />
+
+The statement of changes in equity explains how the value of equity has changed during the year for a company.
+
+-   It lists the opening balance of each equity statement (retained earning, share capital, share premium).
+-   Then it shows changes to this equity over the time period (usually a year). These changes can include dividends paid out, issuing more shares at a premium, and profit/loss.
+-   The closing balance of the statement of changes in equity will equal the total equity in the end-of-period balance sheet.
+
+![](images/paste-4.png)
+
+Thus, the statement of changes in Equity basically gives readers more information about how equity went from the starting balance to the ending balance.
+
+<br />
+
+### Accounting Errors
+
+There are 5 main types of errors:
+
+1.  **Errors of omission**: forgetting to include a transaction in the accounts.
+2.  **Transposition errors**: when an accountant accidentally swaps the positions of digits in an entry. For example, instead of £3,850, they record it as £3,580.
+3.  **Errors of principle**: when an accountant records a transaction that breaks the rules/standards of accounting.
+4.  **Errors of commission**: when an accountant records a transaction in the correct large account but wrong sub-account. For example, they correctly choose asset/liability/equity, but put it in the wrong account. The most common is recording one expense as another.
+5.  **Compensating errors**: when two are more errors offset each other, resulting in a correct balance for all accounts, but the individual errors are still there.
+
+To correct errors, we should take a few steps.
+
+1.  Identify the incorrect entry. Note the values included in this incorrect entry.
+2.  Decide what the correct entry should be. Note the values included in this correct entry.
+3.  Compare the result of the first two steps, and create a journal entry to fix the error. This journal entry should correct the account balances from the incorrect entry to the correct entry. We do not withdraw the old entry, just a new entry to correct the difference.
+
+**Suspense accounts** are a way to avoid errors in the first place. Sometimes, you know one account for the entry debits/credits, but you are not sure about another. Thus, instead of putting the unknown side of the transaction into a wrong account, you can put it into a temporary account called a suspense account. Later, you can correctly record the transaction.
+
+<br />

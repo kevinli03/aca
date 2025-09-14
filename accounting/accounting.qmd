@@ -119,9 +119,14 @@ No matter the type of business, their financial statements should only include t
 
 <br />
 
-### Accounting Principles
+### Principles and Conventions
 
-There are a set of principles that characterise good financial information and reporting:
+There are a set of principles that characterise good financial information and reporting, and a set of conventions for accounting standards:
+
+::: panel-tabset
+## Accounting Principles
+
+These are the principles that make up good financial statements.
 
 +--------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Relevance**                              | Information should be useful, and has the ability to influence decisions of users. It helps users confirm past predictions, and helps users assess the future of the business. Non-material things are not very important.                     |
@@ -139,9 +144,7 @@ There are a set of principles that characterise good financial information and r
 
 : {.bordered .sm tbl-colwidths="\[30,70\]"}
 
-<br />
-
-### Accounting Conventions
+## Accounting Conventions
 
 Accounting is a set of standards to record business transactions, allowing comparisons between companies, and for stakeholders to make decisions. It is important the financial information follows certain conventions:
 
@@ -160,6 +163,9 @@ Accounting is a set of standards to record business transactions, allowing compa
 +---------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 : {.bordered .sm tbl-colwidths="\[20,45,35\]"}
+:::
+
+<br />
 
 <br />
 
@@ -316,86 +322,231 @@ The debits and credits of each recorded transaction should balance. See the prep
 
 <br />
 
-### Accrual Accounting
-
-In accounting, cash flow is not equal to profit/sales/expenses. For example, if a customer buys a product on credit (so without paying immediately), this sale is already counted in sales/expenses/COGS for the profit statement, even **before the cash has arrived**.
-
-This type of accounting applies to many different scenarios:
-
--   For purchases on credit, the sale/COGS is recognised immediately, even when the cash has yet to leave.
--   For pre-payments of expenses (like paying rent ahead of time), the expense is for a later period, but the cash has already left.
-
-When we record transactions in the income statement is called the **accrual basis of accounting**. We record profit/expenses for the specific time period in which the transaction occurred, not when the cash transfer occurred.
-
--   Sales are recorded when they are earned, not when the money is actually received. For example, if the sale occurred in March but the cash was received in April, the sale (and COGS of the sale) go into the March accounts.
--   Expenses are recorded when they are incurred, rather than when they are paid. For example, if rent for March is paid in April, the rent is considered a March expense.
-
-This accrual form of accounting requires two expense accounts.
-
-+-----------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Accruals**    | Accruals are a current period expense, that will not be paid until the next period. | To complete the double entry in the current period, we would ***DR (increase) the expense***, and ***CR (increase) the accrued expense*** (liability). | To complete the double entry once paid later, we would ***DR (decrease) the accrued expense*** (liability), and ***CR (decrease) cash*** (asset).           |
-+-----------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Prepayments** | Prepayments are a future period expense, that have been paid during this period.    | To complete the double entry in the payment period, we would ***DR (increase) prepayment*** (asset), and ***CR (decrease) cash*** (asset).             | To complete the double entry once the service has been delivered, we would ***CR (decrease) the prepayment*** (asset), and ***DR (increase) the expense***. |
-+-----------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-: {.bordered .sm tbl-colwidths="\[20,20,30,30\]"}
-
-<br />
-
-### Accounting Errors
-
-There are 5 main types of errors:
-
-1.  **Errors of omission**: forgetting to include a transaction in the accounts.
-2.  **Transposition errors**: when an accountant accidentally swaps the positions of digits in an entry. For example, instead of £3,850, they record it as £3,580.
-3.  **Errors of principle**: when an accountant records a transaction that breaks the rules/standards of accounting.
-4.  **Errors of commission**: when an accountant records a transaction in the correct large account but wrong sub-account. For example, they correctly choose asset/liability/equity, but put it in the wrong account. The most common is recording one expense as another.
-5.  **Compensating errors**: when two are more errors offset each other, resulting in a correct balance for all accounts, but the individual errors are still there.
-
-To correct errors, we should take a few steps.
-
-1.  Identify the incorrect entry. Note the values included in this incorrect entry.
-2.  Decide what the correct entry should be. Note the values included in this correct entry.
-3.  Compare the result of the first two steps, and create a journal entry to fix the error. This journal entry should correct the account balances from the incorrect entry to the correct entry. We do not withdraw the old entry, just a new entry to correct the difference.
-
-**Suspense accounts** are a way to avoid errors in the first place. Sometimes, you know one account for the entry debits/credits, but you are not sure about another. Thus, instead of putting the unknown side of the transaction into a wrong account, you can put it into a temporary account called a suspense account. Later, you can correctly record the transaction.
-
-<br />
-
-<br />
-
 ------------------------------------------------------------------------
 
-# **Reporting Standards**
+# **Bookkeeping Basics**
+
+### Recording Transactions
+
+For each transaction, we should [list the debits and credits, and ensure they are equal]{.mark}. Then, we put each debit/credit entry into their respective accounts (like cash, inventory, etc.). These respective accounts are called T-accounts/ledger accounts. This process is called **double entry accounting**.
+
+For example, imagine I invest £5,000 into the firm's bank account. In double entry accounting, we know the debits and credits are:
+
+-   Dr. Cash (Asset) £5,000
+-   Cr. Equity (Equity) £5,000
+
+Then, list the debits and credits in the correct accounts. Each transaction's debits and credits should balance. However, each t-account individually does not need to be balanced.
+
++:-------------------------------------------:+:-------------------------------------------:+
+| **Equity**                                  | **Cash (Asset)**                            |
+|                                             |                                             |
+| | Debits | Credits |                        | | Debits | Credits |                        |
+| |:------:|:-------:|                        | |:------:|:-------:|                        |
+| |   £0   | £5,000  |                        | | £5,000 |   £0    |                        |
+|                                             |                                             |
+| : {.bordered .sm tbl-colwidths="\[50,50\]"} | : {.bordered .sm tbl-colwidths="\[50,50\]"} |
++---------------------------------------------+---------------------------------------------+
+
+Note: for [income statement accounts (revenue, purchases, expenses), the starting balance of all accounts at the beggining of the period should be reset to 0]{.mark}. For [all other accounts (on the balance sheet), the starting balance of debits/credits should be carried over]{.mark} from the previous period.
+
+For more details on specific types of transactions, see the left sidebar for details.
 
 <br />
 
-::: {.callout-note collapse="true" appearance="simple"}
-## Examples
+### Closing the Accounts
 
-Below are more examples of assets, liabilities, and equity.
+At the end of the year, we need to **close the accounts** (except inventory and cost of sales, see above). The steps are as follows:
 
-+-----------------+----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                 | **Current**                      | **Non-current**                                                                                                                                                       |
-+-----------------+----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Assets**      | Inventory, cash, receivables.    | Land, buildings, plant and machinery, patents, motor vehicles, tools, fixtures and fittings, office equipment, computers, long-term investments, ships, works of art. |
-+-----------------+----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Liabilities** | Trade payables, bank overdrafts. | Long-term loans.                                                                                                                                                      |
-+-----------------+----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-:::
+1.  Sum up each side of debits and credits. Find the side (debit or credit) with the higher sum value. Put this at the bottom of both sides:
+
++---------------------------+---------------------------+
+| Debits                    | Credits                   |
++:=========================:+:=========================:+
+| £1000                     | £600                      |
++---------------------------+---------------------------+
+| **highest: £1000**        | **highest: £1000**        |
++---------------------------+---------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+2.  Look at the side with the lower value. [Find the "difference" between the lower and higher values, and put it on the side of the lower side]{.mark}. This difference is called the **balance carried forward (c/f)**. Write it on the smaller side.
+
++-------------------------+----------------------------+
+| Debits                  | Credits                    |
++:=======================:+:==========================:+
+| £1000                   | £600                       |
++-------------------------+----------------------------+
+| \-                      | **balance c/f £400**       |
+|                         |                            |
+| **highest: £1000**      | **highest: £1000**         |
++-------------------------+----------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+3.  On the side with the larger value, copy the balance c/f value to that side on the very bottom, called the **balance brought forward (b/f)**.
+
++------------------------------------+--------------------+
+| Debits                             | Credits            |
++:==================================:+:==================:+
+| £1000                              | £600               |
++------------------------------------+--------------------+
+| \-                                 | **c/f £400**       |
+|                                    |                    |
+| **highest: £1000**                 | **highest: £1000** |
+|                                    |                    |
+| [**balance b/f £400**]{.underline} |                    |
++------------------------------------+--------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+4.  The [balance b/f is the final balance of the account]{.mark}. This final balance (note if it is a debit or credit) will go into the trial balance.
+    -   For income statement accounts (revenue, purchases, expenses), the starting balance will be [reset to 0]{.mark} for the next year.
+    -   For balance sheet accounts (all not on the income statement), the balance b/f will be [starting balance]{.mark} for next year's accounts.
 
 <br />
 
--   This does not apply to sole traders, who themselves own the business.
--   Limited companies must maintain financial records and file them with authorities. In the UK, they must be filed annually with companies house.
--   Public companies (who are traded on the stock market) must make financial statements publicly available for anyone to read.
--   Companies need to prepare statements regarding changes in equity.
+### Trial Balance
 
-Another terminology difference is capital/equity. Sole traders hold capital in their companies, while shareholders in a limited company hold equity.
+A trial balance is simply a list of all accounts, and their closing balances. It takes the form of the following:
 
-The actual financial statements may differ as well between sole traders and companies:
++-------------------------+--------------------------+--------------------------+
+|                         | Dr £                     | Cr £                     |
++=========================+==========================+==========================+
+| Cash                    | 3,000                    |                          |
++-------------------------+--------------------------+--------------------------+
+| Revenue                 |                          | 4,000                    |
++-------------------------+--------------------------+--------------------------+
+| Rent Expense            | 3,000                    |                          |
++-------------------------+--------------------------+--------------------------+
+| Capital                 |                          | 2,000                    |
++-------------------------+--------------------------+--------------------------+
+| [**TOTAL**]{.underline} | [**£6,000**]{.underline} | [**£6,000**]{.underline} |
++-------------------------+--------------------------+--------------------------+
 
--   In the income statement, companies report tax expenses, but sole traders do not report tax expenses. This is because for a sole trader, the company is not a separate legal entity, so the sole trader files their own tax return. As a result, limited companies will have a [profit before tax]{.underline} and [net profit]{.underline} on their statement.
--   In the income statement expenses, limited companies must more clearly report expenses grouped by headings, such as "distribution costs", "advertising costs", or "administrative expenses" for example. Sole traders do not need to go into this detail.
+: {.bordered .sm tbl-colwidths="\[50,25,25\]"}
+
+The trial balance should **balance**: [the total number of debits and credits should be equal]{.mark}.
+
+-   Make sure you put the value of the account into the correct column (debit or credit).
+-   A quick way to check if the column is correct, is that revenue should always be in the debit column (you cannot have negative revenue, and debit increases revenue), and expenses/drawings should always be in the credit column.
+
+This trial balance will help us create both the income statement, and the balance sheet.
+
+**NOTE: before you continue on to compiling statements, you will need to check if there are [adjustments](adjust.qmd) to be made**. Adjustments are to correct for accrual accounting procedures, and include accrued payments/prepayments.
 
 <br />
+
+### Income Statement
+
+To create the income statement from the trial balance, we just simply put the closing balances of the relevant accounts into the following form. More details on income and expense accounting are on the income accounting page.
+
++-------------------------+----------------+----------------+
+|                         | Dr £           | Cr £           |
++=========================+================+================+
+| Revenue                 |                | £–             |
++-------------------------+----------------+----------------+
+| Cost of Sales           | £–             |                |
+|                         |                |                |
+| **Gross Profit**        |                |                |
++-------------------------+----------------+----------------+
+| Rent Expense            | £–             |                |
+|                         |                |                |
+| Salary                  | £–             |                |
+|                         |                |                |
+| Other Operating Expense | £–             |                |
+|                         |                |                |
+| **Operating Profit**    |                |                |
++-------------------------+----------------+----------------+
+| Finance Expense         | £–             |                |
+|                         |                |                |
+| **Profit Before Tax**   |                |                |
++-------------------------+----------------+----------------+
+| Tax Expense             | £–             |                |
+|                         |                |                |
+| **Net Profit**          |                |                |
++-------------------------+----------------+----------------+
+
+: {.bordered .sm tbl-colwidths="\[50,25,25\]"}
+
+The **bolded** parts are not accounts, and should be left blank until all accounts are filled in. Then, to calculate the bolded metrics, sum up all the credits, and all the debits, [above]{.underline} the bolded metric (all the way to the top). Then do the sum of credits minus the sum of debits.
+
+<br />
+
+### Balance Sheet
+
+To compile the balance sheet, simply list the remaining non-income statement accounts into their proper location. Remember that for assets, debit is positive and credit is negative. For liabilities and equity, debit is negative and credit is positive. More details on assets are provided on the asset accounting page.
+
++-----------------------------------------+----------------+
+| Non-Current Assets                      | \-             |
+|                                         |                |
+| -   Accounts go here                    | -   £–         |
+|                                         |                |
+| Current Assets                          | \-             |
+|                                         |                |
+| -   Accounts go here                    | -   £–         |
+|                                         |                |
+| **Total Assets**                        | £–             |
++-----------------------------------------+----------------+
+| Equity                                  | \-             |
+|                                         |                |
+| -   Share Capital, Premium, Drawings    | -   £–         |
+| -   Retained Earnings\*                 | -   £–         |
+|                                         |                |
+| Non-Current Liabilities                 | \-             |
+|                                         |                |
+| -   Accounts go here                    | -   £–         |
+|                                         |                |
+| Current Liabities                       | \-             |
+|                                         |                |
+| -   Accounts go here                    | -   £–         |
+|                                         |                |
+| **Total Equity + Assets**               | £–             |
++-----------------------------------------+----------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+<br />
+
+### Cash Flow Statement
+
+Since the income statement (and net profit/loss) is recorded with accrual accounting, it does not record when cash is received/leaving a business. However, cash is still important as cash is needed to pay suppliers and liabilities.
+
+The cash flow statement records how cash flows in and out of a business. It is divided into 3 parts:
+
+1.  **Cash flow from operating activities**: this includes cash flows from core business operations, such as from sales, COGS, and operating expenses.
+2.  **Cash flow from investing activities**: this includes cash flow from the purchase and disposal of assets.
+3.  **Cash flow from financing activities**: this includes cash flows from liabilities/equity (loans, shares) and dividends.
+
+There are two ways to prepare a cash flow statement.
+
+-   **Direct method**: this is basically recording and counting all the inflows and outflows of cash.
+-   **Indirect method** (more common): it uses different details from the income statement and balance sheet to work out the cash flow. Essentially, it is undoing the accruals/prepayments and payables/receivables to calculate cash flow.
+
+<br />
+
+**Cash flow from operating activities**:
+
+1.  Start with the [profit before tax]{.underline} figure from the income statement.
+2.  *Add* [finance costs]{.underline} (so if you spend £X on finance costs, do + £X).
+3.  *Subtract* [finance income]{.underline} (so if you earn £X in finance income, do -£X).
+4.  *Subtract* [profits from disposal of non-current assets]{.underline} (so if you earn £X, do -£X, and if you lost £X, do +£X).
+5.  *Add* [depreciation expense]{.underline} (so if you spent £X on depreciation costs, do +£X).
+6.  *Add* [amoritsation expense]{.underline} (so if you spent £X on amoritsation, do +£X).
+7.  *Subtract* [change in inventory]{.underline} (so if inventory increased from last period, subtract. If inventory decreased from last period, add).
+8.  *Subtract* [change in trade receivables]{.underline} (so if receivables increased from last period, subtract. If receivables decreased from last period, add).
+9.  *Add* [change in trade payables]{.underline} (so if payables account increased from last period, add. If payables account decreased, subtract).
+10. *Add* [change in accruals]{.underline} (so if accruals account increased from last period, add. If accruals account decreased, subtract).
+11. *Subtract* [tax expense]{.underline} (so if you spent £X on tax, do -£X).
+12. *Subtract* [interest paid]{.underline} (so if you spent £X on tax, do -£X).
+
+**Cash flow from investing activities**
+
+1.  *Subtract* [amount spent on property, plant, and equipment]{.underline} (so if you spent £X, do -£X).
+2.  *Subtract* [amount spent on intangible assets]{.underline} (so if you spent £X, do -£X).
+3.  *Add* [proceeds from sale of property, plant, and equipment]{.underline} (so if you gained £X, do +£X).
+
+**Cash flow from financing activities**
+
+1.  *Add* [proceeds from issue of shares]{.underline} (so if you gained £X, do +£X).
+2.  *Add* [change in borrowings]{.underline}.
+3.  *Subtract* [dividends paid]{.underline} (so if you paid £X, do -£X).

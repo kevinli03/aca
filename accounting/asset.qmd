@@ -1,0 +1,153 @@
+---
+title: "Inventory and Non-Current Assets"
+---
+
+This page covers information on current assets (such as inventory) and non-current assets (such as ppe). The content in this section is a part of the **Accounting Fundamentals** (certificate level) for the ACA qualification.
+
+<br />
+
+------------------------------------------------------------------------
+
+# **Inventory**
+
+### Inventory Bookkeeping
+
+When buying inventory, we [do not update the inventory account]{.mark}. For a transaction that increases inventory, we instead use the purchases account.
+
+-   **Dr Purchases** £–
+-   **Cr Cash/Payables** £–
+
+However, at the end of the year, we need to know the closing inventory balance for both the balance sheet, and the calculation of cost of sales. Closing inventory consists of:
+
+-   Goods which have been purchased, bur not yet sold.
+-   Goods which are not part of 'cost of goods sold' (see adjustments and accrual accounting).
+-   An asset of the business, or held for resale and are classified as a current asset.
+
+The following sections will discuss how to value the closings inventory. At the close of the period, we will complete this transaction:
+
++------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Dr Closing Inventory (Asset)**   | This is an asset on the balance sheet, and will be the value of the inventory listed.                                                                                     |
+|                                    |                                                                                                                                                                           |
+|                                    | This figure will also become the opening inventory of the next period.                                                                                                    |
++------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Cr Closing Inventory (Expense)** | This is a (negative) expense account on the income statement. It will be used alongside purchases and the previous period's closing inventory to calculate cost of sales. |
++------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Inventory and Service Organisations
+
+Some service based industries will have very few physical inventory. For example, netflix or financial services have very few inventory.
+
+Instead, cost of sales will **reflect the cost of providing the service to customers**. This includes:
+
++-------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| **Direct Labour Costs** | -   If you are offering a tax specialist to a company, their salary would be included in cost of sales.                   |
+|                         | -   If you are a pool cleaning company, then the pool cleaner should be included in the cost of sales.                    |
+|                         | -   See note below.                                                                                                       |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| **Materials Used**      | -   If you are offering a pool cleaning company, then the pool cleaning chemicals would be included in the cost of sales. |
+|                         | -   Note the difference between expenses (recurring) and one-time purchases of non-current assets (like equipment).       |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| **Sales Commission**    | -   The commission or bonus earned by salespeople, specifically as a result of securing work from customers.              |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+NOTE: costs incurred that are not directly related to the service are not included. For example, receptionists and their salary, the sales-persons team and their salary.
+:::
+
+<br />
+
+### Inventory Count
+
+At the year end, the **closing inventory** is counted. This determines what inventory (what products, how many of each) we have remaining at the end of the year. There are 3 types of inventory: raw materials, works in progress, and finished goods (most common).
+
+Often, you will not perform an inventory count/valuation on the exact date of the year end. For example, the year might end on 31 December, but the inventory count might not occur until 3rd January.
+
+Thus, we need to account for the changes in inventory between 31 December (Year End) and 3rd January (Count Date) to accurately determine the contents of the inventory on the year end. The adjustment is as follows:
+
+> **Adjustment to Count = Counted Inventory (on count date)**
+>
+> **- Goods received from suppliers (between year end and count date)**
+>
+> **+ goods sold to customers (between year end and count date)**
+>
+> **+ goods returned to suppliers (between year end and count date)**
+>
+> **- Goods returned by customers (between year end and count date)**
+
+These adjustments "undo" the changes that occur between the year end and count date, to properly reflect the inventory on the year-end date.
+
+<br />
+
+### Cost and NRV
+
+Once we have counted what inventory we have, we need to value them so we can add it to the balance sheet, as well as calculate cost of sales. inventory can be valued in two main ways:
+
++--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+| **Cost (most common)**         | -   In cost valuation, inventory is valued at the cost of which the inventory was obtained.                                                        | -   Ex. I bought inventory for £500, with a £50 delivery fee.                                                                    |
+|                                | -   Cost includes the actual inventory purchase price, import duties, delivery fees for the inventory from the supplier to you.                    | -   Thus, under cost valuation, the inventory would be valued at £550.                                                           |
+|                                | -   If you are converting raw materials into finished products, the cost of this production is also included in the cost valuation.                |                                                                                                                                  |
++--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+| **Net Realisable Value (NRV)** | -   In net realisable value (NRV), inventory is valued at the price it can be sold at.                                                             | -   Ex. the inventory I have can be sold on the market at £500. I will need to make some modifications of £50 to make this sale. |
+|                                | -   The costs needed to enable the sale (ex. repairs, modification costs, selling costs) are deducted from the price the inventory can be sold at. | -   Thus, under NRV, the inventory would be valued at £450.                                                                      |
++--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[20,40,40\]"}
+
+On the balance sheet, [inventory should be valued at the **lower** of either cost valuation or NRV valuation]{.mark}. This is part of the prudence principle: that we should underpromise and overdeliver.
+
+-   This valuation at the lower of either cost or NRV occurs on a product by product basis.
+-   For example, if you have 3 products A, B, and C. Products A and B have lower NRV valuations, and C has a lower cost valuation. Thus, you should value A and B with NRV, and C with cost.
+
+Cost valuation is typically more common. This makes sense: companies usually look to profit off of inventory sales, so unless a good is damaged, out of fashion, or perished, etc., it is unlikely to have a NRV lower than cost.
+
+<br />
+
+### Valuation Methods
+
+Let us say you have adopted cost valuation for your inventory. But there is an issue:
+
+> Imagine you are a company selling footballs. At the beginning of the year, you purchase 100 footballs for your inventory for £1/each. Then a few months later, you purchase 50 more of the same type of footballs for £1.5 each. Now you have 150 footballs. You sell 50 of them (they are all the same, so you just take 50). You have 100 left. But how much is each remaining football worth? £1.5? £1? £1.36?
+
+There are 3 main ways of valuing inventory based on cost (however, LIFO is not allowed under most international standards).
+
++-------------------------------+----------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **First in First Out (FIFO)** | FIFO assumes that when you sell the 50 (or however many) products, you are selling the inventory that you purchased first. | Since you are selling the inventory you purchased first, the closing inventory is mostly the products you purchased last. Thus, valuation is more based on the later purchase prices.              |
++-------------------------------+----------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Average Cost (AVCO)**       | AVCO assumes you just randomly sell 50 (or however many) products.                                                         | Since you are selling a random amount of products, we value the closing inventory as some sort of weighted average of purchase prices.                                                             |
++-------------------------------+----------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Last in First Out (LIFO)**  | LIFT assumes that when you sell the 50 (or however many) products, you are selling the inventory that you purchased last.  | Since you are selling the inventory you purchased last, the closing inventory is the products you purchased first. Thus, valuation is more based on the older (possibly outdated) purchase prices. |
++-------------------------------+----------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[20,40,40\]"}
+
+LIFO is not allowed under IFRS standards, because it often revolves around valuaing invnetory on outdated old prices. This means that it will underestimate the closing inventory (if assuming inflation).
+
+For more details on FIFO and AVCO, see below.
+
+<br />
+
+### First in First Out (FIFO)
+
+<br />
+
+### Average Cost (AVCO)
+
+<br />
+
+<br />
+
+------------------------------------------------------------------------
+
+# **Depreciation**
+
+<br />
+
+<br />
+
+------------------------------------------------------------------------
+
+# **Disposals**

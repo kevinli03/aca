@@ -23,10 +23,12 @@ website:
       contents:
         - href: accounting/accounting.qmd
           text: Accounting Basics
-        - href: accounting/prepare.qmd
-          text: Preparing Statements
-        - href: accounting/adjust.qmd
-          text: Adjustments
+        - href: accounting/sales.qmd
+          text: Sales and Purchases
+        - href: accounting/asset.qmd
+          text: Inventory and NCA
+        - href: accounting/equity.qmd
+          text: Equity and Capital
 
     - title: "Assurance"
       style: "docked"
