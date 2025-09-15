@@ -29,6 +29,8 @@ website:
           text: Inventory and NCA
         - href: accounting/equity.qmd
           text: Equity and Capital
+        - href: accounting/system.qmd
+          text: Systems and Errors
 
     - title: "Assurance"
       style: "docked"

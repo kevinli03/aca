@@ -1,0 +1,178 @@
+---
+title: "Systems and Errors"
+---
+
+<br />
+
+------------------------------------------------------------------------
+
+# **Accounting Systems**
+
+### Source Documents
+
+Aside from recording transactions, accounting systems also have source documents. These are important for recording transactions correctly, as well as providing evidence to auditors/regulators about the accuracy of accounting records.
+
+The most common source documents relate to the sales of the business, and the purchase of inventory.
+
+::: panel-tabset
+## Sales Documents
+
+The below are common documents during the sales cycle, where you sell a good to a customer. They are listed in order of appearance during the sales process.
+
++-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Sales Order**               | Record of the order the customer wants, detailing the goods required.                                                                                      |
++-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Goods Delivery Note (GDN)** | When delivery to the customer is sent, a goods delivery note is also produced. This is the record that the goods were dispatched.                          |
+|                               |                                                                                                                                                            |
+|                               | They are also often known as *dispatch* notes.                                                                                                             |
++-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Sales Invoice**             | Sales invoice is the document sent to the customer as a request for payment, including the goods provided and the payment required.                        |
+|                               |                                                                                                                                                            |
+|                               | Upon creation of the sales invoice, the firm will input the record of this sale into the accounting records.                                               |
++-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Credit Note**               | A credit note is sent to the customer if they have been overcharged, or have returned their notes. Basically a I-owe-you from the company to the customer. |
+|                               |                                                                                                                                                            |
+|                               | When issued, a record will be entered into the accounting records.                                                                                         |
++-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+## Purchase Documents
+
+The below are common documents during the purchase cycle, where you buy a good from a supplier. They are listed in order of appearance during the purchase process.
+
++-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Purchase Order**            | Record of the order we want from the supplier. This is sent to the supplier.                                                                                                                                           |
++-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Goods Received Note (GRN)** | When we receive the goods from the supplier, we produce a goods received note. This is a record that the goods were accepted into inventory successfully.                                                              |
++-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Purchase Invoice**          | Purchase invoice is the document sent by the supplier as a request for payment, including the goods provided and the payment required.                                                                                 |
+|                               |                                                                                                                                                                                                                        |
+|                               | Upon receiving the purchase invoice, the firm will input the record of this purchase into the accounting records.                                                                                                      |
++-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Debit Note**                | A debit note is sent to the supplier if we need to return goods or have been overcharged. Basically a You-owe-us from the company to the supplier.                                                                     |
+|                               |                                                                                                                                                                                                                        |
+|                               | When issued, no changes will be done. The [debit note is not a source document]{.underline}. Only until we receive the credit note from the supplier will we input accounting entries and use it as a source document. |
++-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+:::
+
+Note: debit notes (for purchase returns/overcharged) are not a source document per-se. They are a request for the credit note, which is then considered a source document.
+
+<br />
+
+### Accounting Ledgers
+
+A business will have many transactions, so accounting is usually done with software to manage records. These software systems will have different "modules" (parts), that each perform different functions. Below are a few of the most common:
+
++---------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Nominal Ledger**              | -   The nominal ledger, also known as the general ledger, is the normal ledger of different accounts (sales, cash, capital, etc.) that we record transactions in.                                                                                                                                                                  |
+|                                 | -   These ledgers might be more "general". For example, you will have a trade receivables and trade payables account, however, you will not list the individual details on a transaction basis (like who the receivables are owed from, and who the payables are owed to. They will all be classed as trade payables/receivables). |
++---------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Receivables/Payables Ledger** | -   The nominal ledger only includes general trade receivables/payables as an account. However, a business needs to be able to know which customers owes it money, and which suppliers it owes money to.                                                                                                                           |
+|                                 | -   These individual customer's receivables/payables are recorded in a receivables or payables ledger, with each ledger containing different customer/supplier accounts for each customer/supplier.                                                                                                                                |
+|                                 | -   When a sales invoice and credit notes are recorded, the accounting software system will update the trade receivables/payables account in the nominal ledger. They will also update a customer's/supplier's individual ledger account.                                                                                          |
+|                                 | -   The receivables ledger in total should have the same balance as the trade receivables account on the nominal ledger, and this can be used as a way to check/reconcile balances.                                                                                                                                                |
++---------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Non-Current Asset Register**  | -   This register (spreadsheet) is a list of all individual non-current assets the business owns. It also contains details on each item's purchase costs, accumulated depreciation, depreciation expenses, and depreciation policy.                                                                                                |
+|                                 | -   The non-current asset register is useful to check the depreciation of the nominal ledger, as well as reconcile with the nominal ledger. It can also be used as a checklist for checking the existence of non-current assets when performing an audit.                                                                          |
++---------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Payroll Module**              | -   This module processes wages and salaries of employees. It specifies each employee's gross salary, tax deductions, national insurance deductions, and employer contributions.                                                                                                                                                   |
+|                                 | -   This can be used to ensure all employees are properly paid, as well as check the balances of the payroll expenses on the nominal ledger.                                                                                                                                                                                       |
++---------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+<br />
+
+### Processing Transactions
+
+There are 3 stages in processing transactions with a accounting software system: inputs, accounting system processes, and outputs.
+
++-------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **1) Inputs**           | -   We input documents into a system to start processing transactions.                                                                                                                                                                                                                                                 |
+|                         | -   This can include source documents for purchases/sales (invoices, credit notes).                                                                                                                                                                                                                                    |
+|                         | -   This can also include standing data: data that will be used over and over again for transactions. Ex. payroll module with PAYE codes and banking details. These will be used every time salary is paid.                                                                                                            |
++-------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **2) System Processes** | -   System processes can be either real-time (transactions processed as inputs of the transactions are input), or in batches (the inputs are recorded but processes might not be run until the end of the day).                                                                                                        |
+|                         | -   **Calculations**: the system will take standing data and data inputs, and compute the require calculations. Ex. it may take payroll module data and timesheet data to calculate how much to pay an employee who has worked a certain amount of hours, as well as the proper tax and national insurance deductions. |
+|                         | -   **Ledgers**: ledger accounts will be automatically updated for inputs.                                                                                                                                                                                                                                             |
+|                         | -   **Jounral Entries and adjustments**: adjustments such as accruals, prepayments, depreciation, may be calculated and processed.                                                                                                                                                                                     |
++-------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **3) Outputs**          | -   Output could be in the form of a trial balance. This can often be extracted at any point in time.                                                                                                                                                                                                                  |
+|                         | -   Output could also be generated in the form of reports. These reports can show a variety of things, such as the age of debts, summary statistics, list of large transactions, and so on.                                                                                                                            |
++-------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Cloud Accounting Systems
+
+Cloud accounting systems have become quite common: where these processes and data are stored online, and the software is maintained by the provider. This allows users to access the software and data via the internet.
+
+Types of cloud services for accounting include:
+
+1.  Software as a service: software applications hosted in the cloud, that users can access (ex. Gmail).
+2.  Platform as a service: Provides virtual space for customers to host and develop their own applications (Ex. Azure).
+3.  Infrastructure as a service: data storage, back-up services (ex. Amazon Web Services, OneDrive).
+:::
+
+<br />
+
+### Reporting Standards
+
+There are two main types of reporting standards firms should follow in the UK:
+
++-----------------------------+-------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+
+| **International Standards** | -   International accounting standards (IAS) and International Financial Reporting Standards (IFRS).              | Listed companies must use international standards.                         |
+|                             | -   Issues by the International Accounting Standards Board (IASB).                                                |                                                                            |
+|                             | -   UK Companies must still comply with UK company Law (Companies Act of 2006) in terms of reporting obligations. |                                                                            |
++-----------------------------+-------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+
+| **UK GAAP**                 | -   UK Generally Accepted Accounting Practices (GAAP).                                                            | Non-listed companies can choose to use UK GAAP or International Standards. |
+|                             | -   Issued by the Financial Reporting Council (FRC) and governed by UK Company Law (Companies Act of 2006).       |                                                                            |
++-----------------------------+-------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[25,45,30\]"}
+
+The two standards do have slight differences in terminology:
+
++--------------------------------+----------------------------------------+
+| International Standards        | UK GAAP                                |
++================================+========================================+
+| Non-Current Assets             | Fixed Assets                           |
++--------------------------------+----------------------------------------+
+| Property Plant Equipment (PPE) | Tangible Assets                        |
++--------------------------------+----------------------------------------+
+| Cash and Cash Equivalents      | Cash at bank and in hand               |
++--------------------------------+----------------------------------------+
+| Inventory                      | Stock                                  |
++--------------------------------+----------------------------------------+
+| Carrying Amount                | Net Book Value                         |
++--------------------------------+----------------------------------------+
+| Receivables                    | Debtors                                |
++--------------------------------+----------------------------------------+
+| Allowance for Receivables      | Provision for Doubtful Debts           |
++--------------------------------+----------------------------------------+
+| Irrecoverable Debt             | Bad Debt                               |
++--------------------------------+----------------------------------------+
+| Loan Notes                     | Debentures                             |
++--------------------------------+----------------------------------------+
+| Payables                       | Creditors                              |
++--------------------------------+----------------------------------------+
+| Revenue                        | Turnover                               |
++--------------------------------+----------------------------------------+
+| Finance Costs                  | Interest Payable                       |
++--------------------------------+----------------------------------------+
+| Retained Earnings              | Retained Profits                       |
++--------------------------------+----------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+The balance sheet is also in a slightly different order. In international standards, equity comes above liability. This is reversed in UK GAAP.
+
+<br />
+
+------------------------------------------------------------------------
+
+# **Reconcilliation and Errors**

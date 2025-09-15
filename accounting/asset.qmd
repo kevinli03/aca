@@ -132,9 +132,75 @@ For more details on FIFO and AVCO, see below.
 
 ### First in First Out (FIFO)
 
+FIFO assumes that when you sell the 50 (or however many) products, you are selling the inventory that you purchased first. Thus, the remaining inventory are the things you purchased most recently.
+
+For example, take this purchase history:
+
++----------------+----------------+-------------------------------+
+| Purchase       | Units          | Price                         |
++================+================+===============================+
+| January        | 20 Units       | £1/unit                       |
++----------------+----------------+-------------------------------+
+| February       | 20 Units       | £1.5/unit                     |
++----------------+----------------+-------------------------------+
+| March          | 20 Units       | £2/unit                       |
++----------------+----------------+-------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[40,30,30\]"}
+
+If our closing inventory at the end of the period had [30 units]{.underline}, we would value them as follows:
+
++----------------------------+---------------------------------------+-----------------+---------------------------------+
+| Units                      | Purchase                              | Purchased Price | Total cost                      |
++============================+=======================================+=================+=================================+
+| 20 Units                   | Using latest purchase (March)         | £1/unit         | £20                             |
++----------------------------+---------------------------------------+-----------------+---------------------------------+
+| 10 Units                   | Using next latest purchase (February) | £1.5/unit       | £15                             |
++----------------------------+---------------------------------------+-----------------+---------------------------------+
+| **30 Units Closing Total** |                                       |                 | **£35 Closing Inventory Value** |
++----------------------------+---------------------------------------+-----------------+---------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[20,30,20,20\]"}
+
+Simply, we go backwards from the last purchase, forwards in time until we account for the total number of units in the closing inventory.
+
 <br />
 
 ### Average Cost (AVCO)
+
+AVCO assumes you just randomly sell 50 (or however many) products. Since you are selling a random amount of products, we value the closing inventory as some sort of weighted average of purchase prices.
+
+We should calculate the Average Cost of all purchased products **before** **each sale** occurs. The procedure is as follows:
+
++-------------------------+-------------------+-----------------------------+-----------------+-------------------------+--------------------------+
+| Date                    | Event             | Units                       | Unit Price      | Total Price             | Average Cost Before Sale |
++=========================+===================+=============================+=================+=========================+==========================+
+| January                 | Opening Inventory | 100 Units                   | £1.5/unit       | £150                    |                          |
++-------------------------+-------------------+-----------------------------+-----------------+-------------------------+--------------------------+
+| February                | Purchase          | 400 Units                   | £2/unit         | £800                    |                          |
++-------------------------+-------------------+-----------------------------+-----------------+-------------------------+--------------------------+
+| **Before Sale 1 Total** |                   | [**500 Units**]{.underline} |                 | [**£950**]{.underline}  | **£950/500 = £1.9**      |
++-------------------------+-------------------+-----------------------------+-----------------+-------------------------+--------------------------+
+| March                   | Sale 1            | (100 Units)                 | *(£1.9/unit)\** | (£190)                  |                          |
++-------------------------+-------------------+-----------------------------+-----------------+-------------------------+--------------------------+
+| **After Sale 1 Total**  |                   | [**400 Units**]{.underline} |                 | [**£760**]{.underline}  |                          |
++-------------------------+-------------------+-----------------------------+-----------------+-------------------------+--------------------------+
+| April                   | Purchase          | 200 Units                   | £3/unit         | £600                    |                          |
++-------------------------+-------------------+-----------------------------+-----------------+-------------------------+--------------------------+
+| June                    | Purchase          | 200 Units                   | £4/unit         | £800                    |                          |
++-------------------------+-------------------+-----------------------------+-----------------+-------------------------+--------------------------+
+| **Before Sale 2 Total** |                   | [**800 Units**]{.underline} |                 | [**£2160**]{.underline} | **£2160/800 = £2.7**     |
++-------------------------+-------------------+-----------------------------+-----------------+-------------------------+--------------------------+
+| July                    | Sale 2            | (300 units)                 | *£2.7/unit\**   | (£810)                  |                          |
++-------------------------+-------------------+-----------------------------+-----------------+-------------------------+--------------------------+
+| **After Sale 2 Total**  |                   | 500 Units                   |                 | £1350                   |                          |
++-------------------------+-------------------+-----------------------------+-----------------+-------------------------+--------------------------+
+
+: {.bordered .sm tbl-colwidths="\[1,1,1,1,1,1\]"}
+
+You can see that after all transactions have occurred, our closing inventory has 500 units, with a total value of £1350. That is our valuation.
+
+-   \*Note: the *sale unit price* is the *average cost before sale* calculated prior to each sale.
 
 <br />
 
@@ -144,6 +210,26 @@ For more details on FIFO and AVCO, see below.
 
 # **Depreciation**
 
+### Depreciation Basics
+
+What is depreciation
+
+-   Cost, residual value, carrying amount
+
+How to record depreciation expense
+
+-   Calculation methods
+
+Amortisation, depreciation of land vs. property
+
+<br />
+
+### Straight Line
+
+<br />
+
+### Reducing Balance
+
 <br />
 
 <br />
@@ -151,3 +237,9 @@ For more details on FIFO and AVCO, see below.
 ------------------------------------------------------------------------
 
 # **Disposals**
+
+### Profit or Loss
+
+### Disposal Transactions
+
+### Parts Exchange Allowance

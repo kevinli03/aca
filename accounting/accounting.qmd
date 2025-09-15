@@ -8,7 +8,7 @@ This page contains the basics of accounting, including the different financial s
 
 ------------------------------------------------------------------------
 
-# **Introduction**
+# **Accounting Concepts**
 
 ### Financial Statements
 
@@ -166,14 +166,6 @@ Accounting is a set of standards to record business transactions, allowing compa
 :::
 
 <br />
-
-<br />
-
-<br />
-
-------------------------------------------------------------------------
-
-# **Accounting Concepts**
 
 ### Accounting Equation
 
@@ -359,27 +351,27 @@ At the end of the year, we need to **close the accounts** (except inventory and 
 
 1.  Sum up each side of debits and credits. Find the side (debit or credit) with the higher sum value. Put this at the bottom of both sides:
 
-+---------------------------+---------------------------+
-| Debits                    | Credits                   |
-+:=========================:+:=========================:+
-| £1000                     | £600                      |
-+---------------------------+---------------------------+
-| **highest: £1000**        | **highest: £1000**        |
-+---------------------------+---------------------------+
++--------------------------+--------------------------+
+| Debits                   | Credits                  |
++:========================:+:========================:+
+| £1000                    | £600                     |
++--------------------------+--------------------------+
+| **highest: £1000**       | **highest: £1000**       |
++--------------------------+--------------------------+
 
 : {.bordered .sm tbl-colwidths="\[50,50\]"}
 
 2.  Look at the side with the lower value. [Find the "difference" between the lower and higher values, and put it on the side of the lower side]{.mark}. This difference is called the **balance carried forward (c/f)**. Write it on the smaller side.
 
-+-------------------------+----------------------------+
-| Debits                  | Credits                    |
-+:=======================:+:==========================:+
-| £1000                   | £600                       |
-+-------------------------+----------------------------+
-| \-                      | **balance c/f £400**       |
-|                         |                            |
-| **highest: £1000**      | **highest: £1000**         |
-+-------------------------+----------------------------+
++------------------------+---------------------------+
+| Debits                 | Credits                   |
++:======================:+:=========================:+
+| £1000                  | £600                      |
++------------------------+---------------------------+
+| \-                     | **balance c/f £400**      |
+|                        |                           |
+| **highest: £1000**     | **highest: £1000**        |
++------------------------+---------------------------+
 
 : {.bordered .sm tbl-colwidths="\[50,50\]"}
 
@@ -476,32 +468,32 @@ The **bolded** parts are not accounts, and should be left blank until all accoun
 
 To compile the balance sheet, simply list the remaining non-income statement accounts into their proper location. Remember that for assets, debit is positive and credit is negative. For liabilities and equity, debit is negative and credit is positive. More details on assets are provided on the asset accounting page.
 
-+-----------------------------------------+----------------+
-| Non-Current Assets                      | \-             |
-|                                         |                |
-| -   Accounts go here                    | -   £–         |
-|                                         |                |
-| Current Assets                          | \-             |
-|                                         |                |
-| -   Accounts go here                    | -   £–         |
-|                                         |                |
-| **Total Assets**                        | £–             |
-+-----------------------------------------+----------------+
-| Equity                                  | \-             |
-|                                         |                |
-| -   Share Capital, Premium, Drawings    | -   £–         |
-| -   Retained Earnings\*                 | -   £–         |
-|                                         |                |
-| Non-Current Liabilities                 | \-             |
-|                                         |                |
-| -   Accounts go here                    | -   £–         |
-|                                         |                |
-| Current Liabities                       | \-             |
-|                                         |                |
-| -   Accounts go here                    | -   £–         |
-|                                         |                |
-| **Total Equity + Assets**               | £–             |
-+-----------------------------------------+----------------+
++----------------------------------------+----------------+
+| Non-Current Assets                     | \-             |
+|                                        |                |
+| -   Accounts go here                   | -   £–         |
+|                                        |                |
+| Current Assets                         | \-             |
+|                                        |                |
+| -   Accounts go here                   | -   £–         |
+|                                        |                |
+| **Total Assets**                       | £–             |
++----------------------------------------+----------------+
+| Equity                                 | \-             |
+|                                        |                |
+| -   Share Capital, Premium, Drawings   | -   £–         |
+| -   Retained Earnings\*                | -   £–         |
+|                                        |                |
+| Non-Current Liabilities                | \-             |
+|                                        |                |
+| -   Accounts go here                   | -   £–         |
+|                                        |                |
+| Current Liabities                      | \-             |
+|                                        |                |
+| -   Accounts go here                   | -   £–         |
+|                                        |                |
+| **Total Equity + Assets**              | £–             |
++----------------------------------------+----------------+
 
 : {.bordered .sm tbl-colwidths="\[50,50\]"}
 
