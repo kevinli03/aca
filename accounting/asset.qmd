@@ -68,15 +68,15 @@ Often, you will not perform an inventory count/valuation on the exact date of th
 
 Thus, we need to account for the changes in inventory between 31 December (Year End) and 3rd January (Count Date) to accurately determine the contents of the inventory on the year end. The adjustment is as follows:
 
-> **Adjustment to Count = Counted Inventory (on count date)**
->
-> **- Goods received from suppliers (between year end and count date)**
->
-> **+ goods sold to customers (between year end and count date)**
->
-> **+ goods returned to suppliers (between year end and count date)**
->
-> **- Goods returned by customers (between year end and count date)**
+$$
+\begin{align}
+\text{Adjustment to Count} & = \text{counted inventory (on count date)} \\
+& = - \text{goods received from suppliers (between year end and count date)} \\
+& = + \text{goods sold to customers (between year end and count date)} \\
+& = + \text{goods returned to suppliers (between year end and count date)} \\
+& = + \text{goods returned by customers (between year end and count date)}
+\end{align}
+$$
 
 These adjustments "undo" the changes that occur between the year end and count date, to properly reflect the inventory on the year-end date.
 
@@ -136,15 +136,15 @@ FIFO assumes that when you sell the 50 (or however many) products, you are selli
 
 For example, take this purchase history:
 
-+----------------+----------------+-------------------------------+
-| Purchase       | Units          | Price                         |
-+================+================+===============================+
-| January        | 20 Units       | £1/unit                       |
-+----------------+----------------+-------------------------------+
-| February       | 20 Units       | £1.5/unit                     |
-+----------------+----------------+-------------------------------+
-| March          | 20 Units       | £2/unit                       |
-+----------------+----------------+-------------------------------+
++----------+----------+-----------+
+| Purchase | Units    | Price     |
++==========+==========+===========+
+| January  | 20 Units | £1/unit   |
++----------+----------+-----------+
+| February | 20 Units | £1.5/unit |
++----------+----------+-----------+
+| March    | 20 Units | £2/unit   |
++----------+----------+-----------+
 
 : {.bordered .sm tbl-colwidths="\[40,30,30\]"}
 
@@ -212,23 +212,78 @@ You can see that after all transactions have occurred, our closing inventory has
 
 ### Depreciation Basics
 
-What is depreciation
+Let's say you have a non-current asset, like a machine, that you will use for multiple years in order to help create profits. There are two things that are important to note:
 
--   Cost, residual value, carrying amount
+1.  The non-current asset undergoes wear and tear, meaning that after using it for a few years, it is not in as good condition as it was originally as purchased. We may want to reflect this fact in our financial statements.
+2.  When we use a non-current asset over multiple years to generate profits, based on accrual accounting, we should match the expenses to the income. Thus, we might not want to record the purchase price of a non-current asset all in one year, and instead, match some expenses of the non-current asset to the revenues it is generating over its useful life.
 
-How to record depreciation expense
+Depreciation addresses these two issues by issuing annual depreciation expenses. These expenses occur each year during the useful life of a non-current asset (NCA), and account for the wear and tear and use of the asset.
 
--   Calculation methods
+There are a few key terms in depreciation that are important to know:
 
-Amortisation, depreciation of land vs. property
++---------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Purchase Cost**   | The cost at which the non-current asset was purchased. This is what is originally recorded in the transaction to purchase the NCA (Dr. NCA, Cr. Cash/Payables).                                                    |
++---------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Useful Life**     | The amount of time (in years usually) that the NCA can be expected used to generate revenues. This is not necessarily when the firm will replace it (firms often replace NCAs before the useful life has elapsed). |
++---------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Residual Value**  | After the useful life of the NCA has passed, what will the remaining NCA be able to be sold for? That is the residual value.                                                                                       |
++---------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Carrying Amount** | The carrying amount is the value of the NCA minus all the previous depreciation expenses incurred on it. It is the "value" of the asset after accounting for wear and tear and use.                                |
++---------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
 
 <br />
 
-### Straight Line
+### Depreciation Expenses
 
-<br />
+As noted, in depreciation of a NCA, we charge a depreciation expense annually. Thus, at the end of every year, we make the following transaction in our accounting records:
 
-### Reducing Balance
++---------------------------------+---------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| **Dr Depreciation Expense**     | Increases the depreciation expense account.                                     | Resets to 0 after every year (like an expense account).                                                                                  |
++---------------------------------+---------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| **Cr Accumulated Depreciation** | A liability (negative-asset) that decreases the value of the non-current asset. | Accumulates (does not reset) its balance every year. Thus, it measures the total reduction in the value of the NCA after multiple years. |
++---------------------------------+---------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[25,35,40\]"}
+
+There are two ways to calculate the annual depreciation expense to charge.
+
+::: panel-tabset
+## Straight Line
+
+Straight line depreciation charges the exact same depreciation expense for every year. The calculation of the annual depreciation expense using straight line is:
+
+$$
+\text{straight line annual depreciation} = \frac{\text{purchase cost} - \text{residual value}}{\text{useful life}}
+$$
+
+Sometimes, straight line depreciation is given in percentage format. An $X$ percent straight line depreciation implies an annual depreciation expense of:
+
+$$
+X \% \ \text{straight line annual depreciation} = X\% \times \text{purchase cost}
+$$
+
+Note: typically (especially with straight line), depreciation is calculated monthly. Thus, if an asset is bought in the middle of the year, and is undergoing straight line depreciation, it may only undergo half of the annual depreciation expense that year.
+
+## Reducing Balance
+
+Reducing balance depreciation charges different expenses every year (higher in the earlier years of the useful life). The calculation of reducing balance depreciation is:
+
+$$
+\mathrm{depreciation \ charge \ for \ year} \ n = \mathrm{carrying \ amount} \times X\%
+$$
+
+Where $X\%$ is given as the annual depreciation rate for reducing balance, and carrying amount is the purchase cost minus accumulated depreciation.
+
+Since reducing balance changes its expense every year, you can also quickly calculate it for any year $n$ after the purchase year:
+
+$$
+\mathrm{depreciation \ charge \ for \ year}\ n = \mathrm{carrying \ amount} \times (X\%)^n
+$$
+
+Note: $X\%$ is a decimal between 0 and 1.
+:::
 
 <br />
 

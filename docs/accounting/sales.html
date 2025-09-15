@@ -66,7 +66,37 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="mathjax-config.js"></script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -177,6 +207,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#returns-and-discounts" id="toc-returns-and-discounts" class="nav-link" data-scroll-target="#returns-and-discounts">Returns and Discounts</a></li>
   <li><a href="#payroll-expense" id="toc-payroll-expense" class="nav-link" data-scroll-target="#payroll-expense">Payroll Expense</a></li>
   <li><a href="#delivery-expense" id="toc-delivery-expense" class="nav-link" data-scroll-target="#delivery-expense">Delivery Expense</a></li>
+  <li><a href="#margin-and-markup" id="toc-margin-and-markup" class="nav-link" data-scroll-target="#margin-and-markup">Margin and Markup</a></li>
   </ul></li>
   <li><a href="#accrual-accounting" id="toc-accrual-accounting" class="nav-link" data-scroll-target="#accrual-accounting"><strong>Accrual Accounting</strong></a>
   <ul class="collapse">
@@ -219,13 +250,15 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="cost-of-sales">Cost of Sales</h3>
 <p>In every accounting period, a firm generates revenue/sales. The cost of sales is the cost of the inventory that generated the revenue/sales of that period.</p>
 <p>Calculating the cost of sales is typically done with the following equation:</p>
-<blockquote class="blockquote">
-<p><strong>Cost of Sales =</strong></p>
-<p><strong>+ Opening Inventory Balance (closing inventory balance from the previous period)</strong></p>
-<p><strong>+ Purchase Value of Inventory during Time Period</strong></p>
-<p><strong>- Returns (Value) of Purchases during Time Period</strong></p>
-<p><strong>- Closing Inventory Balance</strong></p>
-</blockquote>
+<p><span class="math display">\[
+\text{Cost of Sales} = \text{Open Inventory} + \text{Purchases} - \text{Returns} - \text{Close Inventory}
+\]</span></p>
+<ul>
+<li>Open inventory is the opening inventory balance at the start of the period. It is also the closing balance of inventory from the last period.</li>
+<li>Purchases are the value of purchases in the time period (including inward delivery costs).</li>
+<li>Returns are the value of the purchases that were returned to the supplier.</li>
+<li>Close inventory is the value of the inventory at the end of the period (valuation techniques are in the Inventory and NCA page).</li>
+</ul>
 <p>A few key notes on this equation:</p>
 <ul>
 <li>For valuing the closing/opening inventory balance, see the asset accounting page.</li>
@@ -389,6 +422,19 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
+<p><br></p>
+</section>
+<section id="margin-and-markup" class="level3">
+<h3 class="anchored" data-anchor-id="margin-and-markup">Margin and Markup</h3>
+<p>Margin and markup are two relationships between the sales, cost of sales, and gross profit. They often inform companies and investors about the profitability of a firm.</p>
+<p><strong>Margin</strong> is the ratio of the gross profit to sales (revenue):</p>
+<p><span class="math display">\[
+\text{margin} = \frac{\text{gross profit}}{\text{revenue}}
+\]</span></p>
+<p><strong>Markup</strong> is defined as the ratio of the gross profit to sales, and can also be determined by a ratio of sales to cost of sales:</p>
+<p><span class="math display">\[
+\text{markup} = \frac{\text{gross profit}}{\text{cost of sales}} \quad \text{or} \quad 1 + \text{markup} = \frac{\text{sales}}{\text{cost of sales}}
+\]</span></p>
 <p><br></p>
 <p><br></p>
 <hr>
@@ -1116,6 +1162,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 
 

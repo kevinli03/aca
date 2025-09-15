@@ -16,15 +16,14 @@ In every accounting period, a firm generates revenue/sales. The cost of sales is
 
 Calculating the cost of sales is typically done with the following equation:
 
-> **Cost of Sales =**
->
-> **+ Opening Inventory Balance (closing inventory balance from the previous period)**
->
-> **+ Purchase Value of Inventory during Time Period**
->
-> **- Returns (Value) of Purchases during Time Period**
->
-> **- Closing Inventory Balance**
+$$
+\text{Cost of Sales} = \text{Open Inventory} + \text{Purchases} - \text{Returns} - \text{Close Inventory}
+$$
+
+-   Open inventory is the opening inventory balance at the start of the period. It is also the closing balance of inventory from the last period.
+-   Purchases are the value of purchases in the time period (including inward delivery costs).
+-   Returns are the value of the purchases that were returned to the supplier.
+-   Close inventory is the value of the inventory at the end of the period (valuation techniques are in the Inventory and NCA page).
 
 A few key notes on this equation:
 
@@ -136,6 +135,24 @@ There are two types of delivery expenses that might be incurred, which have to b
 +-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
 
 : {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+<br />
+
+### Margin and Markup
+
+Margin and markup are two relationships between the sales, cost of sales, and gross profit. They often inform companies and investors about the profitability of a firm.
+
+**Margin** is the ratio of the gross profit to sales (revenue):
+
+$$
+\text{margin} = \frac{\text{gross profit}}{\text{revenue}}
+$$
+
+**Markup** is defined as the ratio of the gross profit to sales, and can also be determined by a ratio of sales to cost of sales:
+
+$$
+\text{markup} = \frac{\text{gross profit}}{\text{cost of sales}} \quad \text{or} \quad 1 + \text{markup} = \frac{\text{sales}}{\text{cost of sales}}
+$$
 
 <br />
 
