@@ -2,6 +2,28 @@
 title: "Equity and Capital"
 ---
 
+# **Partnership Capital**
+
+### Profit Ratio
+
+### Current/Capital Accounts
+
+------------------------------------------------------------------------
+
+# **Company Equity**
+
+### Equity Accounts
+
+### Issuing Shares
+
+### Rights and Bonus Issue
+
+### Preference Shares
+
+### Bonds/Debentures
+
+### Dividends
+
 ### Statement of Changes in Equity
 
 For companies, the balance sheet has assets, liabilities, and equity. Equity has several accounts that commonly appear:

@@ -24,7 +24,7 @@ website:
         - href: accounting/accounting.qmd
           text: Accounting Basics
         - href: accounting/sales.qmd
-          text: Sales and Purchases
+          text: Revenue and Expenses
         - href: accounting/asset.qmd
           text: Inventory and NCA
         - href: accounting/equity.qmd

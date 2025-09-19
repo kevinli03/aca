@@ -1,5 +1,5 @@
 ---
-title: "Sales and Purchases"
+title: "Revenue and Expenses"
 ---
 
 This page contains steps on how to prepare key account related to items on the income statement, such as revenue and expenses, and how their transactions are recorded. The content in this section is a part of the **Accounting Fundamentals** (certificate level) for the ACA qualification.
@@ -8,90 +8,126 @@ This page contains steps on how to prepare key account related to items on the i
 
 ------------------------------------------------------------------------
 
-# **Sales Bookkeeping**
+# **Sales and Expenses**
 
 ### Cost of Sales
 
-In every accounting period, a firm generates revenue/sales. The cost of sales is the cost of the inventory that generated the revenue/sales of that period.
+In every accounting period, a firm generates revenue/sales. The cost of sales is the cost of the inventory (goods sold) that generated the revenue/sales of that period.
 
-Calculating the cost of sales is typically done with the following equation:
++-----------------------------------+-----------------------------------+
+| Opening Inventory                 | £X                                |
+|                                   |                                   |
+| Purchases (net, if returns exist) | £X                                |
+|                                   |                                   |
+| Inward Delivery Costs             | £X                                |
+|                                   |                                   |
+| (less) Closing Inventory          | (£X)                              |
++-----------------------------------+-----------------------------------+
+| **Cost of Sales**                 | **£X**                            |
++-----------------------------------+-----------------------------------+
 
-$$
-\text{Cost of Sales} = \text{Open Inventory} + \text{Purchases} - \text{Returns} - \text{Close Inventory}
-$$
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
 
--   Open inventory is the opening inventory balance at the start of the period. It is also the closing balance of inventory from the last period.
--   Purchases are the value of purchases in the time period (including inward delivery costs).
--   Returns are the value of the purchases that were returned to the supplier.
--   Close inventory is the value of the inventory at the end of the period (valuation techniques are in the Inventory and NCA page).
+There are two types of delivery expenses that might be incurred, which have to be recorded differently.
 
-A few key notes on this equation:
++-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+| Delivery Inwards                                                                                | Delivery Outwards                                                                               |
++=================================================================================================+=================================================================================================+
+| Delivery costs and expenses to deliver products [from suppliers to your inventory.]{.underline} | Delivery costs and expenses to deliver products from [your inventory to customers]{.underline}. |
++-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+| This will be included/added as an expense within the **cost of sales**.                         | This is a separate expense in the **operating/administration expenses**.                        |
++-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
 
--   For valuing the closing/opening inventory balance, see the asset accounting page.
--   Purchase value includes all costs associated with getting the inventory into your hands. This includes delivery fee for delivery from supplier to you, and import duties.
--   When purchasing new inventory, they should be recorded as **Dr Purchases** (Expense account), **Cr Cash/Payables**. Do not record transactions with inventory as an account - inventory is only counted and valued at the end of periods.
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
 
 <br />
 
-### Returns and Discounts
+### Returns
 
-During business, you will often encounter returns and discounts. The accounting of returns and discounts depends on if they apply to you and your customer, or you and your supplier.
+During business, returns will occur. The accounting of returns is as follows:
 
 ::: panel-tabset
-## Returns
+## Customer Returns
 
-The recording of sales (selling to a consumer) and purchases (buying from a supplier) are typically done as:
-
-+---------------------------------+---------------------------------------------+
-| **Sales** (selling to customer) | **Purchases** (buying from supplier)        |
-+---------------------------------+---------------------------------------------+
-| Dr Cash/Expenses (increase)     | Dr Purchases (increase)                     |
-|                                 |                                             |
-| Cr Revenue (increase)           | Cr Cash (decrease) / Cr Payables (increase) |
-+---------------------------------+---------------------------------------------+
-
-: {.bordered .sm tbl-colwidths="\[50,50\]"}
-
-However, sometimes, the consumer (or us) will want to return a good. For returns, we simply "undo" the transaction with the reverse record:
-
-+---------------------------------+---------------------------------------------+
-| **Sales** (selling to customer) | **Purchases** (buying from supplier)        |
-+---------------------------------+---------------------------------------------+
-| Dr Revenue (decrease)           | Dr Cash (increase) / Dr Payables (decrease) |
-|                                 |                                             |
-| Cr Cash (decrease)              | Cr Purchases (decrease)                     |
-+---------------------------------+---------------------------------------------+
++--------------------------------+---------------------+
+| 1\) Original Customer Purchase | Dr Cash/Receivables |
+|                                |                     |
+|                                | Cr Revenue          |
++--------------------------------+---------------------+
+| 2\) Customer Returns           | Dr Revenue          |
+|                                |                     |
+|                                | Cr Cash/Receivables |
++--------------------------------+---------------------+
 
 : {.bordered .sm tbl-colwidths="\[50,50\]"}
 
-Sometimes, some companies will have a separate expense account for returns (so instead of Dr Revenue, they would Dr Returns).
+Essentially, do the opposite to cancel out the original transaction.
 
-## Discounts
+## You Return to Supplier
 
-For discounts, we **initially** record what you expect to receive/pay (including likely discounts). However, you may need to go back and adjust this. This is because of **early settlement** discounts: a discount for paying early after you have received the good.
++-----------------------------+------------------+
+| 1\) Your Original Purchase  | Dr Purchases     |
+|                             |                  |
+|                             | Cr Cash/Payables |
++-----------------------------+------------------+
+| 2\) Your Return to Supplier | Dr Cash/Payables |
+|                             |                  |
+|                             | Cr Purchases     |
++-----------------------------+------------------+
 
--   Ex. I buy materials on credit for 6100. The supplier offers a £5 discount if you pay within 10 days. If I do pay off within 10 days and get the discount, this may require adjustment in the books.
--   Note: if your expectation of discount is actually come true, then no adjustment is needed.
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
 
-+------------------------+---------------------------------+-----------------------------------------------+
-|                        | Initially                       | Once Paid                                     |
-+========================+=================================+===============================================+
-| **Sales**              | Dr Receivables (expected price) | Cr Recievables (expected price)               |
-|                        |                                 |                                               |
-| (selling to customer)  | Cr Revenue (expected price)     | Dr Cash (actual paid price)                   |
-|                        |                                 |                                               |
-|                        |                                 | Cr/Dr Revenue (different to balance dr/cr)    |
-+------------------------+---------------------------------+-----------------------------------------------+
-| **Purchases**          | Cr Payables (expected price)    | Dr Payables (expected price)                  |
-|                        |                                 |                                               |
-| (buying from supplier) | Dr Purchases (expected price)   | Cr Cash (actual paid price)                   |
-|                        |                                 |                                               |
-|                        |                                 | Cr/Dr Purchases (difference to balance dr/cr) |
-+------------------------+---------------------------------+-----------------------------------------------+
+Essentially, do the opposite to cancel out the original transaction.
+:::
 
-: {.bordered .sm tbl-colwidths="\[20,40,40\]"}
+<br />
 
-The same applies to initially expecting a discount but failing to get it. In some standards (UK GAAP), instead of Cr/Dr purchases, we Cr/Dr a separate account - discounts, to make the adjustment.
+### Discounts
+
+Discounts at the time of sale (like bulk-order discounts) are just recorded as normal transactions at their discounted price.
+
+However, some discounts take effect later, especially with credit sales and prompt payment. For example, you might offer a customer a 5% discount if they pay within a week. You will have some expectation of whether or not the customer/or you will take the discount.
+
+At the moment of transaction, record the sale/purchase with the **expected price**. Then, if the **actual price** later with/without the discount is different than expected, you will need to adjust.
+
+-   If the expected price and actual price are the same, no adjustment is needed.
+
+::: panel-tabset
+## Discount to Customer
+
++------------------------------------------------------+---------------------------------------------------+
+| 1\) Initially record credit sale with expected price | Dr Receivables: Expected Price                    |
+|                                                      |                                                   |
+|                                                      | Cr Revenue: Expected Price                        |
++------------------------------------------------------+---------------------------------------------------+
+| 2\) Record adjustment after actual price             | Cr Receivables: Expected Price                    |
+|                                                      |                                                   |
+|                                                      | Dr Cash: Actual Amount Customer Paid              |
+|                                                      |                                                   |
+|                                                      | Dr/Cr Revenue: The balancing figure to make Dr=Cr |
++------------------------------------------------------+---------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+Basically: initially, record expected price. Once paid, clear receivables account, record cash inflow, and balance with Dr/Cr in revenue.
+
+## My Discount from Supplier
+
++----------------------------------------------------------+-----------------------------------------------------+
+| 1\) Initially record credit purchase with expected price | Dr Purchases: Expected Price                        |
+|                                                          |                                                     |
+|                                                          | Cr Payables: Expected Price                         |
++----------------------------------------------------------+-----------------------------------------------------+
+| 2\) Record adjustment after actual price                 | Dr Payables: Expected Price                         |
+|                                                          |                                                     |
+|                                                          | Cr Cash: Actual Price                               |
+|                                                          |                                                     |
+|                                                          | Dr/Cr Purchases: The balancing figure to make Dr=Cr |
++----------------------------------------------------------+-----------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+Basically: initially, record expected price. Once paid, clear payables account, record cash outflow, and balance with Dr/Cr in revenue.
 :::
 
 <br />
@@ -100,9 +136,9 @@ The same applies to initially expecting a discount but failing to get it. In som
 
 When a firm pays its employees, it has to pay 3 things:
 
-1.  Pay the employee's income tax to the tax collector (HRMC in the UK).
-2.  Pay the employee's national insurance contribution (and the employer's additional contribution) to the tax collector.
-3.  Pay the employee the remaining net salary.
+1.  Employee's income tax to the tax collector (HRMC in the UK).
+2.  Employee's national insurance contribution (and the employer's additional contribution) to the tax collector.
+3.  Employee the remaining net salary.
 
 The net income to the employee is paid immediately (such as at the end of the month), but the tax and national insurance is usually withheld until tax filling season.
 
@@ -119,22 +155,6 @@ The transaction would be as follows:
 : {.bordered .sm tbl-colwidths="\[30,30,40\]"}
 
 When the tax is later paid to the tax authority (HMRC), the liability is reduced (debited) and cash is decreased (credited).
-
-<br />
-
-### Delivery Expense
-
-There are two types of delivery expenses that might be incurred, which have to be recorded differently.
-
-+-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
-| Delivery Inwards                                                                                | Delivery Outwards                                                                               |
-+=================================================================================================+=================================================================================================+
-| Delivery costs and expenses to deliver products [from suppliers to your inventory.]{.underline} | Delivery costs and expenses to deliver products from [your inventory to customers]{.underline}. |
-+-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
-| This will be included/added as an expense within the **cost of sales**.                         | This is a separate expense in the **operating expenses**.                                       |
-+-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
-
-: {.bordered .sm tbl-colwidths="\[50,50\]"}
 
 <br />
 
@@ -164,9 +184,9 @@ $$
 
 ### Matching Principle
 
-The matching principle is that we attribute/match expenses to the revenue they help generate. For example, the bills for this year helped generate next year's revenue, would actually be considered a bill for next year, since the revenue was earned in the next year.
+**Matching principle**: we attribute/match expenses to the revenue they help generate. Revenue is recognised when the goods/services are **in the control of the customer**.
 
-However, because of accruals and prepayments, the payment of bills may not be in the same period as the revenue they helped generate. The same ideas apply to income.
+-   For example, the bills for this year helped generate next year's revenue, would actually be considered a bill for next year, since the revenue was earned in the next year.
 
 +----------------------+----------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Accrued Payments** | You have received a good/service [this period]{.underline}, but you will not pay for the good/service until [next period]{.underline}. | The utility company has provided you water [this year]{.underline}, but you will not pay for it until [next year]{.underline}. This should be an expense for [this year]{.underline}. |
@@ -191,9 +211,9 @@ For accrued payments and pre-payments, adjustments are necessary.
 ::: panel-tabset
 ## Accrued Expense
 
-Let us say you receive a water service for 2024, but payment of the water bill is due in 2025. In 2024, you will originally not record anything, because you have yet to pay. However, you received the service/good for 2024, so the expense needs to be recorded in 2024.
+Let us say you receive a water service for 2024, but payment of the water bill is due in 2025.
 
-Thus, at the **year end in 2024**, you make the following adjustment:
+Thus, at the **year end in 2024**, you make the following adjustment since you received a service in 2024, so you need to expense it:
 
 +-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
 | **Dr Expense**                      | This is the expense for water service in 2024. This will [be on the income statement for 2024]{.underline}.                         |
@@ -225,13 +245,11 @@ In **2025, once you have paid** the water bill for 2024, you will have:
 
 : {.bordered .sm tbl-colwidths="\[30,70\]"}
 
-You will do the same for accrued expenses in 2025 paid in 2026.
-
 ## Prepayment
 
-Lets say you have a water utility service for 2025, but you paid in 2024. This expense is for 2025, but because payment was in 2024, you have to adjust this so the expense is correctly allocated to 2025.
+Lets say you have a water utility service for 2025, but you paid in 2024.
 
-Thus, at the **year end in 2024**, you make the following adjustment:
+Thus, at the **year end in 2024**, you make the following adjustment, since you have not actually received the utility (only starts in 2025).
 
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
 | **Cr Expense**             | Since the service is in 2025, our 2024 statements need to remove (credit) this expense.                                                   |
@@ -250,8 +268,6 @@ In **2025, as soon as the year begins**, you carry over the previous prepayment 
 +--------------------+----------------------------------------------------------+
 
 : {.bordered .sm tbl-colwidths="\[30,70\]"}
-
-You will do the same for prepayment expenses in 2025 paid in 2026.
 :::
 
 You can do partial adjustments. For example, you pay rent for Nov 2024 to Aug 2025 in Nov 2024. You would need no adjustment in the 2024 accounts for Nov and Dec 2024, but Jan 2025 to Aug 2025 would be a prepayment.
@@ -277,9 +293,9 @@ For accrued or deferred payment, adjustment is necessary.
 ::: panel-tabset
 ## Accrued Income
 
-Let us say you have delivered a product in 2024, you will only be paid in 2025. Because the product was delivered in 2024, the income is for 2024, even though the payment occurs in 2025, so you have to adjust this so the revenue is correctly allocated to 2024.
+Let us say you have delivered a product in 2024, you will only be paid in 2025.
 
-Thus, at the **year end in 2024**, you make the following adjustment:
+Thus, at the **year end in 2024**, you make the following adjustment, to ensure this revenue is recorded for this year.
 
 +-----------------------+--------------------------------------------------------------------------------------------------------------------------+
 | **Cr Revenue**        | This is the revenue for product in 2024. This will [be on the income statement for 2024]{.underline}.                    |
@@ -311,13 +327,11 @@ In **2025, once you have paid** the water bill for 2024, you will have:
 
 : {.bordered .sm tbl-colwidths="\[30,70\]"}
 
-You will do the same for accrued income in 2025 paid in 2026.
-
 ## Deferred Income
 
-Lets say you will deliver a product in 2025, but you were paid in 2024. This revenue is for 2025, but because product delivery was in 2024, so you have to adjust this so the revenue is correctly allocated to 2025.
+Lets say you will deliver a product in 2025, but you were paid in 2024.
 
-Thus, at the **year end in 2024**, you make the following adjustment:
+Thus, at the **year end in 2024**, you make the following adjustment, as the revenue is only for 2025, not 2024.
 
 +------------------------------------+-----------------------------------------------------------------------------------------+
 | **Dr Revenue**                     | Since the service is in 2025, our 2024 statements need to remove (credit) this revenue. |
@@ -336,8 +350,6 @@ In **2025, as soon as the year begins**, you carry over the previous prepayment 
 +------------------------------------+---------------------------------------------------------------+
 
 : {.bordered .sm tbl-colwidths="\[30,70\]"}
-
-You will do the same for prepayment expenses in 2025 paid in 2026.
 :::
 
 You can do partial adjustments. For example, if you are building a house between Oct 2024 and Aug 2025, and payment is following the entire job. The parts you have already built (delivered) between Oct 2024 and Dec 2024 are revenue from the previous year, and should be adjusted.
@@ -361,5 +373,21 @@ A quick way to calculate the expenses of a year for the income statement, when y
 ------------------------------------------------------------------------
 
 # **Debts and Allowances**
+
+### Irrecoverable Debt
+
+### Allowance for Doubtful Debt
+
+<br />
+
+------------------------------------------------------------------------
+
+# **Taxes**
+
+### Outward VAT
+
+### Inward VAT
+
+### Corporation Tax
 
 <br />

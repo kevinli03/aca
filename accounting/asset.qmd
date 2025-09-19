@@ -14,9 +14,6 @@ This page covers information on current assets (such as inventory) and non-curre
 
 When buying inventory, we [do not update the inventory account]{.mark}. For a transaction that increases inventory, we instead use the purchases account.
 
--   **Dr Purchases** £–
--   **Cr Cash/Payables** £–
-
 However, at the end of the year, we need to know the closing inventory balance for both the balance sheet, and the calculation of cost of sales. Closing inventory consists of:
 
 -   Goods which have been purchased, bur not yet sold.
@@ -35,8 +32,9 @@ The following sections will discuss how to value the closings inventory. At the 
 
 : {.bordered .sm tbl-colwidths="\[30,70\]"}
 
-::: {.callout-note collapse="true" appearance="simple"}
-## Inventory and Service Organisations
+<br />
+
+### Service Sector Inventory
 
 Some service based industries will have very few physical inventory. For example, netflix or financial services have very few inventory.
 
@@ -56,7 +54,6 @@ Instead, cost of sales will **reflect the cost of providing the service to custo
 : {.bordered .sm tbl-colwidths="\[30,70\]"}
 
 NOTE: costs incurred that are not directly related to the service are not included. For example, receptionists and their salary, the sales-persons team and their salary.
-:::
 
 <br />
 
@@ -66,17 +63,23 @@ At the year end, the **closing inventory** is counted. This determines what inve
 
 Often, you will not perform an inventory count/valuation on the exact date of the year end. For example, the year might end on 31 December, but the inventory count might not occur until 3rd January.
 
-Thus, we need to account for the changes in inventory between 31 December (Year End) and 3rd January (Count Date) to accurately determine the contents of the inventory on the year end. The adjustment is as follows:
+Thus, we need to account for the changes in inventory between 31 December (Year End) and 3rd January (Count Date) to accurately determine the contents of the inventory on the year end. The adjustment in **quantity** is as follows:
 
-$$
-\begin{align}
-\text{Adjustment to Count} & = \text{counted inventory (on count date)} \\
-& = - \text{goods received from suppliers (between year end and count date)} \\
-& = + \text{goods sold to customers (between year end and count date)} \\
-& = + \text{goods returned to suppliers (between year end and count date)} \\
-& = + \text{goods returned by customers (between year end and count date)}
-\end{align}
-$$
++---------------------------------------------------+---------------+
+| \# of goods: count date                           | X             |
+|                                                   |               |
+| (less) \# of goods received: between              | \(X\)         |
+|                                                   |               |
+| \# of goods sold: between                         | X             |
+|                                                   |               |
+| (less) \# of goods returned by customers: between | \(X\)         |
++---------------------------------------------------+---------------+
+| **Adjustment to Inventory Count**                 | X/(X)         |
++---------------------------------------------------+---------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+Note: between refers to the period between count date and the year-end.
 
 These adjustments "undo" the changes that occur between the year end and count date, to properly reflect the inventory on the year-end date.
 
@@ -84,55 +87,44 @@ These adjustments "undo" the changes that occur between the year end and count d
 
 ### Cost and NRV
 
-Once we have counted what inventory we have, we need to value them so we can add it to the balance sheet, as well as calculate cost of sales. inventory can be valued in two main ways:
+Inventory can be valued in two main ways:
 
 +--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
-| **Cost (most common)**         | -   In cost valuation, inventory is valued at the cost of which the inventory was obtained.                                                        | -   Ex. I bought inventory for £500, with a £50 delivery fee.                                                                    |
+| **Cost (most common)**         | -   Inventory is valued at the cost of which the inventory was obtained.                                                                           | -   Ex. I bought inventory for £500, with a £50 delivery fee.                                                                    |
 |                                | -   Cost includes the actual inventory purchase price, import duties, delivery fees for the inventory from the supplier to you.                    | -   Thus, under cost valuation, the inventory would be valued at £550.                                                           |
 |                                | -   If you are converting raw materials into finished products, the cost of this production is also included in the cost valuation.                |                                                                                                                                  |
 +--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
-| **Net Realisable Value (NRV)** | -   In net realisable value (NRV), inventory is valued at the price it can be sold at.                                                             | -   Ex. the inventory I have can be sold on the market at £500. I will need to make some modifications of £50 to make this sale. |
+| **Net Realisable Value (NRV)** | -   Inventory is valued at the price it can be sold at.                                                                                            | -   Ex. the inventory I have can be sold on the market at £500. I will need to make some modifications of £50 to make this sale. |
 |                                | -   The costs needed to enable the sale (ex. repairs, modification costs, selling costs) are deducted from the price the inventory can be sold at. | -   Thus, under NRV, the inventory would be valued at £450.                                                                      |
 +--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
 
 : {.bordered .sm tbl-colwidths="\[20,40,40\]"}
 
-On the balance sheet, [inventory should be valued at the **lower** of either cost valuation or NRV valuation]{.mark}. This is part of the prudence principle: that we should underpromise and overdeliver.
-
--   This valuation at the lower of either cost or NRV occurs on a product by product basis.
--   For example, if you have 3 products A, B, and C. Products A and B have lower NRV valuations, and C has a lower cost valuation. Thus, you should value A and B with NRV, and C with cost.
-
-Cost valuation is typically more common. This makes sense: companies usually look to profit off of inventory sales, so unless a good is damaged, out of fashion, or perished, etc., it is unlikely to have a NRV lower than cost.
+On the balance sheet, [inventory should be valued at the **lower** of either cost valuation or NRV valuation]{.mark}. This valuation at the lower of either cost or NRV occurs on a product by product basis.
 
 <br />
 
 ### Valuation Methods
 
-Let us say you have adopted cost valuation for your inventory. But there is an issue:
+There are 3 main ways of valuing inventory based on cost (however, LIFO is not allowed under standards).
 
-> Imagine you are a company selling footballs. At the beginning of the year, you purchase 100 footballs for your inventory for £1/each. Then a few months later, you purchase 50 more of the same type of footballs for £1.5 each. Now you have 150 footballs. You sell 50 of them (they are all the same, so you just take 50). You have 100 left. But how much is each remaining football worth? £1.5? £1? £1.36?
-
-There are 3 main ways of valuing inventory based on cost (however, LIFO is not allowed under most international standards).
-
-+-------------------------------+----------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **First in First Out (FIFO)** | FIFO assumes that when you sell the 50 (or however many) products, you are selling the inventory that you purchased first. | Since you are selling the inventory you purchased first, the closing inventory is mostly the products you purchased last. Thus, valuation is more based on the later purchase prices.              |
-+-------------------------------+----------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Average Cost (AVCO)**       | AVCO assumes you just randomly sell 50 (or however many) products.                                                         | Since you are selling a random amount of products, we value the closing inventory as some sort of weighted average of purchase prices.                                                             |
-+-------------------------------+----------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Last in First Out (LIFO)**  | LIFT assumes that when you sell the 50 (or however many) products, you are selling the inventory that you purchased last.  | Since you are selling the inventory you purchased last, the closing inventory is the products you purchased first. Thus, valuation is more based on the older (possibly outdated) purchase prices. |
-+-------------------------------+----------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------+---------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **First in First Out (FIFO)** | When you sell X \# of products, you are selling the goods that you purchased first (the oldest).              | Since you are selling the inventory you purchased first, the closing inventory is mostly the products you purchased last. Thus, valuation is more based on the later purchase prices.              |
++-------------------------------+---------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Average Cost (AVCO)**       | When you sell X \# of products, you are selling X randomly selected products from what you have in inventory. | Since you are selling a random amount of products, we value the closing inventory as some sort of weighted average of purchase prices.                                                             |
++-------------------------------+---------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Last in First Out (LIFO)**  | When you sell X \# of products, you are selling the inventory that you purchased last (most recent).          | Since you are selling the inventory you purchased last, the closing inventory is the products you purchased first. Thus, valuation is more based on the older (possibly outdated) purchase prices. |
++-------------------------------+---------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 : {.bordered .sm tbl-colwidths="\[20,40,40\]"}
 
-LIFO is not allowed under IFRS standards, because it often revolves around valuaing invnetory on outdated old prices. This means that it will underestimate the closing inventory (if assuming inflation).
+LIFO is not allowed under IFRS standards, because it often revolves around valuaing inventory on outdated old prices. This means that it will underestimate the closing inventory (if assuming inflation).
 
 For more details on FIFO and AVCO, see below.
 
 <br />
 
 ### First in First Out (FIFO)
-
-FIFO assumes that when you sell the 50 (or however many) products, you are selling the inventory that you purchased first. Thus, the remaining inventory are the things you purchased most recently.
 
 For example, take this purchase history:
 
@@ -167,8 +159,6 @@ Simply, we go backwards from the last purchase, forwards in time until we accoun
 <br />
 
 ### Average Cost (AVCO)
-
-AVCO assumes you just randomly sell 50 (or however many) products. Since you are selling a random amount of products, we value the closing inventory as some sort of weighted average of purchase prices.
 
 We should calculate the Average Cost of all purchased products **before** **each sale** occurs. The procedure is as follows:
 
@@ -208,51 +198,26 @@ You can see that after all transactions have occurred, our closing inventory has
 
 ------------------------------------------------------------------------
 
-# **Depreciation**
+# **Non-Current Assets**
 
-### Depreciation Basics
+### Depreciation
 
-Let's say you have a non-current asset, like a machine, that you will use for multiple years in order to help create profits. There are two things that are important to note:
++---------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Purchase Cost**   | The cost at which the non-current asset was purchased.                                                                                                                                                |
++---------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Useful Life**     | The amount of time that the NCA can be expected used to generate revenues.                                                                                                                            |
++---------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Residual Value**  | After the useful life of the NCA has passed, what will the remaining NCA be able to be sold for?                                                                                                      |
++---------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Carrying Amount** | The carrying amount is the value of the NCA minus all the previous depreciation expenses incurred on it. **In balance sheet, Carrying Amount is displayed for NCA (basically net value of the NCA)**. |
++---------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-1.  The non-current asset undergoes wear and tear, meaning that after using it for a few years, it is not in as good condition as it was originally as purchased. We may want to reflect this fact in our financial statements.
-2.  When we use a non-current asset over multiple years to generate profits, based on accrual accounting, we should match the expenses to the income. Thus, we might not want to record the purchase price of a non-current asset all in one year, and instead, match some expenses of the non-current asset to the revenues it is generating over its useful life.
-
-Depreciation addresses these two issues by issuing annual depreciation expenses. These expenses occur each year during the useful life of a non-current asset (NCA), and account for the wear and tear and use of the asset.
-
-There are a few key terms in depreciation that are important to know:
-
-+---------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Purchase Cost**   | The cost at which the non-current asset was purchased. This is what is originally recorded in the transaction to purchase the NCA (Dr. NCA, Cr. Cash/Payables).                                                    |
-+---------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Useful Life**     | The amount of time (in years usually) that the NCA can be expected used to generate revenues. This is not necessarily when the firm will replace it (firms often replace NCAs before the useful life has elapsed). |
-+---------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Residual Value**  | After the useful life of the NCA has passed, what will the remaining NCA be able to be sold for? That is the residual value.                                                                                       |
-+---------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Carrying Amount** | The carrying amount is the value of the NCA minus all the previous depreciation expenses incurred on it. It is the "value" of the asset after accounting for wear and tear and use.                                |
-+---------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-: {.bordered .sm tbl-colwidths="\[50,50\]"}
-
-<br />
-
-### Depreciation Expenses
-
-As noted, in depreciation of a NCA, we charge a depreciation expense annually. Thus, at the end of every year, we make the following transaction in our accounting records:
-
-+---------------------------------+---------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
-| **Dr Depreciation Expense**     | Increases the depreciation expense account.                                     | Resets to 0 after every year (like an expense account).                                                                                  |
-+---------------------------------+---------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
-| **Cr Accumulated Depreciation** | A liability (negative-asset) that decreases the value of the non-current asset. | Accumulates (does not reset) its balance every year. Thus, it measures the total reduction in the value of the NCA after multiple years. |
-+---------------------------------+---------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
-
-: {.bordered .sm tbl-colwidths="\[25,35,40\]"}
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
 
 There are two ways to calculate the annual depreciation expense to charge.
 
 ::: panel-tabset
 ## Straight Line
-
-Straight line depreciation charges the exact same depreciation expense for every year. The calculation of the annual depreciation expense using straight line is:
 
 $$
 \text{straight line annual depreciation} = \frac{\text{purchase cost} - \text{residual value}}{\text{useful life}}
@@ -268,13 +233,9 @@ Note: typically (especially with straight line), depreciation is calculated mont
 
 ## Reducing Balance
 
-Reducing balance depreciation charges different expenses every year (higher in the earlier years of the useful life). The calculation of reducing balance depreciation is:
-
 $$
 \mathrm{depreciation \ charge \ for \ year} \ n = \mathrm{carrying \ amount} \times X\%
 $$
-
-Where $X\%$ is given as the annual depreciation rate for reducing balance, and carrying amount is the purchase cost minus accumulated depreciation.
 
 Since reducing balance changes its expense every year, you can also quickly calculate it for any year $n$ after the purchase year:
 
@@ -285,16 +246,43 @@ $$
 Note: $X\%$ is a decimal between 0 and 1.
 :::
 
-<br />
+After calculating the annual depreciation expense, at end of year, we put the following transaction:
+
+-   **Dr Depreciation Expense X**
+-   **Cr Accumulated Depreciation (Liability) X**
 
 <br />
 
-------------------------------------------------------------------------
+### Disposals
 
-# **Disposals**
+A company may dispose of a non-current asset, on which they will earn either a profit or loss. The profit or loss is caluclated as:
 
-### Profit or Loss
++-----------------------------------+---------------+
+| Cash received from disposal       | £X            |
+|                                   |               |
+| (less) carrying amount of the NCA | (£X)          |
++-----------------------------------+---------------+
+| **Profit/(Loss) of Disposal**     | **£X/(£X)**   |
++-----------------------------------+---------------+
 
-### Disposal Transactions
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
 
-### Parts Exchange Allowance
+The double entries are simply: clear the NCA and accumulated depreciation, and add cash obtained from the disposal. All opposite entries are to the disposals account.
+
++------------------------------------------------------------+-----------------------------+
+| 1\) Clear the non-current asset account.                   | Dr Disposals                |
+|                                                            |                             |
+|                                                            | Cr Non Current Assets       |
++------------------------------------------------------------+-----------------------------+
+| 2\) Clear the accumulated depreciation account for the NCA | Cr Disposals                |
+|                                                            |                             |
+|                                                            | Dr Accumulated Depreciation |
++------------------------------------------------------------+-----------------------------+
+| 3\) Record Proceeds                                        | Dr Cash                     |
+|                                                            |                             |
+|                                                            | Cr Accumulated Depreciation |
++------------------------------------------------------------+-----------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+Sometimes, you dispose of a NCA through exchanging it for a new product (ex. trade in iPhone). The disposal income/proceed is called a **parts exchange allowance**, and is simply the price of the new asset minus the cash paid for then new asset.

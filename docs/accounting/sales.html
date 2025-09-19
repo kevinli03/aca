@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Sales and Purchases – Kevin’s Accounting Notes</title>
+<title>Revenue and Expenses – Kevin’s Accounting Notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -149,7 +149,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../accounting/sales.html">Sales and Purchases</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../accounting/sales.html">Revenue and Expenses</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -170,7 +170,7 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../accounting/sales.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Sales and Purchases</span></a>
+ <span class="menu-text">Revenue and Expenses</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -201,12 +201,12 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#sales-bookkeeping" id="toc-sales-bookkeeping" class="nav-link active" data-scroll-target="#sales-bookkeeping"><strong>Sales Bookkeeping</strong></a>
+  <li><a href="#sales-and-expenses" id="toc-sales-and-expenses" class="nav-link active" data-scroll-target="#sales-and-expenses"><strong>Sales and Expenses</strong></a>
   <ul class="collapse">
   <li><a href="#cost-of-sales" id="toc-cost-of-sales" class="nav-link" data-scroll-target="#cost-of-sales">Cost of Sales</a></li>
-  <li><a href="#returns-and-discounts" id="toc-returns-and-discounts" class="nav-link" data-scroll-target="#returns-and-discounts">Returns and Discounts</a></li>
+  <li><a href="#returns" id="toc-returns" class="nav-link" data-scroll-target="#returns">Returns</a></li>
+  <li><a href="#discounts" id="toc-discounts" class="nav-link" data-scroll-target="#discounts">Discounts</a></li>
   <li><a href="#payroll-expense" id="toc-payroll-expense" class="nav-link" data-scroll-target="#payroll-expense">Payroll Expense</a></li>
-  <li><a href="#delivery-expense" id="toc-delivery-expense" class="nav-link" data-scroll-target="#delivery-expense">Delivery Expense</a></li>
   <li><a href="#margin-and-markup" id="toc-margin-and-markup" class="nav-link" data-scroll-target="#margin-and-markup">Margin and Markup</a></li>
   </ul></li>
   <li><a href="#accrual-accounting" id="toc-accrual-accounting" class="nav-link" data-scroll-target="#accrual-accounting"><strong>Accrual Accounting</strong></a>
@@ -215,7 +215,17 @@ window.Quarto = {
   <li><a href="#payment-adjustments" id="toc-payment-adjustments" class="nav-link" data-scroll-target="#payment-adjustments">Payment Adjustments</a></li>
   <li><a href="#income-adjustments" id="toc-income-adjustments" class="nav-link" data-scroll-target="#income-adjustments">Income Adjustments</a></li>
   </ul></li>
-  <li><a href="#debts-and-allowances" id="toc-debts-and-allowances" class="nav-link" data-scroll-target="#debts-and-allowances"><strong>Debts and Allowances</strong></a></li>
+  <li><a href="#debts-and-allowances" id="toc-debts-and-allowances" class="nav-link" data-scroll-target="#debts-and-allowances"><strong>Debts and Allowances</strong></a>
+  <ul class="collapse">
+  <li><a href="#irrecoverable-debt" id="toc-irrecoverable-debt" class="nav-link" data-scroll-target="#irrecoverable-debt">Irrecoverable Debt</a></li>
+  <li><a href="#allowance-for-doubtful-debt" id="toc-allowance-for-doubtful-debt" class="nav-link" data-scroll-target="#allowance-for-doubtful-debt">Allowance for Doubtful Debt</a></li>
+  </ul></li>
+  <li><a href="#taxes" id="toc-taxes" class="nav-link" data-scroll-target="#taxes"><strong>Taxes</strong></a>
+  <ul class="collapse">
+  <li><a href="#outward-vat" id="toc-outward-vat" class="nav-link" data-scroll-target="#outward-vat">Outward VAT</a></li>
+  <li><a href="#inward-vat" id="toc-inward-vat" class="nav-link" data-scroll-target="#inward-vat">Inward VAT</a></li>
+  <li><a href="#corporation-tax" id="toc-corporation-tax" class="nav-link" data-scroll-target="#corporation-tax">Corporation Tax</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -224,7 +234,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Sales and Purchases</h1>
+<h1 class="title">Revenue and Expenses</h1>
 </div>
 
 
@@ -244,37 +254,11 @@ window.Quarto = {
 <p>This page contains steps on how to prepare key account related to items on the income statement, such as revenue and expenses, and how their transactions are recorded. The content in this section is a part of the <strong>Accounting Fundamentals</strong> (certificate level) for the ACA qualification.</p>
 <p><br></p>
 <hr>
-<section id="sales-bookkeeping" class="level1">
-<h1><strong>Sales Bookkeeping</strong></h1>
+<section id="sales-and-expenses" class="level1">
+<h1><strong>Sales and Expenses</strong></h1>
 <section id="cost-of-sales" class="level3">
 <h3 class="anchored" data-anchor-id="cost-of-sales">Cost of Sales</h3>
-<p>In every accounting period, a firm generates revenue/sales. The cost of sales is the cost of the inventory that generated the revenue/sales of that period.</p>
-<p>Calculating the cost of sales is typically done with the following equation:</p>
-<p><span class="math display">\[
-\text{Cost of Sales} = \text{Open Inventory} + \text{Purchases} - \text{Returns} - \text{Close Inventory}
-\]</span></p>
-<ul>
-<li>Open inventory is the opening inventory balance at the start of the period. It is also the closing balance of inventory from the last period.</li>
-<li>Purchases are the value of purchases in the time period (including inward delivery costs).</li>
-<li>Returns are the value of the purchases that were returned to the supplier.</li>
-<li>Close inventory is the value of the inventory at the end of the period (valuation techniques are in the Inventory and NCA page).</li>
-</ul>
-<p>A few key notes on this equation:</p>
-<ul>
-<li>For valuing the closing/opening inventory balance, see the asset accounting page.</li>
-<li>Purchase value includes all costs associated with getting the inventory into your hands. This includes delivery fee for delivery from supplier to you, and import duties.</li>
-<li>When purchasing new inventory, they should be recorded as <strong>Dr Purchases</strong> (Expense account), <strong>Cr Cash/Payables</strong>. Do not record transactions with inventory as an account - inventory is only counted and valued at the end of periods.</li>
-</ul>
-<p><br></p>
-</section>
-<section id="returns-and-discounts" class="level3">
-<h3 class="anchored" data-anchor-id="returns-and-discounts">Returns and Discounts</h3>
-<p>During business, you will often encounter returns and discounts. The accounting of returns and discounts depends on if they apply to you and your customer, or you and your supplier.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Returns</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Discounts</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>The recording of sales (selling to a consumer) and purchases (buying from a supplier) are typically done as:</p>
+<p>In every accounting period, a firm generates revenue/sales. The cost of sales is the cost of the inventory (goods sold) that generated the revenue/sales of that period.</p>
 <table class="table-bordered table-sm small caption-top table">
 <colgroup>
 <col style="width: 50%">
@@ -282,79 +266,152 @@ window.Quarto = {
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Sales</strong> (selling to customer)</td>
-<td><strong>Purchases</strong> (buying from supplier)</td>
+<td><p>Opening Inventory</p>
+<p>Purchases (net, if returns exist)</p>
+<p>Inward Delivery Costs</p>
+<p>(less) Closing Inventory</p></td>
+<td><p>£X</p>
+<p>£X</p>
+<p>£X</p>
+<p>(£X)</p></td>
 </tr>
 <tr class="even">
-<td><p>Dr Cash/Expenses (increase)</p>
-<p>Cr Revenue (increase)</p></td>
-<td><p>Dr Purchases (increase)</p>
-<p>Cr Cash (decrease) / Cr Payables (increase)</p></td>
+<td><strong>Cost of Sales</strong></td>
+<td><strong>£X</strong></td>
 </tr>
 </tbody>
 </table>
-<p>However, sometimes, the consumer (or us) will want to return a good. For returns, we simply “undo” the transaction with the reverse record:</p>
+<p>There are two types of delivery expenses that might be incurred, which have to be recorded differently.</p>
 <table class="table-bordered table-sm small caption-top table">
 <colgroup>
 <col style="width: 50%">
 <col style="width: 50%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>Sales</strong> (selling to customer)</td>
-<td><strong>Purchases</strong> (buying from supplier)</td>
-</tr>
-<tr class="even">
-<td><p>Dr Revenue (decrease)</p>
-<p>Cr Cash (decrease)</p></td>
-<td><p>Dr Cash (increase) / Dr Payables (decrease)</p>
-<p>Cr Purchases (decrease)</p></td>
-</tr>
-</tbody>
-</table>
-<p>Sometimes, some companies will have a separate expense account for returns (so instead of Dr Revenue, they would Dr Returns).</p>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p>For discounts, we <strong>initially</strong> record what you expect to receive/pay (including likely discounts). However, you may need to go back and adjust this. This is because of <strong>early settlement</strong> discounts: a discount for paying early after you have received the good.</p>
-<ul>
-<li>Ex. I buy materials on credit for 6100. The supplier offers a £5 discount if you pay within 10 days. If I do pay off within 10 days and get the discount, this may require adjustment in the books.</li>
-<li>Note: if your expectation of discount is actually come true, then no adjustment is needed.</li>
-</ul>
-<table class="table-bordered table-sm small caption-top table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 40%">
-<col style="width: 40%">
 </colgroup>
 <thead>
 <tr class="header">
-<th></th>
-<th>Initially</th>
-<th>Once Paid</th>
+<th>Delivery Inwards</th>
+<th>Delivery Outwards</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Sales</strong></p>
-<p>(selling to customer)</p></td>
-<td><p>Dr Receivables (expected price)</p>
-<p>Cr Revenue (expected price)</p></td>
-<td><p>Cr Recievables (expected price)</p>
-<p>Dr Cash (actual paid price)</p>
-<p>Cr/Dr Revenue (different to balance dr/cr)</p></td>
+<td>Delivery costs and expenses to deliver products <u>from suppliers to your inventory.</u></td>
+<td>Delivery costs and expenses to deliver products from <u>your inventory to customers</u>.</td>
 </tr>
 <tr class="even">
-<td><p><strong>Purchases</strong></p>
-<p>(buying from supplier)</p></td>
-<td><p>Cr Payables (expected price)</p>
-<p>Dr Purchases (expected price)</p></td>
-<td><p>Dr Payables (expected price)</p>
-<p>Cr Cash (actual paid price)</p>
-<p>Cr/Dr Purchases (difference to balance dr/cr)</p></td>
+<td>This will be included/added as an expense within the <strong>cost of sales</strong>.</td>
+<td>This is a separate expense in the <strong>operating/administration expenses</strong>.</td>
 </tr>
 </tbody>
 </table>
-<p>The same applies to initially expecting a discount but failing to get it. In some standards (UK GAAP), instead of Cr/Dr purchases, we Cr/Dr a separate account - discounts, to make the adjustment.</p>
+<p><br></p>
+</section>
+<section id="returns" class="level3">
+<h3 class="anchored" data-anchor-id="returns">Returns</h3>
+<p>During business, returns will occur. The accounting of returns is as follows:</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Customer Returns</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">You Return to Supplier</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>1) Original Customer Purchase</td>
+<td><p>Dr Cash/Receivables</p>
+<p>Cr Revenue</p></td>
+</tr>
+<tr class="even">
+<td>2) Customer Returns</td>
+<td><p>Dr Revenue</p>
+<p>Cr Cash/Receivables</p></td>
+</tr>
+</tbody>
+</table>
+<p>Essentially, do the opposite to cancel out the original transaction.</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>1) Your Original Purchase</td>
+<td><p>Dr Purchases</p>
+<p>Cr Cash/Payables</p></td>
+</tr>
+<tr class="even">
+<td>2) Your Return to Supplier</td>
+<td><p>Dr Cash/Payables</p>
+<p>Cr Purchases</p></td>
+</tr>
+</tbody>
+</table>
+<p>Essentially, do the opposite to cancel out the original transaction.</p>
+</div>
+</div>
+</div>
+<p><br></p>
+</section>
+<section id="discounts" class="level3">
+<h3 class="anchored" data-anchor-id="discounts">Discounts</h3>
+<p>Discounts at the time of sale (like bulk-order discounts) are just recorded as normal transactions at their discounted price.</p>
+<p>However, some discounts take effect later, especially with credit sales and prompt payment. For example, you might offer a customer a 5% discount if they pay within a week. You will have some expectation of whether or not the customer/or you will take the discount.</p>
+<p>At the moment of transaction, record the sale/purchase with the <strong>expected price</strong>. Then, if the <strong>actual price</strong> later with/without the discount is different than expected, you will need to adjust.</p>
+<ul>
+<li>If the expected price and actual price are the same, no adjustment is needed.</li>
+</ul>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Discount to Customer</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">My Discount from Supplier</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>1) Initially record credit sale with expected price</td>
+<td><p>Dr Receivables: Expected Price</p>
+<p>Cr Revenue: Expected Price</p></td>
+</tr>
+<tr class="even">
+<td>2) Record adjustment after actual price</td>
+<td><p>Cr Receivables: Expected Price</p>
+<p>Dr Cash: Actual Amount Customer Paid</p>
+<p>Dr/Cr Revenue: The balancing figure to make Dr=Cr</p></td>
+</tr>
+</tbody>
+</table>
+<p>Basically: initially, record expected price. Once paid, clear receivables account, record cash inflow, and balance with Dr/Cr in revenue.</p>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>1) Initially record credit purchase with expected price</td>
+<td><p>Dr Purchases: Expected Price</p>
+<p>Cr Payables: Expected Price</p></td>
+</tr>
+<tr class="even">
+<td>2) Record adjustment after actual price</td>
+<td><p>Dr Payables: Expected Price</p>
+<p>Cr Cash: Actual Price</p>
+<p>Dr/Cr Purchases: The balancing figure to make Dr=Cr</p></td>
+</tr>
+</tbody>
+</table>
+<p>Basically: initially, record expected price. Once paid, clear payables account, record cash outflow, and balance with Dr/Cr in revenue.</p>
 </div>
 </div>
 </div>
@@ -364,9 +421,9 @@ window.Quarto = {
 <h3 class="anchored" data-anchor-id="payroll-expense">Payroll Expense</h3>
 <p>When a firm pays its employees, it has to pay 3 things:</p>
 <ol type="1">
-<li>Pay the employee’s income tax to the tax collector (HRMC in the UK).</li>
-<li>Pay the employee’s national insurance contribution (and the employer’s additional contribution) to the tax collector.</li>
-<li>Pay the employee the remaining net salary.</li>
+<li>Employee’s income tax to the tax collector (HRMC in the UK).</li>
+<li>Employee’s national insurance contribution (and the employer’s additional contribution) to the tax collector.</li>
+<li>Employee the remaining net salary.</li>
 </ol>
 <p>The net income to the employee is paid immediately (such as at the end of the month), but the tax and national insurance is usually withheld until tax filling season.</p>
 <p>The transaction would be as follows:</p>
@@ -397,33 +454,6 @@ window.Quarto = {
 <p>When the tax is later paid to the tax authority (HMRC), the liability is reduced (debited) and cash is decreased (credited).</p>
 <p><br></p>
 </section>
-<section id="delivery-expense" class="level3">
-<h3 class="anchored" data-anchor-id="delivery-expense">Delivery Expense</h3>
-<p>There are two types of delivery expenses that might be incurred, which have to be recorded differently.</p>
-<table class="table-bordered table-sm small caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Delivery Inwards</th>
-<th>Delivery Outwards</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Delivery costs and expenses to deliver products <u>from suppliers to your inventory.</u></td>
-<td>Delivery costs and expenses to deliver products from <u>your inventory to customers</u>.</td>
-</tr>
-<tr class="even">
-<td>This will be included/added as an expense within the <strong>cost of sales</strong>.</td>
-<td>This is a separate expense in the <strong>operating expenses</strong>.</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-</section>
 <section id="margin-and-markup" class="level3">
 <h3 class="anchored" data-anchor-id="margin-and-markup">Margin and Markup</h3>
 <p>Margin and markup are two relationships between the sales, cost of sales, and gross profit. They often inform companies and investors about the profitability of a firm.</p>
@@ -444,8 +474,10 @@ window.Quarto = {
 <h1><strong>Accrual Accounting</strong></h1>
 <section id="matching-principle" class="level3">
 <h3 class="anchored" data-anchor-id="matching-principle">Matching Principle</h3>
-<p>The matching principle is that we attribute/match expenses to the revenue they help generate. For example, the bills for this year helped generate next year’s revenue, would actually be considered a bill for next year, since the revenue was earned in the next year.</p>
-<p>However, because of accruals and prepayments, the payment of bills may not be in the same period as the revenue they helped generate. The same ideas apply to income.</p>
+<p><strong>Matching principle</strong>: we attribute/match expenses to the revenue they help generate. Revenue is recognised when the goods/services are <strong>in the control of the customer</strong>.</p>
+<ul>
+<li>For example, the bills for this year helped generate next year’s revenue, would actually be considered a bill for next year, since the revenue was earned in the next year.</li>
+</ul>
 <table class="table-bordered table-sm small caption-top table">
 <colgroup>
 <col style="width: 24%">
@@ -482,11 +514,11 @@ window.Quarto = {
 <h3 class="anchored" data-anchor-id="payment-adjustments">Payment Adjustments</h3>
 <p>For accrued payments and pre-payments, adjustments are necessary.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Accrued Expense</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Prepayment</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Accrued Expense</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Prepayment</a></li></ul>
 <div class="tab-content">
-<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
-<p>Let us say you receive a water service for 2024, but payment of the water bill is due in 2025. In 2024, you will originally not record anything, because you have yet to pay. However, you received the service/good for 2024, so the expense needs to be recorded in 2024.</p>
-<p>Thus, at the <strong>year end in 2024</strong>, you make the following adjustment:</p>
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<p>Let us say you receive a water service for 2024, but payment of the water bill is due in 2025.</p>
+<p>Thus, at the <strong>year end in 2024</strong>, you make the following adjustment since you received a service in 2024, so you need to expense it:</p>
 <table class="table-bordered table-sm small caption-top table">
 <colgroup>
 <col style="width: 30%">
@@ -538,11 +570,10 @@ window.Quarto = {
 </tr>
 </tbody>
 </table>
-<p>You will do the same for accrued expenses in 2025 paid in 2026.</p>
 </div>
-<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
-<p>Lets say you have a water utility service for 2025, but you paid in 2024. This expense is for 2025, but because payment was in 2024, you have to adjust this so the expense is correctly allocated to 2025.</p>
-<p>Thus, at the <strong>year end in 2024</strong>, you make the following adjustment:</p>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<p>Lets say you have a water utility service for 2025, but you paid in 2024.</p>
+<p>Thus, at the <strong>year end in 2024</strong>, you make the following adjustment, since you have not actually received the utility (only starts in 2025).</p>
 <table class="table-bordered table-sm small caption-top table">
 <colgroup>
 <col style="width: 30%">
@@ -576,7 +607,6 @@ window.Quarto = {
 </tr>
 </tbody>
 </table>
-<p>You will do the same for prepayment expenses in 2025 paid in 2026.</p>
 </div>
 </div>
 </div>
@@ -608,11 +638,11 @@ Calculating Expenses Quickly for Income Statement
 <h3 class="anchored" data-anchor-id="income-adjustments">Income Adjustments</h3>
 <p>For accrued or deferred payment, adjustment is necessary.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Accrued Income</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Deferred Income</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true">Accrued Income</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false">Deferred Income</a></li></ul>
 <div class="tab-content">
-<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
-<p>Let us say you have delivered a product in 2024, you will only be paid in 2025. Because the product was delivered in 2024, the income is for 2024, even though the payment occurs in 2025, so you have to adjust this so the revenue is correctly allocated to 2024.</p>
-<p>Thus, at the <strong>year end in 2024</strong>, you make the following adjustment:</p>
+<div id="tabset-4-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-4-1-tab">
+<p>Let us say you have delivered a product in 2024, you will only be paid in 2025.</p>
+<p>Thus, at the <strong>year end in 2024</strong>, you make the following adjustment, to ensure this revenue is recorded for this year.</p>
 <table class="table-bordered table-sm small caption-top table">
 <colgroup>
 <col style="width: 30%">
@@ -664,11 +694,10 @@ Calculating Expenses Quickly for Income Statement
 </tr>
 </tbody>
 </table>
-<p>You will do the same for accrued income in 2025 paid in 2026.</p>
 </div>
-<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
-<p>Lets say you will deliver a product in 2025, but you were paid in 2024. This revenue is for 2025, but because product delivery was in 2024, so you have to adjust this so the revenue is correctly allocated to 2025.</p>
-<p>Thus, at the <strong>year end in 2024</strong>, you make the following adjustment:</p>
+<div id="tabset-4-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-2-tab">
+<p>Lets say you will deliver a product in 2025, but you were paid in 2024.</p>
+<p>Thus, at the <strong>year end in 2024</strong>, you make the following adjustment, as the revenue is only for 2025, not 2024.</p>
 <table class="table-bordered table-sm small caption-top table">
 <colgroup>
 <col style="width: 30%">
@@ -702,7 +731,6 @@ Calculating Expenses Quickly for Income Statement
 </tr>
 </tbody>
 </table>
-<p>You will do the same for prepayment expenses in 2025 paid in 2026.</p>
 </div>
 </div>
 </div>
@@ -735,9 +763,29 @@ Calculating Expenses Quickly for Income Statement
 </section>
 <section id="debts-and-allowances" class="level1">
 <h1><strong>Debts and Allowances</strong></h1>
+<section id="irrecoverable-debt" class="level3">
+<h3 class="anchored" data-anchor-id="irrecoverable-debt">Irrecoverable Debt</h3>
+</section>
+<section id="allowance-for-doubtful-debt" class="level3">
+<h3 class="anchored" data-anchor-id="allowance-for-doubtful-debt">Allowance for Doubtful Debt</h3>
+<p><br></p>
+<hr>
+</section>
+</section>
+<section id="taxes" class="level1">
+<h1><strong>Taxes</strong></h1>
+<section id="outward-vat" class="level3">
+<h3 class="anchored" data-anchor-id="outward-vat">Outward VAT</h3>
+</section>
+<section id="inward-vat" class="level3">
+<h3 class="anchored" data-anchor-id="inward-vat">Inward VAT</h3>
+</section>
+<section id="corporation-tax" class="level3">
+<h3 class="anchored" data-anchor-id="corporation-tax">Corporation Tax</h3>
 <p><br></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

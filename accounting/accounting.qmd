@@ -14,67 +14,23 @@ This page contains the basics of accounting, including the different financial s
 
 Summarising transactions: this provides information about the company to stakeholders. Stakeholders can include shareholders, investors, employees, banks, or any users that may interact with the company. This takes the form of 4 financial statements:
 
-::: panel-tabset
-## Balance Sheet
++-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Statement of Financial Position** | Reflects the **position** of a business at a **specific point in time**.                                                                         |
+|                                     |                                                                                                                                                  |
+| (Balance Sheet)                     | This includes the assets (the things the company owns), the liabilities (what the company owes), and the equity (the investment in the company). |
++-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Statement of Profit or Loss**     | Reflects the **performance** (profitability) of a business **over a period** of time (usually a year).                                           |
+|                                     |                                                                                                                                                  |
+| (Income State)                      | It starts with the revenue of the year, then subtracts different revenue expenditures until we reach the net profit figure.                      |
++-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Statement of Changes in Equity**  | Shows how **equity** (stock/shares/retained earnings) are changing in a business over a **period of time**.                                      |
+|                                     |                                                                                                                                                  |
+|                                     | Only for incorporated companies.                                                                                                                 |
++-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Statement of Cash Flows**         | Shows how **cash** is entering and exiting the business over a period of time.                                                                   |
++-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 
-The statement of financial position (balance sheet) reflects the **position** of a business at a specific point in time. This includes the assets (the things the company owns), the liabilities (what the company owes), and the equity (the investment in the company).
-
-+----------------------------------+----------------+
-| Current Assets                   | £--            |
-|                                  |                |
-| Non Current Assets               | £--            |
-|                                  |                |
-| **Total Assets**                 | £--            |
-+----------------------------------+----------------+
-| Equity                           | £--            |
-|                                  |                |
-| Current Liabilities              | £--            |
-|                                  |                |
-| Non-Current Liabilities          | £--            |
-+----------------------------------+----------------+
-| **Total Equity and Liabilities** | £--            |
-+----------------------------------+----------------+
-
-: {.bordered .sm tbl-colwidths="\[35,65\]"}
-
-See the accounting equation for more details on assets, equity, and liabilities.
-
-## Income Statement
-
-The **statement of profit or loss** (income statement) reflects the **performance** (profitability) of a business over a period of time (usually a year). It starts with the revenue of the year, then subtracts different revenue expenditures until we reach the net profit figure.
-
-+--------------------------------+----------------+
-| Revenue                        | £–             |
-+--------------------------------+----------------+
-| less Cost of Sales             | (£–)           |
-|                                |                |
-| **Gross Profit**               | £–             |
-+--------------------------------+----------------+
-| (less) Operating Expenses      | (£–)           |
-|                                |                |
-| **Operating Profit**           | £–             |
-+--------------------------------+----------------+
-| Finance income (bank interest) | £–             |
-|                                |                |
-| (less) Financing Expenses      | (£–)           |
-|                                |                |
-| **Profit before Tax**          | £–             |
-+--------------------------------+----------------+
-| (less) Tax Expenses            | (£–)           |
-|                                |                |
-| **Net Profit**                 | £–             |
-+--------------------------------+----------------+
-
-: {.bordered .sm tbl-colwidths="\[35,65\]"}
-
-## Cash Flows
-
-The **statement of cash flows** shows how **cash** is entering and exiting the business over a period of time. Useful to see if the company has enough cash to pay off short term loans/liabilities.
-
-## Changes in Equity
-
-The **statement of changes in equity** shows how **equity** (stock/shares) are changing in a business over a period of time. Useful to see how the company is issuing shares.
-:::
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
 
 <br />
 
@@ -82,21 +38,19 @@ The **statement of changes in equity** shows how **equity** (stock/shares) are c
 
 There are several types of businesses, that will affect the reporting standards and legal liability of businesses.
 
-+--------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
-| **Sole Trader**    | A business owned and operated by one person. Common with small businesses.                                                         | The owner is **personally liable** for any losses.                               | Sole traders legally only need to file accounts for tax purposes.                                                                 |
-+--------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
-| **Partnership**    | A business owned and operated by a joint number of partners (a collection of sole traders). Common with law and accountancy firms. | The partners are **personally liable** for any losses.                           | Partnerships legally only need to file accounts for tax purposes.                                                                 |
-+--------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
-| **Company**        | A business that is a separate legal entity. It is owned by **shareholders**, who elect **directors** to run the business.          | ***Limited liability*** - the shareholders are not personally liable for losses. | Companies are required to provide more details in their financial statements. These accounts must be provided to Companies House. |
-|                    |                                                                                                                                    |                                                                                  |                                                                                                                                   |
-|                    | -   Limited Liability Companies (LLC): privately owned, no trading shares.                                                         |                                                                                  |                                                                                                                                   |
-|                    | -   Public Limited Company (PLC): publicly owned, shares are traded.                                                               |                                                                                  |                                                                                                                                   |
-|                    | -   Limited Liability Partnerships (LLP): a partnership that is a separate legal entity.                                           |                                                                                  |                                                                                                                                   |
-+--------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
-| **Not-for-Profit** | Charities, clubs and societies, and government/public sector organisations (ex. NHS).                                              |                                                                                  |                                                                                                                                   |
-+--------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
++-----------------+------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| **Sole Trader** | A business owned and operated by one person.                                                         | **Personally liable** for any losses.                                                   | Only need to file accounts for tax purposes.                                                          | Owner has capital in the business. No corporation tax, only pay income tax on profits.                                               |
++-----------------+------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| **Partnership** | A business owned and operated by a joint number of partners (a collection of sole traders).          | **Personally liable** for any losses.                                                   | Only need to file accounts for tax purposes.                                                          | Owners have capital in the business, split profits based on agreed profit ratio. No corporation tax, only pay income tax on profits. |
++-----------------+------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| **Company**     | Separate legal entity. It is owned by **shareholders**, who elect **directors** to run the business. | ***Limited liability*** - the shareholders/owners are not personally liable for losses. | Required to provide more details in their financial statements - must be provided to Companies House. | Owners/shareholders have equity in the business. Pay corporation tax.                                                                |
+|                 |                                                                                                      |                                                                                         |                                                                                                       |                                                                                                                                      |
+|                 | -   Limited Liability Companies (LLC): privately owned, no trading shares.                           |                                                                                         |                                                                                                       |                                                                                                                                      |
+|                 | -   Public Limited Company (PLC): publicly owned, shares are traded.                                 |                                                                                         |                                                                                                       |                                                                                                                                      |
+|                 | -   Limited Liability Partnerships (LLP): a partnership that is a separate legal entity.             |                                                                                         |                                                                                                       |                                                                                                                                      |
++-----------------+------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 
-: {.bordered .sm tbl-colwidths="\[20,35,20,25\]"}
+: {.bordered .sm tbl-colwidths="\[15,30,15,20,20\]"}
 
 ::: {.callout-note collapse="true" appearance="simple"}
 ## Personal Liability
@@ -169,8 +123,6 @@ Accounting is a set of standards to record business transactions, allowing compa
 
 ### Accounting Equation
 
-The **accounting equation** is the following equation:
-
 > **Assets = Liabilities + Equity** $\implies$ **Assets - Liabilities = Equity**
 
 ::: panel-tabset
@@ -181,7 +133,7 @@ Assets are things the company owns, that helps it generate profit. They are divi
 +------------------------+------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+
 | **Current Assets**     | Assets you plan to liquidate (turn into cash, move around, sell) within the next 12 months as part of making business. | Inventory, Cash, Cash at bank, Trade Receivables (things customers need to pay to you), Prepayments. |
 +------------------------+------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+
-| **Non-Current Assets** | Assets you do not plan to sell/move on from in the next 12 months, but still help generate profit.                     | Property Plant Equipment, Fixtures, Vehicles, Factories, Computers, Capital Expenditures.            |
+| **Non-Current Assets** | Assets you do not plan to sell/move on from in the next 12 months, but still help generate profit.                     | Property Plant Equipment (PPE), Fixtures, Vehicles, Factories, Computers, Capital Expenditures.      |
 +------------------------+------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+
 
 : {.bordered .sm tbl-colwidths="\[25,40,35\]"}
@@ -193,14 +145,14 @@ Liabilities are things the company owes to external lenders. For example, money 
 +-----------------------------+-------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
 | **Current Liabilities**     | Things you owe to external lenders that are due within 12 months.       | Short Term Borrowings, Trade Payables (things you need to pay), Provisions, Overdrafts. |
 +-----------------------------+-------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
-| **Non-Current Liabilities** | Things you owe to external lenders that are due in more than 12 months. | Bank Loan.                                                                              |
+| **Non-Current Liabilities** | Things you owe to external lenders that are due in more than 12 months. | Bank Loan, Bonds/Debuntures/Loan Notes.                                                 |
 +-----------------------------+-------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
 
 : {.bordered .sm tbl-colwidths="\[25,40,35\]"}
 
-## Equity
+## Equity/Capital
 
-Equity is the investment of the shareholders of the company. Equity consists of the following accounts:
+Equity (Capital for non-incorporated sole-traders/partnerships) is the investment of the shareholders of the company. Equity consists of the following accounts:
 
 +-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------+
 | **Shares/Capital**    | The direct investment of shareholders/owners. This includes share premium and share capital (discussed later).                             | Share Premium, Share Capital, Injections |
@@ -211,10 +163,6 @@ Equity is the investment of the shareholders of the company. Equity consists of 
 +-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------+
 
 : {.bordered .sm tbl-colwidths="\[25,40,35\]"}
-
-Based on the above, we can determine the ending equity of a period is:
-
-> **(Ending) Equity = Injection of Shares + Opening Equity + Profit - Drawings**
 :::
 
 The accounting equation is **always true**: the statement of financial position's listed assets, liabilities, and equity should always equal/balance.
@@ -235,45 +183,27 @@ Net current assets are defined as:
 
 <br />
 
-### Expenditures
+### CapEx and Expenses
 
 There are two main types of expenditures accounts that are also important to note, since these go on different financial statements:
 
-::: panel-tabset
-## Capital Expenditure
++-------------------------+----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
+| Type of Expenditure     | Description                                                                                                                            |                                                                                                                                                |
++=========================+========================================================================================================================================+================================================================================================================================================+
+| **Capital Expenditure** | Expenditure used to obtain/improve long-term assets, the **improve or enhance the earning capacity** of the company.                   | -   Buying a new factory, vehicle for delivery, property, land, and others.                                                                    |
+|                         |                                                                                                                                        | -   Expanding a factory to enhance future economic income.                                                                                     |
+|                         | Not expenditure for repairs/maintenance that only keeps/restores long-term assets at their existing capacity.                          | -   Any other expenses (delivery costs, legal fees) needed to begin using any new factory, vehicle, etc.                                       |
+|                         |                                                                                                                                        |                                                                                                                                                |
+|                         | Go into **non-current assets** on the balance sheet.                                                                                   |                                                                                                                                                |
++-------------------------+----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Revenue Expenditure** | Expenditures incurred for operating the company. This includes purchases of raw material, inventory, operating expenses, tax expenses. | -   Cost of sales: inventory costs for what they have sold.                                                                                    |
+|                         |                                                                                                                                        | -   Operating expenses like salaries, rent, utilities, interest payments, tax expenses.                                                        |
+|                         | Also includes repairs/maintenance to ensure existing assets work properly (without improving the capacity of these assets).            | -   Routine expenses to maintain and operate long-term assets, such as repairs, repainting, gasoline for vehicles, insurance costs for assets. |
+|                         |                                                                                                                                        |                                                                                                                                                |
+|                         | Go into **income statement** as expenses.                                                                                              |                                                                                                                                                |
++-------------------------+----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
-Capital expenditure are expenses used to acquire long-term assets, or to improve or enhance the earning capacity (not maintenance, only improvement) of long term assets you already hold.
-
--   Ex. Purchasing a factory is acquiring a long-term asset.
--   However, painting it or repairing it is not enhancing the earning capacity, only maintaining it.
-
-Capital expenditures are included in **non-current assets** in the **statement of financial position**.
-
-## Revenue Expenditure
-
-Revenue expenditure is incurred for either:
-
-1.  Purchases for trade purposes, such a raw material, inventory (cost of goods sold), operating expenses (wages, rent, administrative), tax expenses (see below).
-2.  To repair/maintain a non-current asset. For example, repairing the roof of a factory is a revenue expenditure, not a capital expenditure.
-
-Revenue expenditure is classified into expenses on the **statement of profit or loss**. However, since the net profit is added to retained earnings in the equity section of the balance sheet, it is also indirectly in the balance sheet.
-:::
-
-Revenue Expenditures are divided further into these expense accounts:
-
-+------------------------+------------------------------------------------------------------------------------------------------+-----------------------------------+
-| **Cost of Sales**      | The cost of purchasing the inventory that was sold to generate the revenue in the accounting period. | Ex. Cost of inventory/goods sold. |
-|                        |                                                                                                      |                                   |
-|                        | Can be calculated as: *opening inventory + purchases - closing inventory*.                           |                                   |
-+------------------------+------------------------------------------------------------------------------------------------------+-----------------------------------+
-| **Operating Expenses** | The expenses involved in operating the business day-to-day outside of cost of sales.                 | Ex. wages, rent, utility bills.   |
-+------------------------+------------------------------------------------------------------------------------------------------+-----------------------------------+
-| **Finance Expenses**   | Expenses needed for finance/loan arrangements.                                                       | Ex. interest payments.            |
-+------------------------+------------------------------------------------------------------------------------------------------+-----------------------------------+
-| **Tax Expenses**       | Expenses needed to pay taxes owed.                                                                   | Ex. Tax                           |
-+------------------------+------------------------------------------------------------------------------------------------------+-----------------------------------+
-
-: {.bordered .sm tbl-colwidths="\[25,40,35\]"}
+: {.bordered .sm tbl-colwidths="\[20,40,40\]"}
 
 ::: {.callout-note collapse="true" appearance="simple"}
 ## Individual Judgement
@@ -290,20 +220,20 @@ Refer to the International Ethics Standards Borad for Accountants (IESBA) and th
 
 ### Debits and Credits
 
-We know from the accounting equation, there is a **duality concept**. Another way to specify this concept is with **debits** (Dr) and **credits** (Cr). They are just fancy ways to say increase and decrease. Importantly, debits and credits do different things for different accounts.
+We know from the accounting equation, there is a **duality concept**. Another way to specify this concept is with **debits** (Dr) and **credits** (Cr). They are just fancy ways to say positive and negative amounts. Importantly, debits and credits do different things for different accounts.
 
 +---------------------------------------------------------------+-----------+-----------+
 | Account                                                       | Debit     | Credit    |
 +===============================================================+:=========:+:=========:+
-| **Assets** (all)                                              | 🔺        | 🔻        |
+| **Assets** (all)                                              | **+**     | **-**     |
 +---------------------------------------------------------------+-----------+-----------+
-| **Liabilities** (all)                                         | 🔻        | 🔺        |
+| **Liabilities** (all)                                         | **-**     | **+**     |
 +---------------------------------------------------------------+-----------+-----------+
-| **General Equity** (Share capital, share premium, injections) | 🔻        | 🔺        |
+| **General Equity** (Share capital, share premium, injections) | **-**     | **+**     |
 +---------------------------------------------------------------+-----------+-----------+
-| **Expenses** (negative equity)                                | 🔺        | 🔻        |
+| **Expenses** (negative equity)                                | **+**     | **-**     |
 +---------------------------------------------------------------+-----------+-----------+
-| **Drawings/Dividends** (negative equity)                      | 🔺        | 🔻        |
+| **Drawings/Dividends** (negative equity)                      | **+**     | **-**     |
 +---------------------------------------------------------------+-----------+-----------+
 
 : {.bordered .sm tbl-colwidths="\[50,25,25\]"}
@@ -320,12 +250,12 @@ The debits and credits of each recorded transaction should balance. See the prep
 
 ### Recording Transactions
 
-For each transaction, we should [list the debits and credits, and ensure they are equal]{.mark}. Then, we put each debit/credit entry into their respective accounts (like cash, inventory, etc.). These respective accounts are called T-accounts/ledger accounts. This process is called **double entry accounting**.
-
 For example, imagine I invest £5,000 into the firm's bank account. In double entry accounting, we know the debits and credits are:
 
 -   Dr. Cash (Asset) £5,000
 -   Cr. Equity (Equity) £5,000
+
+Every transaction's debits and credits should be equal. You can have more than one debit or credit, but the total debits and credits must equal.
 
 Then, list the debits and credits in the correct accounts. Each transaction's debits and credits should balance. However, each t-account individually does not need to be balanced.
 
@@ -363,15 +293,15 @@ At the end of the year, we need to **close the accounts** (except inventory and 
 
 2.  Look at the side with the lower value. [Find the "difference" between the lower and higher values, and put it on the side of the lower side]{.mark}. This difference is called the **balance carried forward (c/f)**. Write it on the smaller side.
 
-+-----------------------+--------------------------+
-| Debits                | Credits                  |
-+:=====================:+:========================:+
-| £1000                 | £600                     |
-+-----------------------+--------------------------+
-| \-                    | **balance c/f £400**     |
-|                       |                          |
-| **highest: £1000**    | **highest: £1000**       |
-+-----------------------+--------------------------+
++--------------------+--------------------------+
+| Debits             | Credits                  |
++:==================:+:========================:+
+| £1000              | £600                     |
++--------------------+--------------------------+
+| \-                 | **balance c/f £400**     |
+|                    |                          |
+| **highest: £1000** | **highest: £1000**       |
++--------------------+--------------------------+
 
 : {.bordered .sm tbl-colwidths="\[50,50\]"}
 
@@ -432,31 +362,29 @@ This trial balance will help us create both the income statement, and the balanc
 
 To create the income statement from the trial balance, we just simply put the closing balances of the relevant accounts into the following form. More details on income and expense accounting are on the income accounting page.
 
-+-------------------------+----------------+----------------+
-|                         | Dr £           | Cr £           |
-+=========================+================+================+
-| Revenue                 |                | £–             |
-+-------------------------+----------------+----------------+
-| Cost of Sales           | £–             |                |
-|                         |                |                |
-| **Gross Profit**        |                |                |
-+-------------------------+----------------+----------------+
-| Rent Expense            | £–             |                |
-|                         |                |                |
-| Salary                  | £–             |                |
-|                         |                |                |
-| Other Operating Expense | £–             |                |
-|                         |                |                |
-| **Operating Profit**    |                |                |
-+-------------------------+----------------+----------------+
-| Finance Expense         | £–             |                |
-|                         |                |                |
-| **Profit Before Tax**   |                |                |
-+-------------------------+----------------+----------------+
-| Tax Expense             | £–             |                |
-|                         |                |                |
-| **Net Profit**          |                |                |
-+-------------------------+----------------+----------------+
++-------------------------------------------------------------------------+-----------+-----------+
+|                                                                         | Dr £      | Cr £      |
++=========================================================================+===========+===========+
+| Revenue                                                                 |           | £–        |
++-------------------------------------------------------------------------+-----------+-----------+
+| Cost of Sales (inventory costs for sold goods, inward delivery)         | £–        |           |
+|                                                                         |           |           |
+| **Gross Profit**                                                        |           |           |
++-------------------------------------------------------------------------+-----------+-----------+
+| Distribution Expenses (delivery outward to customers, vehicle expenses) | £–        |           |
+|                                                                         |           |           |
+| Administrative Expenses (salary, rent, utilities)                       | £–        |           |
+|                                                                         |           |           |
+| **Operating Profit**                                                    |           |           |
++-------------------------------------------------------------------------+-----------+-----------+
+| Finance Expense (interest)                                              | £–        |           |
+|                                                                         |           |           |
+| **Profit Before Tax**                                                   |           |           |
++-------------------------------------------------------------------------+-----------+-----------+
+| Tax Expense                                                             | £–        |           |
+|                                                                         |           |           |
+| **Net Profit**                                                          |           |           |
++-------------------------------------------------------------------------+-----------+-----------+
 
 : {.bordered .sm tbl-colwidths="\[50,25,25\]"}
 
@@ -468,32 +396,32 @@ The **bolded** parts are not accounts, and should be left blank until all accoun
 
 To compile the balance sheet, simply list the remaining non-income statement accounts into their proper location. Remember that for assets, debit is positive and credit is negative. For liabilities and equity, debit is negative and credit is positive. More details on assets are provided on the asset accounting page.
 
-+---------------------------------------+----------------+
-| Non-Current Assets                    | \-             |
-|                                       |                |
-| -   Accounts go here                  | -   £–         |
-|                                       |                |
-| Current Assets                        | \-             |
-|                                       |                |
-| -   Accounts go here                  | -   £–         |
-|                                       |                |
-| **Total Assets**                      | £–             |
-+---------------------------------------+----------------+
-| Equity                                | \-             |
-|                                       |                |
-| -   Share Capital, Premium, Drawings  | -   £–         |
-| -   Retained Earnings\*               | -   £–         |
-|                                       |                |
-| Non-Current Liabilities               | \-             |
-|                                       |                |
-| -   Accounts go here                  | -   £–         |
-|                                       |                |
-| Current Liabities                     | \-             |
-|                                       |                |
-| -   Accounts go here                  | -   £–         |
-|                                       |                |
-| **Total Equity + Assets**             | £–             |
-+---------------------------------------+----------------+
++--------------------------------------+----------------+
+| Non-Current Assets                   | \-             |
+|                                      |                |
+| -   Accounts go here                 | -   £–         |
+|                                      |                |
+| Current Assets                       | \-             |
+|                                      |                |
+| -   Accounts go here                 | -   £–         |
+|                                      |                |
+| **Total Assets**                     | £–             |
++--------------------------------------+----------------+
+| Equity                               | \-             |
+|                                      |                |
+| -   Share Capital, Premium, Drawings | -   £–         |
+| -   Retained Earnings                | -   £–         |
+|                                      |                |
+| Non-Current Liabilities              | \-             |
+|                                      |                |
+| -   Accounts go here                 | -   £–         |
+|                                      |                |
+| Current Liabities                    | \-             |
+|                                      |                |
+| -   Accounts go here                 | -   £–         |
+|                                      |                |
+| **Total Equity + Assets**            | £–             |
++--------------------------------------+----------------+
 
 : {.bordered .sm tbl-colwidths="\[50,50\]"}
 

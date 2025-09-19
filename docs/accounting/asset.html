@@ -170,7 +170,7 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../accounting/sales.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Sales and Purchases</span></a>
+ <span class="menu-text">Revenue and Expenses</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -204,22 +204,17 @@ window.Quarto = {
   <li><a href="#inventory" id="toc-inventory" class="nav-link active" data-scroll-target="#inventory"><strong>Inventory</strong></a>
   <ul class="collapse">
   <li><a href="#inventory-bookkeeping" id="toc-inventory-bookkeeping" class="nav-link" data-scroll-target="#inventory-bookkeeping">Inventory Bookkeeping</a></li>
+  <li><a href="#service-sector-inventory" id="toc-service-sector-inventory" class="nav-link" data-scroll-target="#service-sector-inventory">Service Sector Inventory</a></li>
   <li><a href="#inventory-count" id="toc-inventory-count" class="nav-link" data-scroll-target="#inventory-count">Inventory Count</a></li>
   <li><a href="#cost-and-nrv" id="toc-cost-and-nrv" class="nav-link" data-scroll-target="#cost-and-nrv">Cost and NRV</a></li>
   <li><a href="#valuation-methods" id="toc-valuation-methods" class="nav-link" data-scroll-target="#valuation-methods">Valuation Methods</a></li>
   <li><a href="#first-in-first-out-fifo" id="toc-first-in-first-out-fifo" class="nav-link" data-scroll-target="#first-in-first-out-fifo">First in First Out (FIFO)</a></li>
   <li><a href="#average-cost-avco" id="toc-average-cost-avco" class="nav-link" data-scroll-target="#average-cost-avco">Average Cost (AVCO)</a></li>
   </ul></li>
-  <li><a href="#depreciation" id="toc-depreciation" class="nav-link" data-scroll-target="#depreciation"><strong>Depreciation</strong></a>
+  <li><a href="#non-current-assets" id="toc-non-current-assets" class="nav-link" data-scroll-target="#non-current-assets"><strong>Non-Current Assets</strong></a>
   <ul class="collapse">
-  <li><a href="#depreciation-basics" id="toc-depreciation-basics" class="nav-link" data-scroll-target="#depreciation-basics">Depreciation Basics</a></li>
-  <li><a href="#depreciation-expenses" id="toc-depreciation-expenses" class="nav-link" data-scroll-target="#depreciation-expenses">Depreciation Expenses</a></li>
-  </ul></li>
-  <li><a href="#disposals" id="toc-disposals" class="nav-link" data-scroll-target="#disposals"><strong>Disposals</strong></a>
-  <ul class="collapse">
-  <li><a href="#profit-or-loss" id="toc-profit-or-loss" class="nav-link" data-scroll-target="#profit-or-loss">Profit or Loss</a></li>
-  <li><a href="#disposal-transactions" id="toc-disposal-transactions" class="nav-link" data-scroll-target="#disposal-transactions">Disposal Transactions</a></li>
-  <li><a href="#parts-exchange-allowance" id="toc-parts-exchange-allowance" class="nav-link" data-scroll-target="#parts-exchange-allowance">Parts Exchange Allowance</a></li>
+  <li><a href="#depreciation" id="toc-depreciation" class="nav-link" data-scroll-target="#depreciation">Depreciation</a></li>
+  <li><a href="#disposals" id="toc-disposals" class="nav-link" data-scroll-target="#disposals">Disposals</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -254,10 +249,6 @@ window.Quarto = {
 <section id="inventory-bookkeeping" class="level3">
 <h3 class="anchored" data-anchor-id="inventory-bookkeeping">Inventory Bookkeeping</h3>
 <p>When buying inventory, we <mark>do not update the inventory account</mark>. For a transaction that increases inventory, we instead use the purchases account.</p>
-<ul>
-<li><strong>Dr Purchases</strong> £–</li>
-<li><strong>Cr Cash/Payables</strong> £–</li>
-</ul>
 <p>However, at the end of the year, we need to know the closing inventory balance for both the balance sheet, and the calculation of cost of sales. Closing inventory consists of:</p>
 <ul>
 <li>Goods which have been purchased, bur not yet sold.</li>
@@ -282,18 +273,10 @@ window.Quarto = {
 </tr>
 </tbody>
 </table>
-<div class="callout callout-style-simple callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Inventory and Service Organisations
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
+<p><br></p>
+</section>
+<section id="service-sector-inventory" class="level3">
+<h3 class="anchored" data-anchor-id="service-sector-inventory">Service Sector Inventory</h3>
 <p>Some service based industries will have very few physical inventory. For example, netflix or financial services have very few inventory.</p>
 <p>Instead, cost of sales will <strong>reflect the cost of providing the service to customers</strong>. This includes:</p>
 <table class="table-bordered table-sm small caption-top table">
@@ -326,31 +309,42 @@ Inventory and Service Organisations
 </tbody>
 </table>
 <p>NOTE: costs incurred that are not directly related to the service are not included. For example, receptionists and their salary, the sales-persons team and their salary.</p>
-</div>
-</div>
-</div>
 <p><br></p>
 </section>
 <section id="inventory-count" class="level3">
 <h3 class="anchored" data-anchor-id="inventory-count">Inventory Count</h3>
 <p>At the year end, the <strong>closing inventory</strong> is counted. This determines what inventory (what products, how many of each) we have remaining at the end of the year. There are 3 types of inventory: raw materials, works in progress, and finished goods (most common).</p>
 <p>Often, you will not perform an inventory count/valuation on the exact date of the year end. For example, the year might end on 31 December, but the inventory count might not occur until 3rd January.</p>
-<p>Thus, we need to account for the changes in inventory between 31 December (Year End) and 3rd January (Count Date) to accurately determine the contents of the inventory on the year end. The adjustment is as follows:</p>
-<p><span class="math display">\[
-\begin{align}
-\text{Adjustment to Count} &amp; = \text{counted inventory (on count date)} \\
-&amp; = - \text{goods received from suppliers (between year end and count date)} \\
-&amp; = + \text{goods sold to customers (between year end and count date)} \\
-&amp; = + \text{goods returned to suppliers (between year end and count date)} \\
-&amp; = + \text{goods returned by customers (between year end and count date)}
-\end{align}
-\]</span></p>
+<p>Thus, we need to account for the changes in inventory between 31 December (Year End) and 3rd January (Count Date) to accurately determine the contents of the inventory on the year end. The adjustment in <strong>quantity</strong> is as follows:</p>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p># of goods: count date</p>
+<p>(less) # of goods received: between</p>
+<p># of goods sold: between</p>
+<p>(less) # of goods returned by customers: between</p></td>
+<td><p>X</p>
+<p>(X)</p>
+<p>X</p>
+<p>(X)</p></td>
+</tr>
+<tr class="even">
+<td><strong>Adjustment to Inventory Count</strong></td>
+<td>X/(X)</td>
+</tr>
+</tbody>
+</table>
+<p>Note: between refers to the period between count date and the year-end.</p>
 <p>These adjustments “undo” the changes that occur between the year end and count date, to properly reflect the inventory on the year-end date.</p>
 <p><br></p>
 </section>
 <section id="cost-and-nrv" class="level3">
 <h3 class="anchored" data-anchor-id="cost-and-nrv">Cost and NRV</h3>
-<p>Once we have counted what inventory we have, we need to value them so we can add it to the balance sheet, as well as calculate cost of sales. inventory can be valued in two main ways:</p>
+<p>Inventory can be valued in two main ways:</p>
 <table class="table-bordered table-sm small caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -361,7 +355,7 @@ Inventory and Service Organisations
 <tr class="odd">
 <td><strong>Cost (most common)</strong></td>
 <td><ul>
-<li>In cost valuation, inventory is valued at the cost of which the inventory was obtained.</li>
+<li>Inventory is valued at the cost of which the inventory was obtained.</li>
 <li>Cost includes the actual inventory purchase price, import duties, delivery fees for the inventory from the supplier to you.</li>
 <li>If you are converting raw materials into finished products, the cost of this production is also included in the cost valuation.</li>
 </ul></td>
@@ -373,7 +367,7 @@ Inventory and Service Organisations
 <tr class="even">
 <td><strong>Net Realisable Value (NRV)</strong></td>
 <td><ul>
-<li>In net realisable value (NRV), inventory is valued at the price it can be sold at.</li>
+<li>Inventory is valued at the price it can be sold at.</li>
 <li>The costs needed to enable the sale (ex. repairs, modification costs, selling costs) are deducted from the price the inventory can be sold at.</li>
 </ul></td>
 <td><ul>
@@ -383,21 +377,12 @@ Inventory and Service Organisations
 </tr>
 </tbody>
 </table>
-<p>On the balance sheet, <mark>inventory should be valued at the <strong>lower</strong> of either cost valuation or NRV valuation</mark>. This is part of the prudence principle: that we should underpromise and overdeliver.</p>
-<ul>
-<li>This valuation at the lower of either cost or NRV occurs on a product by product basis.</li>
-<li>For example, if you have 3 products A, B, and C. Products A and B have lower NRV valuations, and C has a lower cost valuation. Thus, you should value A and B with NRV, and C with cost.</li>
-</ul>
-<p>Cost valuation is typically more common. This makes sense: companies usually look to profit off of inventory sales, so unless a good is damaged, out of fashion, or perished, etc., it is unlikely to have a NRV lower than cost.</p>
+<p>On the balance sheet, <mark>inventory should be valued at the <strong>lower</strong> of either cost valuation or NRV valuation</mark>. This valuation at the lower of either cost or NRV occurs on a product by product basis.</p>
 <p><br></p>
 </section>
 <section id="valuation-methods" class="level3">
 <h3 class="anchored" data-anchor-id="valuation-methods">Valuation Methods</h3>
-<p>Let us say you have adopted cost valuation for your inventory. But there is an issue:</p>
-<blockquote class="blockquote">
-<p>Imagine you are a company selling footballs. At the beginning of the year, you purchase 100 footballs for your inventory for £1/each. Then a few months later, you purchase 50 more of the same type of footballs for £1.5 each. Now you have 150 footballs. You sell 50 of them (they are all the same, so you just take 50). You have 100 left. But how much is each remaining football worth? £1.5? £1? £1.36?</p>
-</blockquote>
-<p>There are 3 main ways of valuing inventory based on cost (however, LIFO is not allowed under most international standards).</p>
+<p>There are 3 main ways of valuing inventory based on cost (however, LIFO is not allowed under standards).</p>
 <table class="table-bordered table-sm small caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -407,28 +392,27 @@ Inventory and Service Organisations
 <tbody>
 <tr class="odd">
 <td><strong>First in First Out (FIFO)</strong></td>
-<td>FIFO assumes that when you sell the 50 (or however many) products, you are selling the inventory that you purchased first.</td>
+<td>When you sell X # of products, you are selling the goods that you purchased first (the oldest).</td>
 <td>Since you are selling the inventory you purchased first, the closing inventory is mostly the products you purchased last. Thus, valuation is more based on the later purchase prices.</td>
 </tr>
 <tr class="even">
 <td><strong>Average Cost (AVCO)</strong></td>
-<td>AVCO assumes you just randomly sell 50 (or however many) products.</td>
+<td>When you sell X # of products, you are selling X randomly selected products from what you have in inventory.</td>
 <td>Since you are selling a random amount of products, we value the closing inventory as some sort of weighted average of purchase prices.</td>
 </tr>
 <tr class="odd">
 <td><strong>Last in First Out (LIFO)</strong></td>
-<td>LIFT assumes that when you sell the 50 (or however many) products, you are selling the inventory that you purchased last.</td>
+<td>When you sell X # of products, you are selling the inventory that you purchased last (most recent).</td>
 <td>Since you are selling the inventory you purchased last, the closing inventory is the products you purchased first. Thus, valuation is more based on the older (possibly outdated) purchase prices.</td>
 </tr>
 </tbody>
 </table>
-<p>LIFO is not allowed under IFRS standards, because it often revolves around valuaing invnetory on outdated old prices. This means that it will underestimate the closing inventory (if assuming inflation).</p>
+<p>LIFO is not allowed under IFRS standards, because it often revolves around valuaing inventory on outdated old prices. This means that it will underestimate the closing inventory (if assuming inflation).</p>
 <p>For more details on FIFO and AVCO, see below.</p>
 <p><br></p>
 </section>
 <section id="first-in-first-out-fifo" class="level3">
 <h3 class="anchored" data-anchor-id="first-in-first-out-fifo">First in First Out (FIFO)</h3>
-<p>FIFO assumes that when you sell the 50 (or however many) products, you are selling the inventory that you purchased first. Thus, the remaining inventory are the things you purchased most recently.</p>
 <p>For example, take this purchase history:</p>
 <table class="table-bordered table-sm small caption-top table">
 <colgroup>
@@ -503,7 +487,6 @@ Inventory and Service Organisations
 </section>
 <section id="average-cost-avco" class="level3">
 <h3 class="anchored" data-anchor-id="average-cost-avco">Average Cost (AVCO)</h3>
-<p>AVCO assumes you just randomly sell 50 (or however many) products. Since you are selling a random amount of products, we value the closing inventory as some sort of weighted average of purchase prices.</p>
 <p>We should calculate the Average Cost of all purchased products <strong>before</strong> <strong>each sale</strong> occurs. The procedure is as follows:</p>
 <table class="table-bordered table-sm small caption-top table">
 <colgroup>
@@ -616,62 +599,31 @@ Inventory and Service Organisations
 <hr>
 </section>
 </section>
-<section id="depreciation" class="level1">
-<h1><strong>Depreciation</strong></h1>
-<section id="depreciation-basics" class="level3">
-<h3 class="anchored" data-anchor-id="depreciation-basics">Depreciation Basics</h3>
-<p>Let’s say you have a non-current asset, like a machine, that you will use for multiple years in order to help create profits. There are two things that are important to note:</p>
-<ol type="1">
-<li>The non-current asset undergoes wear and tear, meaning that after using it for a few years, it is not in as good condition as it was originally as purchased. We may want to reflect this fact in our financial statements.</li>
-<li>When we use a non-current asset over multiple years to generate profits, based on accrual accounting, we should match the expenses to the income. Thus, we might not want to record the purchase price of a non-current asset all in one year, and instead, match some expenses of the non-current asset to the revenues it is generating over its useful life.</li>
-</ol>
-<p>Depreciation addresses these two issues by issuing annual depreciation expenses. These expenses occur each year during the useful life of a non-current asset (NCA), and account for the wear and tear and use of the asset.</p>
-<p>There are a few key terms in depreciation that are important to know:</p>
+<section id="non-current-assets" class="level1">
+<h1><strong>Non-Current Assets</strong></h1>
+<section id="depreciation" class="level3">
+<h3 class="anchored" data-anchor-id="depreciation">Depreciation</h3>
 <table class="table-bordered table-sm small caption-top table">
 <colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
+<col style="width: 30%">
+<col style="width: 70%">
 </colgroup>
 <tbody>
 <tr class="odd">
 <td><strong>Purchase Cost</strong></td>
-<td>The cost at which the non-current asset was purchased. This is what is originally recorded in the transaction to purchase the NCA (Dr.&nbsp;NCA, Cr. Cash/Payables).</td>
+<td>The cost at which the non-current asset was purchased.</td>
 </tr>
 <tr class="even">
 <td><strong>Useful Life</strong></td>
-<td>The amount of time (in years usually) that the NCA can be expected used to generate revenues. This is not necessarily when the firm will replace it (firms often replace NCAs before the useful life has elapsed).</td>
+<td>The amount of time that the NCA can be expected used to generate revenues.</td>
 </tr>
 <tr class="odd">
 <td><strong>Residual Value</strong></td>
-<td>After the useful life of the NCA has passed, what will the remaining NCA be able to be sold for? That is the residual value.</td>
+<td>After the useful life of the NCA has passed, what will the remaining NCA be able to be sold for?</td>
 </tr>
 <tr class="even">
 <td><strong>Carrying Amount</strong></td>
-<td>The carrying amount is the value of the NCA minus all the previous depreciation expenses incurred on it. It is the “value” of the asset after accounting for wear and tear and use.</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-</section>
-<section id="depreciation-expenses" class="level3">
-<h3 class="anchored" data-anchor-id="depreciation-expenses">Depreciation Expenses</h3>
-<p>As noted, in depreciation of a NCA, we charge a depreciation expense annually. Thus, at the end of every year, we make the following transaction in our accounting records:</p>
-<table class="table-bordered table-sm small caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 35%">
-<col style="width: 40%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>Dr Depreciation Expense</strong></td>
-<td>Increases the depreciation expense account.</td>
-<td>Resets to 0 after every year (like an expense account).</td>
-</tr>
-<tr class="even">
-<td><strong>Cr Accumulated Depreciation</strong></td>
-<td>A liability (negative-asset) that decreases the value of the non-current asset.</td>
-<td>Accumulates (does not reset) its balance every year. Thus, it measures the total reduction in the value of the NCA after multiple years.</td>
+<td>The carrying amount is the value of the NCA minus all the previous depreciation expenses incurred on it. <strong>In balance sheet, Carrying Amount is displayed for NCA (basically net value of the NCA)</strong>.</td>
 </tr>
 </tbody>
 </table>
@@ -680,7 +632,6 @@ Inventory and Service Organisations
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Straight Line</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Reducing Balance</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>Straight line depreciation charges the exact same depreciation expense for every year. The calculation of the annual depreciation expense using straight line is:</p>
 <p><span class="math display">\[
 \text{straight line annual depreciation} = \frac{\text{purchase cost} - \text{residual value}}{\text{useful life}}
 \]</span></p>
@@ -691,11 +642,9 @@ X \% \ \text{straight line annual depreciation} = X\% \times \text{purchase cost
 <p>Note: typically (especially with straight line), depreciation is calculated monthly. Thus, if an asset is bought in the middle of the year, and is undergoing straight line depreciation, it may only undergo half of the annual depreciation expense that year.</p>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p>Reducing balance depreciation charges different expenses every year (higher in the earlier years of the useful life). The calculation of reducing balance depreciation is:</p>
 <p><span class="math display">\[
 \mathrm{depreciation \ charge \ for \ year} \ n = \mathrm{carrying \ amount} \times X\%
 \]</span></p>
-<p>Where <span class="math inline">\(X\%\)</span> is given as the annual depreciation rate for reducing balance, and carrying amount is the purchase cost minus accumulated depreciation.</p>
 <p>Since reducing balance changes its expense every year, you can also quickly calculate it for any year <span class="math inline">\(n\)</span> after the purchase year:</p>
 <p><span class="math display">\[
 \mathrm{depreciation \ charge \ for \ year}\ n = \mathrm{carrying \ amount} \times (X\%)^n
@@ -704,21 +653,59 @@ X \% \ \text{straight line annual depreciation} = X\% \times \text{purchase cost
 </div>
 </div>
 </div>
+<p>After calculating the annual depreciation expense, at end of year, we put the following transaction:</p>
+<ul>
+<li><strong>Dr Depreciation Expense X</strong></li>
+<li><strong>Cr Accumulated Depreciation (Liability) X</strong></li>
+</ul>
 <p><br></p>
-<p><br></p>
-<hr>
 </section>
-</section>
-<section id="disposals" class="level1">
-<h1><strong>Disposals</strong></h1>
-<section id="profit-or-loss" class="level3">
-<h3 class="anchored" data-anchor-id="profit-or-loss">Profit or Loss</h3>
-</section>
-<section id="disposal-transactions" class="level3">
-<h3 class="anchored" data-anchor-id="disposal-transactions">Disposal Transactions</h3>
-</section>
-<section id="parts-exchange-allowance" class="level3">
-<h3 class="anchored" data-anchor-id="parts-exchange-allowance">Parts Exchange Allowance</h3>
+<section id="disposals" class="level3">
+<h3 class="anchored" data-anchor-id="disposals">Disposals</h3>
+<p>A company may dispose of a non-current asset, on which they will earn either a profit or loss. The profit or loss is caluclated as:</p>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p>Cash received from disposal</p>
+<p>(less) carrying amount of the NCA</p></td>
+<td><p>£X</p>
+<p>(£X)</p></td>
+</tr>
+<tr class="even">
+<td><strong>Profit/(Loss) of Disposal</strong></td>
+<td><strong>£X/(£X)</strong></td>
+</tr>
+</tbody>
+</table>
+<p>The double entries are simply: clear the NCA and accumulated depreciation, and add cash obtained from the disposal. All opposite entries are to the disposals account.</p>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>1) Clear the non-current asset account.</td>
+<td><p>Dr Disposals</p>
+<p>Cr Non Current Assets</p></td>
+</tr>
+<tr class="even">
+<td>2) Clear the accumulated depreciation account for the NCA</td>
+<td><p>Cr Disposals</p>
+<p>Dr Accumulated Depreciation</p></td>
+</tr>
+<tr class="odd">
+<td>3) Record Proceeds</td>
+<td><p>Dr Cash</p>
+<p>Cr Accumulated Depreciation</p></td>
+</tr>
+</tbody>
+</table>
+<p>Sometimes, you dispose of a NCA through exchanging it for a new product (ex. trade in iPhone). The disposal income/proceed is called a <strong>parts exchange allowance</strong>, and is simply the price of the new asset minus the cash paid for then new asset.</p>
 
 
 </section>
