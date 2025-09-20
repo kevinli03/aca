@@ -2,11 +2,68 @@
 title: "Equity and Capital"
 ---
 
-# **Partnership Capital**
+This page covers information on capital (for sole traders and partnerships) and equity (for companies). The content in this section is a part of the **Accounting Fundamentals** (certificate level) for the ACA qualification.
 
-### Profit Ratio
+<br />
 
-### Current/Capital Accounts
+------------------------------------------------------------------------
+
+# **Capital**
+
+### Sole Traders
+
+For sole traders, equity is considered capital. The capital part of the balance sheet contains:
+
++-----------------------+--------------------------------------------------------------------------------+
+| **Injections**        | This is the money the sole trader has put into the business.                   |
++-----------------------+--------------------------------------------------------------------------------+
+| **Drawings**          | This is the money (or assets) the sole trader has withdrawn from the business. |
++-----------------------+--------------------------------------------------------------------------------+
+| **Retained Earnings** | This is the accumulated profits/losses of the business.                        |
++-----------------------+--------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+As noted above, drawings can be either cash or assets. For example, a sole trader could draw out a bike for their child. Drawings are recorded as:
+
+-   **Dr Drawings** (negative equity).
+-   **Cr Cash/Assets**
+
+<br />
+
+### Partnerships
+
+Partnerships are a business with multiple owners (like multiple sole traders).
+
+As a result, each is entitled to a share of the profits (and losses). They thus all have their own capital section.
+
+-   The partnership agreement determines how these profits will be shared. Generally, the sharing of profits is defined by the **profit share ratio**. If there is no partnership agreement, profit share is always equal.
+
+Each partner has two accounts in the capital section:
+
++---------------------+---------------------------------------------------------------------------------+
+| **Capital Account** | Contains the injections of the specific partner.                                |
++---------------------+---------------------------------------------------------------------------------+
+| **Current Account** | Contains the profit share of the partner, and the drawings they have taken out. |
++---------------------+---------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+Thus, the capital section of partnership financial statements looks like this:
+
++----------------------+----------------+----------------+
+| **Capital Accounts** | Partner A      | £X             |
+|                      |                |                |
+|                      | Partner B      | £X             |
++----------------------+----------------+----------------+
+| **Current Accounts** | Partner A      | £X             |
+|                      |                |                |
+|                      | Partner B      | £X             |
++----------------------+----------------+----------------+
+
+: {.bordered .sm tbl-colwidths="\[40,30,30\]"}
+
+<br />
 
 ------------------------------------------------------------------------
 
@@ -14,64 +71,178 @@ title: "Equity and Capital"
 
 ### Equity Accounts
 
+Companies are owned by shareholders, who hold **equity** in the business. Equity is divided into the following parts:
+
++------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Ordinary Share Capital**   | Also called share capital or ordinary share. Involved in the issuing of shares, see below for details.                                                                                          |
++------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Preference Share Capital** | Involved in the issuing of shares, see below for details.                                                                                                                                       |
++------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Share Premium**            | Involved in the issuing of shares, see below for details.                                                                                                                                       |
++------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Retained Earnings**        | This is the accumulated profits/losses from the company (each new year profit/loss is added to this account). Dividends are withdrawn and paid out from retained earnings, see dividends below. |
++------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Other Reserves**           | An additional account that can store resources for certain things.                                                                                                                              |
++------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+<br />
+
 ### Issuing Shares
 
-### Rights and Bonus Issue
+When you set up a business, you set a **par (or nominal) value**: the "default" value for each share. Most commonly £1 or £0.5.
 
-### Preference Shares
+When you issue new shares, you can choose to value each share at any value above the par value. This price is called the **issue price**.
 
-### Bonds/Debentures
+-   This is NOT the market value, and the market value is not involved in financial statements.
+
+The difference between the issue price and the par value is the **excess value**.
+
+$$
+\text{excess value} = \text{issue price} - \text{par value}
+$$
+
+When we issue new shares, and they are bought, the proceeds are recorded as follows:
+
++---------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+| **Dr Cash** Issue Price $\times$ \# of Shares                 | The issue price is what you get when someone buys the share. So we record all proceeds to cash. |
++---------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+| **Cr Ordinary Share Capital** Par Value $\times$ \# of Shares | We credit the par value of the issued shares to ordinary share capital.                         |
++---------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+| **Cr Share Premimum** Excess Value $\times$ \# of Shares      | We credit the excess value of the issued shares to share premium.                               |
++---------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+Every share (ordinary share) contains rights to vote, and may or may not receive dividends.
+
+**Rights Issue** is when you offer new shares to existing shareholders. The value of these shares (the issue price) is typically lower than market values, but always above the par value.
+
+-   The recording of issuing rights issues are the same as issuing standard shares.
+
+<br />
+
+### Bonus Issue
+
+**Bonus Issues** of shares is when you gift shares to existing shareholders. This may be because you want to keep shareholders happy.
+
+Bonus Issues are often issued at a ratio. For example, a bonus issue of 1:4 means for every 4 shares you own, you will get 1 new bonus share.
+
+Bonus issues are always valued at the par value. The recording of the transaction is:
+
++---------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Cr Ordinary Share Capital** Par Value $\times$ \# of Shares | The issue price is what you get when someone buys the share. So we record all proceeds to cash.                                                    |
++---------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Dr Share Premium\*** Par Value $\times$ \# of Shares        | \*If there is not enough value in the share premium account, we can Dr from other equity reserves, including retained earnings and other reserves. |
+|                                                               |                                                                                                                                                    |
+|                                                               | However, you only want to Dr from retained earnings if you have no other option, as dividends are issued from retained earnings.                   |
++---------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[35,55\]"}
+
+**Bonus Shares do not generate cash**. We are simply reassigning values within our accounts.
+
+-   In other words, Bonus shares are essentially "diluting" existing shares so you can give some extra to existing share holders.
+
+<br />
 
 ### Dividends
 
-### Statement of Changes in Equity
+Dividends are paid to shareholders by taking out money from retained earnings.
 
-For companies, the balance sheet has assets, liabilities, and equity. Equity has several accounts that commonly appear:
++--------------------------------------+-----------------------------------------------------------------------------------+
+| **Dr Retained Earnings**             | Take value out of retained earnings (the accumulated profit/loss of the company). |
++--------------------------------------+-----------------------------------------------------------------------------------+
+| **Cr Dividends Payable (Liability)** | A liability that needs to be paid. When paid, Cr Cash and Dr the liability.       |
++--------------------------------------+-----------------------------------------------------------------------------------+
 
-1.  **Retained Earnings**: The accumulation of profits/losses that were not paid out as dividends or withdrawn from the business. Each year, this figure is updated based on the net profit/loss from the income statement.
-2.  **Share Capital**: When a company is established, the initial money invested by the founder is known as the share capital.
-    -   For example, if you invest £100,000 into starting the business, your share capital is £100,000.
-    -   This capital can be divided into units of equal size, known as **shares**. For example, if £100,000 share capital is divided into 100,000 shares, then each share is £1.
-    -   This initial share price (ex. £1) is called the **Par Value** or **Nominal Value**, and will [never change]{.underline}, no matter the market value of the share. This value is also noted by the value of an **ordinary** share.
-3.  **Share Premium**: When the market price of shares changes, the share premium reflects this change from the initial share capital.
-    -   Lets say the company needs £150,000, and found investors. They need to decide how many shares to issue, and at what price.
-    -   Shares cannot be issued below the par value.
-    -   Lets say the company decides to value each new share at £1.5, meaning they will issue 100,000 shares to get their funding needs.
-    -   Since the share price is £1.5 compared to the par of £1, it is issued at a **share premium** of £0.5. Share premium is the value in excess of the par value.
-    -   The remained of the £1 (par value) that is not the premium £0.5 is credited towards the share capital.
+: {.bordered .sm tbl-colwidths="\[35,55\]"}
 
-The statement of changes in Equity basically gives readers more information about how equity went from the starting balance to the ending balance.Since they issued 100,000 shares at a premium of £0.5, multiply together to get a share premium of £50,000.
+Note: Dividends are **not expense**. They do not go on the income statement.
+
+Note: Redeemable preference shares have "dividends", but they are actually considered interest payments/finance costs.
 
 <br />
 
-The statement of changes in equity explains how the value of equity has changed during the year for a company.
+### Preference Shares
 
--   It lists the opening balance of each equity statement (retained earning, share capital, share premium).
--   Then it shows changes to this equity over the time period (usually a year). These changes can include dividends paid out, issuing more shares at a premium, and profit/loss.
+Preference shares **do not carry voting rights**. However, to make up this, they have **priority over receiving dividends**.
+
+Furthermore, dividends are typically calculated as a percentage of the nominal value of the share. Ex. 5 percent annual dividend.
+
+-   The nominal value of a preference share does not have to be the same as the par/nominal value of ordinary shares.
+
+Importantly, there are two types of preference shares, that are accounted differently.
+
++------------------------------------+------------------------------------------------------------------------------------------------------------------+--------------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+| **Irredeemable Preference Shares** | The company cannot buy back the shares.                                                                          | They are classed as **equity**.      | The dividend is drawn from the retained earnings. Thus, does not go on income statement.                                   |
++------------------------------------+------------------------------------------------------------------------------------------------------------------+--------------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+| **Redeemable Preference Shares**   | Company can buy back the shares (and typically does after a set period). Similar to bonds/debentures/loan notes. | They are classed as **liabilities**. | Since it is a liability, the dividend is considered **interest payments/finance cost**. This goes on the income statement. |
++------------------------------------+------------------------------------------------------------------------------------------------------------------+--------------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[20,30,20,30\]"}
+
+When issuing preference shares, the double entry is as follows:
+
++------------------------------------+---------------------------------------------------------------------------+
+| **Irredeemable Preference Shares** | Cr Preference Share Capital (Equity): Nominal Value $\times$ \# of Shares |
+|                                    |                                                                           |
+|                                    | Dr Cash: Nominal Value $\times$ \# of Shares                              |
++------------------------------------+---------------------------------------------------------------------------+
+| **Redeemable Preference Shares**   | Cr Preference Shares (Liability): Nominal Value $\times$ \# of Shares     |
+|                                    |                                                                           |
+|                                    | Dr Cash: Nominal Value $\times$ \# of Shares                              |
++------------------------------------+---------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+<br />
+
+### Bonds/Debentures
+
+Bonds/Debentures/Loan Notes are a way for companies to raise money. Essentially, they are loans from the market, rather than from banks.
+
+For example, company bond might be £100. When a investor buys the bond, they are lending £100 to the company. This £100 will be paid in a set time.
+
++------------------+---------------------------------------------------------------------------------+
+| **Dr Cash**      | The firm gains the money the investor paid for the bond.                        |
++------------------+---------------------------------------------------------------------------------+
+| **Cr Loan Note** | Called loan note or bonds or debentures. These are **non-current liabilities**. |
++------------------+---------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+The investor is entitled to interest for the duration of the bond, specified as a percentage of the value paid from the bond. This percentage is called the **coupon rate**.
+
+Each year, the interest is paid as follows:
+
++--------------------------------------+----------------------------------------+
+| **Cr Cash**                          | Decrease cash to pay for the interest. |
++--------------------------------------+----------------------------------------+
+| **Dr Interest Expense/Finance Cost** | This goes on the income statement.     |
++--------------------------------------+----------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
+
+Note: while bonds/debentures are not equity, they can generally only be issued by incorporated companies.
+
+<br />
+
+### Statement of Equity
+
+Explains how the value of equity has changed during the year for a company.
+
+-   It lists the opening balance of each equity account.
+-   Then it shows changes to this equity over the time period (usually a year).
 -   The closing balance of the statement of changes in equity will equal the total equity in the end-of-period balance sheet.
 
-![](images/paste-4.png)
+|   | Share Capital | Share Premium | Retained Earnings | Total |
+|----|:--:|:--:|:--:|:--:|
+| Balance at Opening | £X | £X | £X | [£X]{.underline} |
+| Profit/(Loss) for Year |  |  | £X/(£X) |  |
+| Issue of Shares | £X | £X |  |  |
+| Dividends Paid |  |  | (£X) |  |
+| **Total** | **£X** | **£X** | **£X** | [**£X**]{.underline} |
 
-Thus, the statement of changes in Equity basically gives readers more information about how equity went from the starting balance to the ending balance.
-
-<br />
-
-### Accounting Errors
-
-There are 5 main types of errors:
-
-1.  **Errors of omission**: forgetting to include a transaction in the accounts.
-2.  **Transposition errors**: when an accountant accidentally swaps the positions of digits in an entry. For example, instead of £3,850, they record it as £3,580.
-3.  **Errors of principle**: when an accountant records a transaction that breaks the rules/standards of accounting.
-4.  **Errors of commission**: when an accountant records a transaction in the correct large account but wrong sub-account. For example, they correctly choose asset/liability/equity, but put it in the wrong account. The most common is recording one expense as another.
-5.  **Compensating errors**: when two are more errors offset each other, resulting in a correct balance for all accounts, but the individual errors are still there.
-
-To correct errors, we should take a few steps.
-
-1.  Identify the incorrect entry. Note the values included in this incorrect entry.
-2.  Decide what the correct entry should be. Note the values included in this correct entry.
-3.  Compare the result of the first two steps, and create a journal entry to fix the error. This journal entry should correct the account balances from the incorrect entry to the correct entry. We do not withdraw the old entry, just a new entry to correct the difference.
-
-**Suspense accounts** are a way to avoid errors in the first place. Sometimes, you know one account for the entry debits/credits, but you are not sure about another. Thus, instead of putting the unknown side of the transaction into a wrong account, you can put it into a temporary account called a suspense account. Later, you can correctly record the transaction.
-
-<br />
+: {.bordered .sm tbl-colwidths="\[20,20,20,20,20\]"}

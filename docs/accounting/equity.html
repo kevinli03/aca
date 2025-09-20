@@ -68,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <script src="mathjax-config.js"></script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -172,21 +201,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#partnership-capital" id="toc-partnership-capital" class="nav-link active" data-scroll-target="#partnership-capital"><strong>Partnership Capital</strong></a>
+  <li><a href="#capital" id="toc-capital" class="nav-link active" data-scroll-target="#capital"><strong>Capital</strong></a>
   <ul class="collapse">
-  <li><a href="#profit-ratio" id="toc-profit-ratio" class="nav-link" data-scroll-target="#profit-ratio">Profit Ratio</a></li>
-  <li><a href="#currentcapital-accounts" id="toc-currentcapital-accounts" class="nav-link" data-scroll-target="#currentcapital-accounts">Current/Capital Accounts</a></li>
+  <li><a href="#sole-traders" id="toc-sole-traders" class="nav-link" data-scroll-target="#sole-traders">Sole Traders</a></li>
+  <li><a href="#partnerships" id="toc-partnerships" class="nav-link" data-scroll-target="#partnerships">Partnerships</a></li>
   </ul></li>
   <li><a href="#company-equity" id="toc-company-equity" class="nav-link" data-scroll-target="#company-equity"><strong>Company Equity</strong></a>
   <ul class="collapse">
   <li><a href="#equity-accounts" id="toc-equity-accounts" class="nav-link" data-scroll-target="#equity-accounts">Equity Accounts</a></li>
   <li><a href="#issuing-shares" id="toc-issuing-shares" class="nav-link" data-scroll-target="#issuing-shares">Issuing Shares</a></li>
-  <li><a href="#rights-and-bonus-issue" id="toc-rights-and-bonus-issue" class="nav-link" data-scroll-target="#rights-and-bonus-issue">Rights and Bonus Issue</a></li>
+  <li><a href="#bonus-issue" id="toc-bonus-issue" class="nav-link" data-scroll-target="#bonus-issue">Bonus Issue</a></li>
+  <li><a href="#dividends" id="toc-dividends" class="nav-link" data-scroll-target="#dividends">Dividends</a></li>
   <li><a href="#preference-shares" id="toc-preference-shares" class="nav-link" data-scroll-target="#preference-shares">Preference Shares</a></li>
   <li><a href="#bondsdebentures" id="toc-bondsdebentures" class="nav-link" data-scroll-target="#bondsdebentures">Bonds/Debentures</a></li>
-  <li><a href="#dividends" id="toc-dividends" class="nav-link" data-scroll-target="#dividends">Dividends</a></li>
-  <li><a href="#statement-of-changes-in-equity" id="toc-statement-of-changes-in-equity" class="nav-link" data-scroll-target="#statement-of-changes-in-equity">Statement of Changes in Equity</a></li>
-  <li><a href="#accounting-errors" id="toc-accounting-errors" class="nav-link" data-scroll-target="#accounting-errors">Accounting Errors</a></li>
+  <li><a href="#statement-of-equity" id="toc-statement-of-equity" class="nav-link" data-scroll-target="#statement-of-equity">Statement of Equity</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -213,13 +241,90 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="partnership-capital" class="level1">
-<h1><strong>Partnership Capital</strong></h1>
-<section id="profit-ratio" class="level3">
-<h3 class="anchored" data-anchor-id="profit-ratio">Profit Ratio</h3>
+<p>This page covers information on capital (for sole traders and partnerships) and equity (for companies). The content in this section is a part of the <strong>Accounting Fundamentals</strong> (certificate level) for the ACA qualification.</p>
+<p><br></p>
+<hr>
+<section id="capital" class="level1">
+<h1><strong>Capital</strong></h1>
+<section id="sole-traders" class="level3">
+<h3 class="anchored" data-anchor-id="sole-traders">Sole Traders</h3>
+<p>For sole traders, equity is considered capital. The capital part of the balance sheet contains:</p>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 70%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Injections</strong></td>
+<td>This is the money the sole trader has put into the business.</td>
+</tr>
+<tr class="even">
+<td><strong>Drawings</strong></td>
+<td>This is the money (or assets) the sole trader has withdrawn from the business.</td>
+</tr>
+<tr class="odd">
+<td><strong>Retained Earnings</strong></td>
+<td>This is the accumulated profits/losses of the business.</td>
+</tr>
+</tbody>
+</table>
+<p>As noted above, drawings can be either cash or assets. For example, a sole trader could draw out a bike for their child. Drawings are recorded as:</p>
+<ul>
+<li><strong>Dr Drawings</strong> (negative equity).</li>
+<li><strong>Cr Cash/Assets</strong></li>
+</ul>
+<p><br></p>
 </section>
-<section id="currentcapital-accounts" class="level3">
-<h3 class="anchored" data-anchor-id="currentcapital-accounts">Current/Capital Accounts</h3>
+<section id="partnerships" class="level3">
+<h3 class="anchored" data-anchor-id="partnerships">Partnerships</h3>
+<p>Partnerships are a business with multiple owners (like multiple sole traders).</p>
+<p>As a result, each is entitled to a share of the profits (and losses). They thus all have their own capital section.</p>
+<ul>
+<li>The partnership agreement determines how these profits will be shared. Generally, the sharing of profits is defined by the <strong>profit share ratio</strong>. If there is no partnership agreement, profit share is always equal.</li>
+</ul>
+<p>Each partner has two accounts in the capital section:</p>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 70%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Capital Account</strong></td>
+<td>Contains the injections of the specific partner.</td>
+</tr>
+<tr class="even">
+<td><strong>Current Account</strong></td>
+<td>Contains the profit share of the partner, and the drawings they have taken out.</td>
+</tr>
+</tbody>
+</table>
+<p>Thus, the capital section of partnership financial statements looks like this:</p>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 30%">
+<col style="width: 30%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Capital Accounts</strong></td>
+<td><p>Partner A</p>
+<p>Partner B</p></td>
+<td><p>£X</p>
+<p>£X</p></td>
+</tr>
+<tr class="even">
+<td><strong>Current Accounts</strong></td>
+<td><p>Partner A</p>
+<p>Partner B</p></td>
+<td><p>£X</p>
+<p>£X</p></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
 <hr>
 </section>
 </section>
@@ -227,72 +332,282 @@ ul.task-list li input[type="checkbox"] {
 <h1><strong>Company Equity</strong></h1>
 <section id="equity-accounts" class="level3">
 <h3 class="anchored" data-anchor-id="equity-accounts">Equity Accounts</h3>
+<p>Companies are owned by shareholders, who hold <strong>equity</strong> in the business. Equity is divided into the following parts:</p>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 70%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Ordinary Share Capital</strong></td>
+<td>Also called share capital or ordinary share. Involved in the issuing of shares, see below for details.</td>
+</tr>
+<tr class="even">
+<td><strong>Preference Share Capital</strong></td>
+<td>Involved in the issuing of shares, see below for details.</td>
+</tr>
+<tr class="odd">
+<td><strong>Share Premium</strong></td>
+<td>Involved in the issuing of shares, see below for details.</td>
+</tr>
+<tr class="even">
+<td><strong>Retained Earnings</strong></td>
+<td>This is the accumulated profits/losses from the company (each new year profit/loss is added to this account). Dividends are withdrawn and paid out from retained earnings, see dividends below.</td>
+</tr>
+<tr class="odd">
+<td><strong>Other Reserves</strong></td>
+<td>An additional account that can store resources for certain things.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
 </section>
 <section id="issuing-shares" class="level3">
 <h3 class="anchored" data-anchor-id="issuing-shares">Issuing Shares</h3>
+<p>When you set up a business, you set a <strong>par (or nominal) value</strong>: the “default” value for each share. Most commonly £1 or £0.5.</p>
+<p>When you issue new shares, you can choose to value each share at any value above the par value. This price is called the <strong>issue price</strong>.</p>
+<ul>
+<li>This is NOT the market value, and the market value is not involved in financial statements.</li>
+</ul>
+<p>The difference between the issue price and the par value is the <strong>excess value</strong>.</p>
+<p><span class="math display">\[
+\text{excess value} = \text{issue price} - \text{par value}
+\]</span></p>
+<p>When we issue new shares, and they are bought, the proceeds are recorded as follows:</p>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Dr Cash</strong> Issue Price <span class="math inline">\(\times\)</span> # of Shares</td>
+<td>The issue price is what you get when someone buys the share. So we record all proceeds to cash.</td>
+</tr>
+<tr class="even">
+<td><strong>Cr Ordinary Share Capital</strong> Par Value <span class="math inline">\(\times\)</span> # of Shares</td>
+<td>We credit the par value of the issued shares to ordinary share capital.</td>
+</tr>
+<tr class="odd">
+<td><strong>Cr Share Premimum</strong> Excess Value <span class="math inline">\(\times\)</span> # of Shares</td>
+<td>We credit the excess value of the issued shares to share premium.</td>
+</tr>
+</tbody>
+</table>
+<p>Every share (ordinary share) contains rights to vote, and may or may not receive dividends.</p>
+<p><strong>Rights Issue</strong> is when you offer new shares to existing shareholders. The value of these shares (the issue price) is typically lower than market values, but always above the par value.</p>
+<ul>
+<li>The recording of issuing rights issues are the same as issuing standard shares.</li>
+</ul>
+<p><br></p>
 </section>
-<section id="rights-and-bonus-issue" class="level3">
-<h3 class="anchored" data-anchor-id="rights-and-bonus-issue">Rights and Bonus Issue</h3>
-</section>
-<section id="preference-shares" class="level3">
-<h3 class="anchored" data-anchor-id="preference-shares">Preference Shares</h3>
-</section>
-<section id="bondsdebentures" class="level3">
-<h3 class="anchored" data-anchor-id="bondsdebentures">Bonds/Debentures</h3>
+<section id="bonus-issue" class="level3">
+<h3 class="anchored" data-anchor-id="bonus-issue">Bonus Issue</h3>
+<p><strong>Bonus Issues</strong> of shares is when you gift shares to existing shareholders. This may be because you want to keep shareholders happy.</p>
+<p>Bonus Issues are often issued at a ratio. For example, a bonus issue of 1:4 means for every 4 shares you own, you will get 1 new bonus share.</p>
+<p>Bonus issues are always valued at the par value. The recording of the transaction is:</p>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 55%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Cr Ordinary Share Capital</strong> Par Value <span class="math inline">\(\times\)</span> # of Shares</td>
+<td>The issue price is what you get when someone buys the share. So we record all proceeds to cash.</td>
+</tr>
+<tr class="even">
+<td><strong>Dr Share Premium*</strong> Par Value <span class="math inline">\(\times\)</span> # of Shares</td>
+<td><p>*If there is not enough value in the share premium account, we can Dr from other equity reserves, including retained earnings and other reserves.</p>
+<p>However, you only want to Dr from retained earnings if you have no other option, as dividends are issued from retained earnings.</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Bonus Shares do not generate cash</strong>. We are simply reassigning values within our accounts.</p>
+<ul>
+<li>In other words, Bonus shares are essentially “diluting” existing shares so you can give some extra to existing share holders.</li>
+</ul>
+<p><br></p>
 </section>
 <section id="dividends" class="level3">
 <h3 class="anchored" data-anchor-id="dividends">Dividends</h3>
-</section>
-<section id="statement-of-changes-in-equity" class="level3">
-<h3 class="anchored" data-anchor-id="statement-of-changes-in-equity">Statement of Changes in Equity</h3>
-<p>For companies, the balance sheet has assets, liabilities, and equity. Equity has several accounts that commonly appear:</p>
-<ol type="1">
-<li><strong>Retained Earnings</strong>: The accumulation of profits/losses that were not paid out as dividends or withdrawn from the business. Each year, this figure is updated based on the net profit/loss from the income statement.</li>
-<li><strong>Share Capital</strong>: When a company is established, the initial money invested by the founder is known as the share capital.
-<ul>
-<li>For example, if you invest £100,000 into starting the business, your share capital is £100,000.</li>
-<li>This capital can be divided into units of equal size, known as <strong>shares</strong>. For example, if £100,000 share capital is divided into 100,000 shares, then each share is £1.</li>
-<li>This initial share price (ex. £1) is called the <strong>Par Value</strong> or <strong>Nominal Value</strong>, and will <u>never change</u>, no matter the market value of the share. This value is also noted by the value of an <strong>ordinary</strong> share.</li>
-</ul></li>
-<li><strong>Share Premium</strong>: When the market price of shares changes, the share premium reflects this change from the initial share capital.
-<ul>
-<li>Lets say the company needs £150,000, and found investors. They need to decide how many shares to issue, and at what price.</li>
-<li>Shares cannot be issued below the par value.</li>
-<li>Lets say the company decides to value each new share at £1.5, meaning they will issue 100,000 shares to get their funding needs.</li>
-<li>Since the share price is £1.5 compared to the par of £1, it is issued at a <strong>share premium</strong> of £0.5. Share premium is the value in excess of the par value.</li>
-<li>The remained of the £1 (par value) that is not the premium £0.5 is credited towards the share capital.</li>
-</ul></li>
-</ol>
-<p>The statement of changes in Equity basically gives readers more information about how equity went from the starting balance to the ending balance.Since they issued 100,000 shares at a premium of £0.5, multiply together to get a share premium of £50,000.</p>
+<p>Dividends are paid to shareholders by taking out money from retained earnings.</p>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 55%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Dr Retained Earnings</strong></td>
+<td>Take value out of retained earnings (the accumulated profit/loss of the company).</td>
+</tr>
+<tr class="even">
+<td><strong>Cr Dividends Payable (Liability)</strong></td>
+<td>A liability that needs to be paid. When paid, Cr Cash and Dr the liability.</td>
+</tr>
+</tbody>
+</table>
+<p>Note: Dividends are <strong>not expense</strong>. They do not go on the income statement.</p>
+<p>Note: Redeemable preference shares have “dividends”, but they are actually considered interest payments/finance costs.</p>
 <p><br></p>
-<p>The statement of changes in equity explains how the value of equity has changed during the year for a company.</p>
+</section>
+<section id="preference-shares" class="level3">
+<h3 class="anchored" data-anchor-id="preference-shares">Preference Shares</h3>
+<p>Preference shares <strong>do not carry voting rights</strong>. However, to make up this, they have <strong>priority over receiving dividends</strong>.</p>
+<p>Furthermore, dividends are typically calculated as a percentage of the nominal value of the share. Ex. 5 percent annual dividend.</p>
 <ul>
-<li>It lists the opening balance of each equity statement (retained earning, share capital, share premium).</li>
-<li>Then it shows changes to this equity over the time period (usually a year). These changes can include dividends paid out, issuing more shares at a premium, and profit/loss.</li>
+<li>The nominal value of a preference share does not have to be the same as the par/nominal value of ordinary shares.</li>
+</ul>
+<p>Importantly, there are two types of preference shares, that are accounted differently.</p>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 30%">
+<col style="width: 20%">
+<col style="width: 30%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Irredeemable Preference Shares</strong></td>
+<td>The company cannot buy back the shares.</td>
+<td>They are classed as <strong>equity</strong>.</td>
+<td>The dividend is drawn from the retained earnings. Thus, does not go on income statement.</td>
+</tr>
+<tr class="even">
+<td><strong>Redeemable Preference Shares</strong></td>
+<td>Company can buy back the shares (and typically does after a set period). Similar to bonds/debentures/loan notes.</td>
+<td>They are classed as <strong>liabilities</strong>.</td>
+<td>Since it is a liability, the dividend is considered <strong>interest payments/finance cost</strong>. This goes on the income statement.</td>
+</tr>
+</tbody>
+</table>
+<p>When issuing preference shares, the double entry is as follows:</p>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 70%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Irredeemable Preference Shares</strong></td>
+<td><p>Cr Preference Share Capital (Equity): Nominal Value <span class="math inline">\(\times\)</span> # of Shares</p>
+<p>Dr Cash: Nominal Value <span class="math inline">\(\times\)</span> # of Shares</p></td>
+</tr>
+<tr class="even">
+<td><strong>Redeemable Preference Shares</strong></td>
+<td><p>Cr Preference Shares (Liability): Nominal Value <span class="math inline">\(\times\)</span> # of Shares</p>
+<p>Dr Cash: Nominal Value <span class="math inline">\(\times\)</span> # of Shares</p></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</section>
+<section id="bondsdebentures" class="level3">
+<h3 class="anchored" data-anchor-id="bondsdebentures">Bonds/Debentures</h3>
+<p>Bonds/Debentures/Loan Notes are a way for companies to raise money. Essentially, they are loans from the market, rather than from banks.</p>
+<p>For example, company bond might be £100. When a investor buys the bond, they are lending £100 to the company. This £100 will be paid in a set time.</p>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 70%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Dr Cash</strong></td>
+<td>The firm gains the money the investor paid for the bond.</td>
+</tr>
+<tr class="even">
+<td><strong>Cr Loan Note</strong></td>
+<td>Called loan note or bonds or debentures. These are <strong>non-current liabilities</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p>The investor is entitled to interest for the duration of the bond, specified as a percentage of the value paid from the bond. This percentage is called the <strong>coupon rate</strong>.</p>
+<p>Each year, the interest is paid as follows:</p>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 70%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Cr Cash</strong></td>
+<td>Decrease cash to pay for the interest.</td>
+</tr>
+<tr class="even">
+<td><strong>Dr Interest Expense/Finance Cost</strong></td>
+<td>This goes on the income statement.</td>
+</tr>
+</tbody>
+</table>
+<p>Note: while bonds/debentures are not equity, they can generally only be issued by incorporated companies.</p>
+<p><br></p>
+</section>
+<section id="statement-of-equity" class="level3">
+<h3 class="anchored" data-anchor-id="statement-of-equity">Statement of Equity</h3>
+<p>Explains how the value of equity has changed during the year for a company.</p>
+<ul>
+<li>It lists the opening balance of each equity account.</li>
+<li>Then it shows changes to this equity over the time period (usually a year).</li>
 <li>The closing balance of the statement of changes in equity will equal the total equity in the end-of-period balance sheet.</li>
 </ul>
-<p><img src="images/paste-4.png" class="img-fluid"></p>
-<p>Thus, the statement of changes in Equity basically gives readers more information about how equity went from the starting balance to the ending balance.</p>
-<p><br></p>
-</section>
-<section id="accounting-errors" class="level3">
-<h3 class="anchored" data-anchor-id="accounting-errors">Accounting Errors</h3>
-<p>There are 5 main types of errors:</p>
-<ol type="1">
-<li><strong>Errors of omission</strong>: forgetting to include a transaction in the accounts.</li>
-<li><strong>Transposition errors</strong>: when an accountant accidentally swaps the positions of digits in an entry. For example, instead of £3,850, they record it as £3,580.</li>
-<li><strong>Errors of principle</strong>: when an accountant records a transaction that breaks the rules/standards of accounting.</li>
-<li><strong>Errors of commission</strong>: when an accountant records a transaction in the correct large account but wrong sub-account. For example, they correctly choose asset/liability/equity, but put it in the wrong account. The most common is recording one expense as another.</li>
-<li><strong>Compensating errors</strong>: when two are more errors offset each other, resulting in a correct balance for all accounts, but the individual errors are still there.</li>
-</ol>
-<p>To correct errors, we should take a few steps.</p>
-<ol type="1">
-<li>Identify the incorrect entry. Note the values included in this incorrect entry.</li>
-<li>Decide what the correct entry should be. Note the values included in this correct entry.</li>
-<li>Compare the result of the first two steps, and create a journal entry to fix the error. This journal entry should correct the account balances from the incorrect entry to the correct entry. We do not withdraw the old entry, just a new entry to correct the difference.</li>
-</ol>
-<p><strong>Suspense accounts</strong> are a way to avoid errors in the first place. Sometimes, you know one account for the entry debits/credits, but you are not sure about another. Thus, instead of putting the unknown side of the transaction into a wrong account, you can put it into a temporary account called a suspense account. Later, you can correctly record the transaction.</p>
-<p><br></p>
+<table class="table-bordered table-sm small caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">Share Capital</th>
+<th style="text-align: center;">Share Premium</th>
+<th style="text-align: center;">Retained Earnings</th>
+<th style="text-align: center;">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Balance at Opening</td>
+<td style="text-align: center;">£X</td>
+<td style="text-align: center;">£X</td>
+<td style="text-align: center;">£X</td>
+<td style="text-align: center;"><u>£X</u></td>
+</tr>
+<tr class="even">
+<td>Profit/(Loss) for Year</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">£X/(£X)</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td>Issue of Shares</td>
+<td style="text-align: center;">£X</td>
+<td style="text-align: center;">£X</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>Dividends Paid</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">(£X)</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td style="text-align: center;"><strong>£X</strong></td>
+<td style="text-align: center;"><strong>£X</strong></td>
+<td style="text-align: center;"><strong>£X</strong></td>
+<td style="text-align: center;"><u><strong>£X</strong></u></td>
+</tr>
+</tbody>
+</table>
 
 
 </section>

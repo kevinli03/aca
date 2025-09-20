@@ -4,80 +4,46 @@ title: "Revenue and Expenses"
 
 This page contains steps on how to prepare key account related to items on the income statement, such as revenue and expenses, and how their transactions are recorded. The content in this section is a part of the **Accounting Fundamentals** (certificate level) for the ACA qualification.
 
+-   Note: for depreciation and disposals, see [Inventory and NCA](asset.qmd).
+
 <br />
 
 ------------------------------------------------------------------------
 
-# **Sales and Expenses**
-
-### Cost of Sales
-
-In every accounting period, a firm generates revenue/sales. The cost of sales is the cost of the inventory (goods sold) that generated the revenue/sales of that period.
-
-+-----------------------------------+-----------------------------------+
-| Opening Inventory                 | £X                                |
-|                                   |                                   |
-| Purchases (net, if returns exist) | £X                                |
-|                                   |                                   |
-| Inward Delivery Costs             | £X                                |
-|                                   |                                   |
-| (less) Closing Inventory          | (£X)                              |
-+-----------------------------------+-----------------------------------+
-| **Cost of Sales**                 | **£X**                            |
-+-----------------------------------+-----------------------------------+
-
-: {.bordered .sm tbl-colwidths="\[50,50\]"}
-
-There are two types of delivery expenses that might be incurred, which have to be recorded differently.
-
-+-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
-| Delivery Inwards                                                                                | Delivery Outwards                                                                               |
-+=================================================================================================+=================================================================================================+
-| Delivery costs and expenses to deliver products [from suppliers to your inventory.]{.underline} | Delivery costs and expenses to deliver products from [your inventory to customers]{.underline}. |
-+-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
-| This will be included/added as an expense within the **cost of sales**.                         | This is a separate expense in the **operating/administration expenses**.                        |
-+-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
-
-: {.bordered .sm tbl-colwidths="\[50,50\]"}
-
-<br />
+# **Sales**
 
 ### Returns
 
-During business, returns will occur. The accounting of returns is as follows:
+During business, returns will occur. The accounting of returns is simple - we just reverse the original transaction.
 
 ::: panel-tabset
 ## Customer Returns
 
-+--------------------------------+---------------------+
-| 1\) Original Customer Purchase | Dr Cash/Receivables |
-|                                |                     |
-|                                | Cr Revenue          |
-+--------------------------------+---------------------+
-| 2\) Customer Returns           | Dr Revenue          |
-|                                |                     |
-|                                | Cr Cash/Receivables |
-+--------------------------------+---------------------+
++------------------------------------------------------------+---------------------+
+| 1\) Original Customer Purchase                             | Dr Cash/Receivables |
+|                                                            |                     |
+|                                                            | Cr Revenue          |
++------------------------------------------------------------+---------------------+
+| 2\) Customer Returns: we reverse the original transaction. | Dr Revenue          |
+|                                                            |                     |
+|                                                            | Cr Cash/Receivables |
++------------------------------------------------------------+---------------------+
 
 : {.bordered .sm tbl-colwidths="\[50,50\]"}
-
-Essentially, do the opposite to cancel out the original transaction.
 
 ## You Return to Supplier
 
-+-----------------------------+------------------+
-| 1\) Your Original Purchase  | Dr Purchases     |
-|                             |                  |
-|                             | Cr Cash/Payables |
-+-----------------------------+------------------+
-| 2\) Your Return to Supplier | Dr Cash/Payables |
-|                             |                  |
-|                             | Cr Purchases     |
-+-----------------------------+------------------+
++-------------------------------------------------------------------+------------------+
+| 1\) Your Original Purchase                                        | Dr Purchases     |
+|                                                                   |                  |
+|                                                                   | Cr Cash/Payables |
++-------------------------------------------------------------------+------------------+
+| 2\) Your Return to Supplier: we reverse the original transaction. | Dr Cash/Payables |
+|                                                                   |                  |
+|                                                                   | Cr Purchases     |
++-------------------------------------------------------------------+------------------+
 
 : {.bordered .sm tbl-colwidths="\[50,50\]"}
-
-Essentially, do the opposite to cancel out the original transaction.
 :::
 
 <br />
@@ -132,6 +98,211 @@ Basically: initially, record expected price. Once paid, clear payables account, 
 
 <br />
 
+### Output VAT
+
+When we sell a product to customers, they will pay us:
+
+1.  The price of the product we are selling (exclusive of VAT price)
+2.  The VAT (sales tax) of the product. This will need to be paid to HMRC.
+
+We first need to figure out the price of the product (exclusive of VAT), and the VAT amount. Then, we can do the following transactions:
+
++----------------------------------------+---------------------------------------------+
+| 1\) Sale Price to record for Revenue   | Dr Cash/Receivables: Exclusive of VAT Price |
+|                                        |                                             |
+|                                        | Cr Revenue: Exclusive of VAT Price          |
++----------------------------------------+---------------------------------------------+
+| 2\) Record VAT and have to pay to HMRC | Dr Cash/Receivables: VAT Amount             |
+|                                        |                                             |
+|                                        | Cr VAT Payable (Liability): VAT Amount      |
++----------------------------------------+---------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+We can also combine the two into one transaction by combining the Dr Cash/Receivables entry:
+
+-   Dr Cash/Receivables: inclusive of VAT Price.
+-   Cr Revenue: Exclusive of VAT Price.
+-   Cr VAT Payable: VAT amount.
+
+Note: VAT is not an expense. We are simply acting as tax collectors for HMRC, so we never "gain control" of VAT, so we are not expensing it either.
+
+<br />
+
+### Input VAT
+
+When we buy things from suppliers, we are paying for both the inventory, and the VAT of that inventory.
+
+As a business (that is VAT registered with HMRC), we can reclaim this input VAT. This is money HMRC owe to us (but is still included in VAT payables liability account, but as a negative liability).
+
+We first need to figure out the price of the product (exclusive of VAT), and the VAT amount. Then, we can do the following transactions:
+
++--------------------------------------------+------------------------------------------+
+| 1\) Purchase Price to record for purchases | Dr Purchases: Exclusive of VAT Price     |
+|                                            |                                          |
+|                                            | Cr Cash/Payables: Exclusive of VAT Price |
++--------------------------------------------+------------------------------------------+
+| 2\) Record Input VAT that HMRC owes to us  | Dr VAT Payables: VAT Amount              |
+|                                            |                                          |
+|                                            | Cr Cash/Payables: VAT Amount             |
++--------------------------------------------+------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+We can also combine the two into one transaction by combining the Dr Cash/Receivables entry:
+
+-   Cr Cash/Receivables: inclusive of VAT Price.
+-   Dr Purchases: Exclusive of VAT Price.
+-   Dr VAT Payable: VAT amount.
+
+<br />
+
+### Deferred Income
+
+We are selling a good/service. Let say we will provide the good/service in Year 2, but we require customers **prepay** in Year 1.
+
+In accrual accounting, revenue is recognised when the **goods/services are in the control of the customer**. Thus, if we recorded this transaction as revenue in Year 1, we actually need to adjust our accounts so that the revenue occurs in Year 2.
+
++--------------------------------------------------------------------------------------------------------------------+----------------------------------+
+| 1\) **Year 1**: the customer prepays. We record the following:                                                     | Cr Revenue X                     |
+|                                                                                                                    |                                  |
+|                                                                                                                    | Dr Cash X                        |
++--------------------------------------------------------------------------------------------------------------------+----------------------------------+
+| 2\) **End of Year 1**: we realise goods/services are for Year 2. Thus, we need to take it out of Year 1's revenue. | Dr Revenue X                     |
+|                                                                                                                    |                                  |
+|                                                                                                                    | Cr Deferred Income (Liability) X |
++--------------------------------------------------------------------------------------------------------------------+----------------------------------+
+| 3\) **Beginning of Year 2**: we now credit the revenue to Year 2.                                                  | Cr Revenue X                     |
+|                                                                                                                    |                                  |
+|                                                                                                                    | Dr Deferred Income (Liability) X |
++--------------------------------------------------------------------------------------------------------------------+----------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+Note: you can do partial adjustments. For example, if a customer prepays in Year 1 for 3 months of service in Year 1 and 4 months of service for Year 2, only the 4 months in Year 2 are deferred income.
+
+Tip: Year-end balance of deferred income is **next year's** income.
+
+<br />
+
+### Accrued Income
+
+We are selling a good/service. Let say we will provide the good/service in Year 1, but we require customers **pay later (arrears)** in Year 2.
+
+In accrual accounting, revenue is recognised when the **goods/services are in the control of the customer**. Thus, we need to record this revenue in Year 1, even if no payment has occured
+
++--------------------------------------------------------------------------------------------------------------------+-----------------------------+
+| 1\) **End of Year 1**: no payment has occurred, but we need to add revenue to Year 1.                              | Cr Revenue X                |
+|                                                                                                                    |                             |
+|                                                                                                                    | Dr Accrued Income (Asset) X |
++--------------------------------------------------------------------------------------------------------------------+-----------------------------+
+| 2\) **Beginning of Year 2**: clear the accrued income balance.                                                     | Cr Accrued Income (Asset) X |
+|                                                                                                                    |                             |
+|                                                                                                                    | Dr Revenue X                |
++--------------------------------------------------------------------------------------------------------------------+-----------------------------+
+| 3\) **Year 2**: the customer pays. We record this normally, so the Cr Revenue X cancels out step 2's Dr Revenue X. | Cr Revenue X                |
+|                                                                                                                    |                             |
+|                                                                                                                    | Dr Cash X                   |
++--------------------------------------------------------------------------------------------------------------------+-----------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+Note: you can do partial adjustments. For example, if a customer pays after in Year 2 for 3 months of service in Year 1 and 4 months of service for Year 1, only the 3 months in Year 1 are accrued income.
+
+Tip: year end balance of accrued income is **this year's** income.
+
+<br />
+
+<br />
+
+------------------------------------------------------------------------
+
+# **Expenses**
+
+### Prepayments
+
+We are buying a good/service (ex. utilities). Let say we will get the good/service in Year 2, but we **prepay** in Year 1.
+
+The matching principle says we should match expenses to the revenue they generated. We used this good/service provided in Year 2 to generate revenues in Year 2. Thus, if we recorded this transaction as an expense in Year 1, we actually need to adjust our accounts so that the expense occurs in Year 2.
+
++--------------------------------------------------------------------------------------------------------------------+--------------------------+
+| 1\) **Year 1**: We prepay. We record the following at the time of payment:                                         | Dr Expense X             |
+|                                                                                                                    |                          |
+|                                                                                                                    | Cr Cash X                |
++--------------------------------------------------------------------------------------------------------------------+--------------------------+
+| 2\) **End of Year 1**: we realise expense should be for Year 2. Thus, we need to take it out of Year 1's expenses. | Cr Expense X             |
+|                                                                                                                    |                          |
+|                                                                                                                    | Dr Prepayments (Asset) X |
++--------------------------------------------------------------------------------------------------------------------+--------------------------+
+| 3\) **Beginning of Year 2**: we now credit the expense to Year 2.                                                  | Dr Expense X             |
+|                                                                                                                    |                          |
+|                                                                                                                    | Cr Prepayments (Asset) X |
++--------------------------------------------------------------------------------------------------------------------+--------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+Note: you can do partial adjustments. For example, if we prepay in Year 1 for 3 months of service in Year 1 and 4 months of service for Year 2, only the 4 months in Year 2 are prepaid.
+
+<br />
+
+### Accrued Expense
+
+We are buying a good/service. Let say we will get the good/service in Year 1, but we **pay later** in Year 2.
+
+The matching principle says we should match expenses to the revenue they generated. We used this good/service provided in Year 1 to generate revenues in Year 1. Thus, we need to record this expense in Year 1, even if no payment has occurred.
+
++---------------------------------------------------------------------------------------------------------+-----------------------------------+
+| 1\) **End of Year 1**: no payment has occurred, but we need to add expense to Year 1.                   | Dr Expense X                      |
+|                                                                                                         |                                   |
+|                                                                                                         | Cr Accrued Expenses (Liability) X |
++---------------------------------------------------------------------------------------------------------+-----------------------------------+
+| 2\) **Beginning of Year 2**: clear the accrued expenses balance.                                        | Dr Accrued Expenses (Liability) X |
+|                                                                                                         |                                   |
+|                                                                                                         | Cr Expense X                      |
++---------------------------------------------------------------------------------------------------------+-----------------------------------+
+| 3\) **Year 2**: we pay. We record this normally, so the Dr Expense X cancels out step 2's Cr Expense X. | Dr Expense X                      |
+|                                                                                                         |                                   |
+|                                                                                                         | Cr Cash X                         |
++---------------------------------------------------------------------------------------------------------+-----------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+Note: you can do partial adjustments. For example, if we pay after in Year 2 for 3 months of service in Year 1 and 4 months of service for Year 1, only the 3 months in Year 1 are accrued expenses.
+
+<br />
+
+### Cost of Sales
+
+The cost of sales is the cost of the inventory (goods sold) that generated the revenue/sales of that period.
+
++-----------------------------------+-----------------------------------+
+| Opening Inventory                 | £X                                |
+|                                   |                                   |
+| Purchases (net, if returns exist) | £X                                |
+|                                   |                                   |
+| Inward Delivery Costs             | £X                                |
+|                                   |                                   |
+| (less) Closing Inventory          | (£X)                              |
++-----------------------------------+-----------------------------------+
+| **Cost of Sales**                 | **£X**                            |
++-----------------------------------+-----------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+There are two types of delivery expenses that might be incurred, which have to be recorded differently.
+
++-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+| Delivery Inwards                                                                                | Delivery Outwards                                                                               |
++=================================================================================================+=================================================================================================+
+| Delivery costs and expenses to deliver products [from suppliers to your inventory.]{.underline} | Delivery costs and expenses to deliver products from [your inventory to customers]{.underline}. |
++-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+| This will be included/added as an expense within the **cost of sales**.                         | This is a separate expense in the **operating/administration expenses**.                        |
++-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+<br />
+
 ### Payroll Expense
 
 When a firm pays its employees, it has to pay 3 things:
@@ -141,8 +312,6 @@ When a firm pays its employees, it has to pay 3 things:
 3.  Employee the remaining net salary.
 
 The net income to the employee is paid immediately (such as at the end of the month), but the tax and national insurance is usually withheld until tax filling season.
-
-The transaction would be as follows:
 
 +--------------------------------+-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
 | **Dr Wages (Expense)**         | gross wages + employer national insurance             | This expense covers net salary, income tax, and employee [+ employer national insurance contribution]{.underline}. |
@@ -176,218 +345,100 @@ $$
 
 <br />
 
-<br />
-
-------------------------------------------------------------------------
-
-# **Accrual Accounting**
-
-### Matching Principle
-
-**Matching principle**: we attribute/match expenses to the revenue they help generate. Revenue is recognised when the goods/services are **in the control of the customer**.
-
--   For example, the bills for this year helped generate next year's revenue, would actually be considered a bill for next year, since the revenue was earned in the next year.
-
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Accrued Payments** | You have received a good/service [this period]{.underline}, but you will not pay for the good/service until [next period]{.underline}. | The utility company has provided you water [this year]{.underline}, but you will not pay for it until [next year]{.underline}. This should be an expense for [this year]{.underline}. |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Prepayments**      | You will receive a good/service [next period]{.underline}, but you have already paid for it [this period]{.underline}.                 | You will get office to use [next year]{.underline}, but you have already paid for it [this year]{.underline}. This should be an expense for [next year]{.underline}.                  |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Accrued Income**   | You have earned revenue from a transaction [this period]{.underline}, but you will not be paid until [next period]{.underline}.        | Income that you earned [this year]{.underline} by building a house, but you will not bill/be paid for the work until [next year]{.underline}.                                         |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Deferred Income**  | You will earn revenue from a transaction [next period]{.underline}, but you have already been paid [this year]{.underline}.            | Income that you will earn by providing a magazine [next year]{.underline}, but you have already been paid [this year]{.underline}.                                                    |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-: {.bordered .sm tbl-colwidths="\[24,38,38\]"}
-
-Acrruals basis of accounting means that to calculate the profit for the period, we need to include all the income and expenditure relating to the period, whether or not the cash has been received or paid, or whether or not an invoice has been issued.
-
-<br />
-
-### Payment Adjustments
-
-For accrued payments and pre-payments, adjustments are necessary.
-
-::: panel-tabset
-## Accrued Expense
-
-Let us say you receive a water service for 2024, but payment of the water bill is due in 2025.
-
-Thus, at the **year end in 2024**, you make the following adjustment since you received a service in 2024, so you need to expense it:
-
-+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
-| **Dr Expense**                      | This is the expense for water service in 2024. This will [be on the income statement for 2024]{.underline}.                         |
-+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
-| **Cr Accrued Expenses (Liability)** | This is a liability - to show that you owe the water company for their service in 2024, which will later be paid in a later period. |
-|                                     |                                                                                                                                     |
-|                                     | This account can also be called "other payables".                                                                                   |
-+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
-
-: {.bordered .sm tbl-colwidths="\[30,70\]"}
-
-In **2025, as soon as the year begins**, you carry over the pervious accrual balance you want to reverse the accrual. Remember that expense accounts reset their balance, but accrued expenses (asset) carry over their balance.
-
-+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Cr Expense**                       | Reverse the accrued payment. You will essentially have a negative expense balance to start the year, since the expense account is set to 0 every new period. |
-+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Dr. Accrued Expenses (Liability)** | Reverse the accrued payment from the carry-forward last year.                                                                                                |
-+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-: {.bordered .sm tbl-colwidths="\[30,70\]"}
-
-In **2025, once you have paid** the water bill for 2024, you will have:
-
-+----------------+------------------------------------------+
-| **Dr Expense** | Will cancel out the original Cr Expense. |
-+----------------+------------------------------------------+
-| **Cr Cash**    | You decrease cash to pay the liability.  |
-+----------------+------------------------------------------+
-
-: {.bordered .sm tbl-colwidths="\[30,70\]"}
-
-## Prepayment
-
-Lets say you have a water utility service for 2025, but you paid in 2024.
-
-Thus, at the **year end in 2024**, you make the following adjustment, since you have not actually received the utility (only starts in 2025).
-
-+----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-| **Cr Expense**             | Since the service is in 2025, our 2024 statements need to remove (credit) this expense.                                                   |
-+----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-| **Dr Prepayments (Asset)** | This is an asset - basically a receivables showing you have already paid for the service, and the utility company "owes you" the service. |
-+----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-
-: {.bordered .sm tbl-colwidths="\[30,70\]"}
-
-In **2025, as soon as the year begins**, you carry over the previous prepayment balance, and you want to reverse the prepayment. Remember that expense accounts reset their balance, but prepayment (assets) carry over their balance.
-
-+--------------------+----------------------------------------------------------+
-| **Dr Expense**     | Add the expense to this year (2025).                     |
-+--------------------+----------------------------------------------------------+
-| **Cr Prepayments** | Reverse the prepayment from the carry-forward last year. |
-+--------------------+----------------------------------------------------------+
-
-: {.bordered .sm tbl-colwidths="\[30,70\]"}
-:::
-
-You can do partial adjustments. For example, you pay rent for Nov 2024 to Aug 2025 in Nov 2024. You would need no adjustment in the 2024 accounts for Nov and Dec 2024, but Jan 2025 to Aug 2025 would be a prepayment.
-
-::: {.callout-note collapse="true" appearance="simple"}
-## Calculating Expenses Quickly for Income Statement
-
-A quick way to calculate the expenses of a year for the income statement, when you are only given cash payments are:
-
-> **expenses on income statement = total cash amount paid for expenses in this period**
->
-> **+ closing accrued expenses of this year - closing accrued expenses from last year**
->
-> **+ prepayments closing from last period - prepayments closing for this period**
-:::
-
-<br />
-
-### Income Adjustments
-
-For accrued or deferred payment, adjustment is necessary.
-
-::: panel-tabset
-## Accrued Income
-
-Let us say you have delivered a product in 2024, you will only be paid in 2025.
-
-Thus, at the **year end in 2024**, you make the following adjustment, to ensure this revenue is recorded for this year.
-
-+-----------------------+--------------------------------------------------------------------------------------------------------------------------+
-| **Cr Revenue**        | This is the revenue for product in 2024. This will [be on the income statement for 2024]{.underline}.                    |
-+-----------------------+--------------------------------------------------------------------------------------------------------------------------+
-| **Dr Accrued Income** | This is a asset - to show that your customer owes you for a product in 2024, which will later be paid in a later period. |
-|                       |                                                                                                                          |
-|                       | This account can also be called "other receivables".                                                                     |
-+-----------------------+--------------------------------------------------------------------------------------------------------------------------+
-
-: {.bordered .sm tbl-colwidths="\[30,70\]"}
-
-In **2025, as soon as the year begins**, you carry over the pervious accrual balance you want to reverse the accrual. Remember that expense accounts reset their balance, but accrued expenses (asset) carry over their balance.
-
-+-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Dr Revenue**                | Reverse the accrued income. You will essentially have a negative revenue balance to start the year, since the revenue account is set to 0 every new period. |
-+-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Cr Accrued Income (Asset)** | Reverse the accrued income from the carry-forward last year.                                                                                                |
-+-------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-: {.bordered .sm tbl-colwidths="\[30,70\]"}
-
-In **2025, once you have paid** the water bill for 2024, you will have:
-
-+----------------+------------------------------------------+
-| **Cr Revenue** | Will cancel out the original Dr Revenue. |
-+----------------+------------------------------------------+
-| **Dr Cash**    | You gain cash as the customer pays you.  |
-+----------------+------------------------------------------+
-
-: {.bordered .sm tbl-colwidths="\[30,70\]"}
-
-## Deferred Income
-
-Lets say you will deliver a product in 2025, but you were paid in 2024.
-
-Thus, at the **year end in 2024**, you make the following adjustment, as the revenue is only for 2025, not 2024.
-
-+------------------------------------+-----------------------------------------------------------------------------------------+
-| **Dr Revenue**                     | Since the service is in 2025, our 2024 statements need to remove (credit) this revenue. |
-+------------------------------------+-----------------------------------------------------------------------------------------+
-| **Cr Deferred Income (Liability)** | This is a liability - because you owe the customer a product of this value.             |
-+------------------------------------+-----------------------------------------------------------------------------------------+
-
-: {.bordered .sm tbl-colwidths="\[30,70\]"}
-
-In **2025, as soon as the year begins**, you carry over the previous prepayment balance, and you want to reverse the prepayment. Remember that expense accounts reset their balance, but prepayment (assets) carry over their balance.
-
-+------------------------------------+---------------------------------------------------------------+
-| **Cr Revenue**                     | Add the revenue to this year (2025).                          |
-+------------------------------------+---------------------------------------------------------------+
-| **Dr Deferred Income (Liability)** | Reverse the deferred income from the carry-forward last year. |
-+------------------------------------+---------------------------------------------------------------+
-
-: {.bordered .sm tbl-colwidths="\[30,70\]"}
-:::
-
-You can do partial adjustments. For example, if you are building a house between Oct 2024 and Aug 2025, and payment is following the entire job. The parts you have already built (delivered) between Oct 2024 and Dec 2024 are revenue from the previous year, and should be adjusted.
-
-::: {.callout-note collapse="true" appearance="simple"}
-## Calculating Expenses Quickly for Income Statement
-
-A quick way to calculate the expenses of a year for the income statement, when you are only given cash payments are:
-
-> **revenue on income statement = total cash amount paid for revenue in this period**
->
-> **+ closing accrued income of this year - closing accrued income from last year**
->
-> **+ deferred income closing from last period - deferred income closing for this period**
-:::
-
-<br />
-
-<br />
-
-------------------------------------------------------------------------
-
-# **Debts and Allowances**
-
 ### Irrecoverable Debt
 
-### Allowance for Doubtful Debt
+When a firm makes a credit sale, they will increase their receivables balance. This is a debt that the customer owes to the firm.
+
+Sometimes, the firm will believe the customer will never pay (ex. bankrupt, fled the country). This is now an irrecoverable debt that needs to be removed from receivables since it is no longer expected to be received.
+
++----------------------------------------------------------------------+---------------------------------------+
+| 1\) Original credit sale                                             | Cr Revenue X                          |
+|                                                                      |                                       |
+|                                                                      | Dr Receivables X                      |
++----------------------------------------------------------------------+---------------------------------------+
+| 2\) Irrecoverable debt adjustment: get rid of debt from receivables. | Dr Irrecoverable Debt Expense (IDE) X |
+|                                                                      |                                       |
+|                                                                      | Cr Receivables X                      |
++----------------------------------------------------------------------+---------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+Irrecovarable Debt Expense (IDE) is an administrative/operating expense for the income statement.
+
+It is also possible that after writing off a debt, somehow, it is still payed by the customer. The following entry would be required:
+
++-----------------------------------------------------+----------------------------------------+
+| 3\) Irrecoverable debt recovered: clear IDE account | Dr Cash X                              |
+|                                                     |                                        |
+|                                                     | Cr Irrecovrerable Debt Expense (IDE) X |
++-----------------------------------------------------+----------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
 
 <br />
 
-------------------------------------------------------------------------
+### Doubtful Debt
 
-# **Taxes**
+In accounting, we are prudent/conservative. Thus, if there is a possibility a debt will not be paid, we need to show this in financial statements.
 
-### Outward VAT
+At the **end of the year**, an allowance for doubtful debt is set up. This is basically an amount that we believe will have a chance of not being paid.
 
-### Inward VAT
+-   Allowance is often calculated as a percentage (ex. 50% chance £1,000 will not be paid, so £500 allowance). However, this amount usually given in questions.
+
++--------------------------+--------------------------------------------+
+| 1\) Original credit sale | Cr Revenue X                               |
+|                          |                                            |
+|                          | Dr Receivables X                           |
++--------------------------+--------------------------------------------+
+| 2\) Set up allowance     | Cr Allowance for Receivables (Liability) X |
+|                          |                                            |
+|                          | Dr Irrecoverable Debt Expense (IDE) X      |
++--------------------------+--------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+The allowance for receivables is a **liability** (negative asset) that reduces the value of the Receivables. Thus, gross receivables minus allowance equals net receivables.
+
+**Allowance is set at the end of the year**. Note that allowances are often determined at a certain value, so the double entry **should not be the value of the allowance**, but the **amount change** to go from the old allowance value to the new allowance value.
+
+-   Ex. if last year's allowance is £500, and this year's is £800, we should only Cr Allowance £300 (the change).
+
+<br />
+
+### Provisions
+
+<br />
 
 ### Corporation Tax
+
+Only incorporated companies pay corporation tax. Sole traders and partners simply pay income tax on their profits.
+
+The corporate tax cycle is as follows for tax incurred on profits in Year 1:
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
+| 1\) **End of Year 1**: Corporate tax is estimated. A liability for the estimated tax is created.                                                                                              | Dr Tax Expense: Estimated Amount             |
+|                                                                                                                                                                                               |                                              |
+|                                                                                                                                                                                               | Cr Tax Payable (Liability): Estimated Amount |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
+| 2\) **Year 2**: tax return is submitted by company. The **actual tax amount** may be different than the estimated amount.                                                                     |                                              |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
+| 3\) **Year 2:** you pay the actual amount to HMRC                                                                                                                                             | Cr Cash: Actual Amount                       |
+|                                                                                                                                                                                               |                                              |
+|                                                                                                                                                                                               | Dr Tax Payable: Actual Amount                |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
+| 4\) **Year 2:** If the estimated and actual tax amount are different, there will be a remaining balance on the payable account. Clear the balance and assign it to this year 2's tax expense. | Dr/Cr Tax Payable: Leftover Amount           |
+|                                                                                                                                                                                               |                                              |
+|                                                                                                                                                                                               | Cr/Dr Tax Expense: Leftover Amount           |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[50,50\]"}
+
+-   An **underprovision** is when the estimated tax amount is lower than the actual tax amount. A Dr balance will be left of the payable account after paying.
+-   An **overprovision** is when the estimated tax amount is higher than the actual tax amount. A Cr balance will be left on the payable account after paying.
+
+Tip: At the end of any period:
+
+-   Tax Payable balance is always the **estimated tax for that year**.
+-   Tax expense balance is the estimated tax for that year **+/- leftover amount** from underprovision/overprovision.
 
 <br />
