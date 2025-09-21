@@ -16,30 +16,20 @@ Before starting an accepted engagement, there needs to be a plan. This helps pre
 
 There are two documents that are needed to plan an audit engagement.
 
-1.  **Audit strategy**: Determines the scope, timing, and direction of the audit, and shapes the audit plan.
-2.  **Audit plan**: More detailed, shows how the overall strategy will be implemented.
++--------------------+--------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
+| **Audit Strategy** | Determines the scope, timing, and direction of the audit, and shapes the audit plan. | -   Understand the client and the environment.                                                               |
+|                    |                                                                                      | -   Materiality threshold.                                                                                   |
+|                    |                                                                                      | -   Risk assessment: potential areas more at risk of material misstatement.                                  |
+|                    |                                                                                      | -   Nature, extent, timing of audit, direction of audit, who is supervising, and how review of work is done. |
++--------------------+--------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
+| **Audit Plan**     | More detailed, shows how the overall strategy will be implemented.                   | -   More attention in planning to the high risk areas.                                                       |
+|                    |                                                                                      | -   Potential problems and risks are identified early.                                                       |
+|                    |                                                                                      | -   Organisation and management.                                                                             |
+|                    |                                                                                      | -   Delegation of work to team members, supervision.                                                         |
+|                    |                                                                                      | -   Reviews by more senior members are planned.                                                              |
++--------------------+--------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
 
-::: panel-tabset
-## Audit Strategy
-
-The key components of the audit strategy are:
-
-1.  Understanding the client, and its environment.
-2.  Materality threshold. What is considered material?
-3.  Risk assessment. What are the risky areas for potential material misstatement?
-4.  Nature, extent, and timing of audit procedures.
-5.  Direction of the audit, who is supervising, and generally how review of the audit work will be undertaken.
-
-## Audit Plan
-
-The audit plan ensures the following:
-
-1.  Attention (in-depth planning) is paid to the most important areas (high risk areas).
-2.  Potential problems/risks are identified early.
-3.  The audit is properly organised and managed.
-4.  Work is assigned to the appropriate member of the audit team, and team members receive direction and supervision of team members.
-5.  Reviews by more senior auditors are planned and facilitated.
-:::
+: {.bordered .sm tbl-colwidths="\[25,25,50\]"}
 
 <br />
 
@@ -80,9 +70,9 @@ To get this information, auditors can ask the client's management, conduct analy
 
 ### Audit Risk
 
-Auditors do not want to give a wrong opinion, since shareholders/users depend on the auditor's opinion. Thus, auditors want to lower the audit risk of an incorrect opinion, such as failing to detect fraud/errors.
+Auditors do not want to give a wrong opinion, since shareholders/users depend on the auditor's opinion.
 
-The risk of an audit (audit risk) is calculated as follows:
+The risk of an audit (audit risk) giving a wrong opinion is calculated as follows:
 
 > **Audit Risk** $=$ **Inherent Risk** $\times$ **Control Risk** $\times$ **Detection Risk**
 

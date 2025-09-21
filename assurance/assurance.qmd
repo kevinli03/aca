@@ -12,19 +12,29 @@ This page covers the basics of assurance, ethical codes, and obtaining/accepting
 
 ### Elements of Assurance
 
-Assurance is when an independent professional (auditor) examines financial statements or sustainability reports, to assure investors and stakeholders of the "quality"/state of the firm. This assurance given by the independent professional assures investors and stakeholders of the accuracy of the information, allowing them to make choices.
+Assurance is when an independent professional (auditor) examines statements of a firm, to assure investors and stakeholders of the accuracy of the information, allowing them to make choices.
+
++------------------------------+---------------------------------------------------------------------------------------------------+
+| **Statutory Audit**          | Auditing of financial statements, governed by accounting standards and reporting regulations.     |
++------------------------------+---------------------------------------------------------------------------------------------------+
+| **Sustainability Assurance** | Auditing of a firm's sustainability figures and reports.                                          |
++------------------------------+---------------------------------------------------------------------------------------------------+
+| **Other Assurance**          | Due diligence before performing transactions, internal controls assessment, fraud investigations. |
++------------------------------+---------------------------------------------------------------------------------------------------+
+
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
 
 There are three parties in any assurance engagement:
 
-1.  **Practitioner**: the auditor or independent professional.
-2.  **Responsible Party**: the firm/company that is being audited. Typically, we focus on the directors of this firm/company.
-3.  **Intended User**: typically stakeholders such as shareholders, investors, banks, or anyone needing to know details about a firm's financial performance.
++-----------------------+----------------------------------------------------------------------------------------------------------------+
+| **Practitioner**      | The auditor or independent professional.                                                                       |
++-----------------------+----------------------------------------------------------------------------------------------------------------+
+| **Responsible Party** | The directors/management of the firm being audited.                                                            |
++-----------------------+----------------------------------------------------------------------------------------------------------------+
+| **Intended User**     | Stakeholders (shareholders, investors, banks, etc.) that may need details on the firm's financial performance. |
++-----------------------+----------------------------------------------------------------------------------------------------------------+
 
-Assurance can take many different forms:
-
--   **Statutory Audit**: the auditing of financial statements, governed by accounting standards and reporting regulations.
--   **Sustainability Assurance**: the auditing of a firm's sustainability figures and reports.
--   Other assurance engagements, such as due diligence before performing transactions, internal controls assessment, fraud investigations.
+: {.bordered .sm tbl-colwidths="\[30,70\]"}
 
 ::: {.callout-note collapse="true" appearance="simple"}
 ## Benefits and Limitations of Assurance
@@ -60,7 +70,7 @@ Usually, when considering the accuracy of financial statements, auditors are con
 -   There is also a distinction between **Error** and **Fraud**. Error is considered a genuine mistake of the responsible party. Fraud is [intentional]{.underline}: someone deliberately provides false information to mislead users.
 :::
 
-At the end of an engagement, the auditor needs to write an **opinion** on the level of assurance they can assure regarding the accuracy of the financial statements. There are two **levels of assurance**.
+At the end of an engagement, the auditor needs to write an **opinion** on the level of assurance they can assure regarding the accuracy of the financial statements.
 
 +---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
 | Reasonable Assurance                                                      | Limited Assurance                                                                                                      |
@@ -102,11 +112,13 @@ Users and the public often misinterpret audit opinions to mean other things. Thi
 
 ### Legal Requirements
 
-In the UK, all companies are required to legally undergo a statutory audit of their financial statements every year, *unless* they meet a set of exemption criteria. This requirement and the exemptions are set by the **Companies Act 2006**.
+In the UK, all companies are required to undergo a statutory audit of their financial statements every year, *unless* they meet a set of exemption criteria from **Companies Act 2006**.
 
-To qualify for an exemption, a firm must **not** be an insurance, banking, or listed company. In addition, they must also meet two of the following exemption critera below:
+To qualify for an exemption, a firm must **not** be an insurance, banking, or listed company.
 
--   Firms that are in banking, insurance, or listed on a stock market **must** always undergo a statutory audit, even if they meet the criteria above.
+In addition, they must also meet two of the following exemption critera below:
+
+-   Firms that are in banking, insurance, or listed on a stock market **must** always undergo a statutory audit, even if they meet the criteria below.
 
 +----------------------------------------+----------------------------------------+
 | Exemption After 6 April 2025 (2/3)     | Exemption After 1 January 2016 (2/3)   |
@@ -124,10 +136,7 @@ To qualify for an exemption, a firm must **not** be an insurance, banking, or li
 
 ### Sustainability Assurance
 
-Sustainability is about meeting he needs of the present, without compromising the future from meeting their own needs. Sustainability consists of environmental, social, and governance (ESG) considerations.
-
-::: {.callout-note collapse="true" appearance="simple"}
-## Environmental, Social, and Governance (ESG)
+Sustainability consists of **environmental, social, and governance (ESG)** considerations.
 
 +---------------------------------------------------------+----------------------------------------------------------------------------+-------------------------------------+
 | Environmental                                           | Social                                                                     | Governance                          |
@@ -136,76 +145,30 @@ Sustainability is about meeting he needs of the present, without compromising th
 +---------------------------------------------------------+----------------------------------------------------------------------------+-------------------------------------+
 
 : {.bordered .sm tbl-colwidths="\[33,34,33\]"}
-:::
 
-Because of growing demand from users for information regarding sustainability, assurance is needed to ensure that the reported sustainability metrics of a firm are accurate.
+Different standards regarding sustainability reporting and assurance:
 
-Currently, sustainability assurance and reporting is still a developing field, but several regulations already exist.
++--------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+| **IFRS International Sustainability and Standards Board (ISSB)**   | International objectives for sustainability standards (not legally required)                                          | -   Standards for a global baseline of sustainability disclosures.                                                                          |
+|                                                                    |                                                                                                                       | -   Meet information need of investors.                                                                                                     |
+|                                                                    |                                                                                                                       | -   Enable firms to provide sustainability information to capital markets.                                                                  |
+|                                                                    |                                                                                                                       | -   Interoperability with jurisdiction-specific regulations and disclosures                                                                 |
++--------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+| **Companies Act 2006 (UK)**                                        | Mandatory sustainability reporting requirements (for UK)                                                              | -   Report the principal risks and uncertainties facing a firm, including sustainability risks.                                             |
+|                                                                    |                                                                                                                       | -   Report info about ESG matters, employees, gender diversity, respect for human rights, anti-corruption, and anti-bribery.                |
+|                                                                    |                                                                                                                       | -   Climate related financial disclosures: ex. climate adjacent risks and opportunities.                                                    |
++--------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+| **Task Force on Climate-Related Financial Disclosures (TCFD)**     | Recomendations for sustainability reporting, but mandatory for listed companies in UK.                                | -   Report on governance, risk management, strategy, and metrics and targets.                                                               |
+|                                                                    |                                                                                                                       | -   IFRS S2 reporting standards are based on these recommendations.                                                                         |
++--------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+| **Corporate Sustainability Reporting Directive (CSRD)**            | Mandatory requirements for listed EU companies and large EU companies and Non-EU companies with large revenues in EU. | -   Disclosure on company's sustainability related impacts, risks, and opportunities.                                                       |
+|                                                                    |                                                                                                                       | -   Discolsures should be included in annual report of a company.                                                                           |
+|                                                                    |                                                                                                                       | -   Requires assurance over sustainability disclosures.                                                                                     |
++--------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+| **International Standard on Sustainability Assurance (ISSA) 5000** | Framework for sustainability assurance engagements.                                                                   | -   Basically, tries to make sustainability assurance like statutory audit: an opinion (reasonable or limited) and a conclusion with basis. |
++--------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 
-::: panel-tabset
-## IFRS ISSB
-
-IFRS sustainability and disclosure standards are issued by the International Susstainability and Standards Board (ISSB). Their 4 key objectives are:
-
-1.  Develop standards for a global baseline of sustainability disclosures.
-2.  Meet the information needs of investors.
-3.  Enable companies to provide sustainability information to global capital markets.
-4.  To facilitate interoperability with disclosures that are jurisdiction-specific, as well as aimed at broader stakeholder groups.
-
-They consist of two standards:
-
-1.  **IFRS S1**: General requirements for disclosure of sustainability-related financial information.
-2.  **IFRS S2**: Climate-related disclosures.
-
-Note: ISSB do not have power to enforce these standards, and they are not legally required for companies (except in Brazil).
-
-## Companies Act 2006 (UK)
-
-The strategic report within the Capanies Act includes some mandatory sustainability reporting requirements.
-
--   Reporting of the principal risks and uncertainties facing the company, including sustainability risks.
--   Information about environmental, social, and community matters, employees, respect for human rights, anti-corruption, and anti-bribery matters.
--   Information about gender diversity within the company.
--   Climate related financial disclosures, such as management of climate-adjacent risks and opportunities.
-
-These are required reporting for firms in the UK.
-
-## TCFD (UK)
-
-The TCFD (Task force on climate-related financial disclosures) is a set of recommendations issued in 2017, recommending the reporting of:
-
-1.  Governance
-2.  Risk Management
-3.  Strategy
-4.  Metrics and Targets.
-
-In the UK, the TCFD recommendations are mandatory for listed companies. This is not the case in all countries.
-
-IFRS S2 reporting standards are based on these TCFD recommendations.
-
-## CSRD (EU)
-
-The European Union's Corporate Sustainability Reporting Directive (CSRD) came into effect in 2023. It requires the following:
-
--   Disclosure about a company's sustainibility related impacts, risks, and opportunities.
--   Disclosures to be reported in the annual report of a company.
--   Requires companies to seek assurance over their sustainability disclosures.
-
-All companies that have securities listed on an EU stock market **must** follow these directives. Any EU companies that are large (more than 250 employees, 50 million euro revenue) that are not listed must also follow the directives.
-
--   Non-EU companies which generate more than 150 million in the EU that also have a EU listed subsidiary must also follow the directives. But this only comes into affect in 2028.
-
-## Assurance
-
-The *international standard on sustainability assurance **(ISSA) 5000** general requirements for sustainability assurance engagements* was released in 2024. It provides a framework for how sustainability assurance is to take place.
-
-The objectives of the ISSA 5000:
-
--   The obtain reasonable assurance or limited assurance about whether the sustainability is free from material mistatement.
--   To express a conclusion on the sustainability information through a written report that conveys a audit conclusion, and describes the basis for the conclusion.
-
-The EU CSRD also has guidelines on how to obtain limited assurance for sustainability based on the **European Sustainability Reporting Standards (ESRS)**, and also provides a provision to move towards reasonable assurance.
-:::
+: {.bordered .sm tbl-colwidths="\[25,25,50\]"}
 
 <br />
 
@@ -217,7 +180,7 @@ The EU CSRD also has guidelines on how to obtain limited assurance for sustainab
 
 ### Ethical Codes
 
-Regulatory bodies set the rules for auditors and the auditing process. There are a few main regulatory bodies in the UK:
+There are a few main regulatory bodies in the UK:
 
 +---------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **ICAEW** (Institute of Chartered Accountants in England and Wales) | Sets the code of ethics for member auditors/accountants. The ICAEW code is based on the internal code of ethics established by the IESBA.                                                                                             |
@@ -233,11 +196,15 @@ Regulatory bodies set the rules for auditors and the auditing process. There are
 
 The ethical codes that these bodies set can be divided into two types:
 
-+---------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Rule-Based Codes**      | Set out specific, detailed requirements, like a checklist of what is and isn't allowed. Ex. no gifts over £30.                                                                                                                                                                                                                                                               |
-+---------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Principle Based Codes** | Focus on broad principles that guide behaviour for a wide range of professional situations. They focus more on professional judgment rather than spelling out rules for every possible scenario. Ex. no gifts that could impair your objectivity (no specific max value). This is used by the ICAEW and IESBA, since they are more flexible and adaptable to new situations. |
-+---------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Rule-Based Codes**      | Specific, detailed requirements, like a checklist of what is and isn't allowed.                                                                                                    |
+|                           |                                                                                                                                                                                    |
+|                           | Ex. no gifts over £30.                                                                                                                                                             |
++---------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Principle Based Codes** | Broad principles that guide behaviour for a wide range of professional situations. Docus more on professional judgment rather than spelling out rules for every possible scenario. |
+|                           |                                                                                                                                                                                    |
+|                           | Ex. no gifts that could impair your objectivity (no specific max value). This is used by the ICAEW and IESBA, since they are more flexible and adaptable to new situations.        |
++---------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 : {.bordered .sm tbl-colwidths="\[30,70\]"}
 
@@ -304,30 +271,35 @@ Independence is not necessarily threatened if auditors use the client's services
 
 There are several common threats to ethical behaviour:
 
-+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Threat                          | Description                                                                                                                                                                                                                                   | Safeguards                                                                                                                                                                             |
-+=================================+===============================================================================================================================================================================================================================================+========================================================================================================================================================================================+
-| **Self-Interest Threat**        | When you have a financial or personal interest that may affect your judgment/bias. Ex. owning shares in a company you are auditing, or one client making up a large proportion of fees for your auditing firm.                                | -   Make sure no audit team members have shares.                                                                                                                                       |
-|                                 |                                                                                                                                                                                                                                               | -   No accepting gifts unless they are very small in value.                                                                                                                            |
-|                                 |                                                                                                                                                                                                                                               | -   Listed company's audit fees should make no more than 10% of the audit firm's income, and needs to be disclosed if it exceeds 5% (Add 5% to thresholds for non-listed companies).   |
-+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Self-Review Threat**          | When you are in the position of reviewing your own work, or work by your team, previously did. Ex. auditing financial statements that you yourself produced.                                                                                  | -   Accounting services can only be offered to the client if the services and audit are 2 separate teams, and work is mechanical/technical.                                            |
-|                                 |                                                                                                                                                                                                                                               | -   Tax calculations and valuations cannot be offered by the audit firm if the client is listed.                                                                                       |
-+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Advocacy Threat**             | When you promote a clients position to a point where your objectivity is compromised. Ex. representing a firm in a legal dispute, yet also auditing them.                                                                                     | -   Audit firm is not allowed to promote, deal in, or underwrite a client's shares.                                                                                                    |
-|                                 |                                                                                                                                                                                                                                               | -   Audit firm cannot provide legal services in a legal case to the client.                                                                                                            |
-+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Familiarity Threat**          | Having a long standing or close relationship with the client, making you more sympathetic to them. Ex. you are auditing a company which has your best friend as financial director.                                                           | -   **Audit rotation**: for listed companies, lead partner of audit must be changed every 5 years (can extend to 7 years in exceptional circumstances), and cannot return for 5 years. |
-|                                 |                                                                                                                                                                                                                                               | -   Audit employees with personal relationships with client should not be on audit team.                                                                                               |
-+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Intimidation Threat**         | When you are deterred from acting objectively by external pressures. Ex. the client threatens to replace you as auditor if you do not provide favourable audit conclusion.                                                                    | -   If partner of audit firm joins client, the firm should resign as auditor, and cannot take the audit for 2 years.                                                                   |
-|                                 |                                                                                                                                                                                                                                               | -   Audit employees with personal relationships with client should not be on audit team.                                                                                               |
-+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Management Threat** (UK Only) | When you or your firm that influences client management decisions, and your interests become aligned with the client management. Ex. you do consulting services for a client that influences their management decisions, then you audit them. | -   Use the engagement letter to limit the involvement of the audit firm away from management decisions.                                                                               |
-|                                 |                                                                                                                                                                                                                                               | -   Regulations meaning providing consultant services means cannot be auditor.                                                                                                         |
-+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Threat                          | Description                                                                                                                      | Safeguards                                                                                                                                                                        |
++=================================+==================================================================================================================================+===================================================================================================================================================================================+
+| **Self-Interest Threat**        | Financial or personal interest that may affect your judgment/bias.                                                               | -   Make sure no audit team members have shares.                                                                                                                                  |
+|                                 |                                                                                                                                  | -   No accepting gifts unless very small in value.                                                                                                                                |
+|                                 | Ex. owning shares in a company you are auditing, or one client making up a large proportion of fees for your auditing firm.      | -   Listed company's audit fees should make no more than 10% of the audit firm's income, and needs to be disclosed if exceeds 5% (Add 5% to thresholds for non-listed companies). |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Self-Review Threat**          | Reviewing your own work, or work by your team, previously did.                                                                   | -   Accounting services can only be offered if the services and audit are 2 separate teams, and work is mechanical/technical.                                                     |
+|                                 |                                                                                                                                  | -   Tax calculations and valuations cannot be offered by the audit firm if the client is listed.                                                                                  |
+|                                 | Ex. auditing financial statements that you yourself produced.                                                                    |                                                                                                                                                                                   |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Advocacy Threat**             | When you promote a clients position to a point where your objectivity is compromised.                                            | -   Audit firm is not allowed to promote, deal in, or underwrite a client's shares.                                                                                               |
+|                                 |                                                                                                                                  | -   Audit firm cannot provide legal services in a legal case to the client.                                                                                                       |
+|                                 | Ex. representing a firm in a legal dispute, yet also auditing them.                                                              |                                                                                                                                                                                   |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Familiarity Threat**          | Having a long standing or close relationship with the client, making you more sympathetic.                                       | -   **Audit rotation**: for listed companies, lead partner of audit must change every 5 years (can extend to 7 years in exceptional cases), and cannot return for 5 years.        |
+|                                 |                                                                                                                                  | -   Audit employees with personal relationships with client should not be on audit.                                                                                               |
+|                                 | Ex. you are auditing a company which has your best friend as financial director.                                                 |                                                                                                                                                                                   |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Intimidation Threat**         | Deterred from acting objectively by external pressures.                                                                          | -   If partner of audit firm joins client, the firm should resign as auditor, and cannot take the audit for 2 years.                                                              |
+|                                 |                                                                                                                                  | -   Audit employees with personal relationships with client should not be on audit team.                                                                                          |
+|                                 | Ex. the client threatens to replace you as auditor if you do not provide favourable audit.                                       |                                                                                                                                                                                   |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Management Threat** (UK Only) | When you or your firm that influences client management decisions, and your interests become aligned with the client management. | -   Use the engagement letter to limit the involvement of the audit firm away from management.                                                                                    |
+|                                 |                                                                                                                                  | -   Regulations saying consultants cannot be auditor.                                                                                                                             |
+|                                 | Ex. you do consulting services for a client that influences their management decisions, then you audit them.                     |                                                                                                                                                                                   |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-: {.bordered .sm tbl-colwidths="\[20,35,45\]"}
+: {.bordered .sm tbl-colwidths="\[18,39,43\]"}
 
 <br />
 
@@ -365,22 +337,22 @@ Disclosure of information is divided into two ways: right to disclose and duty t
 
 There are several ways to get clients for an audit engagement.
 
-+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Tender**         | A client needs an auditor, and opens up a bidding process where multiple audit firms present offers. The client will then select an auditor.                                                                |
-+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Advertise**      | Using advertisements to get clients.                                                                                                                                                                        |
-|                    |                                                                                                                                                                                                             |
-|                    | Note: you must stick to ethical guidelines. This includes not discrediting the profession - meaning you cannot claim you are better than other audit firm in quality, or that another firm does a poor job. |
-+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Recommendation** | A client of yours recommends your audit firm to another firm. They then become your client.                                                                                                                 |
-+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| **Tender**         | A client needs an auditor, and opens up a bidding process where multiple audit firms present offers. The client will then select an auditor. |
++--------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| **Advertise**      | Using advertisements to get clients.                                                                                                         |
+|                    |                                                                                                                                              |
+|                    | Note: you must stick to ethical guidelines. This includes not discrediting the profession.                                                   |
++--------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| **Recommendation** | A client of yours recommends your audit firm to another firm. They then become your client.                                                  |
++--------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
 
 : {.bordered .sm tbl-colwidths="\[30,70\]"}
 
 However, before you agree to be the auditor, ensure that a few things have been met:
 
--   Ensure that you are professional qualified to act as an auditor.
--   Ensure there are no legal or ethical reasons for you to not be the auditor.
+-   Ensure you are professional qualified to be auditor.
+-   Ensure no legal or ethical reasons for you to not be the auditor.
 -   Ensure you have adequate resources (staff, budget) to complete the audit.
 -   If there is a previous auditor, the current practitioner must communicate with them, and determine if there are any reasons not to accept (like ethical concerns). Permission must be granted by the responsible party for this communication, but if this permission is denied, the audit is almost always refused by the practitioner.
 
